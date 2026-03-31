@@ -1,0 +1,5 @@
+Library name (usually package name): graphics
+Initialization function: R_init_graphics
+Functions: 4
+Functions: 33
+Checked call to R_registerRoutines: 1

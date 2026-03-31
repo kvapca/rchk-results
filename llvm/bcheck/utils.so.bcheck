@@ -1,0 +1,10 @@
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Function typeconvert
+  [UP] unprotected variable rval while calling allocating function Rf_isArray /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/utils/src/io.c:759
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/utils/src/io.c:760
+  [UP] attempt to unprotect more items (3) than protected (2), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/utils/src/io.c:760
+  [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/utils/src/io.c:761
+Analyzed 62 functions, traversed 40437 states.

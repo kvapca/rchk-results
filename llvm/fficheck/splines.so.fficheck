@@ -1,0 +1,4 @@
+Library name (usually package name): splines
+Initialization function: R_init_splines
+Functions: 2
+Checked call to R_registerRoutines: 1

@@ -1,0 +1,67 @@
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Function La_chol2inv
+  [UP] unprotected variable adims while calling allocating function Rf_coerceVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1159
+
+Function La_qr
+  [UP] unprotected variable Adn while calling allocating function Rf_coerceVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1285
+  [UP] unprotected variable Adn while calling allocating function Rf_getAttrib(?,S:dim) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1285
+  [UP] unprotected variable Adn while calling allocating function Rf_coerceVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1289
+  [UP] unprotected variable Adn while calling allocating function Rf_allocMatrix /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1291
+  [UP] unprotected variable Adn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1295
+  [UP] unprotected variable Adn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1297
+  [UP] unprotected variable Adn while calling allocating function R_alloc /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1305
+  [UP] unprotected variable Adn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1310
+  [UP] unprotected variable Adn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1311
+  [UP] unprotected variable Adn while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1312
+  [UP] unprotected variable Adn while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1313
+  [UP] unprotected variable Adn while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1314
+  [UP] unprotected variable Adn while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1315
+  [UP] unprotected variable Adn while calling allocating function Rf_setAttrib(V,S:names,V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1316
+
+Function La_qr_cmplx
+  [UP] unprotected variable Adn while calling allocating function Rf_coerceVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:757
+  [UP] unprotected variable Adn while calling allocating function Rf_getAttrib(V,S:dim) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:757
+  [UP] unprotected variable Adn while calling allocating function Rf_allocMatrix /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:759
+  [UP] unprotected variable Adn while calling allocating function R_alloc /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:761
+  [UP] unprotected variable Adn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:763
+  [UP] unprotected variable Adn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:765
+  [UP] unprotected variable Adn while calling allocating function R_alloc /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:772
+  [UP] unprotected variable Adn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:777
+  [UP] unprotected variable Adn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:778
+  [UP] unprotected variable Adn while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:779
+  [UP] unprotected variable Adn while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:780
+  [UP] unprotected variable Adn while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:781
+  [UP] unprotected variable Adn while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:782
+  [UP] unprotected variable Adn while calling allocating function Rf_setAttrib(V,S:names,V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:783
+
+Function La_rg_cmplx
+  [PB] has an unsupported form of unprotect (not constant, not variable), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1069
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1069
+
+Function La_rs
+  [PB] has an unsupported form of unprotect (not constant, not variable), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:236
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:236
+
+Function La_solve
+  [UP] unprotected variable Adn while calling allocating function Rf_isMatrix /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1209
+  [UP] unprotected variable Adn while calling allocating function Rf_coerceVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1210
+  [UP] unprotected variable Adn while calling allocating function Rf_getAttrib(?,S:dim) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1210
+  [UP] unprotected variable Adn while calling allocating function Rf_allocMatrix /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1217
+  [UP] unprotected variable Adn while calling allocating function Rf_getAttrib(?,S:dimnames) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1218
+  [UP] unprotected variable Adn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1222
+  [UP] unprotected variable Bindn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1222
+  [UP] unprotected variable Adn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:1233
+
+Function La_solve_cmplx
+  [UP] unprotected variable Adn while calling allocating function Rf_isMatrix /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:675
+  [UP] unprotected variable Adn while calling allocating function Rf_coerceVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:676
+  [UP] unprotected variable Adn while calling allocating function Rf_getAttrib(?,S:dim) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:676
+  [UP] unprotected variable Adn while calling allocating function Rf_allocMatrix /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:683
+  [UP] unprotected variable Adn while calling allocating function Rf_getAttrib(?,S:dimnames) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:684
+  [UP] unprotected variable Adn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:686
+  [UP] unprotected variable Bindn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:686
+  [UP] unprotected variable Adn while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/lapack/Lapack.c:697
+Analyzed 32 functions, traversed 1475 states.
