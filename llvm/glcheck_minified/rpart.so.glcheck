@@ -1,0 +1,3 @@
+non-symbol SEXP global variable rho  @rho = weak dso_local global ptr null, align 8, !dbg !35005
+non-symbol SEXP global variable expr1  @expr1 = weak dso_local global ptr null, align 8, !dbg !35032
+non-symbol SEXP global variable expr2  @expr2 = weak dso_local global ptr null, align 8, !dbg !35038
