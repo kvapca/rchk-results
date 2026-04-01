@@ -1,1 +1,1 @@
-non-symbol SEXP global variable cholmod_common_env  @cholmod_common_env = weak hidden global ptr null, align 8, !dbg !35450
+non-symbol SEXP global variable cholmod_common_env  @cholmod_common_env = weak hidden global %struct.SEXPREC* null, align 8, !dbg !14885

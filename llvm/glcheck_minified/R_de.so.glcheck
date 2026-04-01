@@ -1,1 +1,1 @@
-non-symbol SEXP global variable ssNA_STRING  @ssNA_STRING = weak dso_local global ptr null, align 8, !dbg !35091
+non-symbol SEXP global variable ssNA_STRING  @ssNA_STRING = weak dso_local global %struct.SEXPREC* null, align 8, !dbg !15054
