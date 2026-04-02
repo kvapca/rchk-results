@@ -1,0 +1,10 @@
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Function process_request_
+  [UP] unprotected variable xNames while calling allocating function Rf_translateCharUTF8 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/internet/Rhttpd.c:649
+  [UP] unprotected variable xNames while calling allocating function Rf_asInteger /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/internet/Rhttpd.c:655
+  [UP] unprotected variable xNames while calling allocating function Rf_translateCharUTF8 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/internet/Rhttpd.c:661
+  [UP] unprotected variable xNames while calling allocating function Rf_translateCharUTF8 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/internet/Rhttpd.c:673
+Analyzed 103 functions, traversed 2781 states.

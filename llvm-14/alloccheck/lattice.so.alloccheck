@@ -1,0 +1,15 @@
+Callee protect functions: 
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  wireframePanelCalculations SSSSS!!!!!!!
+
+
+CS-ALLOCATING: wireframePanelCalculations
+
+C-ALLOCATING: wireframePanelCalculations
+ALLOCATING: wireframePanelCalculations

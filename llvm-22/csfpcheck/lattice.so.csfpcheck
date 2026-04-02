@@ -1,0 +1,23 @@
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 198
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 202
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 203
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 204
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 205
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 206
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 215
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 313
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 314
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 322
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 323
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 324
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 327
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 328
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 329
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 332
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 349
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 540
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 567
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/3SAWLDNz/lattice/src/threeDplot.c 579

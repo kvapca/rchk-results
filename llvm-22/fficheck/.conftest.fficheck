@@ -1,0 +1,2 @@
+Library name (usually package name): .conftest
+ERROR: did not find initialization function R_init_.conftest

@@ -1,0 +1,5 @@
+Library name (usually package name): tools
+Initialization function: R_init_tools
+Functions: 19
+Functions: 2
+Checked call to R_registerRoutines: 1

@@ -1,0 +1,2 @@
+List of functions and callsites calling (recursively) into R_gc_internal:
+RCHK assertion failed: fisearch != functionsMap.end(), in function main at sfpcheck.cpp:50

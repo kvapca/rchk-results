@@ -1,0 +1,272 @@
+Callee protect functions: 
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  CdiagXVXt S!!!!!!!!!!!!!
+  CijXVXt S!!!!!!!!!!!!!!
+  mgcv_RPPt !!S
+  mgcv_Rpbacksolve !!S
+  mgcv_Rpbsi !S
+  mgcv_Rpchol !!!S
+  mgcv_Rpcross !S!
+  mgcv_Rpforwardsolve !!S
+  mgcv_Rpiqr !!!S!
+  mgcv_madi !!!S
+  mgcv_pmmult2 !!!!S
+  wdiag !S!
+
+CS-ALLOCATOR: Rkdnearest
+CS-ALLOCATOR: Rkdtree
+CS-ALLOCATOR: Rkradius
+CS-ALLOCATOR: Rncv
+CS-ALLOCATOR: Rncvls
+CS-ALLOCATOR: dpdev
+CS-ALLOCATOR: isa1p
+CS-ALLOCATOR: mgcv_Rpbacksolve
+CS-ALLOCATOR: mgcv_Rpchol
+CS-ALLOCATOR: mgcv_Rpcross
+CS-ALLOCATOR: mgcv_Rpforwardsolve
+CS-ALLOCATOR: mgcv_Rpiqr
+CS-ALLOCATOR: mgcv_madi
+CS-ALLOCATOR: mgcv_pmmult2
+CS-ALLOCATOR: mrow_sum
+CS-ALLOCATOR: ncv
+CS-ALLOCATOR: ncvls
+CS-ALLOCATOR: sXWXd
+CS-ALLOCATOR: sXbd
+CS-ALLOCATOR: sXyd
+CS-ALLOCATOR: sdiagXVXt
+CS-ALLOCATOR: spdev
+CS-ALLOCATOR: stmm
+
+CS-ALLOCATING: AddBVB
+CS-ALLOCATING: CNCV
+CS-ALLOCATING: CXVXd0
+CS-ALLOCATING: CXWXd0
+CS-ALLOCATING: CXWXd1
+CS-ALLOCATING: CXWyd
+CS-ALLOCATING: CXbd
+CS-ALLOCATING: CdiagXVXt
+CS-ALLOCATING: CijXVXt
+CS-ALLOCATING: MinimumSeparation
+CS-ALLOCATING: QRadd
+CS-ALLOCATING: QRdrop
+CS-ALLOCATING: R_chk_calloc1
+CS-ALLOCATING: R_init_mgcv
+CS-ALLOCATING: Rkdnearest
+CS-ALLOCATING: Rkdnearest0
+CS-ALLOCATING: Rkdtree
+CS-ALLOCATING: Rkdtree0
+CS-ALLOCATING: Rkradius
+CS-ALLOCATING: Rncv
+CS-ALLOCATING: Rncvls
+CS-ALLOCATING: closest
+CS-ALLOCATING: dpdev
+CS-ALLOCATING: dump_mat
+CS-ALLOCATING: getListEl
+CS-ALLOCATING: isa1p
+CS-ALLOCATING: k_newn_work
+CS-ALLOCATING: k_nn
+CS-ALLOCATING: k_order
+CS-ALLOCATING: kd_sanity
+CS-ALLOCATING: kd_tree
+CS-ALLOCATING: mgcv_RPPt
+CS-ALLOCATING: mgcv_Rpbacksolve
+CS-ALLOCATING: mgcv_Rpbsi
+CS-ALLOCATING: mgcv_Rpchol
+CS-ALLOCATING: mgcv_Rpcross
+CS-ALLOCATING: mgcv_Rpforwardsolve
+CS-ALLOCATING: mgcv_Rpiqr
+CS-ALLOCATING: mgcv_madi
+CS-ALLOCATING: mgcv_pmmult2
+CS-ALLOCATING: mrow_sum
+CS-ALLOCATING: mvnll
+CS-ALLOCATING: ncv
+CS-ALLOCATING: ncvls
+CS-ALLOCATING: nei_cov
+CS-ALLOCATING: p_area
+CS-ALLOCATING: read_mat
+CS-ALLOCATING: rpmat
+CS-ALLOCATING: sXWXd
+CS-ALLOCATING: sXbd
+CS-ALLOCATING: sXyd
+CS-ALLOCATING: sdiagXVXt
+CS-ALLOCATING: spdev
+CS-ALLOCATING: stmm
+CS-ALLOCATING: tweedious
+CS-ALLOCATING: tweedious2
+CS-ALLOCATING: wdiag
+CS-ALLOCATING: xbox
+
+C-ALLOCATOR: spdev
+C-ALLOCATOR: dpdev
+C-ALLOCATOR: Rncvls
+C-ALLOCATOR: ncvls
+C-ALLOCATOR: Rncv
+C-ALLOCATOR: ncv
+C-ALLOCATOR: mrow_sum
+C-ALLOCATOR: isa1p
+C-ALLOCATOR: sdiagXVXt
+C-ALLOCATOR: sXyd
+C-ALLOCATOR: sXWXd
+C-ALLOCATOR: Rkradius
+C-ALLOCATOR: Rkdnearest
+C-ALLOCATOR: Rkdtree
+C-ALLOCATOR: mgcv_madi
+C-ALLOCATOR: mgcv_Rpcross
+C-ALLOCATOR: mgcv_Rpbacksolve
+C-ALLOCATOR: mgcv_Rpforwardsolve
+C-ALLOCATOR: mgcv_Rpiqr
+C-ALLOCATOR: mgcv_pmmult2
+C-ALLOCATOR: sXbd
+C-ALLOCATOR: mgcv_Rpchol
+C-ALLOCATOR: stmm
+C-ALLOCATING: Rkdnearest0
+C-ALLOCATING: closest
+C-ALLOCATING: Rkdtree0
+C-ALLOCATING: kd_sanity
+C-ALLOCATING: dump_mat
+C-ALLOCATING: k_nn
+C-ALLOCATING: read_mat
+C-ALLOCATING: tweedious2
+C-ALLOCATING: tweedious
+C-ALLOCATING: QRadd
+C-ALLOCATING: wdiag
+C-ALLOCATING: mvnll
+C-ALLOCATING: spdev
+C-ALLOCATING: Rncvls
+C-ALLOCATING: Rncv
+C-ALLOCATING: mrow_sum
+C-ALLOCATING: isa1p
+C-ALLOCATING: stmm
+C-ALLOCATING: CNCV
+C-ALLOCATING: CijXVXt
+C-ALLOCATING: mgcv_Rpchol
+C-ALLOCATING: xbox
+C-ALLOCATING: sXyd
+C-ALLOCATING: CXbd
+C-ALLOCATING: sXbd
+C-ALLOCATING: CXWXd1
+C-ALLOCATING: CXWXd0
+C-ALLOCATING: sXWXd
+C-ALLOCATING: Rkradius
+C-ALLOCATING: Rkdnearest
+C-ALLOCATING: Rkdtree
+C-ALLOCATING: R_chk_calloc1
+C-ALLOCATING: mgcv_pmmult2
+C-ALLOCATING: MinimumSeparation
+C-ALLOCATING: AddBVB
+C-ALLOCATING: sdiagXVXt
+C-ALLOCATING: getListEl
+C-ALLOCATING: ncv
+C-ALLOCATING: CXVXd0
+C-ALLOCATING: rpmat
+C-ALLOCATING: R_init_mgcv
+C-ALLOCATING: QRdrop
+C-ALLOCATING: CXWyd
+C-ALLOCATING: kd_tree
+C-ALLOCATING: k_order
+C-ALLOCATING: mgcv_Rpbsi
+C-ALLOCATING: mgcv_RPPt
+C-ALLOCATING: mgcv_Rpforwardsolve
+C-ALLOCATING: mgcv_Rpbacksolve
+C-ALLOCATING: mgcv_Rpcross
+C-ALLOCATING: mgcv_madi
+C-ALLOCATING: ncvls
+C-ALLOCATING: nei_cov
+C-ALLOCATING: dpdev
+C-ALLOCATING: p_area
+C-ALLOCATING: k_newn_work
+C-ALLOCATING: CdiagXVXt
+C-ALLOCATING: mgcv_Rpiqr
+ALLOCATOR: mgcv_Rpiqr
+ALLOCATOR: Rkdnearest
+ALLOCATOR: Rkdtree
+ALLOCATOR: mgcv_Rpcross
+ALLOCATOR: spdev
+ALLOCATOR: Rncvls
+ALLOCATOR: mgcv_pmmult2
+ALLOCATOR: ncv
+ALLOCATOR: mrow_sum
+ALLOCATOR: sXyd
+ALLOCATOR: mgcv_madi
+ALLOCATOR: sXWXd
+ALLOCATOR: isa1p
+ALLOCATOR: mgcv_Rpforwardsolve
+ALLOCATOR: Rkradius
+ALLOCATOR: mgcv_Rpbacksolve
+ALLOCATOR: sdiagXVXt
+ALLOCATOR: dpdev
+ALLOCATOR: mgcv_Rpchol
+ALLOCATOR: sXbd
+ALLOCATOR: stmm
+ALLOCATOR: Rncv
+ALLOCATOR: ncvls
+ALLOCATING: getListEl
+ALLOCATING: mgcv_Rpbsi
+ALLOCATING: Rkdnearest
+ALLOCATING: Rkdtree
+ALLOCATING: mgcv_madi
+ALLOCATING: mgcv_Rpcross
+ALLOCATING: closest
+ALLOCATING: Rkdtree0
+ALLOCATING: kd_sanity
+ALLOCATING: dump_mat
+ALLOCATING: k_nn
+ALLOCATING: read_mat
+ALLOCATING: get_stableS
+ALLOCATING: tweedious
+ALLOCATING: magic
+ALLOCATING: MinimumSeparation
+ALLOCATING: xbox
+ALLOCATING: k_newn_work
+ALLOCATING: rpmat
+ALLOCATING: R_init_mgcv
+ALLOCATING: QRdrop
+ALLOCATING: wdiag
+ALLOCATING: mvnll
+ALLOCATING: spdev
+ALLOCATING: dpdev
+ALLOCATING: nei_cov
+ALLOCATING: Rncvls
+ALLOCATING: ncvls
+ALLOCATING: mgcv_pmmult2
+ALLOCATING: mrow_sum
+ALLOCATING: isa1p
+ALLOCATING: AddBVB
+ALLOCATING: CNCV
+ALLOCATING: CijXVXt
+ALLOCATING: CdiagXVXt
+ALLOCATING: sdiagXVXt
+ALLOCATING: CXWyd
+ALLOCATING: sXyd
+ALLOCATING: kd_tree
+ALLOCATING: mgcv_Rpchol
+ALLOCATING: ncv
+ALLOCATING: k_order
+ALLOCATING: stmm
+ALLOCATING: mgcv_symeig
+ALLOCATING: p_area
+ALLOCATING: mgcv_Rpiqr
+ALLOCATING: CXVXd0
+ALLOCATING: mgcv_Rpbacksolve
+ALLOCATING: CXWXd1
+ALLOCATING: mgcv_Rpforwardsolve
+ALLOCATING: Rkradius
+ALLOCATING: sXWXd
+ALLOCATING: sXbd
+ALLOCATING: CXWXd0
+ALLOCATING: QRadd
+ALLOCATING: Rncv
+ALLOCATING: Rkdnearest0
+ALLOCATING: CXbd
+ALLOCATING: mgcv_RPPt
+ALLOCATING: R_chk_calloc1
+ALLOCATING: tweedious2
+GOOD: NOT-CALLOCATING but ALLOCATING: magic
+GOOD: NOT-CALLOCATING but ALLOCATING: get_stableS
+GOOD: NOT-CALLOCATING but ALLOCATING: mgcv_symeig

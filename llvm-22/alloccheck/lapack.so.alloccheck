@@ -1,0 +1,182 @@
+Callee protect functions: 
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+  mod_do_lapack
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  La_solve !!S
+  det_ge_real !S
+  qr_coef_cmplx S!
+  qr_qy_cmplx S!!
+  qr_qy_real S!!
+
+CS-ALLOCATOR: La_chol2inv
+CS-ALLOCATOR: La_dgecon
+CS-ALLOCATOR: La_dlange
+CS-ALLOCATOR: La_dtrcon
+CS-ALLOCATOR: La_dtrcon3
+CS-ALLOCATOR: La_qr
+CS-ALLOCATOR: La_qr_cmplx
+CS-ALLOCATOR: La_rg
+CS-ALLOCATOR: La_rg_cmplx
+CS-ALLOCATOR: La_rs
+CS-ALLOCATOR: La_rs_cmplx
+CS-ALLOCATOR: La_solve
+CS-ALLOCATOR: La_solve_cmplx
+CS-ALLOCATOR: La_svd
+CS-ALLOCATOR: La_svd_cmplx
+CS-ALLOCATOR: La_zgecon
+CS-ALLOCATOR: La_zlange
+CS-ALLOCATOR: La_ztrcon
+CS-ALLOCATOR: La_ztrcon3
+CS-ALLOCATOR: R_flexiblas_info
+CS-ALLOCATOR: det_ge_real
+CS-ALLOCATOR: mod_do_lapack
+CS-ALLOCATOR: qr_coef_cmplx
+CS-ALLOCATOR: qr_qy_cmplx
+CS-ALLOCATOR: unscramble
+
+CS-ALLOCATING: La_chol
+CS-ALLOCATING: La_chol2inv
+CS-ALLOCATING: La_dgecon
+CS-ALLOCATING: La_dlange
+CS-ALLOCATING: La_dtrcon
+CS-ALLOCATING: La_dtrcon3
+CS-ALLOCATING: La_qr
+CS-ALLOCATING: La_qr_cmplx
+CS-ALLOCATING: La_rg
+CS-ALLOCATING: La_rg_cmplx
+CS-ALLOCATING: La_rs
+CS-ALLOCATING: La_rs_cmplx
+CS-ALLOCATING: La_solve
+CS-ALLOCATING: La_solve_cmplx
+CS-ALLOCATING: La_svd
+CS-ALLOCATING: La_svd_cmplx
+CS-ALLOCATING: La_zgecon
+CS-ALLOCATING: La_zlange
+CS-ALLOCATING: La_ztrcon
+CS-ALLOCATING: La_ztrcon3
+CS-ALLOCATING: R_flexiblas_info
+CS-ALLOCATING: det_ge_real
+CS-ALLOCATING: mod_do_lapack
+CS-ALLOCATING: qr_coef_cmplx
+CS-ALLOCATING: qr_coef_real
+CS-ALLOCATING: qr_qy_cmplx
+CS-ALLOCATING: qr_qy_real
+CS-ALLOCATING: unscramble
+
+C-ALLOCATOR: La_svd_cmplx
+C-ALLOCATOR: qr_qy_cmplx
+C-ALLOCATOR: qr_coef_cmplx
+C-ALLOCATOR: det_ge_real
+C-ALLOCATOR: La_qr
+C-ALLOCATOR: La_solve
+C-ALLOCATOR: La_solve_cmplx
+C-ALLOCATOR: La_ztrcon
+C-ALLOCATOR: La_zgecon
+C-ALLOCATOR: La_dtrcon3
+C-ALLOCATOR: La_dtrcon
+C-ALLOCATOR: La_dgecon
+C-ALLOCATOR: La_zlange
+C-ALLOCATOR: La_rg_cmplx
+C-ALLOCATOR: La_rg
+C-ALLOCATOR: La_rs_cmplx
+C-ALLOCATOR: La_qr_cmplx
+C-ALLOCATOR: La_ztrcon3
+C-ALLOCATOR: La_chol2inv
+C-ALLOCATOR: unscramble
+C-ALLOCATOR: La_svd
+C-ALLOCATOR: La_rs
+C-ALLOCATOR: La_dlange
+C-ALLOCATOR: mod_do_lapack
+C-ALLOCATOR: R_flexiblas_info
+C-ALLOCATING: La_svd_cmplx
+C-ALLOCATING: La_svd
+C-ALLOCATING: qr_qy_cmplx
+C-ALLOCATING: det_ge_real
+C-ALLOCATING: qr_qy_real
+C-ALLOCATING: La_chol2inv
+C-ALLOCATING: La_qr
+C-ALLOCATING: La_solve
+C-ALLOCATING: La_zgecon
+C-ALLOCATING: La_dtrcon3
+C-ALLOCATING: La_dgecon
+C-ALLOCATING: La_zlange
+C-ALLOCATING: La_dlange
+C-ALLOCATING: La_rg_cmplx
+C-ALLOCATING: La_rg
+C-ALLOCATING: La_solve_cmplx
+C-ALLOCATING: La_qr_cmplx
+C-ALLOCATING: mod_do_lapack
+C-ALLOCATING: La_dtrcon
+C-ALLOCATING: qr_coef_cmplx
+C-ALLOCATING: La_ztrcon3
+C-ALLOCATING: La_rs_cmplx
+C-ALLOCATING: La_chol
+C-ALLOCATING: qr_coef_real
+C-ALLOCATING: unscramble
+C-ALLOCATING: La_rs
+C-ALLOCATING: R_flexiblas_info
+C-ALLOCATING: La_ztrcon
+ALLOCATOR: La_svd_cmplx
+ALLOCATOR: qr_qy_cmplx
+ALLOCATOR: La_chol
+ALLOCATOR: La_qr
+ALLOCATOR: La_solve
+ALLOCATOR: La_solve_cmplx
+ALLOCATOR: La_ztrcon
+ALLOCATOR: La_zgecon
+ALLOCATOR: unscramble
+ALLOCATOR: La_svd
+ALLOCATOR: La_chol2inv
+ALLOCATOR: R_flexiblas_info
+ALLOCATOR: qr_coef_cmplx
+ALLOCATOR: qr_qy_real
+ALLOCATOR: La_qr_cmplx
+ALLOCATOR: La_dtrcon
+ALLOCATOR: La_dgecon
+ALLOCATOR: La_rg_cmplx
+ALLOCATOR: La_ztrcon3
+ALLOCATOR: mod_do_lapack
+ALLOCATOR: La_rs_cmplx
+ALLOCATOR: La_rs
+ALLOCATOR: La_zlange
+ALLOCATOR: La_dlange
+ALLOCATOR: La_rg
+ALLOCATOR: det_ge_real
+ALLOCATOR: La_dtrcon3
+ALLOCATOR: qr_coef_real
+ALLOCATING: La_svd
+ALLOCATING: qr_qy_cmplx
+ALLOCATING: qr_coef_cmplx
+ALLOCATING: det_ge_real
+ALLOCATING: qr_qy_real
+ALLOCATING: qr_coef_real
+ALLOCATING: La_chol2inv
+ALLOCATING: La_qr
+ALLOCATING: La_ztrcon3
+ALLOCATING: La_dtrcon3
+ALLOCATING: unscramble
+ALLOCATING: La_svd_cmplx
+ALLOCATING: La_qr_cmplx
+ALLOCATING: La_solve
+ALLOCATING: La_solve_cmplx
+ALLOCATING: La_ztrcon
+ALLOCATING: La_dgecon
+ALLOCATING: mod_do_lapack
+ALLOCATING: La_zlange
+ALLOCATING: La_rs
+ALLOCATING: R_flexiblas_info
+ALLOCATING: La_zgecon
+ALLOCATING: La_chol
+ALLOCATING: La_rg_cmplx
+ALLOCATING: La_dlange
+ALLOCATING: La_rs_cmplx
+ALLOCATING: La_rg
+ALLOCATING: La_dtrcon
+GOOD: NOT-CALLOCATOR but ALLOCATOR: La_chol
+GOOD: NOT-CALLOCATOR but ALLOCATOR: qr_coef_real
+GOOD: NOT-CALLOCATOR but ALLOCATOR: qr_qy_real

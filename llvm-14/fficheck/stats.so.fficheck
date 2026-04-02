@@ -1,0 +1,5 @@
+Library name (usually package name): stats
+Initialization function: R_init_stats
+Functions: 184
+Functions: 15
+Checked call to R_registerRoutines: 1

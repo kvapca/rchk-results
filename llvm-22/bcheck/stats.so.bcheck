@@ -1,0 +1,231 @@
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Function ARIMA_Like
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/arima.c:739
+  [UP] attempt to unprotect more items (2) than protected (1), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/arima.c:739
+  [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/arima.c:748
+
+Function Cdist
+  [UP] unprotected variable names while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/distance.c:288
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,?,?) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/distance.c:288
+  [UP] unprotected variable names while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/distance.c:288
+
+Function CreateGrad
+  [UP] unprotected variable q while calling allocating function Rf_ScalarString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:948
+
+Function CreateHess
+  [UP] unprotected variable q while calling allocating function Rf_ScalarString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:974
+
+Function D
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:361
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:361
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:369
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:369
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:375
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:375
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:382
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:382
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:392
+  [UP] attempt to unprotect more items (7) than protected (2), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:392
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:403
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:403
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:415
+  [UP] attempt to unprotect more items (5) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:415
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:432
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:432
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:441
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:441
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:447
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:447
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:453
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:453
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:461
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:461
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:467
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:467
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:473
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:473
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:481
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:481
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:495
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:495
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:503
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:503
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:512
+  [UP] attempt to unprotect more items (6) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:512
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:523
+  [UP] attempt to unprotect more items (7) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:523
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:530
+  [UP] attempt to unprotect more items (5) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:530
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:536
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:536
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:544
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:544
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:550
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:550
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:556
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:556
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:563
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:563
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:571
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:571
+  [UP] calling allocating function simplify(S:psigamma,?,?) with argument allocated using simplify(S:+,?,V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:575
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:579
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:579
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:587
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:587
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:593
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:593
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:600
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:600
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:607
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:607
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:614
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:614
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:621
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:621
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:629
+  [UP] attempt to unprotect more items (5) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:629
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:637
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:637
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:647
+  [UP] attempt to unprotect more items (5) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:647
+  [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:683
+
+Function EncodeVars
+  [PB] has too high protection stack depth results will be incomplete
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:1647
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:1647
+  [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:1707
+
+Function MatchVar
+  [UP] calling allocating function Seql2 with argument allocated using Rf_asChar(V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:1076
+
+Function PP
+  [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:164
+
+Function corcov
+  [UP] unprotected variable x while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/cov.c:788
+  [UP] unprotected variable x while calling allocating function Rf_duplicate /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/cov.c:789
+  [UP] unprotected variable x while calling allocating function Rf_getAttrib(?,S:dimnames) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/cov.c:797
+  [UP] unprotected variable x while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/cov.c:800
+  [UP] unprotected variable y while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/cov.c:800
+  [UP] unprotected variable y while calling allocating function Rf_duplicate /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/cov.c:802
+
+Function deriv
+  [UP] unprotected variable ans while calling allocating function Accumulate2 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:1161
+  [UP] unprotected variable ans while calling allocating function MakeVariable /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:1161
+  [UP] unprotected variable ans while calling allocating function D /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:1164
+  [UP] unprotected variable ans while calling allocating function Rf_installTrChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:1164
+  [UP] unprotected variable ans while calling allocating function Accumulate2 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:1165
+  [UP] unprotected variable ans while calling allocating function isZero /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:1165
+  [UP] unprotected variable ans while calling allocating function Accumulate2 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:1166
+
+Function fcn
+  [PB] has an unsupported form of unprotect with a variable - binary add results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/optimize.c:554
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/optimize.c:554
+
+Function fft
+  [UP] unprotected variable d while calling allocating function R_alloc /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/fourier.c:101
+  [UP] unprotected variable d while calling allocating function R_alloc /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/fourier.c:102
+
+Function modelframe
+  [UP] unprotected variable data while calling allocating function Rf_nrows /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:154
+  [UP] unprotected variable data while calling allocating function Rf_nrows /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:155
+
+Function modelmatrix
+  [UP] unprotected variable vnames while calling allocating function Rf_nrows /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:399
+  [UP] unprotected variable vnames while calling allocating function Rf_getAttrib(?,S:row.names) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:401
+  [UP] unprotected variable vnames while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:413
+  [UP] unprotected variable vnames while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:414
+  [UP] unprotected variable vnames while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:415
+  [UP] unprotected variable vnames while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:416
+  [UP] unprotected variable vnames while calling allocating function Rf_nrows /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:420
+  [UP] unprotected variable vnames while calling allocating function isOrdered_int /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:422
+  [UP] unprotected variable vnames while calling allocating function Rf_nlevels /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:424
+  [UP] unprotected variable vnames while calling allocating function Rf_ncols /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:427
+  [UP] unprotected variable vnames while calling allocating function isUnordered_int /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:429
+  [UP] unprotected variable vnames while calling allocating function Rf_nlevels /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:431
+  [UP] unprotected variable vnames while calling allocating function Rf_ncols /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:434
+  [UP] unprotected variable vnames while calling allocating function Rf_ncols(V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:439
+  [UP] unprotected variable vnames while calling allocating function Rf_isNumeric /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:441
+  [UP] unprotected variable vnames while calling allocating function Rf_coerceVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:442
+  [UP] unprotected variable vnames while calling allocating function Rf_ncols /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:446
+  [UP] unprotected variable vnames while calling allocating function Rf_ncols /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:451
+  [UP] unprotected variable vnames while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:481
+  [UP] unprotected variable vnames while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:482
+  [UP] unprotected variable vnames while calling allocating function Rf_allocLang /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:484
+  [UP] unprotected variable vnames while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:485
+  [UP] unprotected variable vnames while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:486
+  [UP] unprotected variable vnames while calling allocating function Rf_eval /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:506
+  [UP] unprotected variable vnames while calling allocating function Rf_eval /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:510
+  [UP] unprotected variable vnames while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:536
+  [UP] unprotected variable vnames while calling allocating function Rf_warning /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:543
+  [UP] unprotected variable vnames while calling allocating function Rf_ncols /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:553
+  [UP] unprotected variable vnames while calling allocating function Rf_ncols /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:556
+  [UP] unprotected variable vnames while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:573
+  [UP] unprotected variable vnames while calling allocating function Rf_warning /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:578
+  [UP] unprotected variable vnames while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:587
+  [UP] unprotected variable vnames while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:599
+  [UP] unprotected variable vnames while calling allocating function Rf_isFactor /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:614
+  [UP] unprotected variable vnames while calling allocating function ColumnNames /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:616
+  [UP] unprotected variable vnames while calling allocating function Rf_ncols /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:617
+  [UP] unprotected variable vnames while calling allocating function ColumnNames /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:620
+  [UP] unprotected variable vnames while calling allocating function Rf_ncols /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:621
+  [UP] unprotected variable vnames while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:623
+  [UP] unprotected variable vnames while calling allocating function Rf_warning /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:627
+  [UP] unprotected variable vnames while calling allocating function Rf_warning /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:632
+  [UP] unprotected variable vnames while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:634
+  [UP] unprotected variable vnames while calling allocating function Rf_warning /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:638
+  [UP] unprotected variable vnames while calling allocating function Rf_isNumeric /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:642
+  [UP] unprotected variable vnames while calling allocating function ColumnNames /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:643
+  [UP] unprotected variable vnames while calling allocating function Rf_ncols /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:644
+  [UP] unprotected variable vnames while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:645
+  [UP] unprotected variable vnames while calling allocating function Rf_warning /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:649
+  [UP] unprotected variable vnames while calling allocating function Rf_warning /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:655
+  [UP] unprotected variable vnames while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:657
+  [UP] unprotected variable vnames while calling allocating function Rf_warning /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:661
+  [UP] unprotected variable vnames while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:670
+
+Function nlm
+  [UP] calling allocating function Rf_isInteger with a fresh pointer (v <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/optimize.c:794
+  [UP] calling allocating function Rf_isInteger with a fresh pointer (v <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/optimize.c:800
+
+Function nls_iter
+  [UP] unprotected variable tmp while calling allocating function Rf_lang1 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/nls.c:134
+  [UP] unprotected variable tmp while calling allocating function Rf_lang1 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/nls.c:139
+  [UP] unprotected variable tmp while calling allocating function Rf_lang1 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/nls.c:144
+  [UP] unprotected variable tmp while calling allocating function Rf_lang1 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/nls.c:149
+
+Function numeric_deriv
+  [UP] allocating function Rf_isInteger may destroy its unprotected argument (temp <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/nls.c:328
+  [UP] calling allocating function Rf_isInteger with a fresh pointer (temp <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/nls.c:328
+  [PB] has an unsupported form of unprotect (not constant, not variable), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/nls.c:366
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/nls.c:366
+
+Function optimhess
+  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/optim.c:475
+
+Function simplify
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:200
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:200
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:219
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:219
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:225
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:225
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:241
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:241
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:247
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:247
+  [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:323
+
+Function termsform
+  [UP] unprotected variable pattern while calling allocating function AllocTerm /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:2010
+  [UP] unprotected variable pattern while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:2034
+  [UP] unprotected variable pattern while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:2045
+  [UP] unprotected variable pattern while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:2076
+  [UP] unprotected variable pattern while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:2088
+Analyzed 496 functions, traversed 394169 states.

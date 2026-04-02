@@ -1,0 +1,3 @@
+Library name (usually package name): MASS
+Initialization function: R_init_MASS
+Checked call to R_registerRoutines: 1

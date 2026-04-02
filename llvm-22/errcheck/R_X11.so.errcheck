@@ -1,0 +1,4 @@
+Marked (noreturn) error function R_X11IOErr /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/modules/X11/devX11.c:1272
+Marked (noreturn) error function R_X11IOErrSimple /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/modules/X11/devX11.c:1265
+Marked (noreturn) error function my_error_exit /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/modules/X11/rbitmap.c:332
+Marked (noreturn) error function my_png_error /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/modules/X11/rbitmap.c:76

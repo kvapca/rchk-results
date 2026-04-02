@@ -1,0 +1,98 @@
+Marked (noreturn) error function ECALL_MissingSubs /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/subscript.c:65
+Marked (noreturn) error function ECALL_OutOfBounds /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/subscript.c:53
+Marked (noreturn) error function ECALL_OutOfBoundsCHAR /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/subscript.c:76
+Marked (noreturn) error function InvalidAccent /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/plotmath.c:1675
+Marked (noreturn) error function R_BadLongVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/memory.c:5035
+Marked (noreturn) error function R_CleanUp /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/unix/system.c:87
+Marked (noreturn) error function R_ContinueUnwind /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/context.c:949
+Marked (noreturn) error function R_JumpToContext /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/context.c:362
+Marked (noreturn) error function R_MissingArgError /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:2798
+Marked (noreturn) error function R_MissingArgError_c /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:2781
+Marked (noreturn) error function R_SignalCStackOverflow /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:100
+Marked (noreturn) error function R_Suicide /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/unix/system.c:70
+Marked (noreturn) error function R_jumpctxt /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/context.c:217
+Marked (noreturn) error function R_signalErrorCondition /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:2700
+Marked (noreturn) error function R_signalErrorConditionEx /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:2684
+Marked (noreturn) error function R_signal_protect_error /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/memory.c:3395
+Marked (noreturn) error function R_signal_reprotect_error /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/memory.c:3499
+Marked (noreturn) error function R_signal_unprotect_error /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/memory.c:3421
+Marked (noreturn) error function Rf_ErrorMessage /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:1454
+Marked (noreturn) error function Rf_error /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:954
+Marked (noreturn) error function Rf_errorcall /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:911
+Marked (noreturn) error function Rf_errorcall_cpy /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:932
+Marked (noreturn) error function Rf_findcontext /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/context.c:340
+Marked (noreturn) error function Rf_jump_to_toplevel /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:1089
+Marked (noreturn) error function Rstd_CleanUp /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/unix/sys-std.c:1233
+Marked (noreturn) error function UNBOUND_VARIABLE_ERROR /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/eval.c:5783
+Marked (noreturn) error function UNIMPLEMENTED /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:1415
+Marked (noreturn) error function UNIMPLEMENTED_TYPE /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/util.c:386
+Marked (noreturn) error function UNIMPLEMENTED_TYPEt /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/util.c:377
+Marked (noreturn) error function WrongArgCount /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:1409
+Marked (noreturn) error function bad_SET_TYPEOF /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/memory.c:3981
+Marked (noreturn) error function badtsp /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/attrib.c:441
+Marked (noreturn) error function cmdError /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/unix/./sys-unix.c:873
+Marked (noreturn) error function do_Rprofmem /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/memory.c:4853
+Marked (noreturn) error function do_bcprofcounts /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/eval.c:9342
+Marked (noreturn) error function do_bcprofstart /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/eval.c:9347
+Marked (noreturn) error function do_bcprofstop /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/eval.c:9352
+Marked (noreturn) error function do_break /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/eval.c:2967
+Marked (noreturn) error function do_dfltStop /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:2040
+Marked (noreturn) error function do_invokeRestart /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:2123
+Marked (noreturn) error function do_return /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/eval.c:3007
+Marked (noreturn) error function do_stop /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:1349
+Marked (noreturn) error function do_tracemem /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/debug.c:180
+Marked (noreturn) error function do_untracemem /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/debug.c:187
+Marked (noreturn) error function do_usemethod /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/objects.c:543
+Marked (noreturn) error function errorMissingSubscript /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/subassign.c:1605
+Marked (noreturn) error function errorNotSubsettable /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/subassign.c:1596
+Marked (noreturn) error function errorOutOfBoundsSEXP /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/subassign.c:1759
+Marked (noreturn) error function errorcallMissingSubs /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/subset.c:106
+Marked (noreturn) error function errorcallNotSubsettable /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/subset.c:98
+Marked (noreturn) error function errorcallOutOfBounds /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/subset.c:258
+Marked (noreturn) error function errorcallOutOfBoundsSEXP /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/subset.c:269
+Marked (noreturn) error function errorcall_dflt /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:902
+Marked (noreturn) error function expected /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/scan.c:490
+Marked (noreturn) error function gotoExitingHandler /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:1816
+Marked (noreturn) error function handleSelectInterrupt /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/unix/sys-std.c:111
+Marked (noreturn) error function invalid /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/random.c:39
+Marked (noreturn) error function invokeRestart /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:2099
+Marked (noreturn) error function jump_to_top_ex /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:994
+Marked (noreturn) error function mem_err_cons /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/memory.c:2186
+Marked (noreturn) error function mem_err_heap /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/memory.c:2165
+Marked (noreturn) error function nodeStackOverflow /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/eval.c:5523
+Marked (noreturn) error function null_fgetc /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/connections.c:677
+Marked (noreturn) error function null_open /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/connections.c:445
+Marked (noreturn) error function null_read /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/connections.c:698
+Marked (noreturn) error function null_seek /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/connections.c:682
+Marked (noreturn) error function null_seek.1393 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/dounzip.c:535
+Marked (noreturn) error function null_truncate /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/connections.c:687
+Marked (noreturn) error function null_vfprintf /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/connections.c:460
+Marked (noreturn) error function null_vfprintf.1392 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/dounzip.c:524
+Marked (noreturn) error function null_write /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/connections.c:704
+Marked (noreturn) error function null_write.1395 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/dounzip.c:530
+Marked (noreturn) error function parseError /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/source.c:131
+Marked (noreturn) error function raiseLexError /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/gram.c:6847
+Marked (noreturn) error function raiseParseError /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/gram.c:6755
+Marked (noreturn) error function reg_report /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/grep.c:151
+Marked (noreturn) error function rexitc_ /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/util.c:1835
+Marked (noreturn) error function set_iconv_error /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/connections.c:281
+Marked (noreturn) error function verrorcall_dflt /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/errors.c:754
+Marked (noreturn) error function xerbla_ /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/print.c:1214
+UNMARKED error function Renviron_error /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/Renviron.c:95
+UNMARKED error function RestoreError /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/saveload.c:656
+UNMARKED error function Rf_mainloop /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/main.c:1241
+UNMARKED error function Rstd_Suicide /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/unix/sys-std.c:72
+UNMARKED error function altlist_Dataptr_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/altrep.c:862
+UNMARKED error function altlist_Elt_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/altrep.c:852
+UNMARKED error function altlist_Set_elt_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/altrep.c:857
+UNMARKED error function altrep_Length_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/altrep.c:735
+UNMARKED error function altrep_Unserialize_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/altrep.c:692
+UNMARKED error function altstring_Elt_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/altrep.c:839
+UNMARKED error function altstring_Set_elt_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/altrep.c:844
+UNMARKED error function altvec_Dataptr_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/altrep.c:740
+UNMARKED error function end_Rmainloop /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/main.c:1221
+UNMARKED error function handle_eval_depth_overflow /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/eval.c:1069
+UNMARKED error function main /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/Rmain.c:27
+UNMARKED error function mem_err_malloc /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/memory.c:2196
+UNMARKED error function newzstdfile /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/connections.c:2667
+UNMARKED error function run_Rmainloop /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/main/main.c:1232
