@@ -1,16 +1,23 @@
 #!/usr/bin/env python3
 """
-Remove duplicate lines from glcheck files that are already in R.bin.glcheck
+Remove duplicate lines from files in a folder that are already in a reference file.
+
+Usage:
+    python3 remove_duplicates.py --folder glcheck --suffix .glcheck
 """
 
 import os
-import sys
-from pathlib import Path
+import argparse
 
-FOLDER = 'glcheck_new'
+BASE_PATH = '/home/kvasa/Documents/programming/FIT/BAP_testing/llvm'
 
-def load_file_lines(filepath):
-    """Load all lines from a file as a set"""
+def parse_args():
+        parser = argparse.ArgumentParser(description='Remove duplicate lines from files.')
+        parser.add_argument('--folder', help='Folder under BASE_PATH to process')
+        parser.add_argument('--suffix', help='Only process files ending with this suffix')
+        return parser.parse_args()
+
+def load_file_lines(filepath) -> set:
     lines = set()
     try:
         with open(filepath, 'r') as f:
@@ -20,22 +27,17 @@ def load_file_lines(filepath):
         print(f"Error reading {filepath}: {e}")
     return lines
 
-def get_all_glcheck_files(base_path):
-    """Get all .glcheck files from FOLDER directory"""
+def get_all_files(base_path, folder):
     files = []
-    dirpath = os.path.join(base_path, FOLDER)
+    dirpath = os.path.join(base_path, folder)
     if os.path.isdir(dirpath):
         for filename in os.listdir(dirpath):
-            if filename.endswith('.glcheck'):
-                filepath = os.path.join(dirpath, filename)
+            filepath = os.path.join(dirpath, filename)
+            if os.path.isfile(filepath):
                 files.append(filepath)
     return files
 
-def remove_duplicates_from_file(filepath, lines_to_remove, dry_run=False):
-    """Remove lines from a file that are in lines_to_remove set"""
-    if not os.path.exists(filepath):
-        return 0
-
+def remove_duplicates_from_file(filepath, lines_to_remove):
     try:
         with open(filepath, 'r') as f:
             original_lines = f.readlines()
@@ -50,12 +52,9 @@ def remove_duplicates_from_file(filepath, lines_to_remove, dry_run=False):
                 new_lines.append(line)
         
         if removed_count > 0:
-            if dry_run:
-                print(f"  [DRY RUN] Would remove {removed_count} lines from {os.path.basename(filepath)}")
-            else:
-                with open(filepath, 'w') as f:
-                    f.writelines(new_lines)
-                print(f"  Removed {removed_count} lines from {os.path.basename(filepath)}")
+            with open(filepath, 'w') as f:
+                f.writelines(new_lines)
+            print(f"  Removed {removed_count} lines from {os.path.basename(filepath)}")
         
         return removed_count
     except Exception as e:
@@ -63,45 +62,34 @@ def remove_duplicates_from_file(filepath, lines_to_remove, dry_run=False):
         return 0
 
 def main():
-    base_path = '/home/kvasa/Documents/programming/FIT/BAP_testing/llvm'
-    
-    # Determine if dry-run mode
-    dry_run = '--dry-run' in sys.argv or '-n' in sys.argv
-    
-    # Get the reference file (R.bin.glcheck)
-    reference_file = os.path.join(base_path, FOLDER, 'R.bin.glcheck')
+    args = parse_args()
+    folder = args.folder
+    suffix = args.suffix
+
+    # Load reference
+    reference_file = os.path.join(BASE_PATH, folder, f'R.bin{suffix}')
     
     if not os.path.exists(reference_file):
         print(f"Error: Reference file not found: {reference_file}")
-        sys.exit(1)
+        return
     
-    # Load reference file lines
     print(f"Loading reference file: {reference_file}")
     reference_lines = load_file_lines(reference_file)
     print(f"  Found {len(reference_lines)} lines\n")
     
-    # Get all glcheck files to process
-    all_files = get_all_glcheck_files(base_path)
+    # Process
+    all_files = get_all_files(BASE_PATH, folder)
+    files_to_process = [f for f in all_files if os.path.basename(f) != f'R.bin{suffix}']
     
-    # Exclude the reference file itself
-    files_to_process = [f for f in all_files if os.path.basename(f) != 'R.bin.glcheck']
-    
-    print(f"Processing {len(files_to_process)} other glcheck files...")
-    if dry_run:
-        print("(DRY RUN MODE - no changes will be made)\n")
-    else:
-        print()
+    print(f"Processing {len(files_to_process)} other files...")
+    print()
     
     total_removed = 0
     for filepath in sorted(files_to_process):
-        removed = remove_duplicates_from_file(filepath, reference_lines, dry_run)
+        removed = remove_duplicates_from_file(filepath, reference_lines)
         total_removed += removed
     
     print(f"\nTotal lines removed: {total_removed}")
-    
-    if dry_run:
-        print("\nTo apply changes, run without --dry-run flag:")
-        print(f"  python3 {sys.argv[0]}")
 
 if __name__ == '__main__':
     main()
