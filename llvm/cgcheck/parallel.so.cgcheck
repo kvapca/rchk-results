@@ -1,0 +1,26 @@
+Functions calling (recursively) function Rf_errorcall
+kill_and_detach_child_ci
+kill_detached_child_ci
+mc_affinity
+mc_children
+mc_cleanup
+mc_close_fds
+mc_close_stderr
+mc_close_stdout
+mc_exit
+mc_fds
+mc_fork
+mc_interactive
+mc_kill
+mc_master_fd
+mc_read_child
+mc_read_children
+mc_rm_child
+mc_select_children
+mc_send_child_stdin
+mc_send_master
+nextStream
+nextSubStream
+read_child_ci
+rm_child
+terminate_and_detach_child_ci

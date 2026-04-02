@@ -1,0 +1,4 @@
+Functions calling (recursively) function Rf_errorcall
+VR_knn
+VR_knn1
+VR_onlineSOM

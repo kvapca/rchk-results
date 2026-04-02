@@ -1,0 +1,115 @@
+Callee protect functions: 
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+
+CS-ALLOCATOR: in_RX11_dataentry
+CS-ALLOCATOR: processEscapes
+CS-ALLOCATOR: ssNewVector
+
+CS-ALLOCATING: GetCharP
+CS-ALLOCATING: R_ProcessX11Events
+CS-ALLOCATING: R_X11Err
+CS-ALLOCATING: advancerect
+CS-ALLOCATING: cell_cursor_init
+CS-ALLOCATING: closerect
+CS-ALLOCATING: copycell
+CS-ALLOCATING: doConfigure
+CS-ALLOCATING: doControl
+CS-ALLOCATING: doHscroll
+CS-ALLOCATING: doMouseDown
+CS-ALLOCATING: doSpreadKey
+CS-ALLOCATING: drawcol
+CS-ALLOCATING: drawelt
+CS-ALLOCATING: drawrow
+CS-ALLOCATING: drawwindow
+CS-ALLOCATING: eventloop
+CS-ALLOCATING: findcell
+CS-ALLOCATING: get_col_width
+CS-ALLOCATING: getccol
+CS-ALLOCATING: handlechar
+CS-ALLOCATING: in_RX11_dataentry
+CS-ALLOCATING: in_R_X11_dataviewer
+CS-ALLOCATING: initwin
+CS-ALLOCATING: jumppage
+CS-ALLOCATING: jumpwin
+CS-ALLOCATING: pastecell
+CS-ALLOCATING: popupmenu
+CS-ALLOCATING: printelt
+CS-ALLOCATING: processEscapes
+CS-ALLOCATING: ssNewVector
+
+C-ALLOCATOR: processEscapes(V)
+C-ALLOCATOR: in_RX11_dataentry
+C-ALLOCATOR: processEscapes
+C-ALLOCATOR: ssNewVector
+C-ALLOCATING: processEscapes(V)
+C-ALLOCATING: R_ProcessX11Events
+C-ALLOCATING: in_R_X11_dataviewer
+C-ALLOCATING: get_col_width
+C-ALLOCATING: doHscroll
+C-ALLOCATING: drawrow
+C-ALLOCATING: handlechar
+C-ALLOCATING: doControl
+C-ALLOCATING: GetCharP
+C-ALLOCATING: drawcol
+C-ALLOCATING: drawelt
+C-ALLOCATING: getccol
+C-ALLOCATING: popupmenu
+C-ALLOCATING: pastecell
+C-ALLOCATING: copycell
+C-ALLOCATING: findcell
+C-ALLOCATING: doConfigure
+C-ALLOCATING: doMouseDown
+C-ALLOCATING: closerect
+C-ALLOCATING: drawwindow
+C-ALLOCATING: cell_cursor_init
+C-ALLOCATING: initwin
+C-ALLOCATING: R_X11Err
+C-ALLOCATING: jumppage
+C-ALLOCATING: jumpwin
+C-ALLOCATING: advancerect
+C-ALLOCATING: doSpreadKey
+C-ALLOCATING: printelt
+C-ALLOCATING: eventloop
+C-ALLOCATING: processEscapes
+C-ALLOCATING: ssNewVector
+C-ALLOCATING: in_RX11_dataentry
+ALLOCATOR: in_RX11_dataentry
+ALLOCATOR: processEscapes
+ALLOCATOR: ssNewVector
+ALLOCATING: get_col_width
+ALLOCATING: jumppage
+ALLOCATING: jumpwin
+ALLOCATING: advancerect
+ALLOCATING: GetCharP
+ALLOCATING: printelt
+ALLOCATING: drawcol
+ALLOCATING: drawelt
+ALLOCATING: processEscapes
+ALLOCATING: getccol
+ALLOCATING: popupmenu
+ALLOCATING: pastecell
+ALLOCATING: copycell
+ALLOCATING: findcell
+ALLOCATING: doConfigure
+ALLOCATING: doMouseDown
+ALLOCATING: R_X11Err
+ALLOCATING: closerect
+ALLOCATING: initwin
+ALLOCATING: doSpreadKey
+ALLOCATING: in_RX11_dataentry
+ALLOCATING: drawwindow
+ALLOCATING: R_ProcessX11Events
+ALLOCATING: doControl
+ALLOCATING: doHscroll
+ALLOCATING: ssNewVector
+ALLOCATING: cell_cursor_init
+ALLOCATING: drawrow
+ALLOCATING: in_R_X11_dataviewer
+ALLOCATING: eventloop
+ALLOCATING: handlechar

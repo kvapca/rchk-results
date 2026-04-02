@@ -1,0 +1,20 @@
+Callee protect functions: 
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+
+
+CS-ALLOCATING: VR_pdata
+CS-ALLOCATING: VR_simmat
+CS-ALLOCATING: VR_simpat
+
+C-ALLOCATING: VR_pdata
+C-ALLOCATING: VR_simmat
+C-ALLOCATING: VR_simpat
+ALLOCATING: VR_simpat
+ALLOCATING: VR_simmat
+ALLOCATING: VR_pdata
