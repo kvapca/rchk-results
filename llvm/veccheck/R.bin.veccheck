@@ -91,6 +91,7 @@
   cummax(?,V)
   cummin(?,V)
   disassemble
+  do_CDotsLength
   do_Cstack_info
   do_ICUget
   do_RNGkind
@@ -107,6 +108,7 @@
   do_bcprofstop
   do_bcversion
   do_bincode
+  do_bindingType
   do_break
   do_builtins
   do_capabilities
@@ -124,6 +126,7 @@
   do_dirname
   do_disassemble
   do_dotCode
+  do_dotType
   do_dotsLength
   do_dynload
   do_eapply

@@ -29,7 +29,7 @@ Marked (noreturn) error function UNIMPLEMENTED_TYPE /home/kvasa/Documents/progra
 Marked (noreturn) error function UNIMPLEMENTED_TYPEt /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/util.c:373
 Marked (noreturn) error function WrongArgCount /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/errors.c:1407
 Marked (noreturn) error function bad_SET_TYPEOF /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/memory.c:3979
-Marked (noreturn) error function badtsp /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:439
+Marked (noreturn) error function badtsp /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:451
 Marked (noreturn) error function cmdError /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/unix/./sys-unix.c:871
 Marked (noreturn) error function do_Rprofmem /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/memory.c:4851
 Marked (noreturn) error function do_bcprofcounts /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/eval.c:9341
@@ -82,14 +82,14 @@ UNMARKED error function Renviron_error /home/kvasa/Documents/programming/FIT/BAP
 UNMARKED error function RestoreError /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/saveload.c:654
 UNMARKED error function Rf_mainloop /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/main.c:1241
 UNMARKED error function Rstd_Suicide /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/unix/sys-std.c:70
-UNMARKED error function altlist_Dataptr_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:861
-UNMARKED error function altlist_Elt_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:851
-UNMARKED error function altlist_Set_elt_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:856
-UNMARKED error function altrep_Length_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:734
-UNMARKED error function altrep_Unserialize_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:691
-UNMARKED error function altstring_Elt_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:838
-UNMARKED error function altstring_Set_elt_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:843
-UNMARKED error function altvec_Dataptr_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:739
+UNMARKED error function altlist_Dataptr_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:860
+UNMARKED error function altlist_Elt_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:850
+UNMARKED error function altlist_Set_elt_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:855
+UNMARKED error function altrep_Length_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:733
+UNMARKED error function altrep_Unserialize_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:690
+UNMARKED error function altstring_Elt_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:837
+UNMARKED error function altstring_Set_elt_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:842
+UNMARKED error function altvec_Dataptr_default /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/altrep.c:738
 UNMARKED error function end_Rmainloop /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/main.c:1221
 UNMARKED error function handle_eval_depth_overflow /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/eval.c:1069
 UNMARKED error function main /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/Rmain.c:25

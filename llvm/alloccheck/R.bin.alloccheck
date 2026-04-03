@@ -7,8 +7,9 @@
   AddCircleHash !S
   AddReadRef !P
   AgeNodeAndChildren
+  BINDING_OR_SYMBOL_VALUE
   BINDING_VALUE
-  BINDING_VALUE.2081
+  BINDING_VALUE.2098
   CONS_NR
   CallHook
   DelimCode S!
@@ -45,10 +46,13 @@
   R_GE_linearGradientColour
   R_GE_radialGradientColour
   R_GetGlobalCacheLoc
+  R_GetVarLocExpression
   R_GetVarLocValue
   R_HashGet
   R_HashSet -!!P-
   R_LockEnvironment
+  R_MakeDelayedBinding !SS!
+  R_MakeForcedBinding !S!!
   R_MakeWeakRef P!!-
   R_MakeWeakRefC
   R_NewEnv
@@ -262,6 +266,9 @@
   determine_domain_gettext
   disassemble
   dispatchNonGeneric !!S
+  do_CDotsElt SS!S
+  do_CDotsLength
+  do_CDotsNames
   do_Cstack_info
   do_D2POSIXlt SS!S
   do_ICUget
@@ -284,8 +291,6 @@
   do_args SS!!
   do_array
   do_asCharacterFactor !S!S
-  do_asPOSIXct SS!S
-  do_asPOSIXlt SS!S
   do_asfunction SS!S
   do_asplit
   do_assign SS!S
@@ -297,6 +302,7 @@
   do_bcclose
   do_bcversion
   do_bincode
+  do_bindingType
   do_bindtextdomain SS!S
   do_bitwise
   do_bndIsActive
@@ -333,6 +339,8 @@
   do_date
   do_debug S!!!
   do_delayed SS!S
+  do_delayedBindingEnv
+  do_delayedBindingExpr
   do_deparse !S!S
   do_dfltWarn SS!S
   do_dircreate
@@ -340,8 +348,14 @@
   do_dirname
   do_disassemble
   do_docall !S!S
+  do_dotDelayedEnv SS!S
+  do_dotDelayedExpr SS!S
+  do_dotForcedExpr SS!S
+  do_dotType SS!S
   do_dotsElt !S!!
+  do_dotsExist
   do_dotsLength SSS!
+  do_dotsNames SSS!
   do_drop
   do_duplicated S!SS
   do_dynload !S!S
@@ -375,6 +389,7 @@
   do_filesymlink
   do_findinterval
   do_forceAndCall !SS!
+  do_forcedBindingExpr
   do_formals !SSS
   do_format SS!S
   do_formatC SS!S
@@ -564,7 +579,6 @@
   do_stdout
   do_storage_mode !S!S
   do_str2lang SS!S
-  do_strptime
   do_strrep
   do_strsplit SS!S
   do_strtoi
@@ -736,8 +750,9 @@ ALLOCATING: AsciiLoad
 ALLOCATING: AsciiLoadOld
 ALLOCATING: AxisHeight
 ALLOCATING: BCNPOP_AND_END_CNTXT
+ALLOCATING: BINDING_OR_SYMBOL_VALUE
 ALLOCATING: BINDING_VALUE
-ALLOCATING: BINDING_VALUE.2081
+ALLOCATING: BINDING_VALUE.2098
 ALLOCATING: BUILTIN_CALL_FRAME_ARGS
 ALLOCATING: BinaryLoad
 ALLOCATING: BinaryLoadOld
@@ -750,7 +765,7 @@ ALLOCATING: CScliplines
 ALLOCATING: CallHook
 ALLOCATING: CloseMemOutPStream
 ALLOCATING: ConsoleGetchar
-ALLOCATING: ConsoleGetchar.6055
+ALLOCATING: ConsoleGetchar.6072
 ALLOCATING: ConsoleGetcharWithPushBack
 ALLOCATING: ConvertChar
 ALLOCATING: DATAPTR_OR_NULL
@@ -853,7 +868,7 @@ ALLOCATING: HT_EQUAL
 ALLOCATING: HT_HASH
 ALLOCATING: HasNames
 ALLOCATING: HashAdd
-ALLOCATING: HashAdd.6157
+ALLOCATING: HashAdd.6174
 ALLOCATING: HashLookup
 ALLOCATING: HashTableSetup
 ALLOCATING: HashTableSetup1
@@ -911,7 +926,7 @@ ALLOCATING: MATSUBSET_PTR
 ALLOCATING: MakeCFinalizer
 ALLOCATING: MakeCircleHashTable
 ALLOCATING: MakeHashTable
-ALLOCATING: MakeHashTable.6151
+ALLOCATING: MakeHashTable.6168
 ALLOCATING: MakeReadRefTable
 ALLOCATING: MatrixAssign
 ALLOCATING: MatrixColumnLabel
@@ -966,7 +981,7 @@ ALLOCATING: PersistentRestore
 ALLOCATING: Placeholder
 ALLOCATING: PrependToSrcRefs
 ALLOCATING: PrintCall
-ALLOCATING: PrintCall.3834
+ALLOCATING: PrintCall.3851
 ALLOCATING: PrintClosure
 ALLOCATING: PrintDispatch
 ALLOCATING: PrintEnvironment
@@ -1011,8 +1026,17 @@ ALLOCATING: R_ClearerrConsole
 ALLOCATING: R_Decode2Long
 ALLOCATING: R_DefParams
 ALLOCATING: R_DefParamsEx
+ALLOCATING: R_DelayedBindingEnvironment
+ALLOCATING: R_DelayedBindingExpression
 ALLOCATING: R_DispatchOrEvalSP
-ALLOCATING: R_DispatchOrEvalSP.6587
+ALLOCATING: R_DispatchOrEvalSP.6604
+ALLOCATING: R_DotDelayedEnvironment
+ALLOCATING: R_DotDelayedExpression
+ALLOCATING: R_DotForcedExpression
+ALLOCATING: R_DotsElt
+ALLOCATING: R_DotsExist
+ALLOCATING: R_DotsLength
+ALLOCATING: R_DotsNames
 ALLOCATING: R_EditFiles
 ALLOCATING: R_EndProfiling
 ALLOCATING: R_EnvironmentIsLocked
@@ -1031,6 +1055,7 @@ ALLOCATING: R_FixupExitingHandlerResult
 ALLOCATING: R_FixupRHS
 ALLOCATING: R_FlushConsole
 ALLOCATING: R_FlushGlobalCacheFromUserTable
+ALLOCATING: R_ForcedBindingExpression
 ALLOCATING: R_GE_VStrHeight
 ALLOCATING: R_GE_VStrWidth
 ALLOCATING: R_GE_VText
@@ -1042,13 +1067,16 @@ ALLOCATING: R_GE_linearGradientColour
 ALLOCATING: R_GE_maskType
 ALLOCATING: R_GE_radialGradientColour
 ALLOCATING: R_GE_str2col
+ALLOCATING: R_GetBindingType
 ALLOCATING: R_GetCCallable
 ALLOCATING: R_GetConnection
 ALLOCATING: R_GetCurrentSrcref
+ALLOCATING: R_GetDotType
 ALLOCATING: R_GetGlobalCacheLoc
 ALLOCATING: R_GetSrcFilename
 ALLOCATING: R_GetTraceback
 ALLOCATING: R_GetTracebackOnly
+ALLOCATING: R_GetVarLocExpression
 ALLOCATING: R_GetVarLocValue
 ALLOCATING: R_GetX11Image
 ALLOCATING: R_HashGet
@@ -1070,8 +1098,11 @@ ALLOCATING: R_LockBinding
 ALLOCATING: R_LockEnvironment
 ALLOCATING: R_LookupMethod
 ALLOCATING: R_MakeActiveBinding
+ALLOCATING: R_MakeDelayedBinding
 ALLOCATING: R_MakeExternalPtr
 ALLOCATING: R_MakeExternalPtrFn
+ALLOCATING: R_MakeForcedBinding
+ALLOCATING: R_MakeMissingBinding
 ALLOCATING: R_MakeUnwindCont
 ALLOCATING: R_MakeWeakRef
 ALLOCATING: R_MakeWeakRefC
@@ -1083,7 +1114,7 @@ ALLOCATING: R_NewPreciousMSet
 ALLOCATING: R_OpenInitFile
 ALLOCATING: R_OpenSiteFile
 ALLOCATING: R_POW
-ALLOCATING: R_POW.2066
+ALLOCATING: R_POW.2083
 ALLOCATING: R_PV
 ALLOCATING: R_PackageEnvName
 ALLOCATING: R_Parse
@@ -1208,6 +1239,7 @@ ALLOCATING: R_dotCallFn
 ALLOCATING: R_dot_Last
 ALLOCATING: R_duplicateAsResizable
 ALLOCATING: R_duplicate_attr
+ALLOCATING: R_envSymbols
 ALLOCATING: R_execClosure
 ALLOCATING: R_execMethod
 ALLOCATING: R_existsVarInFrame
@@ -1217,10 +1249,12 @@ ALLOCATING: R_extends
 ALLOCATING: R_findBCInterpreterExpression
 ALLOCATING: R_findBCInterpreterLocation
 ALLOCATING: R_findBCInterpreterSrcref
+ALLOCATING: R_findDotsEnv
 ALLOCATING: R_findVar
 ALLOCATING: R_findVarInFrame
 ALLOCATING: R_findVarLoc
 ALLOCATING: R_findVarLocInFrame
+ALLOCATING: R_findVarLocInFrameCheck
 ALLOCATING: R_flexiblas_info
 ALLOCATING: R_forceAndCall
 ALLOCATING: R_gc
@@ -1236,6 +1270,7 @@ ALLOCATING: R_getCurrentSrcref
 ALLOCATING: R_getDllTable
 ALLOCATING: R_getEmbeddingDllInfo
 ALLOCATING: R_getNSValue
+ALLOCATING: R_getRegisteredNamespace
 ALLOCATING: R_getRegisteredRoutines
 ALLOCATING: R_getRoutineSymbols
 ALLOCATING: R_getS4DataSlot
@@ -1641,6 +1676,7 @@ ALLOCATING: Rf_isArray
 ALLOCATING: Rf_isBasicClass
 ALLOCATING: Rf_isDataFrame
 ALLOCATING: Rf_isFactor
+ALLOCATING: Rf_isFrame
 ALLOCATING: Rf_isInteger
 ALLOCATING: Rf_isMatrix
 ALLOCATING: Rf_isNumber
@@ -1875,7 +1911,7 @@ ALLOCATING: Strtod
 ALLOCATING: SubassignTypeFix
 ALLOCATING: SymbolShortcuts
 ALLOCATING: SymbolValue
-ALLOCATING: SymbolValue.2517
+ALLOCATING: SymbolValue.2534
 ALLOCATING: TagArg
 ALLOCATING: TeX
 ALLOCATING: ThickSpace
@@ -1901,7 +1937,7 @@ ALLOCATING: _draw_hershey_penup_stroke
 ALLOCATING: _draw_hershey_string
 ALLOCATING: _draw_hershey_stroke
 ALLOCATING: _draw_stroke
-ALLOCATING: active.8806
+ALLOCATING: active.8835
 ALLOCATING: addContourLines
 ALLOCATING: addDLL
 ALLOCATING: addInternalRestart
@@ -2034,8 +2070,8 @@ ALLOCATING: conFinalizer
 ALLOCATING: con_cleanup
 ALLOCATING: con_cleanup.1051
 ALLOCATING: con_cleanup.1253
-ALLOCATING: con_cleanup.6009
-ALLOCATING: con_cleanup.6273
+ALLOCATING: con_cleanup.6026
+ALLOCATING: con_cleanup.6290
 ALLOCATING: con_close1
 ALLOCATING: con_destroy
 ALLOCATING: con_getc
@@ -2056,6 +2092,7 @@ ALLOCATING: d_n_cot
 ALLOCATING: data_part
 ALLOCATING: dblep0_
 ALLOCATING: ddfind
+ALLOCATING: ddfindInFrame
 ALLOCATING: deferred_string_Dataptr
 ALLOCATING: deferred_string_Elt
 ALLOCATING: deferred_string_Extract_subset
@@ -2080,6 +2117,9 @@ ALLOCATING: dispatch_length
 ALLOCATING: dispatch_subset2
 ALLOCATING: dispatch_xlength
 ALLOCATING: do_AT
+ALLOCATING: do_CDotsElt
+ALLOCATING: do_CDotsLength
+ALLOCATING: do_CDotsNames
 ALLOCATING: do_Cstack_info
 ALLOCATING: do_D2POSIXlt
 ALLOCATING: do_External
@@ -2133,6 +2173,7 @@ ALLOCATING: do_bcversion
 ALLOCATING: do_begin
 ALLOCATING: do_bincode
 ALLOCATING: do_bind
+ALLOCATING: do_bindingType
 ALLOCATING: do_bindtextdomain
 ALLOCATING: do_bitwise
 ALLOCATING: do_bmVersion
@@ -2177,6 +2218,8 @@ ALLOCATING: do_curlVersion
 ALLOCATING: do_date
 ALLOCATING: do_debug
 ALLOCATING: do_delayed
+ALLOCATING: do_delayedBindingEnv
+ALLOCATING: do_delayedBindingExpr
 ALLOCATING: do_deparse
 ALLOCATING: do_detach
 ALLOCATING: do_dfltWarn
@@ -2191,9 +2234,14 @@ ALLOCATING: do_dirname
 ALLOCATING: do_disassemble
 ALLOCATING: do_docall
 ALLOCATING: do_dotCode
+ALLOCATING: do_dotDelayedEnv
+ALLOCATING: do_dotDelayedExpr
+ALLOCATING: do_dotForcedExpr
+ALLOCATING: do_dotType
 ALLOCATING: do_dotcall
 ALLOCATING: do_dotcallgr
 ALLOCATING: do_dotsElt
+ALLOCATING: do_dotsExist
 ALLOCATING: do_dotsLength
 ALLOCATING: do_dotsNames
 ALLOCATING: do_dput
@@ -2236,6 +2284,7 @@ ALLOCATING: do_first_min
 ALLOCATING: do_flush
 ALLOCATING: do_for
 ALLOCATING: do_forceAndCall
+ALLOCATING: do_forcedBindingExpr
 ALLOCATING: do_formals
 ALLOCATING: do_format
 ALLOCATING: do_formatC
@@ -2441,10 +2490,10 @@ ALLOCATING: do_savefile
 ALLOCATING: do_saveplot
 ALLOCATING: do_scan
 ALLOCATING: do_search
-ALLOCATING: do_search.9129
-ALLOCATING: do_search.9152
-ALLOCATING: do_search.9155
-ALLOCATING: do_search.9169
+ALLOCATING: do_search.9158
+ALLOCATING: do_search.9181
+ALLOCATING: do_search.9184
+ALLOCATING: do_search.9198
 ALLOCATING: do_seek
 ALLOCATING: do_seq
 ALLOCATING: do_seq_along
@@ -2642,7 +2691,7 @@ ALLOCATING: getNames
 ALLOCATING: getParseContext
 ALLOCATING: getParseFilename
 ALLOCATING: getPrimitive
-ALLOCATING: getPrimitive.4672
+ALLOCATING: getPrimitive.4689
 ALLOCATING: getStackArgsList
 ALLOCATING: getSymbolComponent
 ALLOCATING: getSymbolValue
@@ -2673,7 +2722,7 @@ ALLOCATING: gzfile_fgetc_internal
 ALLOCATING: gzfile_open
 ALLOCATING: gzfile_read
 ALLOCATING: gzfile_seek
-ALLOCATING: handleInterrupt.9283
+ALLOCATING: handleInterrupt.9315
 ALLOCATING: handle_exec_continuation
 ALLOCATING: hash_identical
 ALLOCATING: hashfun
@@ -2815,7 +2864,7 @@ ALLOCATING: orderVector1l
 ALLOCATING: orderVectorl
 ALLOCATING: outtext_close
 ALLOCATING: outtext_init
-ALLOCATING: parse_cleanup.6388
+ALLOCATING: parse_cleanup.6405
 ALLOCATING: patchArgument
 ALLOCATING: path_buffer_append
 ALLOCATING: pd_lower_cf
@@ -2905,6 +2954,7 @@ ALLOCATING: replaceCall
 ALLOCATING: reportInvalidString
 ALLOCATING: reportModifiedConstant
 ALLOCATING: reset_tz
+ALLOCATING: resolveDotsEnv
 ALLOCATING: resolveNativeRoutine
 ALLOCATING: risum
 ALLOCATING: rmax
@@ -3144,7 +3194,7 @@ ALLOCATOR: InStringVec
 ALLOCATOR: MakeCFinalizer
 ALLOCATOR: MakeCircleHashTable
 ALLOCATOR: MakeHashTable
-ALLOCATOR: MakeHashTable.6151
+ALLOCATOR: MakeHashTable.6168
 ALLOCATOR: MakeReadRefTable
 ALLOCATOR: MatrixSubset
 ALLOCATOR: NewAsciiLoad
@@ -3158,6 +3208,8 @@ ALLOCATOR: NewReadVec
 ALLOCATOR: NewWeakRef
 ALLOCATOR: NewXdrLoad
 ALLOCATOR: PersistentRestore
+ALLOCATOR: R_DotsElt
+ALLOCATOR: R_DotsNames
 ALLOCATOR: R_ExecWithCleanup
 ALLOCATOR: R_FindNamespace
 ALLOCATOR: R_FindNamespace1
@@ -3226,6 +3278,7 @@ ALLOCATOR: R_do_slot
 ALLOCATOR: R_do_slot_assign
 ALLOCATOR: R_duplicateAsResizable
 ALLOCATOR: R_duplicate_attr
+ALLOCATOR: R_envSymbols
 ALLOCATOR: R_execMethod
 ALLOCATOR: R_findVar
 ALLOCATOR: R_findVarInFrame
@@ -3239,6 +3292,7 @@ ALLOCATOR: R_getClassDef
 ALLOCATOR: R_getClassDef_R
 ALLOCATOR: R_getDllTable
 ALLOCATOR: R_getNSValue
+ALLOCATOR: R_getRegisteredNamespace
 ALLOCATOR: R_getRegisteredRoutines
 ALLOCATOR: R_getRoutineSymbols
 ALLOCATOR: R_getS4DataSlot
@@ -3490,6 +3544,9 @@ ALLOCATOR: dispatchMethod
 ALLOCATOR: dispatchNonGeneric
 ALLOCATOR: dispatch_subset2
 ALLOCATOR: do_AT
+ALLOCATOR: do_CDotsElt
+ALLOCATOR: do_CDotsLength
+ALLOCATOR: do_CDotsNames
 ALLOCATOR: do_Cstack_info
 ALLOCATOR: do_D2POSIXlt
 ALLOCATOR: do_ICUget
@@ -3531,6 +3588,7 @@ ALLOCATOR: do_bcversion
 ALLOCATOR: do_begin
 ALLOCATOR: do_bincode
 ALLOCATOR: do_bind
+ALLOCATOR: do_bindingType
 ALLOCATOR: do_bindtextdomain
 ALLOCATOR: do_bitwise
 ALLOCATOR: do_bmVersion
@@ -3571,6 +3629,7 @@ ALLOCATOR: do_dirname
 ALLOCATOR: do_disassemble
 ALLOCATOR: do_docall
 ALLOCATOR: do_dotCode
+ALLOCATOR: do_dotType
 ALLOCATOR: do_dotsElt
 ALLOCATOR: do_dotsLength
 ALLOCATOR: do_dotsNames
@@ -3886,7 +3945,7 @@ ALLOCATOR: getInterruptCondition
 ALLOCATOR: getMatrixDim
 ALLOCATOR: getNames
 ALLOCATOR: getParseContext
-ALLOCATOR: getPrimitive.4672
+ALLOCATOR: getPrimitive.4689
 ALLOCATOR: getStackArgsList
 ALLOCATOR: getSymbolValue
 ALLOCATOR: getVarValInFrame
@@ -4067,8 +4126,9 @@ C-ALLOCATING: AsciiLoad
 C-ALLOCATING: AsciiLoadOld
 C-ALLOCATING: AxisHeight
 C-ALLOCATING: BCNPOP_AND_END_CNTXT
+C-ALLOCATING: BINDING_OR_SYMBOL_VALUE
 C-ALLOCATING: BINDING_VALUE
-C-ALLOCATING: BINDING_VALUE.2081
+C-ALLOCATING: BINDING_VALUE.2098
 C-ALLOCATING: BUILTIN_CALL_FRAME_ARGS
 C-ALLOCATING: BinaryLoad
 C-ALLOCATING: BinaryLoadOld
@@ -4087,7 +4147,7 @@ C-ALLOCATING: CScliplines
 C-ALLOCATING: CallHook
 C-ALLOCATING: CloseMemOutPStream
 C-ALLOCATING: ConsoleGetchar
-C-ALLOCATING: ConsoleGetchar.6055
+C-ALLOCATING: ConsoleGetchar.6072
 C-ALLOCATING: ConsoleGetcharWithPushBack
 C-ALLOCATING: ConvertChar
 C-ALLOCATING: DATAPTR_OR_NULL
@@ -4204,8 +4264,8 @@ C-ALLOCATING: HT_EQUAL
 C-ALLOCATING: HT_HASH
 C-ALLOCATING: HasNames
 C-ALLOCATING: HashAdd
-C-ALLOCATING: HashAdd.6157
-C-ALLOCATING: HashAdd.6157(V,?)
+C-ALLOCATING: HashAdd.6174
+C-ALLOCATING: HashAdd.6174(V,?)
 C-ALLOCATING: HashLookup
 C-ALLOCATING: HashTableSetup
 C-ALLOCATING: HashTableSetup(V,?,?)
@@ -4275,7 +4335,7 @@ C-ALLOCATING: MATSUBSET_PTR
 C-ALLOCATING: MakeCFinalizer
 C-ALLOCATING: MakeCircleHashTable
 C-ALLOCATING: MakeHashTable
-C-ALLOCATING: MakeHashTable.6151
+C-ALLOCATING: MakeHashTable.6168
 C-ALLOCATING: MakeReadRefTable
 C-ALLOCATING: MatrixAssign
 C-ALLOCATING: MatrixColumnLabel
@@ -4345,7 +4405,7 @@ C-ALLOCATING: PrintCall(S:.ArgsEnv,?)
 C-ALLOCATING: PrintCall(S:.Random.seed,?)
 C-ALLOCATING: PrintCall(S:length,?)
 C-ALLOCATING: PrintCall(V,?)
-C-ALLOCATING: PrintCall.3834
+C-ALLOCATING: PrintCall.3851
 C-ALLOCATING: PrintClosure
 C-ALLOCATING: PrintClosure(S:.ArgsEnv,?)
 C-ALLOCATING: PrintClosure(S:.Random.seed,?)
@@ -4488,8 +4548,17 @@ C-ALLOCATING: R_ClearerrConsole
 C-ALLOCATING: R_Decode2Long
 C-ALLOCATING: R_DefParams
 C-ALLOCATING: R_DefParamsEx
+C-ALLOCATING: R_DelayedBindingEnvironment
+C-ALLOCATING: R_DelayedBindingExpression
 C-ALLOCATING: R_DispatchOrEvalSP
-C-ALLOCATING: R_DispatchOrEvalSP.6587
+C-ALLOCATING: R_DispatchOrEvalSP.6604
+C-ALLOCATING: R_DotDelayedEnvironment
+C-ALLOCATING: R_DotDelayedExpression
+C-ALLOCATING: R_DotForcedExpression
+C-ALLOCATING: R_DotsElt
+C-ALLOCATING: R_DotsExist
+C-ALLOCATING: R_DotsLength
+C-ALLOCATING: R_DotsNames
 C-ALLOCATING: R_EditFiles
 C-ALLOCATING: R_EndProfiling
 C-ALLOCATING: R_EnvironmentIsLocked
@@ -4513,6 +4582,7 @@ C-ALLOCATING: R_FixupRHS(V,?)
 C-ALLOCATING: R_FixupRHS(V,V)
 C-ALLOCATING: R_FlushConsole
 C-ALLOCATING: R_FlushGlobalCacheFromUserTable
+C-ALLOCATING: R_ForcedBindingExpression
 C-ALLOCATING: R_GE_VStrHeight
 C-ALLOCATING: R_GE_VStrWidth
 C-ALLOCATING: R_GE_VText
@@ -4524,9 +4594,11 @@ C-ALLOCATING: R_GE_linearGradientColour
 C-ALLOCATING: R_GE_maskType
 C-ALLOCATING: R_GE_radialGradientColour
 C-ALLOCATING: R_GE_str2col
+C-ALLOCATING: R_GetBindingType
 C-ALLOCATING: R_GetCCallable
 C-ALLOCATING: R_GetConnection
 C-ALLOCATING: R_GetCurrentSrcref
+C-ALLOCATING: R_GetDotType
 C-ALLOCATING: R_GetGlobalCacheLoc
 C-ALLOCATING: R_GetGlobalCacheLoc(S:...)
 C-ALLOCATING: R_GetGlobalCacheLoc(S:.ArgsEnv)
@@ -4557,6 +4629,7 @@ C-ALLOCATING: R_GetGlobalCacheLoc(V)
 C-ALLOCATING: R_GetSrcFilename
 C-ALLOCATING: R_GetTraceback
 C-ALLOCATING: R_GetTracebackOnly
+C-ALLOCATING: R_GetVarLocExpression
 C-ALLOCATING: R_GetVarLocValue
 C-ALLOCATING: R_GetX11Image
 C-ALLOCATING: R_HashGet
@@ -4714,6 +4787,7 @@ C-ALLOCATING: R_LockBinding
 C-ALLOCATING: R_LockEnvironment
 C-ALLOCATING: R_LookupMethod
 C-ALLOCATING: R_MakeActiveBinding
+C-ALLOCATING: R_MakeDelayedBinding
 C-ALLOCATING: R_MakeExternalPtr
 C-ALLOCATING: R_MakeExternalPtr(?,S:DLLHandle,?)
 C-ALLOCATING: R_MakeExternalPtr(?,S:DLLInfo,?)
@@ -4722,6 +4796,8 @@ C-ALLOCATING: R_MakeExternalPtr(?,S:registered native symbol,?)
 C-ALLOCATING: R_MakeExternalPtr(?,V,V)
 C-ALLOCATING: R_MakeExternalPtrFn
 C-ALLOCATING: R_MakeExternalPtrFn(?,S:native symbol,?)
+C-ALLOCATING: R_MakeForcedBinding
+C-ALLOCATING: R_MakeMissingBinding
 C-ALLOCATING: R_MakeUnwindCont
 C-ALLOCATING: R_MakeWeakRef
 C-ALLOCATING: R_MakeWeakRefC
@@ -4733,7 +4809,7 @@ C-ALLOCATING: R_NewPreciousMSet
 C-ALLOCATING: R_OpenInitFile
 C-ALLOCATING: R_OpenSiteFile
 C-ALLOCATING: R_POW
-C-ALLOCATING: R_POW.2066
+C-ALLOCATING: R_POW.2083
 C-ALLOCATING: R_PV
 C-ALLOCATING: R_PackageEnvName
 C-ALLOCATING: R_Parse
@@ -4899,6 +4975,7 @@ C-ALLOCATING: R_dotCallFn
 C-ALLOCATING: R_dot_Last
 C-ALLOCATING: R_duplicateAsResizable
 C-ALLOCATING: R_duplicate_attr
+C-ALLOCATING: R_envSymbols
 C-ALLOCATING: R_execClosure
 C-ALLOCATING: R_execClosure(S:.ArgsEnv,?,?,?,?,?)
 C-ALLOCATING: R_execClosure(S:.Random.seed,?,?,?,?,?)
@@ -4921,6 +4998,7 @@ C-ALLOCATING: R_extends
 C-ALLOCATING: R_findBCInterpreterExpression
 C-ALLOCATING: R_findBCInterpreterLocation
 C-ALLOCATING: R_findBCInterpreterSrcref
+C-ALLOCATING: R_findDotsEnv
 C-ALLOCATING: R_findVar
 C-ALLOCATING: R_findVar(S:...,?)
 C-ALLOCATING: R_findVar(S:.ArgsEnv,?)
@@ -4989,6 +5067,7 @@ C-ALLOCATING: R_findVarLoc
 C-ALLOCATING: R_findVarLocInFrame
 C-ALLOCATING: R_findVarLocInFrame(?,S:*tmp*)
 C-ALLOCATING: R_findVarLocInFrame(?,S:i)
+C-ALLOCATING: R_findVarLocInFrameCheck
 C-ALLOCATING: R_flexiblas_info
 C-ALLOCATING: R_forceAndCall
 C-ALLOCATING: R_gc
@@ -5005,6 +5084,7 @@ C-ALLOCATING: R_getCurrentSrcref
 C-ALLOCATING: R_getDllTable
 C-ALLOCATING: R_getEmbeddingDllInfo
 C-ALLOCATING: R_getNSValue
+C-ALLOCATING: R_getRegisteredNamespace
 C-ALLOCATING: R_getRegisteredRoutines
 C-ALLOCATING: R_getRoutineSymbols
 C-ALLOCATING: R_getS4DataSlot
@@ -5915,6 +5995,7 @@ C-ALLOCATING: Rf_isDataFrame(S:length)
 C-ALLOCATING: Rf_isDataFrame(V)
 C-ALLOCATING: Rf_isFactor
 C-ALLOCATING: Rf_isFactor(V)
+C-ALLOCATING: Rf_isFrame
 C-ALLOCATING: Rf_isInteger
 C-ALLOCATING: Rf_isInteger(V)
 C-ALLOCATING: Rf_isMatrix
@@ -6496,7 +6577,7 @@ C-ALLOCATING: Strtod
 C-ALLOCATING: SubassignTypeFix
 C-ALLOCATING: SymbolShortcuts
 C-ALLOCATING: SymbolValue
-C-ALLOCATING: SymbolValue.2517
+C-ALLOCATING: SymbolValue.2534
 C-ALLOCATING: TagArg
 C-ALLOCATING: TagArg(?,S:NULL,?)
 C-ALLOCATING: TeX
@@ -6529,7 +6610,7 @@ C-ALLOCATING: _draw_hershey_penup_stroke
 C-ALLOCATING: _draw_hershey_string
 C-ALLOCATING: _draw_hershey_stroke
 C-ALLOCATING: _draw_stroke
-C-ALLOCATING: active.8806
+C-ALLOCATING: active.8835
 C-ALLOCATING: addContourLines
 C-ALLOCATING: addContourLines(?,?,?,?,?,?,?,?,?,V)
 C-ALLOCATING: addDLL
@@ -6753,8 +6834,8 @@ C-ALLOCATING: conFinalizer
 C-ALLOCATING: con_cleanup
 C-ALLOCATING: con_cleanup.1051
 C-ALLOCATING: con_cleanup.1253
-C-ALLOCATING: con_cleanup.6009
-C-ALLOCATING: con_cleanup.6273
+C-ALLOCATING: con_cleanup.6026
+C-ALLOCATING: con_cleanup.6290
 C-ALLOCATING: con_close1
 C-ALLOCATING: con_destroy
 C-ALLOCATING: con_getc
@@ -6780,6 +6861,7 @@ C-ALLOCATING: data_part(S:length)
 C-ALLOCATING: data_part(V)
 C-ALLOCATING: dblep0_
 C-ALLOCATING: ddfind
+C-ALLOCATING: ddfindInFrame
 C-ALLOCATING: deferred_string_Dataptr
 C-ALLOCATING: deferred_string_Elt
 C-ALLOCATING: deferred_string_Extract_subset
@@ -6833,6 +6915,9 @@ C-ALLOCATING: dispatch_subset2(V,?,?,?)
 C-ALLOCATING: dispatch_xlength
 C-ALLOCATING: dispatch_xlength(V,?,?)
 C-ALLOCATING: do_AT
+C-ALLOCATING: do_CDotsElt
+C-ALLOCATING: do_CDotsLength
+C-ALLOCATING: do_CDotsNames
 C-ALLOCATING: do_Cstack_info
 C-ALLOCATING: do_D2POSIXlt
 C-ALLOCATING: do_External
@@ -6886,6 +6971,7 @@ C-ALLOCATING: do_bcversion
 C-ALLOCATING: do_begin
 C-ALLOCATING: do_bincode
 C-ALLOCATING: do_bind
+C-ALLOCATING: do_bindingType
 C-ALLOCATING: do_bindtextdomain
 C-ALLOCATING: do_bitwise
 C-ALLOCATING: do_bmVersion
@@ -6935,6 +7021,8 @@ C-ALLOCATING: do_curlVersion
 C-ALLOCATING: do_date
 C-ALLOCATING: do_debug
 C-ALLOCATING: do_delayed
+C-ALLOCATING: do_delayedBindingEnv
+C-ALLOCATING: do_delayedBindingExpr
 C-ALLOCATING: do_deparse
 C-ALLOCATING: do_detach
 C-ALLOCATING: do_dfltWarn
@@ -6949,9 +7037,14 @@ C-ALLOCATING: do_dirname
 C-ALLOCATING: do_disassemble
 C-ALLOCATING: do_docall
 C-ALLOCATING: do_dotCode
+C-ALLOCATING: do_dotDelayedEnv
+C-ALLOCATING: do_dotDelayedExpr
+C-ALLOCATING: do_dotForcedExpr
+C-ALLOCATING: do_dotType
 C-ALLOCATING: do_dotcall
 C-ALLOCATING: do_dotcallgr
 C-ALLOCATING: do_dotsElt
+C-ALLOCATING: do_dotsExist
 C-ALLOCATING: do_dotsLength
 C-ALLOCATING: do_dotsNames
 C-ALLOCATING: do_dput
@@ -6994,6 +7087,7 @@ C-ALLOCATING: do_first_min
 C-ALLOCATING: do_flush
 C-ALLOCATING: do_for
 C-ALLOCATING: do_forceAndCall
+C-ALLOCATING: do_forcedBindingExpr
 C-ALLOCATING: do_formals
 C-ALLOCATING: do_format
 C-ALLOCATING: do_formatC
@@ -7201,10 +7295,10 @@ C-ALLOCATING: do_savefile
 C-ALLOCATING: do_saveplot
 C-ALLOCATING: do_scan
 C-ALLOCATING: do_search
-C-ALLOCATING: do_search.9129
-C-ALLOCATING: do_search.9152
-C-ALLOCATING: do_search.9155
-C-ALLOCATING: do_search.9169
+C-ALLOCATING: do_search.9158
+C-ALLOCATING: do_search.9181
+C-ALLOCATING: do_search.9184
+C-ALLOCATING: do_search.9198
 C-ALLOCATING: do_seek
 C-ALLOCATING: do_seq
 C-ALLOCATING: do_seq_along
@@ -7545,7 +7639,7 @@ C-ALLOCATING: getPrimitive(S:seq_along,?)
 C-ALLOCATING: getPrimitive(S:seq_len,?)
 C-ALLOCATING: getPrimitive(S:sqrt,?)
 C-ALLOCATING: getPrimitive(S:|,?)
-C-ALLOCATING: getPrimitive.4672
+C-ALLOCATING: getPrimitive.4689
 C-ALLOCATING: getStackArgsList
 C-ALLOCATING: getSymbolComponent
 C-ALLOCATING: getSymbolValue
@@ -7584,7 +7678,7 @@ C-ALLOCATING: gzfile_fgetc_internal
 C-ALLOCATING: gzfile_open
 C-ALLOCATING: gzfile_read
 C-ALLOCATING: gzfile_seek
-C-ALLOCATING: handleInterrupt.9283
+C-ALLOCATING: handleInterrupt.9315
 C-ALLOCATING: handle_exec_continuation
 C-ALLOCATING: hash_identical
 C-ALLOCATING: hashfun
@@ -7859,7 +7953,7 @@ C-ALLOCATING: orderVectorl
 C-ALLOCATING: outtext_close
 C-ALLOCATING: outtext_init
 C-ALLOCATING: outtext_init(?,V,?,?)
-C-ALLOCATING: parse_cleanup.6388
+C-ALLOCATING: parse_cleanup.6405
 C-ALLOCATING: patchArgument
 C-ALLOCATING: path_buffer_append
 C-ALLOCATING: pd_lower_cf
@@ -8065,6 +8159,7 @@ C-ALLOCATING: reportInvalidString
 C-ALLOCATING: reportInvalidString(V,?)
 C-ALLOCATING: reportModifiedConstant
 C-ALLOCATING: reset_tz
+C-ALLOCATING: resolveDotsEnv
 C-ALLOCATING: resolveNativeRoutine
 C-ALLOCATING: risum
 C-ALLOCATING: rmax
@@ -8342,7 +8437,7 @@ C-ALLOCATOR: InStringVec
 C-ALLOCATOR: MakeCFinalizer
 C-ALLOCATOR: MakeCircleHashTable
 C-ALLOCATOR: MakeHashTable
-C-ALLOCATOR: MakeHashTable.6151
+C-ALLOCATOR: MakeHashTable.6168
 C-ALLOCATOR: MakeReadRefTable
 C-ALLOCATOR: MatrixSubset
 C-ALLOCATOR: MatrixSubset(V,?,?,?)
@@ -8360,6 +8455,8 @@ C-ALLOCATOR: NewWeakRef
 C-ALLOCATOR: NewWeakRef(?,?,V,?)
 C-ALLOCATOR: NewXdrLoad
 C-ALLOCATOR: PersistentRestore
+C-ALLOCATOR: R_DotsElt
+C-ALLOCATOR: R_DotsNames
 C-ALLOCATOR: R_ExecWithCleanup
 C-ALLOCATOR: R_FindNamespace
 C-ALLOCATOR: R_FindNamespace(V)
@@ -8545,6 +8642,7 @@ C-ALLOCATOR: R_do_slot_assign
 C-ALLOCATOR: R_do_slot_assign(?,V,?)
 C-ALLOCATOR: R_duplicateAsResizable
 C-ALLOCATOR: R_duplicate_attr
+C-ALLOCATOR: R_envSymbols
 C-ALLOCATOR: R_findVar
 C-ALLOCATOR: R_findVar(S:...,?)
 C-ALLOCATOR: R_findVar(S:.ArgsEnv,?)
@@ -8620,6 +8718,7 @@ C-ALLOCATOR: R_getClassDef_R
 C-ALLOCATOR: R_getClassDef_R(V)
 C-ALLOCATOR: R_getDllTable
 C-ALLOCATOR: R_getNSValue
+C-ALLOCATOR: R_getRegisteredNamespace
 C-ALLOCATOR: R_getRegisteredRoutines
 C-ALLOCATOR: R_getRoutineSymbols
 C-ALLOCATOR: R_getS4DataSlot
@@ -9528,6 +9627,9 @@ C-ALLOCATOR: dispatchNonGeneric
 C-ALLOCATOR: dispatch_subset2
 C-ALLOCATOR: dispatch_subset2(V,?,?,?)
 C-ALLOCATOR: do_AT
+C-ALLOCATOR: do_CDotsElt
+C-ALLOCATOR: do_CDotsLength
+C-ALLOCATOR: do_CDotsNames
 C-ALLOCATOR: do_Cstack_info
 C-ALLOCATOR: do_D2POSIXlt
 C-ALLOCATOR: do_ICUget
@@ -9567,6 +9669,7 @@ C-ALLOCATOR: do_bcversion
 C-ALLOCATOR: do_begin
 C-ALLOCATOR: do_bincode
 C-ALLOCATOR: do_bind
+C-ALLOCATOR: do_bindingType
 C-ALLOCATOR: do_bindtextdomain
 C-ALLOCATOR: do_bitwise
 C-ALLOCATOR: do_bmVersion
@@ -9607,6 +9710,7 @@ C-ALLOCATOR: do_dirname
 C-ALLOCATOR: do_disassemble
 C-ALLOCATOR: do_docall
 C-ALLOCATOR: do_dotCode
+C-ALLOCATOR: do_dotType
 C-ALLOCATOR: do_dotsElt
 C-ALLOCATOR: do_dotsLength
 C-ALLOCATOR: do_dotsNames
@@ -10024,7 +10128,7 @@ C-ALLOCATOR: getMatrixDim
 C-ALLOCATOR: getNames
 C-ALLOCATOR: getNames(V)
 C-ALLOCATOR: getParseContext
-C-ALLOCATOR: getPrimitive.4672
+C-ALLOCATOR: getPrimitive.4689
 C-ALLOCATOR: getStackArgsList
 C-ALLOCATOR: getSymbolValue
 C-ALLOCATOR: getSymbolValue(S:.Device)
@@ -10336,8 +10440,9 @@ CS-ALLOCATING: AsciiLoad
 CS-ALLOCATING: AsciiLoadOld
 CS-ALLOCATING: AxisHeight
 CS-ALLOCATING: BCNPOP_AND_END_CNTXT
+CS-ALLOCATING: BINDING_OR_SYMBOL_VALUE
 CS-ALLOCATING: BINDING_VALUE
-CS-ALLOCATING: BINDING_VALUE.2081
+CS-ALLOCATING: BINDING_VALUE.2098
 CS-ALLOCATING: BUILTIN_CALL_FRAME_ARGS
 CS-ALLOCATING: BinaryLoad
 CS-ALLOCATING: BinaryLoadOld
@@ -10350,7 +10455,7 @@ CS-ALLOCATING: CScliplines
 CS-ALLOCATING: CallHook
 CS-ALLOCATING: CloseMemOutPStream
 CS-ALLOCATING: ConsoleGetchar
-CS-ALLOCATING: ConsoleGetchar.6055
+CS-ALLOCATING: ConsoleGetchar.6072
 CS-ALLOCATING: ConsoleGetcharWithPushBack
 CS-ALLOCATING: ConvertChar
 CS-ALLOCATING: DATAPTR_OR_NULL
@@ -10453,7 +10558,7 @@ CS-ALLOCATING: HT_EQUAL
 CS-ALLOCATING: HT_HASH
 CS-ALLOCATING: HasNames
 CS-ALLOCATING: HashAdd
-CS-ALLOCATING: HashAdd.6157
+CS-ALLOCATING: HashAdd.6174
 CS-ALLOCATING: HashLookup
 CS-ALLOCATING: HashTableSetup
 CS-ALLOCATING: HashTableSetup1
@@ -10511,7 +10616,7 @@ CS-ALLOCATING: MATSUBSET_PTR
 CS-ALLOCATING: MakeCFinalizer
 CS-ALLOCATING: MakeCircleHashTable
 CS-ALLOCATING: MakeHashTable
-CS-ALLOCATING: MakeHashTable.6151
+CS-ALLOCATING: MakeHashTable.6168
 CS-ALLOCATING: MakeReadRefTable
 CS-ALLOCATING: MatrixAssign
 CS-ALLOCATING: MatrixColumnLabel
@@ -10566,7 +10671,7 @@ CS-ALLOCATING: PersistentRestore
 CS-ALLOCATING: Placeholder
 CS-ALLOCATING: PrependToSrcRefs
 CS-ALLOCATING: PrintCall
-CS-ALLOCATING: PrintCall.3834
+CS-ALLOCATING: PrintCall.3851
 CS-ALLOCATING: PrintClosure
 CS-ALLOCATING: PrintDispatch
 CS-ALLOCATING: PrintEnvironment
@@ -10611,8 +10716,17 @@ CS-ALLOCATING: R_ClearerrConsole
 CS-ALLOCATING: R_Decode2Long
 CS-ALLOCATING: R_DefParams
 CS-ALLOCATING: R_DefParamsEx
+CS-ALLOCATING: R_DelayedBindingEnvironment
+CS-ALLOCATING: R_DelayedBindingExpression
 CS-ALLOCATING: R_DispatchOrEvalSP
-CS-ALLOCATING: R_DispatchOrEvalSP.6587
+CS-ALLOCATING: R_DispatchOrEvalSP.6604
+CS-ALLOCATING: R_DotDelayedEnvironment
+CS-ALLOCATING: R_DotDelayedExpression
+CS-ALLOCATING: R_DotForcedExpression
+CS-ALLOCATING: R_DotsElt
+CS-ALLOCATING: R_DotsExist
+CS-ALLOCATING: R_DotsLength
+CS-ALLOCATING: R_DotsNames
 CS-ALLOCATING: R_EditFiles
 CS-ALLOCATING: R_EndProfiling
 CS-ALLOCATING: R_EnvironmentIsLocked
@@ -10631,6 +10745,7 @@ CS-ALLOCATING: R_FixupExitingHandlerResult
 CS-ALLOCATING: R_FixupRHS
 CS-ALLOCATING: R_FlushConsole
 CS-ALLOCATING: R_FlushGlobalCacheFromUserTable
+CS-ALLOCATING: R_ForcedBindingExpression
 CS-ALLOCATING: R_GE_VStrHeight
 CS-ALLOCATING: R_GE_VStrWidth
 CS-ALLOCATING: R_GE_VText
@@ -10642,13 +10757,16 @@ CS-ALLOCATING: R_GE_linearGradientColour
 CS-ALLOCATING: R_GE_maskType
 CS-ALLOCATING: R_GE_radialGradientColour
 CS-ALLOCATING: R_GE_str2col
+CS-ALLOCATING: R_GetBindingType
 CS-ALLOCATING: R_GetCCallable
 CS-ALLOCATING: R_GetConnection
 CS-ALLOCATING: R_GetCurrentSrcref
+CS-ALLOCATING: R_GetDotType
 CS-ALLOCATING: R_GetGlobalCacheLoc
 CS-ALLOCATING: R_GetSrcFilename
 CS-ALLOCATING: R_GetTraceback
 CS-ALLOCATING: R_GetTracebackOnly
+CS-ALLOCATING: R_GetVarLocExpression
 CS-ALLOCATING: R_GetVarLocValue
 CS-ALLOCATING: R_GetX11Image
 CS-ALLOCATING: R_HashGet
@@ -10670,8 +10788,11 @@ CS-ALLOCATING: R_LockBinding
 CS-ALLOCATING: R_LockEnvironment
 CS-ALLOCATING: R_LookupMethod
 CS-ALLOCATING: R_MakeActiveBinding
+CS-ALLOCATING: R_MakeDelayedBinding
 CS-ALLOCATING: R_MakeExternalPtr
 CS-ALLOCATING: R_MakeExternalPtrFn
+CS-ALLOCATING: R_MakeForcedBinding
+CS-ALLOCATING: R_MakeMissingBinding
 CS-ALLOCATING: R_MakeUnwindCont
 CS-ALLOCATING: R_MakeWeakRef
 CS-ALLOCATING: R_MakeWeakRefC
@@ -10683,7 +10804,7 @@ CS-ALLOCATING: R_NewPreciousMSet
 CS-ALLOCATING: R_OpenInitFile
 CS-ALLOCATING: R_OpenSiteFile
 CS-ALLOCATING: R_POW
-CS-ALLOCATING: R_POW.2066
+CS-ALLOCATING: R_POW.2083
 CS-ALLOCATING: R_PV
 CS-ALLOCATING: R_PackageEnvName
 CS-ALLOCATING: R_Parse
@@ -10808,6 +10929,7 @@ CS-ALLOCATING: R_dotCallFn
 CS-ALLOCATING: R_dot_Last
 CS-ALLOCATING: R_duplicateAsResizable
 CS-ALLOCATING: R_duplicate_attr
+CS-ALLOCATING: R_envSymbols
 CS-ALLOCATING: R_execClosure
 CS-ALLOCATING: R_execMethod
 CS-ALLOCATING: R_existsVarInFrame
@@ -10817,10 +10939,12 @@ CS-ALLOCATING: R_extends
 CS-ALLOCATING: R_findBCInterpreterExpression
 CS-ALLOCATING: R_findBCInterpreterLocation
 CS-ALLOCATING: R_findBCInterpreterSrcref
+CS-ALLOCATING: R_findDotsEnv
 CS-ALLOCATING: R_findVar
 CS-ALLOCATING: R_findVarInFrame
 CS-ALLOCATING: R_findVarLoc
 CS-ALLOCATING: R_findVarLocInFrame
+CS-ALLOCATING: R_findVarLocInFrameCheck
 CS-ALLOCATING: R_flexiblas_info
 CS-ALLOCATING: R_forceAndCall
 CS-ALLOCATING: R_gc
@@ -10836,6 +10960,7 @@ CS-ALLOCATING: R_getCurrentSrcref
 CS-ALLOCATING: R_getDllTable
 CS-ALLOCATING: R_getEmbeddingDllInfo
 CS-ALLOCATING: R_getNSValue
+CS-ALLOCATING: R_getRegisteredNamespace
 CS-ALLOCATING: R_getRegisteredRoutines
 CS-ALLOCATING: R_getRoutineSymbols
 CS-ALLOCATING: R_getS4DataSlot
@@ -11241,6 +11366,7 @@ CS-ALLOCATING: Rf_isArray
 CS-ALLOCATING: Rf_isBasicClass
 CS-ALLOCATING: Rf_isDataFrame
 CS-ALLOCATING: Rf_isFactor
+CS-ALLOCATING: Rf_isFrame
 CS-ALLOCATING: Rf_isInteger
 CS-ALLOCATING: Rf_isMatrix
 CS-ALLOCATING: Rf_isNumber
@@ -11475,7 +11601,7 @@ CS-ALLOCATING: Strtod
 CS-ALLOCATING: SubassignTypeFix
 CS-ALLOCATING: SymbolShortcuts
 CS-ALLOCATING: SymbolValue
-CS-ALLOCATING: SymbolValue.2517
+CS-ALLOCATING: SymbolValue.2534
 CS-ALLOCATING: TagArg
 CS-ALLOCATING: TeX
 CS-ALLOCATING: ThickSpace
@@ -11501,7 +11627,7 @@ CS-ALLOCATING: _draw_hershey_penup_stroke
 CS-ALLOCATING: _draw_hershey_string
 CS-ALLOCATING: _draw_hershey_stroke
 CS-ALLOCATING: _draw_stroke
-CS-ALLOCATING: active.8806
+CS-ALLOCATING: active.8835
 CS-ALLOCATING: addContourLines
 CS-ALLOCATING: addDLL
 CS-ALLOCATING: addInternalRestart
@@ -11634,8 +11760,8 @@ CS-ALLOCATING: conFinalizer
 CS-ALLOCATING: con_cleanup
 CS-ALLOCATING: con_cleanup.1051
 CS-ALLOCATING: con_cleanup.1253
-CS-ALLOCATING: con_cleanup.6009
-CS-ALLOCATING: con_cleanup.6273
+CS-ALLOCATING: con_cleanup.6026
+CS-ALLOCATING: con_cleanup.6290
 CS-ALLOCATING: con_close1
 CS-ALLOCATING: con_destroy
 CS-ALLOCATING: con_getc
@@ -11656,6 +11782,7 @@ CS-ALLOCATING: d_n_cot
 CS-ALLOCATING: data_part
 CS-ALLOCATING: dblep0_
 CS-ALLOCATING: ddfind
+CS-ALLOCATING: ddfindInFrame
 CS-ALLOCATING: deferred_string_Dataptr
 CS-ALLOCATING: deferred_string_Elt
 CS-ALLOCATING: deferred_string_Extract_subset
@@ -11680,6 +11807,9 @@ CS-ALLOCATING: dispatch_length
 CS-ALLOCATING: dispatch_subset2
 CS-ALLOCATING: dispatch_xlength
 CS-ALLOCATING: do_AT
+CS-ALLOCATING: do_CDotsElt
+CS-ALLOCATING: do_CDotsLength
+CS-ALLOCATING: do_CDotsNames
 CS-ALLOCATING: do_Cstack_info
 CS-ALLOCATING: do_D2POSIXlt
 CS-ALLOCATING: do_External
@@ -11733,6 +11863,7 @@ CS-ALLOCATING: do_bcversion
 CS-ALLOCATING: do_begin
 CS-ALLOCATING: do_bincode
 CS-ALLOCATING: do_bind
+CS-ALLOCATING: do_bindingType
 CS-ALLOCATING: do_bindtextdomain
 CS-ALLOCATING: do_bitwise
 CS-ALLOCATING: do_bmVersion
@@ -11777,6 +11908,8 @@ CS-ALLOCATING: do_curlVersion
 CS-ALLOCATING: do_date
 CS-ALLOCATING: do_debug
 CS-ALLOCATING: do_delayed
+CS-ALLOCATING: do_delayedBindingEnv
+CS-ALLOCATING: do_delayedBindingExpr
 CS-ALLOCATING: do_deparse
 CS-ALLOCATING: do_detach
 CS-ALLOCATING: do_dfltWarn
@@ -11791,9 +11924,14 @@ CS-ALLOCATING: do_dirname
 CS-ALLOCATING: do_disassemble
 CS-ALLOCATING: do_docall
 CS-ALLOCATING: do_dotCode
+CS-ALLOCATING: do_dotDelayedEnv
+CS-ALLOCATING: do_dotDelayedExpr
+CS-ALLOCATING: do_dotForcedExpr
+CS-ALLOCATING: do_dotType
 CS-ALLOCATING: do_dotcall
 CS-ALLOCATING: do_dotcallgr
 CS-ALLOCATING: do_dotsElt
+CS-ALLOCATING: do_dotsExist
 CS-ALLOCATING: do_dotsLength
 CS-ALLOCATING: do_dotsNames
 CS-ALLOCATING: do_dput
@@ -11836,6 +11974,7 @@ CS-ALLOCATING: do_first_min
 CS-ALLOCATING: do_flush
 CS-ALLOCATING: do_for
 CS-ALLOCATING: do_forceAndCall
+CS-ALLOCATING: do_forcedBindingExpr
 CS-ALLOCATING: do_formals
 CS-ALLOCATING: do_format
 CS-ALLOCATING: do_formatC
@@ -12041,10 +12180,10 @@ CS-ALLOCATING: do_savefile
 CS-ALLOCATING: do_saveplot
 CS-ALLOCATING: do_scan
 CS-ALLOCATING: do_search
-CS-ALLOCATING: do_search.9129
-CS-ALLOCATING: do_search.9152
-CS-ALLOCATING: do_search.9155
-CS-ALLOCATING: do_search.9169
+CS-ALLOCATING: do_search.9158
+CS-ALLOCATING: do_search.9181
+CS-ALLOCATING: do_search.9184
+CS-ALLOCATING: do_search.9198
 CS-ALLOCATING: do_seek
 CS-ALLOCATING: do_seq
 CS-ALLOCATING: do_seq_along
@@ -12242,7 +12381,7 @@ CS-ALLOCATING: getNames
 CS-ALLOCATING: getParseContext
 CS-ALLOCATING: getParseFilename
 CS-ALLOCATING: getPrimitive
-CS-ALLOCATING: getPrimitive.4672
+CS-ALLOCATING: getPrimitive.4689
 CS-ALLOCATING: getStackArgsList
 CS-ALLOCATING: getSymbolComponent
 CS-ALLOCATING: getSymbolValue
@@ -12273,7 +12412,7 @@ CS-ALLOCATING: gzfile_fgetc_internal
 CS-ALLOCATING: gzfile_open
 CS-ALLOCATING: gzfile_read
 CS-ALLOCATING: gzfile_seek
-CS-ALLOCATING: handleInterrupt.9283
+CS-ALLOCATING: handleInterrupt.9315
 CS-ALLOCATING: handle_exec_continuation
 CS-ALLOCATING: hash_identical
 CS-ALLOCATING: hashfun
@@ -12415,7 +12554,7 @@ CS-ALLOCATING: orderVector1l
 CS-ALLOCATING: orderVectorl
 CS-ALLOCATING: outtext_close
 CS-ALLOCATING: outtext_init
-CS-ALLOCATING: parse_cleanup.6388
+CS-ALLOCATING: parse_cleanup.6405
 CS-ALLOCATING: patchArgument
 CS-ALLOCATING: path_buffer_append
 CS-ALLOCATING: pd_lower_cf
@@ -12505,6 +12644,7 @@ CS-ALLOCATING: replaceCall
 CS-ALLOCATING: reportInvalidString
 CS-ALLOCATING: reportModifiedConstant
 CS-ALLOCATING: reset_tz
+CS-ALLOCATING: resolveDotsEnv
 CS-ALLOCATING: resolveNativeRoutine
 CS-ALLOCATING: risum
 CS-ALLOCATING: rmax
@@ -12744,7 +12884,7 @@ CS-ALLOCATOR: InStringVec
 CS-ALLOCATOR: MakeCFinalizer
 CS-ALLOCATOR: MakeCircleHashTable
 CS-ALLOCATOR: MakeHashTable
-CS-ALLOCATOR: MakeHashTable.6151
+CS-ALLOCATOR: MakeHashTable.6168
 CS-ALLOCATOR: MakeReadRefTable
 CS-ALLOCATOR: MatrixSubset
 CS-ALLOCATOR: NewAsciiLoad
@@ -12758,6 +12898,8 @@ CS-ALLOCATOR: NewReadVec
 CS-ALLOCATOR: NewWeakRef
 CS-ALLOCATOR: NewXdrLoad
 CS-ALLOCATOR: PersistentRestore
+CS-ALLOCATOR: R_DotsElt
+CS-ALLOCATOR: R_DotsNames
 CS-ALLOCATOR: R_ExecWithCleanup
 CS-ALLOCATOR: R_FindNamespace
 CS-ALLOCATOR: R_FindNamespace1
@@ -12826,6 +12968,7 @@ CS-ALLOCATOR: R_do_slot
 CS-ALLOCATOR: R_do_slot_assign
 CS-ALLOCATOR: R_duplicateAsResizable
 CS-ALLOCATOR: R_duplicate_attr
+CS-ALLOCATOR: R_envSymbols
 CS-ALLOCATOR: R_findVar
 CS-ALLOCATOR: R_findVarInFrame
 CS-ALLOCATOR: R_flexiblas_info
@@ -12838,6 +12981,7 @@ CS-ALLOCATOR: R_getClassDef
 CS-ALLOCATOR: R_getClassDef_R
 CS-ALLOCATOR: R_getDllTable
 CS-ALLOCATOR: R_getNSValue
+CS-ALLOCATOR: R_getRegisteredNamespace
 CS-ALLOCATOR: R_getRegisteredRoutines
 CS-ALLOCATOR: R_getRoutineSymbols
 CS-ALLOCATOR: R_getS4DataSlot
@@ -13086,6 +13230,9 @@ CS-ALLOCATOR: dispatchMethod
 CS-ALLOCATOR: dispatchNonGeneric
 CS-ALLOCATOR: dispatch_subset2
 CS-ALLOCATOR: do_AT
+CS-ALLOCATOR: do_CDotsElt
+CS-ALLOCATOR: do_CDotsLength
+CS-ALLOCATOR: do_CDotsNames
 CS-ALLOCATOR: do_Cstack_info
 CS-ALLOCATOR: do_D2POSIXlt
 CS-ALLOCATOR: do_ICUget
@@ -13125,6 +13272,7 @@ CS-ALLOCATOR: do_bcversion
 CS-ALLOCATOR: do_begin
 CS-ALLOCATOR: do_bincode
 CS-ALLOCATOR: do_bind
+CS-ALLOCATOR: do_bindingType
 CS-ALLOCATOR: do_bindtextdomain
 CS-ALLOCATOR: do_bitwise
 CS-ALLOCATOR: do_bmVersion
@@ -13164,6 +13312,7 @@ CS-ALLOCATOR: do_dirname
 CS-ALLOCATOR: do_disassemble
 CS-ALLOCATOR: do_docall
 CS-ALLOCATOR: do_dotCode
+CS-ALLOCATOR: do_dotType
 CS-ALLOCATOR: do_dotsElt
 CS-ALLOCATOR: do_dotsLength
 CS-ALLOCATOR: do_dotsNames
@@ -13477,7 +13626,7 @@ CS-ALLOCATOR: getInterruptCondition
 CS-ALLOCATOR: getMatrixDim
 CS-ALLOCATOR: getNames
 CS-ALLOCATOR: getParseContext
-CS-ALLOCATOR: getPrimitive.4672
+CS-ALLOCATOR: getPrimitive.4689
 CS-ALLOCATOR: getStackArgsList
 CS-ALLOCATOR: getSymbolValue
 CS-ALLOCATOR: getVarValInFrame

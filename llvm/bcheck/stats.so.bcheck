@@ -8,9 +8,9 @@ Function ARIMA_Like
   [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/arima.c:748
 
 Function Cdist
-  [UP] unprotected variable names while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/distance.c:288
-  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,?,?) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/distance.c:288
-  [UP] unprotected variable names while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/distance.c:288
+  [UP] unprotected variable names while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/distance.c:289
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,?,?) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/distance.c:289
+  [UP] unprotected variable names while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/distance.c:289
 
 Function CreateGrad
   [UP] unprotected variable q while calling allocating function Rf_ScalarString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:948

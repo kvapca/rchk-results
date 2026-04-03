@@ -1,2 +1,2 @@
-non-symbol SEXP global variable framenames  @framenames = weak dso_local global %struct.SEXPREC* null, align 8, !dbg !15126
-non-symbol SEXP global variable varlist  @varlist = weak dso_local global %struct.SEXPREC* null, align 8, !dbg !15120
+non-symbol SEXP global variable framenames  @framenames = weak dso_local global %struct.SEXPREC* null, align 8, !dbg !15143
+non-symbol SEXP global variable varlist  @varlist = weak dso_local global %struct.SEXPREC* null, align 8, !dbg !15137
