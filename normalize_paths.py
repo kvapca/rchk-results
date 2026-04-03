@@ -30,6 +30,9 @@ TRUNK22_PATTERN = re.compile(r'(/home/kvasa/Documents/programming/FIT/BAP/rchk/)
 # [^/]+ = matches at least one character except '/'
 PATH_PATTERN = re.compile(r'(/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/)([^/]+)(/)')
 
+# rchk14 to rchk
+RCHK14_PATTERN = re.compile(r'/home/kvasa/Documents/programming/FIT/BAP/rchk14')
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Normalize paths in files.')
@@ -51,9 +54,10 @@ def normalize_file(filepath):
         with open(filepath, 'r', encoding='utf-8') as f:
             original_text = f.read()
 
-        replaced_text, trunk_count = TRUNK22_PATTERN.subn(r'\1trunk\2', original_text)
+        replaced_text, rchk14_count = RCHK14_PATTERN.subn(r'/home/kvasa/Documents/programming/FIT/BAP/rchk', original_text)
+        replaced_text, trunk_count = TRUNK22_PATTERN.subn(r'\1trunk\2', replaced_text)
         replaced_text, hash_count = PATH_PATTERN.subn(rf'\1{PLACEHOLDER}\3', replaced_text)
-        count = trunk_count + hash_count
+        count = trunk_count + hash_count + rchk14_count
 
         if count == 0:
             return 0
