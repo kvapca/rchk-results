@@ -34,12 +34,14 @@ main() {
   python3 "$PATH_NORM" --folder "sfpcheck"
 
   # symcheck
+  python3 "$DEDUP" --folder "symcheck" --suffix ".symcheck"
   python3 "$SORT" --folder "symcheck"
 
   # ueacheck
   python3 "$PATH_NORM" --folder "ueacheck"
 
   # veccheck
+  python3 "$DEDUP" --folder "veccheck" --suffix ".veccheck"
   python3 "$SORT" --folder "veccheck"
 }
 
