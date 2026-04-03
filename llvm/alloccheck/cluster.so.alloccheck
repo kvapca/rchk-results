@@ -1,14 +1,34 @@
-Callee protect functions: 
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 
-Callee safe functions (non-trivially, excluding callee-protect): 
 
-Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
 
-CS-ALLOCATOR: cl_Pam
 
+
+ALLOCATING: agnes
+ALLOCATING: bswap
+ALLOCATING: bswap2
+ALLOCATING: caddy
+ALLOCATING: cl_Pam
+ALLOCATING: cl_clara
+ALLOCATING: cl_fanny
+ALLOCATING: clmona
+ALLOCATING: cstat
+ALLOCATING: fuzzy
+ALLOCATING: splyt
+ALLOCATING: twins
+ALLOCATOR: cl_Pam
+C-ALLOCATING: agnes
+C-ALLOCATING: bswap
+C-ALLOCATING: bswap2
+C-ALLOCATING: caddy
+C-ALLOCATING: cl_Pam
+C-ALLOCATING: cl_clara
+C-ALLOCATING: cl_fanny
+C-ALLOCATING: clmona
+C-ALLOCATING: cstat
+C-ALLOCATING: fuzzy
+C-ALLOCATING: splyt
+C-ALLOCATING: twins
+C-ALLOCATOR: cl_Pam
 CS-ALLOCATING: agnes
 CS-ALLOCATING: bswap
 CS-ALLOCATING: bswap2
@@ -21,30 +41,10 @@ CS-ALLOCATING: cstat
 CS-ALLOCATING: fuzzy
 CS-ALLOCATING: splyt
 CS-ALLOCATING: twins
-
-C-ALLOCATOR: cl_Pam
-C-ALLOCATING: cstat
-C-ALLOCATING: bswap
-C-ALLOCATING: cl_Pam
-C-ALLOCATING: bswap2
-C-ALLOCATING: splyt
-C-ALLOCATING: agnes
-C-ALLOCATING: twins
-C-ALLOCATING: clmona
-C-ALLOCATING: cl_clara
-C-ALLOCATING: caddy
-C-ALLOCATING: cl_fanny
-C-ALLOCATING: fuzzy
-ALLOCATOR: cl_Pam
-ALLOCATING: splyt
-ALLOCATING: cl_Pam
-ALLOCATING: bswap2
-ALLOCATING: caddy
-ALLOCATING: clmona
-ALLOCATING: twins
-ALLOCATING: agnes
-ALLOCATING: cl_fanny
-ALLOCATING: fuzzy
-ALLOCATING: cstat
-ALLOCATING: bswap
-ALLOCATING: cl_clara
+CS-ALLOCATOR: cl_Pam
+Callee protect functions: 
+Callee safe functions (non-trivially, excluding callee-protect): 
+ERROR: too many states (abstraction error?) in function RunGenCollect
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function strptime_internal
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 

@@ -1,36 +1,167 @@
-Callee protect functions: 
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 
-Callee safe functions (non-trivially, excluding callee-protect): 
+
+
+
+
+  CairoCreateGroup !-S-
   CairoCreateMask
   CairoFillPath
   CairoFillStroke
   CairoFillStrokePath
+  CairoSetClipPath !S-
   CairoStrokePath
   CairoUseGroup
   Cairo_Fill
   Cairo_ReleasePattern
+  Cairo_SetClipPath !S-
   Cairo_Stroke
   Cairo_UseGroup
-
-Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
-  CairoCreateGroup !-S-
-  CairoSetClipPath !S-
-  Cairo_SetClipPath !S-
-
-CS-ALLOCATOR: CairoDefineGroup
-CS-ALLOCATOR: CairoSetClipPath
-CS-ALLOCATOR: CairoSetMask
-CS-ALLOCATOR: Cairo_DefineGroup
-CS-ALLOCATOR: Cairo_SetClipPath
-CS-ALLOCATOR: Cairo_SetMask
-CS-ALLOCATOR: Cairo_SetPattern
-CS-ALLOCATOR: in_CairoFT
-CS-ALLOCATOR: in_CairoVersion
-CS-ALLOCATOR: in_PangoVersion
-
+ALLOCATING: BMDeviceDriver
+ALLOCATING: BM_Close
+ALLOCATING: BM_Close_bitmap
+ALLOCATING: BM_NewPage
+ALLOCATING: BM_Open
+ALLOCATING: CairoCreateClipPath
+ALLOCATING: CairoCreateGroup
+ALLOCATING: CairoCreateMask
+ALLOCATING: CairoCreatePattern
+ALLOCATING: CairoDefineGroup
+ALLOCATING: CairoFillPath
+ALLOCATING: CairoFillStroke
+ALLOCATING: CairoFillStrokePath
+ALLOCATING: CairoGrowClipPaths
+ALLOCATING: CairoGrowGroups
+ALLOCATING: CairoGrowMasks
+ALLOCATING: CairoGrowPatterns
+ALLOCATING: CairoLinearGradient
+ALLOCATING: CairoNewClipPathIndex
+ALLOCATING: CairoNewGroupIndex
+ALLOCATING: CairoNewMaskIndex
+ALLOCATING: CairoNewPatternIndex
+ALLOCATING: CairoRadialGradient
+ALLOCATING: CairoReleaseClipPath
+ALLOCATING: CairoReleaseGroup
+ALLOCATING: CairoReleaseMask
+ALLOCATING: CairoReleasePattern
+ALLOCATING: CairoSetClipPath
+ALLOCATING: CairoSetMask
+ALLOCATING: CairoSetPattern
+ALLOCATING: CairoStrokePath
+ALLOCATING: CairoTilingPattern
+ALLOCATING: CairoUseGroup
+ALLOCATING: Cairo_Capabilities
+ALLOCATING: Cairo_DefineGroup
+ALLOCATING: Cairo_Fill
+ALLOCATING: Cairo_FillStroke
+ALLOCATING: Cairo_Glyph
+ALLOCATING: Cairo_Raster
+ALLOCATING: Cairo_ReleaseClipPath
+ALLOCATING: Cairo_ReleaseGroup
+ALLOCATING: Cairo_ReleaseMask
+ALLOCATING: Cairo_ReleasePattern
+ALLOCATING: Cairo_SetClipPath
+ALLOCATING: Cairo_SetMask
+ALLOCATING: Cairo_SetPattern
+ALLOCATING: Cairo_Stroke
+ALLOCATING: Cairo_UseGroup
+ALLOCATING: PangoCairo_MetricInfo
+ALLOCATING: PangoCairo_StrWidth
+ALLOCATING: PangoCairo_Text
+ALLOCATING: R_SaveAsBmp
+ALLOCATING: R_SaveAsJpeg
+ALLOCATING: R_SaveAsPng
+ALLOCATING: R_SaveAsTIFF
+ALLOCATING: applyFontVar
+ALLOCATING: createImageSurface
+ALLOCATING: in_Cairo
+ALLOCATING: in_CairoFT
+ALLOCATING: in_CairoVersion
+ALLOCATING: in_PangoVersion
+ALLOCATING: my_output_message
+ALLOCATING: my_png_warning
+ALLOCATOR: CairoDefineGroup
+ALLOCATOR: CairoSetClipPath
+ALLOCATOR: CairoSetMask
+ALLOCATOR: Cairo_DefineGroup
+ALLOCATOR: Cairo_SetClipPath
+ALLOCATOR: Cairo_SetMask
+ALLOCATOR: Cairo_SetPattern
+ALLOCATOR: in_CairoFT
+ALLOCATOR: in_CairoVersion
+ALLOCATOR: in_PangoVersion
+C-ALLOCATING: BMDeviceDriver
+C-ALLOCATING: BM_Close
+C-ALLOCATING: BM_Close_bitmap
+C-ALLOCATING: BM_NewPage
+C-ALLOCATING: BM_Open
+C-ALLOCATING: CairoCreateClipPath
+C-ALLOCATING: CairoCreateGroup
+C-ALLOCATING: CairoCreateMask
+C-ALLOCATING: CairoCreatePattern
+C-ALLOCATING: CairoDefineGroup
+C-ALLOCATING: CairoFillPath
+C-ALLOCATING: CairoFillStroke
+C-ALLOCATING: CairoFillStrokePath
+C-ALLOCATING: CairoGrowClipPaths
+C-ALLOCATING: CairoGrowGroups
+C-ALLOCATING: CairoGrowMasks
+C-ALLOCATING: CairoGrowPatterns
+C-ALLOCATING: CairoLinearGradient
+C-ALLOCATING: CairoNewClipPathIndex
+C-ALLOCATING: CairoNewGroupIndex
+C-ALLOCATING: CairoNewMaskIndex
+C-ALLOCATING: CairoNewPatternIndex
+C-ALLOCATING: CairoRadialGradient
+C-ALLOCATING: CairoReleaseClipPath
+C-ALLOCATING: CairoReleaseGroup
+C-ALLOCATING: CairoReleaseMask
+C-ALLOCATING: CairoReleasePattern
+C-ALLOCATING: CairoSetClipPath
+C-ALLOCATING: CairoSetMask
+C-ALLOCATING: CairoSetPattern
+C-ALLOCATING: CairoStrokePath
+C-ALLOCATING: CairoTilingPattern
+C-ALLOCATING: CairoUseGroup
+C-ALLOCATING: Cairo_Capabilities
+C-ALLOCATING: Cairo_DefineGroup
+C-ALLOCATING: Cairo_Fill
+C-ALLOCATING: Cairo_FillStroke
+C-ALLOCATING: Cairo_Glyph
+C-ALLOCATING: Cairo_Raster
+C-ALLOCATING: Cairo_ReleaseClipPath
+C-ALLOCATING: Cairo_ReleaseGroup
+C-ALLOCATING: Cairo_ReleaseMask
+C-ALLOCATING: Cairo_ReleasePattern
+C-ALLOCATING: Cairo_SetClipPath
+C-ALLOCATING: Cairo_SetMask
+C-ALLOCATING: Cairo_SetPattern
+C-ALLOCATING: Cairo_Stroke
+C-ALLOCATING: Cairo_UseGroup
+C-ALLOCATING: PangoCairo_MetricInfo
+C-ALLOCATING: PangoCairo_StrWidth
+C-ALLOCATING: PangoCairo_Text
+C-ALLOCATING: R_SaveAsBmp
+C-ALLOCATING: R_SaveAsJpeg
+C-ALLOCATING: R_SaveAsPng
+C-ALLOCATING: R_SaveAsTIFF
+C-ALLOCATING: applyFontVar
+C-ALLOCATING: createImageSurface
+C-ALLOCATING: in_Cairo
+C-ALLOCATING: in_CairoFT
+C-ALLOCATING: in_CairoVersion
+C-ALLOCATING: in_PangoVersion
+C-ALLOCATING: my_output_message
+C-ALLOCATING: my_png_warning
+C-ALLOCATOR: CairoDefineGroup
+C-ALLOCATOR: CairoSetClipPath
+C-ALLOCATOR: CairoSetMask
+C-ALLOCATOR: Cairo_DefineGroup
+C-ALLOCATOR: Cairo_SetClipPath
+C-ALLOCATOR: Cairo_SetMask
+C-ALLOCATOR: Cairo_SetPattern
+C-ALLOCATOR: in_CairoFT
+C-ALLOCATOR: in_CairoVersion
+C-ALLOCATOR: in_PangoVersion
 CS-ALLOCATING: BMDeviceDriver
 CS-ALLOCATING: BM_Close
 CS-ALLOCATING: BM_Close_bitmap
@@ -94,150 +225,19 @@ CS-ALLOCATING: in_CairoVersion
 CS-ALLOCATING: in_PangoVersion
 CS-ALLOCATING: my_output_message
 CS-ALLOCATING: my_png_warning
-
-C-ALLOCATOR: in_PangoVersion
-C-ALLOCATOR: in_CairoVersion
-C-ALLOCATOR: CairoSetClipPath
-C-ALLOCATOR: CairoDefineGroup
-C-ALLOCATOR: Cairo_DefineGroup
-C-ALLOCATOR: Cairo_SetMask
-C-ALLOCATOR: in_CairoFT
-C-ALLOCATOR: Cairo_SetPattern
-C-ALLOCATOR: Cairo_SetClipPath
-C-ALLOCATOR: CairoSetMask
-C-ALLOCATING: in_PangoVersion
-C-ALLOCATING: in_CairoVersion
-C-ALLOCATING: createImageSurface
-C-ALLOCATING: my_png_warning
-C-ALLOCATING: R_SaveAsPng
-C-ALLOCATING: R_SaveAsJpeg
-C-ALLOCATING: R_SaveAsTIFF
-C-ALLOCATING: CairoSetClipPath
-C-ALLOCATING: CairoGrowMasks
-C-ALLOCATING: CairoFillStrokePath
-C-ALLOCATING: Cairo_UseGroup
-C-ALLOCATING: Cairo_DefineGroup
-C-ALLOCATING: Cairo_ReleaseMask
-C-ALLOCATING: Cairo_SetMask
-C-ALLOCATING: Cairo_ReleaseClipPath
-C-ALLOCATING: Cairo_SetClipPath
-C-ALLOCATING: Cairo_ReleasePattern
-C-ALLOCATING: Cairo_SetPattern
-C-ALLOCATING: BM_Close
-C-ALLOCATING: BM_NewPage
-C-ALLOCATING: PangoCairo_StrWidth
-C-ALLOCATING: PangoCairo_MetricInfo
-C-ALLOCATING: CairoStrokePath
-C-ALLOCATING: CairoGrowPatterns
-C-ALLOCATING: CairoSetPattern
-C-ALLOCATING: CairoNewClipPathIndex
-C-ALLOCATING: CairoNewMaskIndex
-C-ALLOCATING: CairoReleaseMask
-C-ALLOCATING: CairoGrowClipPaths
-C-ALLOCATING: BM_Close_bitmap
-C-ALLOCATING: CairoTilingPattern
-C-ALLOCATING: CairoRadialGradient
-C-ALLOCATING: Cairo_Fill
-C-ALLOCATING: CairoReleasePattern
-C-ALLOCATING: my_output_message
-C-ALLOCATING: PangoCairo_Text
-C-ALLOCATING: CairoGrowGroups
-C-ALLOCATING: CairoLinearGradient
-C-ALLOCATING: CairoReleaseClipPath
-C-ALLOCATING: R_SaveAsBmp
-C-ALLOCATING: CairoNewGroupIndex
-C-ALLOCATING: CairoNewPatternIndex
-C-ALLOCATING: CairoFillStroke
-C-ALLOCATING: Cairo_ReleaseGroup
-C-ALLOCATING: Cairo_Stroke
-C-ALLOCATING: Cairo_FillStroke
-C-ALLOCATING: Cairo_Capabilities
-C-ALLOCATING: Cairo_Glyph
-C-ALLOCATING: CairoCreateClipPath
-C-ALLOCATING: CairoCreatePattern
-C-ALLOCATING: applyFontVar
-C-ALLOCATING: CairoSetMask
-C-ALLOCATING: CairoReleaseGroup
-C-ALLOCATING: CairoDefineGroup
-C-ALLOCATING: CairoCreateGroup
-C-ALLOCATING: CairoFillPath
-C-ALLOCATING: CairoUseGroup
-C-ALLOCATING: CairoCreateMask
-C-ALLOCATING: in_CairoFT
-C-ALLOCATING: in_Cairo
-C-ALLOCATING: BMDeviceDriver
-C-ALLOCATING: BM_Open
-C-ALLOCATING: Cairo_Raster
-ALLOCATOR: Cairo_SetMask
-ALLOCATOR: Cairo_SetPattern
-ALLOCATOR: CairoSetClipPath
-ALLOCATOR: CairoSetMask
-ALLOCATOR: in_PangoVersion
-ALLOCATOR: Cairo_SetClipPath
-ALLOCATOR: Cairo_DefineGroup
-ALLOCATOR: CairoDefineGroup
-ALLOCATOR: in_CairoFT
-ALLOCATOR: in_CairoVersion
-ALLOCATING: Cairo_Glyph
-ALLOCATING: Cairo_FillStroke
-ALLOCATING: Cairo_Fill
-ALLOCATING: Cairo_Stroke
-ALLOCATING: Cairo_UseGroup
-ALLOCATING: Cairo_ReleaseMask
-ALLOCATING: Cairo_ReleasePattern
-ALLOCATING: Cairo_SetPattern
-ALLOCATING: BM_Close
-ALLOCATING: PangoCairo_StrWidth
-ALLOCATING: PangoCairo_MetricInfo
-ALLOCATING: BM_Open
-ALLOCATING: BMDeviceDriver
-ALLOCATING: R_SaveAsPng
-ALLOCATING: CairoGrowPatterns
-ALLOCATING: CairoTilingPattern
-ALLOCATING: CairoGrowClipPaths
-ALLOCATING: CairoCreateClipPath
-ALLOCATING: CairoNewClipPathIndex
-ALLOCATING: CairoSetClipPath
-ALLOCATING: CairoCreateMask
-ALLOCATING: CairoSetMask
-ALLOCATING: CairoReleaseMask
-ALLOCATING: CairoCreateGroup
-ALLOCATING: CairoNewGroupIndex
-ALLOCATING: CairoDefineGroup
-ALLOCATING: CairoUseGroup
-ALLOCATING: CairoReleaseGroup
-ALLOCATING: CairoStrokePath
-ALLOCATING: CairoFillStroke
-ALLOCATING: CairoFillStrokePath
-ALLOCATING: in_PangoVersion
-ALLOCATING: in_CairoVersion
-ALLOCATING: createImageSurface
-ALLOCATING: my_png_warning
-ALLOCATING: my_output_message
-ALLOCATING: CairoFillPath
-ALLOCATING: Cairo_DefineGroup
-ALLOCATING: Cairo_ReleaseGroup
-ALLOCATING: CairoGrowMasks
-ALLOCATING: CairoReleasePattern
-ALLOCATING: CairoNewPatternIndex
-ALLOCATING: in_Cairo
-ALLOCATING: applyFontVar
-ALLOCATING: R_SaveAsJpeg
-ALLOCATING: CairoNewMaskIndex
-ALLOCATING: Cairo_SetClipPath
-ALLOCATING: Cairo_Raster
-ALLOCATING: in_CairoFT
-ALLOCATING: CairoGrowGroups
-ALLOCATING: CairoLinearGradient
-ALLOCATING: CairoRadialGradient
-ALLOCATING: R_SaveAsBmp
-ALLOCATING: CairoCreatePattern
-ALLOCATING: BM_Close_bitmap
-ALLOCATING: Cairo_ReleaseClipPath
-ALLOCATING: Cairo_SetMask
-ALLOCATING: CairoSetPattern
-ALLOCATING: CairoReleaseClipPath
-ALLOCATING: R_SaveAsTIFF
-ALLOCATING: PangoCairo_Text
-ALLOCATING: BM_NewPage
-ALLOCATING: Cairo_Capabilities
+CS-ALLOCATOR: CairoDefineGroup
+CS-ALLOCATOR: CairoSetClipPath
+CS-ALLOCATOR: CairoSetMask
+CS-ALLOCATOR: Cairo_DefineGroup
+CS-ALLOCATOR: Cairo_SetClipPath
+CS-ALLOCATOR: Cairo_SetMask
+CS-ALLOCATOR: Cairo_SetPattern
+CS-ALLOCATOR: in_CairoFT
+CS-ALLOCATOR: in_CairoVersion
+CS-ALLOCATOR: in_PangoVersion
+Callee protect functions: 
+Callee safe functions (non-trivially, excluding callee-protect): 
+ERROR: too many states (abstraction error?) in function RunGenCollect
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function strptime_internal
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 

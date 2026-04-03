@@ -1,34 +1,80 @@
-Callee protect functions: 
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 
-Callee safe functions (non-trivially, excluding callee-protect): 
+
+
+
+
+  mc_cleanup S!!
   mc_fds
   mc_fork
   mc_interactive
+  mc_kill S!
   mc_read_child
   mc_read_children
   mc_rm_child
-
-Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
-  mc_cleanup S!!
-  mc_kill S!
   mc_select_children S!
   mc_send_child_stdin S!
-
-CS-ALLOCATOR: mc_affinity
-CS-ALLOCATOR: mc_children
-CS-ALLOCATOR: mc_fds
-CS-ALLOCATOR: mc_fork
-CS-ALLOCATOR: mc_master_fd
-CS-ALLOCATOR: mc_read_child
-CS-ALLOCATOR: mc_read_children
-CS-ALLOCATOR: mc_select_children
-CS-ALLOCATOR: nextStream
-CS-ALLOCATOR: nextSubStream
-CS-ALLOCATOR: read_child_ci
-
+ALLOCATING: kill_and_detach_child_ci
+ALLOCATING: kill_detached_child_ci
+ALLOCATING: mc_affinity
+ALLOCATING: mc_children
+ALLOCATING: mc_cleanup
+ALLOCATING: mc_fds
+ALLOCATING: mc_fork
+ALLOCATING: mc_interactive
+ALLOCATING: mc_kill
+ALLOCATING: mc_master_fd
+ALLOCATING: mc_read_child
+ALLOCATING: mc_read_children
+ALLOCATING: mc_rm_child
+ALLOCATING: mc_select_children
+ALLOCATING: mc_send_child_stdin
+ALLOCATING: nextStream
+ALLOCATING: nextSubStream
+ALLOCATING: read_child_ci
+ALLOCATING: rm_child
+ALLOCATING: terminate_and_detach_child_ci
+ALLOCATOR: mc_affinity
+ALLOCATOR: mc_children
+ALLOCATOR: mc_fds
+ALLOCATOR: mc_fork
+ALLOCATOR: mc_master_fd
+ALLOCATOR: mc_read_child
+ALLOCATOR: mc_read_children
+ALLOCATOR: mc_select_children
+ALLOCATOR: nextStream
+ALLOCATOR: nextSubStream
+ALLOCATOR: read_child_ci
+C-ALLOCATING: kill_and_detach_child_ci
+C-ALLOCATING: kill_detached_child_ci
+C-ALLOCATING: mc_affinity
+C-ALLOCATING: mc_children
+C-ALLOCATING: mc_cleanup
+C-ALLOCATING: mc_fds
+C-ALLOCATING: mc_fork
+C-ALLOCATING: mc_interactive
+C-ALLOCATING: mc_kill
+C-ALLOCATING: mc_master_fd
+C-ALLOCATING: mc_read_child
+C-ALLOCATING: mc_read_children
+C-ALLOCATING: mc_rm_child
+C-ALLOCATING: mc_select_children
+C-ALLOCATING: mc_send_child_stdin
+C-ALLOCATING: nextStream
+C-ALLOCATING: nextSubStream
+C-ALLOCATING: read_child_ci
+C-ALLOCATING: rm_child
+C-ALLOCATING: terminate_and_detach_child_ci
+C-ALLOCATOR: mc_affinity
+C-ALLOCATOR: mc_children
+C-ALLOCATOR: mc_fds
+C-ALLOCATOR: mc_fork
+C-ALLOCATOR: mc_master_fd
+C-ALLOCATOR: mc_read_child
+C-ALLOCATOR: mc_read_children
+C-ALLOCATOR: mc_select_children
+C-ALLOCATOR: nextStream
+C-ALLOCATOR: nextSubStream
+C-ALLOCATOR: read_child_ci
 CS-ALLOCATING: kill_and_detach_child_ci
 CS-ALLOCATING: kill_detached_child_ci
 CS-ALLOCATING: mc_affinity
@@ -49,66 +95,20 @@ CS-ALLOCATING: nextSubStream
 CS-ALLOCATING: read_child_ci
 CS-ALLOCATING: rm_child
 CS-ALLOCATING: terminate_and_detach_child_ci
-
-C-ALLOCATOR: mc_affinity
-C-ALLOCATOR: mc_fork
-C-ALLOCATOR: mc_fds
-C-ALLOCATOR: nextSubStream
-C-ALLOCATOR: nextStream
-C-ALLOCATOR: mc_select_children
-C-ALLOCATOR: mc_master_fd
-C-ALLOCATOR: mc_children
-C-ALLOCATOR: mc_read_child
-C-ALLOCATOR: read_child_ci
-C-ALLOCATOR: mc_read_children
-C-ALLOCATING: read_child_ci
-C-ALLOCATING: kill_and_detach_child_ci
-C-ALLOCATING: kill_detached_child_ci
-C-ALLOCATING: mc_read_child
-C-ALLOCATING: mc_master_fd
-C-ALLOCATING: mc_send_child_stdin
-C-ALLOCATING: rm_child
-C-ALLOCATING: nextStream
-C-ALLOCATING: nextSubStream
-C-ALLOCATING: mc_select_children
-C-ALLOCATING: mc_affinity
-C-ALLOCATING: terminate_and_detach_child_ci
-C-ALLOCATING: mc_read_children
-C-ALLOCATING: mc_rm_child
-C-ALLOCATING: mc_interactive
-C-ALLOCATING: mc_children
-C-ALLOCATING: mc_fds
-C-ALLOCATING: mc_fork
-C-ALLOCATING: mc_kill
-C-ALLOCATING: mc_cleanup
-ALLOCATOR: mc_select_children
-ALLOCATOR: mc_fork
-ALLOCATOR: mc_fds
-ALLOCATOR: mc_affinity
-ALLOCATOR: read_child_ci
-ALLOCATOR: nextStream
-ALLOCATOR: mc_children
-ALLOCATOR: mc_read_child
-ALLOCATOR: nextSubStream
-ALLOCATOR: mc_read_children
-ALLOCATOR: mc_master_fd
-ALLOCATING: nextStream
-ALLOCATING: kill_and_detach_child_ci
-ALLOCATING: kill_detached_child_ci
-ALLOCATING: mc_select_children
-ALLOCATING: mc_rm_child
-ALLOCATING: mc_fork
-ALLOCATING: mc_fds
-ALLOCATING: mc_interactive
-ALLOCATING: mc_send_child_stdin
-ALLOCATING: read_child_ci
-ALLOCATING: mc_affinity
-ALLOCATING: mc_children
-ALLOCATING: terminate_and_detach_child_ci
-ALLOCATING: mc_cleanup
-ALLOCATING: nextSubStream
-ALLOCATING: mc_master_fd
-ALLOCATING: mc_read_children
-ALLOCATING: mc_kill
-ALLOCATING: mc_read_child
-ALLOCATING: rm_child
+CS-ALLOCATOR: mc_affinity
+CS-ALLOCATOR: mc_children
+CS-ALLOCATOR: mc_fds
+CS-ALLOCATOR: mc_fork
+CS-ALLOCATOR: mc_master_fd
+CS-ALLOCATOR: mc_read_child
+CS-ALLOCATOR: mc_read_children
+CS-ALLOCATOR: mc_select_children
+CS-ALLOCATOR: nextStream
+CS-ALLOCATOR: nextSubStream
+CS-ALLOCATOR: read_child_ci
+Callee protect functions: 
+Callee safe functions (non-trivially, excluding callee-protect): 
+ERROR: too many states (abstraction error?) in function RunGenCollect
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function strptime_internal
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 

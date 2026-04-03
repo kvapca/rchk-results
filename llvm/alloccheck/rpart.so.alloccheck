@@ -1,18 +1,67 @@
-Callee protect functions: 
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 
-Callee safe functions (non-trivially, excluding callee-protect): 
 
-Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+
+
+
   init_rpcallback SS!!!
-
-CS-ALLOCATOR: pred_rpart
-CS-ALLOCATOR: rpart
-CS-ALLOCATOR: rpartexp2
-CS-ALLOCATOR: xpred
-
+ALLOCATING: anovainit
+ALLOCATING: bsplit
+ALLOCATING: gini
+ALLOCATING: giniinit
+ALLOCATING: graycode_init0
+ALLOCATING: init_rpcallback
+ALLOCATING: make_cp_list
+ALLOCATING: partition
+ALLOCATING: poissoninit
+ALLOCATING: pred_rpart
+ALLOCATING: pred_rpart0
+ALLOCATING: print_tree
+ALLOCATING: print_tree2
+ALLOCATING: printme
+ALLOCATING: rpart
+ALLOCATING: rpart_callback1
+ALLOCATING: rpart_callback2
+ALLOCATING: rpartexp2
+ALLOCATING: rundown
+ALLOCATING: rundown2
+ALLOCATING: usersplit
+ALLOCATING: usersplit_eval
+ALLOCATING: usersplit_init
+ALLOCATING: xpred
+ALLOCATING: xval
+ALLOCATOR: pred_rpart
+ALLOCATOR: rpart
+ALLOCATOR: rpartexp2
+ALLOCATOR: xpred
+C-ALLOCATING: anovainit
+C-ALLOCATING: bsplit
+C-ALLOCATING: gini
+C-ALLOCATING: giniinit
+C-ALLOCATING: graycode_init0
+C-ALLOCATING: init_rpcallback
+C-ALLOCATING: make_cp_list
+C-ALLOCATING: partition
+C-ALLOCATING: poissoninit
+C-ALLOCATING: pred_rpart
+C-ALLOCATING: pred_rpart0
+C-ALLOCATING: print_tree
+C-ALLOCATING: print_tree2
+C-ALLOCATING: printme
+C-ALLOCATING: rpart
+C-ALLOCATING: rpart_callback1
+C-ALLOCATING: rpart_callback2
+C-ALLOCATING: rpartexp2
+C-ALLOCATING: rundown
+C-ALLOCATING: rundown2
+C-ALLOCATING: usersplit
+C-ALLOCATING: usersplit_eval
+C-ALLOCATING: usersplit_init
+C-ALLOCATING: xpred
+C-ALLOCATING: xval
+C-ALLOCATOR: pred_rpart
+C-ALLOCATOR: rpart
+C-ALLOCATOR: rpartexp2
+C-ALLOCATOR: xpred
 CS-ALLOCATING: anovainit
 CS-ALLOCATING: bsplit
 CS-ALLOCATING: gini
@@ -38,62 +87,13 @@ CS-ALLOCATING: usersplit_eval
 CS-ALLOCATING: usersplit_init
 CS-ALLOCATING: xpred
 CS-ALLOCATING: xval
-
-C-ALLOCATOR: pred_rpart
-C-ALLOCATOR: rpart
-C-ALLOCATOR: xpred
-C-ALLOCATOR: rpartexp2
-C-ALLOCATING: print_tree2
-C-ALLOCATING: printme
-C-ALLOCATING: print_tree
-C-ALLOCATING: xval
-C-ALLOCATING: make_cp_list
-C-ALLOCATING: graycode_init0
-C-ALLOCATING: rpart_callback2
-C-ALLOCATING: rpart_callback1
-C-ALLOCATING: usersplit_eval
-C-ALLOCATING: giniinit
-C-ALLOCATING: rundown2
-C-ALLOCATING: partition
-C-ALLOCATING: pred_rpart0
-C-ALLOCATING: rpartexp2
-C-ALLOCATING: init_rpcallback
-C-ALLOCATING: pred_rpart
-C-ALLOCATING: rundown
-C-ALLOCATING: xpred
-C-ALLOCATING: rpart
-C-ALLOCATING: poissoninit
-C-ALLOCATING: anovainit
-C-ALLOCATING: usersplit_init
-C-ALLOCATING: bsplit
-C-ALLOCATING: gini
-C-ALLOCATING: usersplit
-ALLOCATOR: pred_rpart
-ALLOCATOR: rpart
-ALLOCATOR: xpred
-ALLOCATOR: rpartexp2
-ALLOCATING: pred_rpart0
-ALLOCATING: pred_rpart
-ALLOCATING: rpart_callback1
-ALLOCATING: usersplit_eval
-ALLOCATING: usersplit
-ALLOCATING: usersplit_init
-ALLOCATING: print_tree2
-ALLOCATING: init_rpcallback
-ALLOCATING: printme
-ALLOCATING: giniinit
-ALLOCATING: partition
-ALLOCATING: rundown2
-ALLOCATING: anovainit
-ALLOCATING: rpart
-ALLOCATING: bsplit
-ALLOCATING: xval
-ALLOCATING: rpartexp2
-ALLOCATING: gini
-ALLOCATING: xpred
-ALLOCATING: graycode_init0
-ALLOCATING: rundown
-ALLOCATING: rpart_callback2
-ALLOCATING: print_tree
-ALLOCATING: poissoninit
-ALLOCATING: make_cp_list
+CS-ALLOCATOR: pred_rpart
+CS-ALLOCATOR: rpart
+CS-ALLOCATOR: rpartexp2
+CS-ALLOCATOR: xpred
+Callee protect functions: 
+Callee safe functions (non-trivially, excluding callee-protect): 
+ERROR: too many states (abstraction error?) in function RunGenCollect
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function strptime_internal
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
