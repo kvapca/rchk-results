@@ -1,1 +1,0 @@
-non-symbol SEXP global variable custom_handlers_env  @custom_handlers_env = weak dso_local global %struct.SEXPREC* null, align 8, !dbg !14846
