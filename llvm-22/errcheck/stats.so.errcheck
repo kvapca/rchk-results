@@ -1,4 +1,4 @@
-Marked (noreturn) error function InvalidExpression /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/library/stats/src/deriv.c:800
-Marked (noreturn) error function bdrsplerr_ /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/library/stats/src/ksmooth.c:63
-Marked (noreturn) error function opterror /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/library/stats/src/optimize.c:639
-Marked (noreturn) error function prterr /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk22/src/library/stats/src/fexact.c:1811
+Marked (noreturn) error function InvalidExpression /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:800
+Marked (noreturn) error function bdrsplerr_ /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/ksmooth.c:63
+Marked (noreturn) error function opterror /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/optimize.c:639
+Marked (noreturn) error function prterr /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/fexact.c:1811

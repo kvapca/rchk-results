@@ -3,147 +3,147 @@ ERROR: too many states (abstraction error?) in function bcEval_loop
 ERROR: too many states (abstraction error?) in function RunGenCollect
 
 Function Rf_yyparse
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2302
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2306
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2314
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2342
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2346
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2350
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2354
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2358
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2362
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2366
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2370
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2374
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2378
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2382
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2386
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2390
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2394
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2398
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2402
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2406
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2410
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2414
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2418
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2422
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2426
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2430
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2434
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2438
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2442
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2446
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2450
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2454
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2458
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2462
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2466
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2470
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2474
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2478
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2482
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2486
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2490
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2494
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2498
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2502
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2506
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2510
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2514
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2518
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2522
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2526
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2530
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2534
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2538
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2542
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2546
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2558
-  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2562
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2302
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2306
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2314
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2342
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2346
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2350
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2354
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2358
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2362
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2366
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2370
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2374
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2378
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2382
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2386
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2390
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2394
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2398
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2402
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2406
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2410
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2414
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2418
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2422
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2426
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2430
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2434
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2438
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2442
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2446
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2450
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2454
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2458
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2462
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2466
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2470
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2474
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2478
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2482
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2486
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2490
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2494
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2498
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2502
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2506
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2510
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2514
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2518
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2522
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2526
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2530
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2534
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2538
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2542
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2546
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2558
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/main/gram.c:2562
 
 Function Rf_yyparse.131
-  [UP] calling allocating function xxusermacro with argument allocated using xxnewlist.141 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2526
-  [UP] calling allocating function xxusermacro with argument allocated using xxnewlist.141 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2530
-  [UP] unprotected variable yyval while calling allocating function Rf_warning /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2576
-  [UP] unprotected variable yyval while calling allocating function Rf_warningcall /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2579
+  [UP] calling allocating function xxusermacro with argument allocated using xxnewlist.141 /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:2526
+  [UP] calling allocating function xxusermacro with argument allocated using xxnewlist.141 /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:2530
+  [UP] unprotected variable yyval while calling allocating function Rf_warning /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:2576
+  [UP] unprotected variable yyval while calling allocating function Rf_warningcall /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:2579
 
 Function xxOptionmarkup
-  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3258
-  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3261
-  [UP] allocating function setDynamicFlag(V,?) may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3262
-  [UP] calling allocating function setDynamicFlag(V,?) with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3262
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3258
+  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3261
+  [UP] allocating function setDynamicFlag(V,?) may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3262
+  [UP] calling allocating function setDynamicFlag(V,?) with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3262
 
 Function xxblock
-  [UP] unprotected variable ans while calling allocating function makeSrcref /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2439
-  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2440
+  [UP] unprotected variable ans while calling allocating function makeSrcref /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2439
+  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2440
 
 Function xxenv
-  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2293
-  [UP] unprotected variable ans while calling allocating function makeSrcref /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2296
-  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2297
+  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2293
+  [UP] unprotected variable ans while calling allocating function makeSrcref /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2296
+  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2297
 
 Function xxmarkup
-  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3064
-  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3069
-  [UP] allocating function setDynamicFlag(V,?) may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3070
-  [UP] calling allocating function setDynamicFlag(V,?) with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3070
+  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3064
+  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3069
+  [UP] allocating function setDynamicFlag(V,?) may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3070
+  [UP] calling allocating function setDynamicFlag(V,?) with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3070
 
 Function xxmarkup2
-  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3278
-  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3279
-  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3281
-  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3287
-  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3288
-  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3290
-  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3295
-  [UP] allocating function setDynamicFlag(V,?) may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3296
-  [UP] calling allocating function setDynamicFlag(V,?) with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3296
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3278
+  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3279
+  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3281
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3287
+  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3288
+  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3290
+  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3295
+  [UP] allocating function setDynamicFlag(V,?) may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3296
+  [UP] calling allocating function setDynamicFlag(V,?) with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3296
 
 Function xxmarkup3
-  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3312
-  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3313
-  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3315
-  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3320
-  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3321
-  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3323
-  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3328
-  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3329
-  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3331
-  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3336
-  [UP] allocating function setDynamicFlag(V,?) may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3337
-  [UP] calling allocating function setDynamicFlag(V,?) with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3337
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3312
+  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3313
+  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3315
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3320
+  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3321
+  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3323
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3328
+  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3329
+  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3331
+  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3336
+  [UP] allocating function setDynamicFlag(V,?) may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3337
+  [UP] calling allocating function setDynamicFlag(V,?) with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3337
 
 Function xxmath
-  [UP] unprotected variable ans while calling allocating function makeSrcref /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2418
-  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2420
+  [UP] unprotected variable ans while calling allocating function makeSrcref /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2418
+  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2420
 
 Function xxnewdef
-  [UP] unprotected variable temp while calling allocating function R_PreserveInMSet(V,?) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2316
-  [UP] unprotected variable temp while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2316
-  [UP] unprotected variable ans while calling allocating function makeSrcref /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2323
-  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2324
+  [UP] unprotected variable temp while calling allocating function R_PreserveInMSet(V,?) /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2316
+  [UP] unprotected variable temp while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2316
+  [UP] unprotected variable ans while calling allocating function makeSrcref /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2323
+  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2324
 
 Function xxnewlist
-  [UP] allocating function GrowList may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2247
-  [UP] calling allocating function GrowList with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2247
+  [UP] allocating function GrowList may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2247
+  [UP] calling allocating function GrowList with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramLatex.c:2247
 
 Function xxnewlist.141
-  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2979
-  [UP] allocating function GrowList.171 may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2980
-  [UP] calling allocating function GrowList.171 with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2980
-  [UP] allocating function setDynamicFlag may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2981
-  [UP] calling allocating function setDynamicFlag with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2981
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:2979
+  [UP] allocating function GrowList.171 may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:2980
+  [UP] calling allocating function GrowList.171 with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:2980
+  [UP] allocating function setDynamicFlag may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:2981
+  [UP] calling allocating function setDynamicFlag with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:2981
 
 Function xxnewlist2
-  [UP] calling allocating function xxlist.142 with argument allocated using xxnewlist.141 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2992
+  [UP] calling allocating function xxlist.142 with argument allocated using xxnewlist.141 /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:2992
 
 Function xxusermacro
-  [UP] unprotected variable ans while calling allocating function UserMacroLookup /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3160
-  [UP] unprotected variable ans while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3171
-  [UP] unprotected variable ans while calling allocating function isComment(V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3194
-  [UP] unprotected variable ans while calling allocating function R_alloc /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3200
-  [UP] unprotected variable ans while calling allocating function isComment /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3204
-  [UP] unprotected variable ans while calling allocating function Rf_mkCharCE /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3212
-  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3237
-  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3238
+  [UP] unprotected variable ans while calling allocating function UserMacroLookup /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3160
+  [UP] unprotected variable ans while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3171
+  [UP] unprotected variable ans while calling allocating function isComment(V) /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3194
+  [UP] unprotected variable ans while calling allocating function R_alloc /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3200
+  [UP] unprotected variable ans while calling allocating function isComment /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3204
+  [UP] unprotected variable ans while calling allocating function Rf_mkCharCE /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3212
+  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3237
+  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/library/tools/src/gramRd.c:3238
 Analyzed 144 functions, traversed 5355 states.

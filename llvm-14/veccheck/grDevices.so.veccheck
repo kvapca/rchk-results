@@ -1,31 +1,28 @@
 Functions returning only vectors:
+  devUp
   getSnapshot
   devsize
-  devset
-  devholdflush
+  devnext
   palette
-  col2rgb
-  devUp
   gray
-  chull
   R_CreateAtVector
-  do_compareNumericVersion
+  do_machine
+  do_internalsID
+  do_version
   do_findinterval
   do_tabulate
-  do_bincode
   do_crc64
+  do_ICUget
   do_normalizepath
-  do_dirname
-  do_nargs
+  do_makeunique
+  do_charmatch
+  do_pmatch
+  do_match
+  Rf_match
+  HashLookup
   match5
   Rf_matchE
-  duplicated3
   do_getenv
-  do_tempfile
-  do_tempdir
-  do_which
-  complex_mean
-  real_mean
   integer_mean
   logical_mean
   realSubscript
@@ -37,278 +34,284 @@ Functions returning only vectors:
   do_split
   tabExpand
   getParseContext
-  do_rank
+  CloseMemOutPStream
   appendRawToFile
-  R_getVarsFromFrame
-  do_getVarsFromFrame
+  R_lazyLoadDBinsertValue
   R_SerializeInfo
   ReadBCConsts
-  do_seq_len
   seq_colon
   cross_colon
   do_colon
   do_readln
+  scanFrame
+  Rf_duplicated
+  do_systime
+  bitwiseShiftL
   bitwiseXor
   bitwiseOr
-  bitwiseNot
   bitwiseAnd
+  do_tempfile
   raw_relop
   string_relop
   numeric_relop
-  do_seek
-  do_systime
-  Rf_dimnamesgets(V,?)
+  do_intToUtf8
+  do_rawToBits
+  do_charToRaw
+  do_random3
+  do_random2
+  negativeSubscript
+  do_setFileTime
+  do_stop
   R_HashResize
   do_readLines
-  do_charmatch
-  do_pmatch
-  do_match
+  do_readDCF
   ziplist
-  devnext
-  do_gsub
-  devcur
-  do_fileappend
-  do_rowscols
-  do_stop
+  do_nargs
   do_untracemem
-  R_getTaskCallbackNames
+  do_bincode
   do_tracemem
-  do_asplit
+  do_dotCode
   do_url
   do_sumconnection
-  altrep_Unserialize_default
-  do_getconnection
+  duplicated2
   R_compress3
   complex_math1
-  do_filecreate
-  scanFrame
-  R_lazyLoadDBinsertValue
-  R_compress1
-  do_getallconnections
-  do_sinknumber
-  do_textconnection
-  do_rawconvalue
-  do_stdout
-  do_ICUget
-  do_pipe
-  do_fifo
-  math3B
-  do_glob
-  do_serversocket
-  do_asCharacterFactor
-  coerceToString
-  coerceToRaw
-  do_unlink
-  coerceToComplex
-  coerceToLogical
-  R_new_custom_connection
-  Rf_PairToVectorList
-  seq_int
-  do_strtoi
-  do_strtrim
-  do_tolower
-  R_MakeWeakRef
-  R_NewHashTable
-  altlist_Elt_default
-  do_socktimeout
-  do_makenames
-  do_expression
-  devprev
+  do_bindingType
+  do_strsplit
   do_basename
   do_filesymlink
-  Rf_GetArrayDimnames
-  R_addTaskCallback
-  MakeCFinalizer
-  do_sockselect
-  GE_LJOINget
-  readRawFromFile
+  do_utf8ToInt
+  do_stdout
+  do_pipe
+  R_pcre2_gregexpr
+  math3B
+  do_unlink
+  Rf_asCharacterFactor
+  do_asCharacterFactor
+  coerceToComplex
+  R_new_custom_connection
+  Rf_PairToVectorList
+  do_strtoi
+  do_strtrim
+  do_filerename
+  do_chartr
+  do_tolower
   complex_relop
+  do_sockselect
+  R_NewHashTable
+  R_compress1
+  do_getlocale
+  do_dotsLength
+  do_sample
+  Rf_dimnamesgets(V,?)
+  altrep_Unserialize_default
+  altlist_Elt_default
+  do_socktimeout
+  do_eapply
+  createRSymbolObject
+  coerceToRaw
+  bitwiseNot
+  do_makenames
+  math4_2
+  do_expression
+  chull
+  do_encoding
+  devholdflush
+  do_regexpr
+  devset
+  Rf_GetArrayDimnames
+  do_getallconnections
+  do_getRegisteredRoutines
+  do_getDllTable
+  GE_LJOINget
+  do_aregexec
   Runzip
   R_compress2
-  HashLookup
-  coerceToExpression
-  do_RNGkind
-  R_getDllTable
+  do_filelink
+  do_unz
+  do_grep
+  allocMatrixNA(V,?,V)
+  allocMatrixNA(V,?,?)
+  duplicated3
+  do_gzfile
   do_stdin
+  do_refcnt
+  do_regexec
   do_complex
-  Rf_allocCharsxp
-  do_mget
+  devprev
   do_strrep
-  do_vhash
-  do_l10n_info
-  do_rawToBits
+  do_rawToChar
+  do_capabilities
+  adist_full
   GE_LENDget
-  cummax(?,V)
+  do_validUTF8
+  mkVector1
+  do_maxVSize
+  Rf_CreateAtVector
+  altstring_Elt_default
   do_adist
   R_getRoutineSymbols
   R_getRegisteredRoutines
+  do_mget
+  math2_1
+  do_getVarsFromFrame
+  do_rank
   Rf_dimgets(V,?)
-  do_getlocale
+  R_compact_intrange
   compact_realseq_Sum
+  R_MakeWeakRefC
   GEcreateSnapshot
-  do_agrep
-  Rf_mkFalse
   compact_intseq_Sum
-  do_version
-  Rf_match
   do_getSnapshot
-  compact_realseq_Duplicate
   Rf_alloc3DArray(V,?,?,?)
-  bitwiseShiftL
   compact_intseq_Unserialize
   do_dynload
-  SrcRefsToVectorList
-  altstring_Elt_default
+  do_sysgetpid
   compact_intseq_Duplicate
-  do_pushbacklength
-  do_date
-  do_makeunique
+  do_sockconn
+  readRawFromFile
+  do_Cstack_info
+  do_tempdir
   compact_realseq_Unserialize
-  duplicated2
-  do_syschmod
-  CloseMemOutPStream
-  do_regexpr
   coerceToReal
-  do_invokeRestart
-  Rsockwrite
+  do_date
   math2
+  do_seq_along
   math2B
-  do_stderr
-  GE_LTYget
-  NewWeakRef
-  do_formatinfo
+  Rsockopen
   coerceToInteger
   do_polyroot
-  math3_1
   math3_2
-  Rf_duplicated
+  gregexpr_NAInputAns
   cummin(?,V)
+  do_seek
   handleNaN(?,V)
   do_math4
-  do_aregexec
   math4_1
+  do_textconnection
+  do_getconst
+  do_sequence
   Rf_MakeDLLInfo
-  do_lengths_long
-  do_diag
-  do_filechoose
-  do_fileaccess
-  do_withVisible
-  do_eapply
-  do_setlocale
-  do_localeconv
   Rf_allocMatrix(V,?,?)
   Rf_allocMatrix(V,?,V)
-  do_Rhome
+  do_diag
+  do_which
   math4
-  do_rawconnection
-  math2_2
-  gregexpr_BadStringAns
-  gregexpr_fixed
-  do_getDllTable
-  do_getRegisteredRoutines
-  do_machine
-  do_search
-  do_direxists
-  do_builtins
-  do_sysumask
-  do_Cstack_info
-  mkFloat
-  getInterruptCondition
-  do_sample
-  mkHandlerEntry
-  do_strsplit
-  Rsockconnect
-  do_dfltStop
-  createRSymbolObject
-  Rsockopen
-  do_grep
-  do_math3
-  negativeSubscript
-  Rf_asCharacterFactor
-  mkVector1
-  do_chartr
-  do_enablejit
-  do_break
-  do_internalsID
-  do_fileinfo
-  math4_2
   R_bcDecode
-  R_compact_intrange
+  math2_2
+  do_seq_len
+  do_dotType
+  do_CDotsLength
+  do_builtins
+  do_withVisible
+  do_compareNumericVersion
+  do_math3
+  math3_1
+  do_return
+  do_filecreate
+  SrcRefsToVectorList
+  do_pushbacklength
+  do_fileremove
+  do_serversocket
+  R_getVarsFromFrame
+  R_HashProfile
+  do_RNGkind
+  MakeCFinalizer
+  getInterruptCondition
+  real_mean
+  R_addTaskCallback
+  do_invokeRestart
+  do_asplit
+  do_localeconv
+  mkFloat
+  do_sysumask
+  R_getTaskCallbackNames
+  do_dfltStop
+  do_fifo
+  complex_mean
+  seq_int
+  do_lengths_long
+  do_rowscols
+  do_l10n_info
+  do_syschmod
+  do_fileappend
+  do_dirname
+  do_getconnection
+  R_MakeWeakRef
+  coerceToString
+  do_enablejit
+  coerceToVectorList
+  do_gctorture2
+  do_gc
+  do_stderr
   do_disassemble
   disassemble
-  do_getconst
+  do_bcversion
+  do_rawconvalue
+  do_growconst
+  do_putconst
   do_bcprofcounts
   do_bcprofstart
   do_bcprofstop
   do_setnumthreads
   do_setmaxnumthreads
-  do_charToRaw
-  do_dotCode
-  makeSrcref
-  do_filelink
-  do_intToUtf8
-  mkNA
-  mkInt
-  gregexpr_NAInputAns
-  R_pcre2_gregexpr
-  gregexpr_Regexc
-  do_regexec
-  R_HashProfile
-  do_sequence
-  do_format
-  do_sockconn
-  do_unz
+  do_random1
+  do_rawconnection
+  do_search
+  mkHandlerEntry
   mkStringUTF8
+  makeSrcref
+  mkNA
+  Rf_mkTrue
+  Rf_mkFalse
+  mkString2
+  mkComplex
+  mkInt
+  devcur
+  do_gsub
+  gregexpr_BadStringAns
+  gregexpr_fixed
+  gregexpr_Regexc
+  do_format
+  col2rgb
   Rf_ScalarInteger
-  do_readDCF
   Rf_ScalarReal
   Rf_ScalarComplex
-  allocMatrixNA(V,?,V)
-  allocMatrixNA(V,?,?)
   Rf_ScalarString
   Rf_ScalarRaw
   Rf_mkString
+  compact_realseq_Duplicate
   do_named
-  do_refcnt
+  Rsockconnect
+  Rsockwrite
   do_lazyLoadDBinsertValue
-  binaryLogic2
-  do_encoding
-  do_validUTF8
-  do_maxVSize
+  do_sinknumber
   do_validEnc
   do_maxNSize
-  do_dotsLength
-  R_MakeWeakRefC
-  do_growconst
-  do_gctorture2
-  do_putconst
-  do_gc
+  NewWeakRef
+  coerceToExpression
+  do_setlocale
+  Rf_allocCharsxp
+  binaryLogic2
   binaryLogic
-  math2_1
   do_Rprofmem
   do_gctime
-  do_random2
   do_memoryprofile
-  do_seq_along
-  do_pathexpand
-  do_setFileTime
-  do_gzfile
-  coerceToVectorList
+  R_getDllTable
+  do_formatinfo
   rowsum_df
-  mkComplex
-  adist_full
-  do_bcversion
+  do_Rhome
+  do_vhash
+  cummax(?,V)
   do_proctime
-  do_utf8ToInt
+  do_glob
+  coerceToLogical
+  GE_LTYget
+  do_break
   do_usemethod
-  do_return
-  Rf_mkTrue
-  mkString2
-  do_fileremove
-  do_filerename
-  do_capabilities
-  do_sysgetpid
-  Rf_CreateAtVector
-  do_random1
-  do_random3
-  do_rawToChar
+  do_fileinfo
+  do_direxists
+  do_filechoose
+  do_fileaccess
+  do_agrep
+  do_pathexpand

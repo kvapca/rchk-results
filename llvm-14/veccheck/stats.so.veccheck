@@ -1,434 +1,437 @@
 Functions returning only vectors:
+  OrBits
   AllocTermSetBit1
   AllocTerm
   call_dqagi
+  call_dqags
   zeroin2
   compcases
-  math2_1
-  math2_2
-  math3_1
-  math3_2
-  math4_1
   math4_2
-  do_rmultinom
+  do_qtukey
   do_ptukey
-  do_qnf
   do_qnbeta
-  do_pnbeta
-  do_qhyper
+  do_phyper
+  do_dnf
   do_dhyper
+  do_qnchisq
   do_pnchisq
-  do_qnt
-  do_pnt
-  do_punif
-  do_qnorm
   do_pnorm
-  do_qnbinom
+  do_qnbinom_mu
   do_qlogis
   do_plogis
+  do_qlnorm
+  do_plnorm
   do_qgamma
   do_pgamma
   do_pf
   do_qcauchy
-  do_pcauchy
-  do_qbinom
-  do_pbinom
   do_qbeta
-  do_pbeta
-  do_dwilcox
-  do_dnt
+  do_dnchisq
   do_dunif
-  do_dweibull
+  do_dnorm
   do_dlogis
-  do_dlnorm
   do_dgamma
   do_df
   do_dcauchy
   do_dbinom
   do_qsignrank
-  do_psignrank
-  do_qt
-  do_pt
   do_qpois
-  do_dsignrank
+  do_pgeom
+  do_pexp
+  do_qchisq
+  do_pchisq
   do_dgeom
-  do_dexp
-  do_dchisq
   dpermdist2
-  do_dnf
-  bw_phi6
+  dpermdist1
+  Fexact
   bw_phi4
-  bw_bcv
   pRho
+  psmirnov_exact
+  pkolmogorov_two_limit
   pkolmogorov_two_exact
-  BinDist
-  cfilter
+  cov
   cor
-  Cdist
-  getQ0
+  TSconv
+  ARIMA_Like
+  ARIMA_Gradtrans
+  ARIMA_Invtrans
   ARIMA_undoPars
-  Gradtrans
+  KalmanSmooth
+  KalmanFore
+  ARMAtoMA
   Invtrans
-  arma0_kfore
   Dotrans
-  get_s2
-  arma0fa
+  get_resid
   cutree
-  do_compareNumericVersion
+  do_pnbinom
+  do_machine
+  do_internalsID
+  do_version
   do_findinterval
   do_tabulate
-  do_bincode
   do_crc64
+  do_ICUget
   do_normalizepath
-  do_dirname
-  do_nargs
+  do_makeunique
+  do_charmatch
+  do_pmatch
+  do_match
+  Rf_match
+  HashLookup
   match5
   Rf_matchE
-  duplicated3
+  ARIMA_transPars
   do_getenv
-  do_tempfile
-  do_tempdir
-  do_which
-  complex_mean
-  real_mean
+  corcov
   integer_mean
   logical_mean
-  do_pnbinom
   realSubscript
   nullSubscript
   stringSubscript
   logicalSubscript
   Rf_mat2indsub
+  do_pnbinom_mu
   embedInVector
+  do_ppois
   do_split
   tabExpand
   getParseContext
-  do_phyper
-  do_rank
+  CloseMemOutPStream
   appendRawToFile
-  R_getVarsFromFrame
-  do_getVarsFromFrame
-  psmirnov_exact
+  R_lazyLoadDBinsertValue
   R_SerializeInfo
+  bw_ucv
   ReadBCConsts
-  ARMAtoMA
-  do_seq_len
-  do_pexp
   seq_colon
   cross_colon
   do_colon
+  do_dchisq
   do_readln
+  scanFrame
+  Rf_duplicated
+  do_systime
+  bitwiseShiftL
   bitwiseXor
   bitwiseOr
-  bitwiseNot
   bitwiseAnd
+  modelmatrix
+  do_tempfile
   raw_relop
   string_relop
   numeric_relop
-  ARIMA_Invtrans
-  do_seek
-  do_systime
-  Rf_dimnamesgets(V,?)
-  R_HashResize
-  do_readLines
-  do_charmatch
-  do_pmatch
-  do_match
-  ziplist
-  dpermdist1
-  do_ppois
-  do_gsub
-  do_qexp
-  do_fileappend
-  do_rowscols
-  Constant
+  do_intToUtf8
+  do_rawToBits
+  do_charToRaw
+  do_random3
+  do_random2
+  negativeSubscript
+  do_setFileTime
+  do_pnbeta
   do_stop
+  R_HashResize
+  nlm
+  do_readLines
+  do_dnbinom
+  do_readDCF
+  ziplist
+  do_pbinom
+  optim
+  do_nargs
   do_untracemem
-  Fexact
-  R_getTaskCallbackNames
+  do_bincode
   do_tracemem
-  do_asplit
-  lowess
+  getQ0
+  do_dotCode
+  do_dbeta
   do_url
   do_sumconnection
-  altrep_Unserialize_default
-  do_getconnection
+  duplicated2
   R_compress3
   complex_math1
-  do_filecreate
-  scanFrame
-  R_lazyLoadDBinsertValue
-  R_compress1
-  do_getallconnections
-  do_sinknumber
-  do_textconnection
-  do_rawconvalue
-  do_qgeom
-  do_stdout
-  do_ICUget
-  do_pipe
-  ARIMA_transPars
-  do_fifo
-  math3B
-  do_glob
-  do_pweibull
-  do_serversocket
-  do_asCharacterFactor
-  coerceToString
-  coerceToRaw
-  do_unlink
-  coerceToComplex
-  coerceToLogical
-  R_new_custom_connection
-  Rf_PairToVectorList
-  seq_int
-  do_strtoi
-  do_strtrim
-  do_tolower
-  R_MakeWeakRef
-  R_NewHashTable
-  altlist_Elt_default
-  do_socktimeout
-  optim
-  do_makenames
-  do_qwilcox
-  do_expression
-  pkolmogorov_two_limit
-  modelmatrix
-  cov
-  do_pnf
+  lowess
+  do_bindingType
+  do_strsplit
+  do_pbeta
   do_basename
   do_filesymlink
-  Rf_GetArrayDimnames
-  R_addTaskCallback
-  MakeCFinalizer
-  do_sockselect
-  GE_LJOINget
-  OrBits
-  readRawFromFile
-  do_qnchisq
+  do_qnt
+  do_utf8ToInt
+  do_dpois
+  do_dnt
+  do_stdout
+  do_pipe
+  R_pcre2_gregexpr
+  math3B
+  bw_phi6
+  do_unlink
+  Rf_asCharacterFactor
+  do_asCharacterFactor
+  do_qnbinom
+  coerceToComplex
+  R_new_custom_connection
+  cfilter
+  Rf_PairToVectorList
+  do_strtoi
+  do_strtrim
+  do_filerename
+  do_chartr
+  do_tolower
   complex_relop
+  do_sockselect
+  R_NewHashTable
+  R_compress1
+  do_getlocale
+  get_s2
+  do_dotsLength
+  do_sample
+  Rf_dimnamesgets(V,?)
+  altrep_Unserialize_default
+  BinDist
+  altlist_Elt_default
+  Constant
+  do_socktimeout
+  do_eapply
+  createRSymbolObject
+  coerceToRaw
+  bitwiseNot
+  do_makenames
+  math4_2.408
+  do_pnt
+  do_expression
+  do_encoding
+  ARIMA_CSS
+  do_qgeom
+  do_regexpr
+  Rf_GetArrayDimnames
+  do_qf
+  do_getallconnections
+  do_getRegisteredRoutines
+  pp_sum
+  do_getDllTable
+  GE_LJOINget
+  do_aregexec
   Runzip
-  do_plnorm
+  do_dt
   R_compress2
-  do_dnbinom
-  KalmanSmooth
-  HashLookup
-  coerceToExpression
-  do_RNGkind
-  R_getDllTable
-  do_pwilcox
+  do_filelink
+  do_unz
+  do_dweibull
+  do_grep
+  allocMatrixNA(V,?,V)
+  allocMatrixNA(V,?,?)
+  duplicated3
+  do_gzfile
   do_stdin
+  do_refcnt
+  do_regexec
   do_complex
-  Rf_allocCharsxp
   getQ0bis
-  do_mget
   do_strrep
-  do_vhash
-  do_dnchisq
-  do_l10n_info
-  do_qweibull
-  do_rawToBits
+  do_rawToChar
+  do_capabilities
+  adist_full
   GE_LENDget
-  cummax(?,V)
+  do_validUTF8
+  mkVector1
+  do_maxVSize
+  Rf_CreateAtVector
+  altstring_Elt_default
+  Gradtrans
   do_adist
   R_getRoutineSymbols
   R_getRegisteredRoutines
+  do_mget
+  math2_1.420
+  do_getVarsFromFrame
+  do_rank
   Rf_dimgets(V,?)
-  do_getlocale
+  R_compact_intrange
+  do_qwilcox
   compact_realseq_Sum
+  R_MakeWeakRefC
   GEcreateSnapshot
-  do_agrep
-  Rf_mkFalse
   compact_intseq_Sum
-  do_version
-  Rf_match
   do_getSnapshot
-  compact_realseq_Duplicate
   Rf_alloc3DArray(V,?,?,?)
-  bitwiseShiftL
-  do_qunif
   compact_intseq_Unserialize
   do_dynload
-  SrcRefsToVectorList
-  pp_sum
-  altstring_Elt_default
+  do_rmultinom
+  do_sysgetpid
+  do_dsignrank
   compact_intseq_Duplicate
-  do_pushbacklength
-  do_date
-  do_makeunique
+  do_sockconn
+  readRawFromFile
+  do_Cstack_info
+  do_tempdir
   compact_realseq_Unserialize
-  duplicated2
-  do_syschmod
-  do_qnbinom_mu
-  CloseMemOutPStream
-  do_regexpr
+  Cdist
   coerceToReal
-  do_invokeRestart
-  Rsockwrite
+  do_date
   math2
+  do_seq_along
   math2B
-  do_stderr
-  GE_LTYget
-  NewWeakRef
-  do_formatinfo
+  Rsockopen
   coerceToInteger
   do_polyroot
-  math3_1.416
   math3_2.414
-  Rf_duplicated
+  gregexpr_NAInputAns
+  optimhess
   cummin(?,V)
+  do_seek
   handleNaN(?,V)
-  do_qchisq
   do_math4
-  do_aregexec
   math4_1.412
+  do_pnf
+  do_textconnection
+  do_getconst
+  do_sequence
   Rf_MakeDLLInfo
-  do_dnbinom_mu
-  do_lengths_long
-  rWishart
-  do_diag
-  do_filechoose
-  do_fileaccess
-  do_withVisible
-  do_eapply
-  do_qtukey
-  do_setlocale
-  do_localeconv
   Rf_allocMatrix(V,?,?)
   Rf_allocMatrix(V,?,V)
-  do_Rhome
+  do_diag
+  do_which
+  do_qbinom
+  do_punif
   math4
-  do_rawconnection
-  math2_2.418
-  call_dqags
-  gregexpr_BadStringAns
-  gregexpr_fixed
-  bw_ucv
-  corcov
-  do_pgeom
-  do_getDllTable
-  do_getRegisteredRoutines
-  do_machine
-  do_search
-  do_direxists
-  do_builtins
-  do_sysumask
-  do_Cstack_info
-  do_qf
-  mkFloat
-  getInterruptCondition
-  do_sample
-  do_dt
-  mkHandlerEntry
-  do_strsplit
-  Rsockconnect
-  do_dfltStop
-  createRSymbolObject
-  Rsockopen
-  ARIMA_Gradtrans
-  do_grep
-  do_math3
-  negativeSubscript
-  Rf_asCharacterFactor
-  do_dpois
-  mkVector1
-  do_chartr
-  do_enablejit
-  do_break
-  optimhess
-  do_internalsID
-  do_fileinfo
-  math4_2.408
   R_bcDecode
-  R_compact_intrange
+  math2_2.418
+  do_qunif
+  do_seq_len
+  do_dotType
+  do_CDotsLength
+  do_builtins
+  do_withVisible
+  rWishart
+  do_compareNumericVersion
+  bw_bcv
+  do_math3
+  math3_1.416
+  do_return
+  do_pwilcox
+  do_dwilcox
+  do_qexp
+  do_filecreate
+  do_pweibull
+  SrcRefsToVectorList
+  do_pushbacklength
+  do_fileremove
+  do_serversocket
+  R_getVarsFromFrame
+  R_HashProfile
+  do_RNGkind
+  MakeCFinalizer
+  getInterruptCondition
+  do_pt
+  real_mean
+  R_addTaskCallback
+  do_invokeRestart
+  do_asplit
+  do_localeconv
+  mkFloat
+  do_sysumask
+  R_getTaskCallbackNames
+  do_dfltStop
+  do_fifo
+  complex_mean
+  seq_int
+  do_lengths_long
+  do_rowscols
+  do_l10n_info
+  do_syschmod
+  do_fileappend
+  do_dirname
+  do_getconnection
+  R_MakeWeakRef
+  coerceToString
+  do_enablejit
+  coerceToVectorList
+  do_gctorture2
+  do_gc
+  do_stderr
+  math4_1
   do_disassemble
+  math3_2
   disassemble
-  do_getconst
+  math3_1
+  do_bcversion
+  math2_2
+  do_rawconvalue
+  do_growconst
+  math2_1
+  do_putconst
   do_bcprofcounts
   do_bcprofstart
   do_bcprofstop
   do_setnumthreads
   do_setmaxnumthreads
-  do_charToRaw
-  KalmanFore
-  do_dotCode
-  makeSrcref
-  do_filelink
-  do_intToUtf8
-  mkNA
-  mkInt
-  TSconv
-  gregexpr_NAInputAns
-  R_pcre2_gregexpr
-  gregexpr_Regexc
-  do_regexec
-  R_HashProfile
-  get_resid
-  do_sequence
-  do_format
-  do_dbeta
-  do_sockconn
-  do_unz
+  do_random1
+  do_rawconnection
+  do_search
+  mkHandlerEntry
   mkStringUTF8
+  makeSrcref
+  mkNA
+  do_dexp
+  Rf_mkTrue
+  Rf_mkFalse
+  mkString2
+  mkComplex
+  mkInt
+  do_psignrank
+  do_gsub
+  gregexpr_BadStringAns
+  gregexpr_fixed
+  gregexpr_Regexc
+  do_format
+  do_pcauchy
+  do_qt
+  do_dnbeta
   Rf_ScalarInteger
-  do_readDCF
   Rf_ScalarReal
+  arma0fa
   Rf_ScalarComplex
-  allocMatrixNA(V,?,V)
-  allocMatrixNA(V,?,?)
   Rf_ScalarString
   Rf_ScalarRaw
   Rf_mkString
-  nlm
+  compact_realseq_Duplicate
+  do_qnorm
   do_named
-  do_refcnt
+  Rsockconnect
+  Rsockwrite
   do_lazyLoadDBinsertValue
-  do_pnbinom_mu
-  binaryLogic2
-  do_encoding
-  do_validUTF8
-  do_maxVSize
+  do_sinknumber
   do_validEnc
   do_maxNSize
-  do_dotsLength
-  R_MakeWeakRefC
-  do_growconst
-  do_gctorture2
-  do_putconst
-  do_gc
+  NewWeakRef
+  do_dnbinom_mu
+  coerceToExpression
+  do_setlocale
+  Rf_allocCharsxp
+  do_qhyper
+  binaryLogic2
   binaryLogic
-  math2_1.420
   do_Rprofmem
   do_gctime
-  do_random2
   do_memoryprofile
-  do_seq_along
-  do_dnbeta
-  do_pathexpand
-  do_setFileTime
-  do_gzfile
-  coerceToVectorList
+  do_qnf
+  R_getDllTable
+  do_formatinfo
+  do_dlnorm
   rowsum_df
-  mkComplex
-  ARIMA_Like
-  adist_full
-  do_bcversion
-  do_pchisq
+  do_Rhome
+  do_vhash
+  cummax(?,V)
   do_proctime
-  do_dnorm
-  do_utf8ToInt
+  do_glob
+  coerceToLogical
+  arma0_kfore
+  GE_LTYget
+  do_break
   do_usemethod
-  do_return
-  do_qlnorm
-  Rf_mkTrue
-  mkString2
-  ARIMA_CSS
-  do_fileremove
-  do_filerename
-  do_capabilities
-  do_sysgetpid
-  Rf_CreateAtVector
-  do_random1
-  do_random3
-  do_rawToChar
+  do_qweibull
+  do_fileinfo
+  do_direxists
+  do_filechoose
+  do_fileaccess
+  do_agrep
+  do_pathexpand

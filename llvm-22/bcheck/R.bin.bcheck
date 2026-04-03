@@ -54,7 +54,7 @@ Function PrintLanguage
 Function R_DispatchOrEvalSP
   [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/subassign.c:1564
 
-Function R_DispatchOrEvalSP.6587
+Function R_DispatchOrEvalSP.6604
   [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/subset.c:671
 
 Function R_GetSrcFilename
@@ -79,10 +79,10 @@ Function R_cmpfun
   [UP] calling allocating function jit_srcref_match with argument allocated using Rf_getAttrib(?,S:srcref) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/eval.c:1867
 
 Function R_data_class
-  [UP] calling allocating function Rf_asChar with a fresh pointer (klass <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:703
+  [UP] calling allocating function Rf_asChar with a fresh pointer (klass <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:715
 
 Function R_data_class2
-  [UP] calling allocating function S4_extends with a fresh pointer (klass <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:854
+  [UP] calling allocating function S4_extends with a fresh pointer (klass <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:866
 
 Function R_restore_globals
   [PB] restores PPStackTop from uninitialized local variable /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/context.c:172
@@ -126,8 +126,8 @@ Function Rf_DropDims
   [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/array.c:428
 
 Function Rf_GetMatrixDimnames
-  [UP] calling allocating function Rf_getAttrib(V,S:names) with a fresh pointer (dimnames <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1707
-  [UP] unprotected variable nn while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1713
+  [UP] calling allocating function Rf_getAttrib(V,S:names) with a fresh pointer (dimnames <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1719
+  [UP] unprotected variable nn while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1725
 
 Function Rf_InitMemory
   [PB] manipulates PPStackTop directly results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/memory.c:2225
@@ -151,12 +151,12 @@ Function Rf_asCharacterFactor
   [UP] unprotected variable labels while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/coerce.c:1434
 
 Function Rf_dimnamesgets
-  [UP] unprotected variable dims while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1127
-  [UP] unprotected variable dims while calling allocating function Rf_lengthgets /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1136
-  [UP] unprotected variable dims while calling allocating function Rf_lengthgets(V,?) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1136
-  [UP] unprotected variable dims while calling allocating function Rf_shallow_duplicate /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1141
-  [UP] unprotected variable dims while calling allocating function Rf_shallow_duplicate(V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1141
-  [UP] unprotected variable dims while calling allocating function as_char_simpl(V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1157
+  [UP] unprotected variable dims while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1139
+  [UP] unprotected variable dims while calling allocating function Rf_lengthgets /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1148
+  [UP] unprotected variable dims while calling allocating function Rf_lengthgets(V,?) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1148
+  [UP] unprotected variable dims while calling allocating function Rf_shallow_duplicate /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1153
+  [UP] unprotected variable dims while calling allocating function Rf_shallow_duplicate(V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1153
+  [UP] unprotected variable dims while calling allocating function as_char_simpl(V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/attrib.c:1169
 
 Function Rf_eval
   [UP] unprotected variable tmp while calling allocating function forcePromise /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/eval.c:1187
@@ -298,27 +298,27 @@ Function asUTF8
   [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/unique.c:1336
 
 Function balancePOSIXlt
-  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1884
-  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1886
-  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1887
-  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1888
-  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1890
-  [UP] unprotected variable nm while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1892
-  [UP] unprotected variable nm while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1962
-  [UP] unprotected variable nm while calling allocating function Rf_setAttrib(V,S:names,V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1974
-  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1976
-  [UP] unprotected variable nm while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1977
-  [UP] unprotected variable nm while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1978
-  [UP] unprotected variable nm while calling allocating function Rf_classgets(V,V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1979
-  [UP] unprotected variable nm while calling allocating function Rf_getAttrib(?,S:tzone) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1983
-  [UP] unprotected variable nm while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1983
-  [UP] unprotected variable nm while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1986
-  [UP] unprotected variable nm while calling allocating function Rf_setAttrib(V,S:tzone,V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1986
-  [UP] unprotected variable tz while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1986
-  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1989
-  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1999
-  [UP] attempt to unprotect more items (3) than protected (2), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1999
-  [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:2001
+  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1854
+  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1856
+  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1857
+  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1858
+  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1860
+  [UP] unprotected variable nm while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1862
+  [UP] unprotected variable nm while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1932
+  [UP] unprotected variable nm while calling allocating function Rf_setAttrib(V,S:names,V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1944
+  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1946
+  [UP] unprotected variable nm while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1947
+  [UP] unprotected variable nm while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1948
+  [UP] unprotected variable nm while calling allocating function Rf_classgets(V,V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1949
+  [UP] unprotected variable nm while calling allocating function Rf_getAttrib(?,S:tzone) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1953
+  [UP] unprotected variable nm while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1953
+  [UP] unprotected variable nm while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1956
+  [UP] unprotected variable nm while calling allocating function Rf_setAttrib(V,S:tzone,V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1956
+  [UP] unprotected variable tz while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1956
+  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1959
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1969
+  [UP] attempt to unprotect more items (3) than protected (2), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1969
+  [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1971
 ERROR: too many states (abstraction error?) in function bcEval_loop
 
 Function bcEval_loop
@@ -383,6 +383,14 @@ Function do_aperm
   [UP] unprotected variable dnna while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/array.c:1735
   [UP] unprotected variable dnna while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/array.c:1738
 
+Function do_asPOSIXct
+  [PB] has an unsupported form of unprotect (not constant, not variable), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1271
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1271
+
+Function do_asPOSIXlt
+  [PB] has an unsupported form of unprotect (not constant, not variable), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1190
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1190
+
 Function do_asatomic
   [UP] ignoring variable ans as it has address taken, results will be incomplete 
 
@@ -407,13 +415,13 @@ Function do_eval
   [UP] unprotected variable srcrefs while calling allocating function Rf_eval /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/eval.c:3973
 
 Function do_formatPOSIXlt
-  [UP] unprotected variable tz while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1310
-  [UP] unprotected variable tz while calling allocating function set_tz /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1316
-  [UP] unprotected variable tz while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1337
-  [UP] unprotected variable tz while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1383
-  [UP] unprotected variable tz while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1384
-  [UP] unprotected variable tz while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1396
-  [UP] unprotected variable tz while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1479
+  [UP] unprotected variable tz while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1302
+  [UP] unprotected variable tz while calling allocating function set_tz /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1308
+  [UP] unprotected variable tz while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1329
+  [UP] unprotected variable tz while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1375
+  [UP] unprotected variable tz while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1376
+  [UP] unprotected variable tz while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1388
+  [UP] unprotected variable tz while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1471
 
 Function do_isfinite
   [UP] unprotected variable dims while calling allocating function Rf_isArray(V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/coerce.c:2586
@@ -486,9 +494,11 @@ Function do_sprintf
   [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/sprintf.c:498
 
 Function do_strptime
-  [UP] unprotected variable nm while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1643
-  [UP] unprotected variable nm while calling allocating function Rf_setAttrib(V,S:balanced,?) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1643
-  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1646
+  [UP] unprotected variable nm while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1613
+  [UP] unprotected variable nm while calling allocating function Rf_setAttrib(V,S:balanced,?) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1613
+  [UP] unprotected variable nm while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1616
+  [PB] has an unsupported form of unprotect (not constant, not variable), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1622
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1622
 
 Function do_subassign2_dflt
   [UP] ignoring variable x as it has address taken, results will be incomplete 
@@ -656,4 +666,4 @@ Function xxexprlist1
   [UP] unprotected variable ans while calling allocating function SetSingleSrcRef(V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:3214
   [UP] allocating function GrowList may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:3217
   [UP] calling allocating function GrowList with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:3217
-Analyzed 4285 functions, traversed 2717005 states.
+Analyzed 4325 functions, traversed 2717388 states.

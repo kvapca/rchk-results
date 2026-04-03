@@ -3,6 +3,6 @@ ERROR: too many states (abstraction error?) in function bcEval_loop
 ERROR: too many states (abstraction error?) in function RunGenCollect
 
 Function in_RX11_dataentry
-  [UP] unprotected variable tnames while calling allocating function Rf_duplicate /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/X11/dataentry.c:334
-  [UP] unprotected variable tnames while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/modules/X11/dataentry.c:342
+  [UP] unprotected variable tnames while calling allocating function Rf_duplicate /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/modules/X11/dataentry.c:334
+  [UP] unprotected variable tnames while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/src/modules/X11/dataentry.c:342
 Analyzed 63 functions, traversed 1369 states.

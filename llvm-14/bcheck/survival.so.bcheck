@@ -3,16 +3,16 @@ ERROR: too many states (abstraction error?) in function bcEval_loop
 ERROR: too many states (abstraction error?) in function RunGenCollect
 
 Function coxexact
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/udjhVcyr/survival/src/coxexact.c:268
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/udjhVcyr/survival/src/coxexact.c:374
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/udjhVcyr/survival/src/coxexact.c:482
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/MJZINabl/survival/src/coxexact.c:268
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/MJZINabl/survival/src/coxexact.c:374
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/MJZINabl/survival/src/coxexact.c:482
 
 Function coxfit6
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/udjhVcyr/survival/src/coxfit6.c:335
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/MJZINabl/survival/src/coxfit6.c:335
 
 Function survreg6
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/udjhVcyr/survival/src/survreg6.c:361
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/MJZINabl/survival/src/survreg6.c:361
 
 Function survreg7
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/udjhVcyr/survival/src/survreg7.c:510
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/MJZINabl/survival/src/survreg7.c:510
 Analyzed 97 functions, traversed 18502 states.

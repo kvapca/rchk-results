@@ -13,11 +13,11 @@ CS-ALLOCATOR: spline_value
 CS-ALLOCATING: spline_basis
 CS-ALLOCATING: spline_value
 
-C-ALLOCATOR: spline_value
 C-ALLOCATOR: spline_basis
-C-ALLOCATING: spline_value
+C-ALLOCATOR: spline_value
 C-ALLOCATING: spline_basis
-ALLOCATOR: spline_basis
+C-ALLOCATING: spline_value
 ALLOCATOR: spline_value
-ALLOCATING: spline_basis
+ALLOCATOR: spline_basis
 ALLOCATING: spline_value
+ALLOCATING: spline_basis
