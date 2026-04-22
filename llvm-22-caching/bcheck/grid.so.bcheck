@@ -1,0 +1,75 @@
+
+Function L_convert
+  [UP] calling allocating function setListElement(?,?,V) with argument allocated using Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:1410
+
+Function L_devDim
+  [UP] calling allocating function setListElement(?,?,V) with argument allocated using Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:1647
+
+Function L_devLoc
+  [UP] calling allocating function setListElement(?,?,V) with argument allocated using Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:1597
+
+Function L_pretty
+  [UP] calling allocating function L_pretty2(?,V) with argument allocated using Rf_ScalarInteger /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:5207
+
+Function L_raster
+  [UP] unprotected variable dim while calling allocating function unitLength /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3501
+  [UP] unprotected variable dim while calling allocating function unitLength /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3502
+  [UP] unprotected variable dim while calling allocating function unitLength /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3503
+  [UP] unprotected variable dim while calling allocating function unitLength /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3504
+  [UP] unprotected variable dim while calling allocating function GEMode /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3511
+  [UP] unprotected variable dim while calling allocating function updateGContext /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3513
+  [UP] unprotected variable dim while calling allocating function transformLocn /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3514
+  [UP] unprotected variable dim while calling allocating function transformWidthtoINCHES /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3519
+  [UP] unprotected variable dim while calling allocating function transformHeighttoINCHES /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3522
+  [UP] unprotected variable dim while calling allocating function GERaster /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3536
+  [UP] unprotected variable dim while calling allocating function unit /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3552
+  [UP] unprotected variable dim while calling allocating function unit /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3553
+  [UP] unprotected variable dim while calling allocating function transformDimn /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3554
+  [UP] unprotected variable dim while calling allocating function GERaster /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:3568
+
+Function asUnit
+  [UP] unprotected variable valUnit while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:1708
+  [UP] unprotected variable valUnit while calling allocating function Rf_ScalarReal /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:1709
+
+Function constructUnits
+  [PB] has an unsupported form of unprotect with a variable results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:1668
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:1668
+
+Function evaluateGrobUnit
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:568
+  [UP] attempt to unprotect more items (14) than protected (10), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:568
+  [UP] attempt to unprotect more items (14) than protected (11), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:568
+  [UP] attempt to unprotect more items (14) than protected (12), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:568
+  [UP] attempt to unprotect more items (14) than protected (13), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:568
+  [UP] attempt to unprotect more items (14) than protected (4), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:568
+  [UP] attempt to unprotect more items (14) than protected (5), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:568
+  [UP] attempt to unprotect more items (14) than protected (6), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:568
+  [UP] attempt to unprotect more items (14) than protected (7), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:568
+  [UP] attempt to unprotect more items (14) than protected (8), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:568
+  [UP] attempt to unprotect more items (14) than protected (9), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:568
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:574
+  [UP] attempt to unprotect more items (10) than protected (4), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:574
+  [UP] attempt to unprotect more items (10) than protected (5), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:574
+  [UP] attempt to unprotect more items (10) than protected (6), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:574
+  [UP] attempt to unprotect more items (10) than protected (7), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:574
+  [UP] attempt to unprotect more items (10) than protected (8), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:574
+  [UP] attempt to unprotect more items (10) than protected (9), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:574
+  [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/unit.c:589
+
+Function gridPoints
+  [UP] allocating function updateGContext may destroy its unprotected argument (currentgp <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:5075
+  [UP] calling allocating function updateGContext with a fresh pointer (currentgp <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:5075
+  [UP] unprotected variable currentgp while calling allocating function gridSymbol /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:5093
+  [UP] unprotected variable currentgp while calling allocating function gridSymbol /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:5098
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:5113
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:5113
+  [UP] attempt to unprotect more items (2) than protected (1), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:5113
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:5116
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:5116
+  [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:5117
+
+Function gridSymbol
+  [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:4925
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:4925
+  [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grid/src/grid.c:4927
+Analyzed 325 functions, traversed 10420 states.

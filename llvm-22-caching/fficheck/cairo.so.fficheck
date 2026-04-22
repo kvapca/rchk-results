@@ -1,0 +1,2 @@
+Library name (usually package name): cairo
+ERROR: did not find initialization function R_init_cairo

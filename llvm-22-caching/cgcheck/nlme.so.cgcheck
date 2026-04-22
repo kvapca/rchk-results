@@ -1,0 +1,24 @@
+Functions calling (recursively) function Rf_errorcall
+dimS
+evaluate
+fit_gnls
+fit_nlme
+getListElement
+gnls_init
+gnls_iterate
+gnls_wrapup
+internal_EM
+internal_loglik
+logLik_fun
+mixed_EM
+mixed_calcf
+mixed_combined
+mixed_estimate
+mixed_fcn
+mixed_grad
+mixed_loglik
+negLogLik_fun
+nlme_increment
+nlme_init
+nlme_iterate
+nlme_wrapup

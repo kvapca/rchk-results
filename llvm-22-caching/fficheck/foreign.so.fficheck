@@ -1,0 +1,5 @@
+Library name (usually package name): foreign
+Initialization function: R_init_foreign
+Functions: 7
+Functions: 2
+Checked call to R_registerRoutines: 1

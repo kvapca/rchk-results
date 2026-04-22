@@ -1,0 +1,47 @@
+Callee protect functions: 
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+
+CS-ALLOCATOR: cl_Pam
+
+CS-ALLOCATING: agnes
+CS-ALLOCATING: bswap
+CS-ALLOCATING: bswap2
+CS-ALLOCATING: caddy
+CS-ALLOCATING: cl_Pam
+CS-ALLOCATING: cl_clara
+CS-ALLOCATING: cl_fanny
+CS-ALLOCATING: clmona
+CS-ALLOCATING: cstat
+CS-ALLOCATING: fuzzy
+CS-ALLOCATING: splyt
+CS-ALLOCATING: twins
+
+C-ALLOCATOR: cl_Pam
+C-ALLOCATING: cstat
+C-ALLOCATING: cl_Pam
+C-ALLOCATING: caddy
+C-ALLOCATING: fuzzy
+C-ALLOCATING: clmona
+C-ALLOCATING: cl_fanny
+C-ALLOCATING: cl_clara
+C-ALLOCATING: bswap
+C-ALLOCATING: agnes
+C-ALLOCATING: bswap2
+C-ALLOCATING: twins
+C-ALLOCATING: splyt
+ALLOCATOR: cl_Pam
+ALLOCATING: cl_fanny
+ALLOCATING: agnes
+ALLOCATING: twins
+ALLOCATING: splyt
+ALLOCATING: bswap2
+ALLOCATING: caddy
+ALLOCATING: fuzzy
+ALLOCATING: cstat
+ALLOCATING: bswap
+ALLOCATING: cl_Pam
+ALLOCATING: cl_clara
+ALLOCATING: clmona

@@ -1,0 +1,21 @@
+[CACHE] Instruction index 4 out of range in do_one
+[CACHE] Failed to decode call instruction: do_one:9:4
+[CACHE] Instruction index 11 out of range in do_one
+[CACHE] Failed to decode call instruction: do_one:9:11
+[CACHE] Instruction index 12 out of range in do_one
+[CACHE] Failed to decode call instruction: do_one:9:12
+[CACHE] Instruction index 3 out of range in do_one
+[CACHE] Failed to decode call instruction: do_one:18:3
+[CACHE] Instruction index 7 out of range in do_one
+[CACHE] Failed to decode call instruction: do_one:18:7
+[CACHE] Instruction index 8 out of range in do_one
+[CACHE] Failed to decode call instruction: do_one:18:8
+[CACHE] Instruction index 5 out of range in do_one
+[CACHE] Failed to decode call instruction: do_one:26:5
+[CACHE] Instruction index 3 out of range in do_one
+[CACHE] Failed to decode call instruction: do_one:28:3
+[CACHE] Instruction index 5 out of range in do_one
+[CACHE] Failed to decode call instruction: do_one:28:5
+[CACHE] Instruction index 8 out of range in do_one
+[CACHE] Failed to decode call instruction: do_one:28:8
+Analyzed 25 functions, traversed 485 states.

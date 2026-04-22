@@ -1,0 +1,695 @@
+[CACHE] Basic block index 15 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:15:0
+[CACHE] Basic block index 16 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:16:4
+[CACHE] Basic block index 18 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:18:0
+[CACHE] Basic block index 18 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:18:1
+[CACHE] Basic block index 20 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:20:1
+[CACHE] Basic block index 20 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:20:2
+[CACHE] Basic block index 21 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:21:0
+[CACHE] Basic block index 21 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:21:13
+[CACHE] Basic block index 26 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:26:0
+[CACHE] Basic block index 29 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:29:0
+[CACHE] Basic block index 30 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:30:0
+[CACHE] Basic block index 31 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:31:0
+[CACHE] Basic block index 34 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:34:0
+[CACHE] Basic block index 37 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:37:0
+[CACHE] Basic block index 40 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:40:0
+[CACHE] Basic block index 43 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:43:0
+[CACHE] Basic block index 47 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:47:0
+[CACHE] Basic block index 51 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:51:0
+[CACHE] Basic block index 55 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:55:0
+[CACHE] Basic block index 57 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:57:0
+[CACHE] Instruction index 5 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:2:5
+[CACHE] Instruction index 8 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:2:8
+[CACHE] Instruction index 3 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:3:3
+[CACHE] Instruction index 7 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:7:7
+[CACHE] Instruction index 3 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:17:3
+[CACHE] Instruction index 6 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:19:6
+[CACHE] Instruction index 1 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:24:1
+[CACHE] Instruction index 61 out of range in makeSrcref
+[CACHE] Failed to decode call instruction: makeSrcref:0:61
+[CACHE] Instruction index 67 out of range in makeSrcref
+[CACHE] Failed to decode call instruction: makeSrcref:0:67
+[CACHE] Instruction index 70 out of range in makeSrcref
+[CACHE] Failed to decode call instruction: makeSrcref:0:70
+[CACHE] Instruction index 71 out of range in makeSrcref
+[CACHE] Failed to decode call instruction: makeSrcref:0:71
+[CACHE] Instruction index 72 out of range in makeSrcref
+[CACHE] Failed to decode call instruction: makeSrcref:0:72
+[CACHE] Basic block index 17 out of range in token
+[CACHE] Failed to decode call instruction: token:17:0
+[CACHE] Basic block index 18 out of range in token
+[CACHE] Failed to decode call instruction: token:18:1
+[CACHE] Basic block index 23 out of range in token
+[CACHE] Failed to decode call instruction: token:23:1
+[CACHE] Basic block index 25 out of range in token
+[CACHE] Failed to decode call instruction: token:25:1
+[CACHE] Basic block index 27 out of range in token
+[CACHE] Failed to decode call instruction: token:27:1
+[CACHE] Basic block index 30 out of range in token
+[CACHE] Failed to decode call instruction: token:30:1
+[CACHE] Basic block index 32 out of range in token
+[CACHE] Failed to decode call instruction: token:32:1
+[CACHE] Basic block index 34 out of range in token
+[CACHE] Failed to decode call instruction: token:34:1
+[CACHE] Basic block index 36 out of range in token
+[CACHE] Failed to decode call instruction: token:36:1
+[CACHE] Basic block index 37 out of range in token
+[CACHE] Failed to decode call instruction: token:37:1
+[CACHE] Basic block index 39 out of range in token
+[CACHE] Failed to decode call instruction: token:39:0
+[CACHE] Basic block index 40 out of range in token
+[CACHE] Failed to decode call instruction: token:40:1
+[CACHE] Basic block index 43 out of range in token
+[CACHE] Failed to decode call instruction: token:43:0
+[CACHE] Basic block index 44 out of range in token
+[CACHE] Failed to decode call instruction: token:44:0
+[CACHE] Basic block index 45 out of range in token
+[CACHE] Failed to decode call instruction: token:45:0
+[CACHE] Basic block index 46 out of range in token
+[CACHE] Failed to decode call instruction: token:46:0
+[CACHE] Basic block index 47 out of range in token
+[CACHE] Failed to decode call instruction: token:47:0
+[CACHE] Basic block index 48 out of range in token
+[CACHE] Failed to decode call instruction: token:48:0
+[CACHE] Basic block index 49 out of range in token
+[CACHE] Failed to decode call instruction: token:49:0
+[CACHE] Basic block index 51 out of range in token
+[CACHE] Failed to decode call instruction: token:51:0
+[CACHE] Basic block index 52 out of range in token
+[CACHE] Failed to decode call instruction: token:52:0
+[CACHE] Basic block index 53 out of range in token
+[CACHE] Failed to decode call instruction: token:53:0
+[CACHE] Basic block index 54 out of range in token
+[CACHE] Failed to decode call instruction: token:54:0
+[CACHE] Basic block index 55 out of range in token
+[CACHE] Failed to decode call instruction: token:55:0
+[CACHE] Basic block index 56 out of range in token
+[CACHE] Failed to decode call instruction: token:56:0
+[CACHE] Basic block index 57 out of range in token
+[CACHE] Failed to decode call instruction: token:57:0
+[CACHE] Basic block index 58 out of range in token
+[CACHE] Failed to decode call instruction: token:58:0
+[CACHE] Basic block index 59 out of range in token
+[CACHE] Failed to decode call instruction: token:59:0
+[CACHE] Basic block index 60 out of range in token
+[CACHE] Failed to decode call instruction: token:60:0
+[CACHE] Basic block index 61 out of range in token
+[CACHE] Failed to decode call instruction: token:61:0
+[CACHE] Basic block index 62 out of range in token
+[CACHE] Failed to decode call instruction: token:62:0
+[CACHE] Basic block index 63 out of range in token
+[CACHE] Failed to decode call instruction: token:63:0
+[CACHE] Basic block index 64 out of range in token
+[CACHE] Failed to decode call instruction: token:64:0
+[CACHE] Basic block index 65 out of range in token
+[CACHE] Failed to decode call instruction: token:65:0
+[CACHE] Basic block index 66 out of range in token
+[CACHE] Failed to decode call instruction: token:66:0
+[CACHE] Basic block index 68 out of range in token
+[CACHE] Failed to decode call instruction: token:68:0
+[CACHE] Basic block index 69 out of range in token
+[CACHE] Failed to decode call instruction: token:69:0
+[CACHE] Basic block index 70 out of range in token
+[CACHE] Failed to decode call instruction: token:70:0
+[CACHE] Basic block index 71 out of range in token
+[CACHE] Failed to decode call instruction: token:71:0
+[CACHE] Basic block index 72 out of range in token
+[CACHE] Failed to decode call instruction: token:72:0
+[CACHE] Basic block index 73 out of range in token
+[CACHE] Failed to decode call instruction: token:73:0
+[CACHE] Basic block index 74 out of range in token
+[CACHE] Failed to decode call instruction: token:74:0
+[CACHE] Basic block index 75 out of range in token
+[CACHE] Failed to decode call instruction: token:75:0
+[CACHE] Basic block index 76 out of range in token
+[CACHE] Failed to decode call instruction: token:76:0
+[CACHE] Basic block index 77 out of range in token
+[CACHE] Failed to decode call instruction: token:77:0
+[CACHE] Basic block index 78 out of range in token
+[CACHE] Failed to decode call instruction: token:78:0
+[CACHE] Basic block index 79 out of range in token
+[CACHE] Failed to decode call instruction: token:79:0
+[CACHE] Basic block index 80 out of range in token
+[CACHE] Failed to decode call instruction: token:80:0
+[CACHE] Basic block index 81 out of range in token
+[CACHE] Failed to decode call instruction: token:81:0
+[CACHE] Basic block index 82 out of range in token
+[CACHE] Failed to decode call instruction: token:82:0
+[CACHE] Basic block index 84 out of range in token
+[CACHE] Failed to decode call instruction: token:84:0
+[CACHE] Basic block index 85 out of range in token
+[CACHE] Failed to decode call instruction: token:85:0
+[CACHE] Basic block index 86 out of range in token
+[CACHE] Failed to decode call instruction: token:86:0
+[CACHE] Basic block index 87 out of range in token
+[CACHE] Failed to decode call instruction: token:87:0
+[CACHE] Basic block index 88 out of range in token
+[CACHE] Failed to decode call instruction: token:88:0
+[CACHE] Basic block index 89 out of range in token
+[CACHE] Failed to decode call instruction: token:89:0
+[CACHE] Basic block index 90 out of range in token
+[CACHE] Failed to decode call instruction: token:90:0
+[CACHE] Basic block index 91 out of range in token
+[CACHE] Failed to decode call instruction: token:91:0
+[CACHE] Basic block index 92 out of range in token
+[CACHE] Failed to decode call instruction: token:92:0
+[CACHE] Basic block index 93 out of range in token
+[CACHE] Failed to decode call instruction: token:93:0
+[CACHE] Basic block index 94 out of range in token
+[CACHE] Failed to decode call instruction: token:94:0
+[CACHE] Basic block index 95 out of range in token
+[CACHE] Failed to decode call instruction: token:95:0
+[CACHE] Basic block index 96 out of range in token
+[CACHE] Failed to decode call instruction: token:96:0
+[CACHE] Basic block index 98 out of range in token
+[CACHE] Failed to decode call instruction: token:98:4
+[CACHE] Basic block index 101 out of range in token
+[CACHE] Failed to decode call instruction: token:101:1
+[CACHE] Basic block index 106 out of range in token
+[CACHE] Failed to decode call instruction: token:106:0
+[CACHE] Basic block index 112 out of range in token
+[CACHE] Failed to decode call instruction: token:112:0
+[CACHE] Basic block index 113 out of range in token
+[CACHE] Failed to decode call instruction: token:113:0
+[CACHE] Basic block index 118 out of range in token
+[CACHE] Failed to decode call instruction: token:118:0
+[CACHE] Basic block index 6 out of range in mkString2
+[CACHE] Failed to decode call instruction: mkString2:6:8
+[CACHE] Instruction index 6 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:2:6
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:7:4
+[CACHE] Instruction index 3 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:8:3
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:8:4
+[CACHE] Instruction index 7 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:11:7
+[CACHE] Instruction index 3 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:12:3
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:12:4
+[CACHE] Instruction index 7 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:12:7
+[CACHE] Instruction index 3 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:13:3
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:13:4
+[CACHE] Instruction index 7 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:13:7
+[CACHE] Instruction index 3 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:14:3
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:14:4
+[CACHE] Instruction index 7 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:14:7
+[CACHE] Instruction index 3 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:15:3
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:15:4
+[CACHE] Instruction index 7 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:15:7
+[CACHE] Instruction index 12 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:15:12
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:17:4
+[CACHE] Basic block index 21 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:21:1
+[CACHE] Basic block index 21 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:21:4
+[CACHE] Basic block index 21 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:21:5
+[CACHE] Basic block index 6 out of range in mkString2
+[CACHE] Failed to decode call instruction: mkString2:6:0
+[CACHE] Basic block index 6 out of range in mkString2
+[CACHE] Failed to decode call instruction: mkString2:6:2
+[CACHE] Basic block index 6 out of range in mkString2
+[CACHE] Failed to decode call instruction: mkString2:6:9
+[CACHE] Basic block index 6 out of range in mkString2
+[CACHE] Failed to decode call instruction: mkString2:6:10
+Callee protect functions: 
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+  check_nonASCII2
+  ps_sigs
+  splitString
+  startHTTPD
+  xxSetInVerbEnv
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  GrowList !P
+  GrowList.171 !P
+  dirchmod S!
+  parseLatex SS!S
+  ps_kill !S
+  ps_priority !S
+  xxlist !P
+
+CS-ALLOCATOR: InstallKeywords
+CS-ALLOCATOR: NewList
+CS-ALLOCATOR: NewList.172
+CS-ALLOCATOR: Rmd5
+CS-ALLOCATOR: Rsha256
+CS-ALLOCATOR: UserMacroLookup
+CS-ALLOCATOR: check_nonASCII2
+CS-ALLOCATOR: codeFilesAppend
+CS-ALLOCATOR: delim_match
+CS-ALLOCATOR: deparseRd
+CS-ALLOCATOR: doTabExpand
+CS-ALLOCATOR: getfmts
+CS-ALLOCATOR: makeSrcref
+CS-ALLOCATOR: makeSrcref.159
+CS-ALLOCATOR: mkString2
+CS-ALLOCATOR: mkString2.181
+CS-ALLOCATOR: nonASCII
+CS-ALLOCATOR: package_dependencies_scan
+CS-ALLOCATOR: package_dependencies_scan_one
+CS-ALLOCATOR: ps_kill
+CS-ALLOCATOR: ps_priority
+CS-ALLOCATOR: ps_sigs
+CS-ALLOCATOR: remove_dot_segments_wrapper
+CS-ALLOCATOR: splitString
+CS-ALLOCATOR: startHTTPD
+CS-ALLOCATOR: xxOptionmarkup
+CS-ALLOCATOR: xxblock
+CS-ALLOCATOR: xxenterMathMode
+CS-ALLOCATOR: xxenv
+CS-ALLOCATOR: xxmarkup
+CS-ALLOCATOR: xxmarkup2
+CS-ALLOCATOR: xxmarkup3
+CS-ALLOCATOR: xxmath
+CS-ALLOCATOR: xxnewcommand
+CS-ALLOCATOR: xxnewdef
+CS-ALLOCATOR: xxnewlist
+CS-ALLOCATOR: xxnewlist.141
+CS-ALLOCATOR: xxpushMode
+CS-ALLOCATOR: xxpushMode.147
+CS-ALLOCATOR: xxusermacro
+
+CS-ALLOCATING: GrowList
+CS-ALLOCATING: GrowList.171
+CS-ALLOCATING: InitSymbols
+CS-ALLOCATING: InstallKeywords
+CS-ALLOCATING: KeywordLookup
+CS-ALLOCATING: KeywordLookup.182
+CS-ALLOCATING: NewList
+CS-ALLOCATING: NewList.172
+CS-ALLOCATING: ParseLatex
+CS-ALLOCATING: ParseRd
+CS-ALLOCATING: R_ParseRd
+CS-ALLOCATING: Renctest
+CS-ALLOCATING: Rf_yyparse
+CS-ALLOCATING: Rf_yyparse.131
+CS-ALLOCATING: Rmd5
+CS-ALLOCATING: Rsha256
+CS-ALLOCATING: UserMacroLookup
+CS-ALLOCATING: check_nonASCII2
+CS-ALLOCATING: chmod_one
+CS-ALLOCATING: codeFilesAppend
+CS-ALLOCATING: con_cleanup
+CS-ALLOCATING: con_getc
+CS-ALLOCATING: delim_match
+CS-ALLOCATING: deparseRd
+CS-ALLOCATING: dirchmod
+CS-ALLOCATING: doTabExpand
+CS-ALLOCATING: getDynamicFlag
+CS-ALLOCATING: getfmts
+CS-ALLOCATING: isComment
+CS-ALLOCATING: makeSrcref
+CS-ALLOCATING: makeSrcref.159
+CS-ALLOCATING: mkCode
+CS-ALLOCATING: mkComment
+CS-ALLOCATING: mkComment.177
+CS-ALLOCATING: mkDollar
+CS-ALLOCATING: mkIfdef
+CS-ALLOCATING: mkMarkup
+CS-ALLOCATING: mkMarkup.178
+CS-ALLOCATING: mkString2
+CS-ALLOCATING: mkString2.181
+CS-ALLOCATING: mkText
+CS-ALLOCATING: mkText.179
+CS-ALLOCATING: mkVerb
+CS-ALLOCATING: mkVerb.180
+CS-ALLOCATING: mkVerb2
+CS-ALLOCATING: mkVerbEnv
+CS-ALLOCATING: nonASCII
+CS-ALLOCATING: package_dependencies_scan
+CS-ALLOCATING: package_dependencies_scan_one
+CS-ALLOCATING: parseLatex
+CS-ALLOCATING: parseRd
+CS-ALLOCATING: ps_kill
+CS-ALLOCATING: ps_priority
+CS-ALLOCATING: ps_sigs
+CS-ALLOCATING: remove_dot_segments_wrapper
+CS-ALLOCATING: setDynamicFlag
+CS-ALLOCATING: splitString
+CS-ALLOCATING: startHTTPD
+CS-ALLOCATING: stopHTTPD
+CS-ALLOCATING: token
+CS-ALLOCATING: token.173
+CS-ALLOCATING: xxOptionmarkup
+CS-ALLOCATING: xxSetInVerbEnv
+CS-ALLOCATING: xxWarnNewline
+CS-ALLOCATING: xxblock
+CS-ALLOCATING: xxenterMathMode
+CS-ALLOCATING: xxenv
+CS-ALLOCATING: xxgetc
+CS-ALLOCATING: xxgetc.176
+CS-ALLOCATING: xxlist
+CS-ALLOCATING: xxlist.142
+CS-ALLOCATING: xxmarkup
+CS-ALLOCATING: xxmarkup2
+CS-ALLOCATING: xxmarkup3
+CS-ALLOCATING: xxmath
+CS-ALLOCATING: xxnewcommand
+CS-ALLOCATING: xxnewdef
+CS-ALLOCATING: xxnewlist
+CS-ALLOCATING: xxnewlist.141
+CS-ALLOCATING: xxnewlist2
+CS-ALLOCATING: xxnewlist3
+CS-ALLOCATING: xxnewlist4
+CS-ALLOCATING: xxnewlist5
+CS-ALLOCATING: xxnewlist6
+CS-ALLOCATING: xxnewlist7
+CS-ALLOCATING: xxnewlist8
+CS-ALLOCATING: xxnewlist9
+CS-ALLOCATING: xxpushMode
+CS-ALLOCATING: xxpushMode.147
+CS-ALLOCATING: xxsavevalue
+CS-ALLOCATING: xxsavevalue.140
+CS-ALLOCATING: xxtag
+CS-ALLOCATING: xxtag.144
+CS-ALLOCATING: xxusermacro
+CS-ALLOCATING: yyerror
+CS-ALLOCATING: yyerror.146
+CS-ALLOCATING: yylex
+CS-ALLOCATING: yylex.134
+
+C-ALLOCATOR: mkString2
+C-ALLOCATOR: xxblock
+C-ALLOCATOR: xxenv
+C-ALLOCATOR: xxnewlist
+C-ALLOCATOR: UserMacroLookup
+C-ALLOCATOR: xxusermacro
+C-ALLOCATOR: xxnewcommand
+C-ALLOCATOR: xxOptionmarkup
+C-ALLOCATOR: xxnewlist.141
+C-ALLOCATOR: InstallKeywords
+C-ALLOCATOR: ps_priority
+C-ALLOCATOR: ps_kill
+C-ALLOCATOR: doTabExpand
+C-ALLOCATOR: Rsha256
+C-ALLOCATOR: Rmd5
+C-ALLOCATOR: package_dependencies_scan_one
+C-ALLOCATOR: remove_dot_segments_wrapper
+C-ALLOCATOR: nonASCII
+C-ALLOCATOR: splitString
+C-ALLOCATOR: deparseRd
+C-ALLOCATOR: xxmarkup3
+C-ALLOCATOR: codeFilesAppend
+C-ALLOCATOR: ps_sigs
+C-ALLOCATOR: xxmarkup
+C-ALLOCATOR: xxpushMode.147
+C-ALLOCATOR: xxmath
+C-ALLOCATOR: check_nonASCII2
+C-ALLOCATOR: xxnewdef
+C-ALLOCATOR: xxpushMode
+C-ALLOCATOR: delim_match
+C-ALLOCATOR: getfmts
+C-ALLOCATOR: NewList.172
+C-ALLOCATOR: startHTTPD
+C-ALLOCATOR: package_dependencies_scan
+C-ALLOCATOR: xxmarkup2
+C-ALLOCATOR: makeSrcref.159
+C-ALLOCATOR: xxenterMathMode
+C-ALLOCATOR: NewList
+C-ALLOCATOR: mkString2
+C-ALLOCATOR: mkString2.181
+C-ALLOCATOR: makeSrcref
+C-ALLOCATING: GrowList(?,V)
+C-ALLOCATING: isComment(V)
+C-ALLOCATING: xxnewdef
+C-ALLOCATING: xxpushMode
+C-ALLOCATING: xxblock
+C-ALLOCATING: xxmath
+C-ALLOCATING: xxlist
+C-ALLOCATING: xxnewlist
+C-ALLOCATING: mkDollar
+C-ALLOCATING: token.173
+C-ALLOCATING: GrowList.171
+C-ALLOCATING: xxWarnNewline
+C-ALLOCATING: setDynamicFlag
+C-ALLOCATING: xxgetc.176
+C-ALLOCATING: isComment
+C-ALLOCATING: xxpushMode.147
+C-ALLOCATING: xxusermacro
+C-ALLOCATING: xxnewcommand
+C-ALLOCATING: xxnewlist8
+C-ALLOCATING: xxnewlist7
+C-ALLOCATING: xxnewlist6
+C-ALLOCATING: xxnewlist5
+C-ALLOCATING: xxtag.144
+C-ALLOCATING: xxnewlist.141
+C-ALLOCATING: con_getc
+C-ALLOCATING: R_ParseRd
+C-ALLOCATING: parseRd
+C-ALLOCATING: parseLatex
+C-ALLOCATING: chmod_one
+C-ALLOCATING: package_dependencies_scan_one
+C-ALLOCATING: remove_dot_segments_wrapper
+C-ALLOCATING: nonASCII
+C-ALLOCATING: package_dependencies_scan
+C-ALLOCATING: splitString
+C-ALLOCATING: deparseRd
+C-ALLOCATING: stopHTTPD
+C-ALLOCATING: startHTTPD
+C-ALLOCATING: ps_priority
+C-ALLOCATING: ps_sigs
+C-ALLOCATING: doTabExpand
+C-ALLOCATING: check_nonASCII2
+C-ALLOCATING: Rsha256
+C-ALLOCATING: Rmd5
+C-ALLOCATING: getfmts
+C-ALLOCATING: delim_match
+C-ALLOCATING: codeFilesAppend
+C-ALLOCATING: Renctest
+C-ALLOCATING: xxnewlist2
+C-ALLOCATING: xxlist.142
+C-ALLOCATING: setDynamicFlag(V,?)
+C-ALLOCATING: xxsavevalue.140
+C-ALLOCATING: GrowList
+C-ALLOCATING: xxnewlist3
+C-ALLOCATING: xxnewlist9
+C-ALLOCATING: xxmarkup3
+C-ALLOCATING: yyerror.146
+C-ALLOCATING: xxmarkup
+C-ALLOCATING: mkText.179
+C-ALLOCATING: xxnewlist4
+C-ALLOCATING: con_cleanup
+C-ALLOCATING: mkVerbEnv
+C-ALLOCATING: token
+C-ALLOCATING: mkCode
+C-ALLOCATING: UserMacroLookup
+C-ALLOCATING: ParseLatex
+C-ALLOCATING: KeywordLookup.182
+C-ALLOCATING: xxOptionmarkup
+C-ALLOCATING: ParseRd
+C-ALLOCATING: mkVerb.180
+C-ALLOCATING: InitSymbols
+C-ALLOCATING: mkIfdef
+C-ALLOCATING: makeSrcref
+C-ALLOCATING: xxsavevalue
+C-ALLOCATING: getDynamicFlag
+C-ALLOCATING: mkText
+C-ALLOCATING: xxmarkup2
+C-ALLOCATING: mkComment.177
+C-ALLOCATING: makeSrcref.159
+C-ALLOCATING: InstallKeywords
+C-ALLOCATING: Rf_yyparse.131
+C-ALLOCATING: yylex.134
+C-ALLOCATING: ps_kill
+C-ALLOCATING: NewList
+C-ALLOCATING: mkMarkup.178
+C-ALLOCATING: Rf_yyparse
+C-ALLOCATING: xxtag
+C-ALLOCATING: yylex
+C-ALLOCATING: xxSetInVerbEnv
+C-ALLOCATING: xxenv
+C-ALLOCATING: xxenterMathMode
+C-ALLOCATING: mkVerb2
+C-ALLOCATING: dirchmod
+C-ALLOCATING: mkString2
+C-ALLOCATING: mkString2.181
+C-ALLOCATING: NewList.172
+C-ALLOCATING: mkComment
+C-ALLOCATING: mkVerb
+C-ALLOCATING: yyerror
+C-ALLOCATING: xxgetc
+C-ALLOCATING: mkMarkup
+C-ALLOCATING: KeywordLookup
+C-ALLOCATING: mkString2
+ALLOCATOR: codeFilesAppend
+ALLOCATOR: mkString2.181
+ALLOCATOR: makeSrcref.159
+ALLOCATOR: nonASCII
+ALLOCATOR: InstallKeywords
+ALLOCATOR: xxnewlist.141
+ALLOCATOR: xxmarkup
+ALLOCATOR: xxmarkup2
+ALLOCATOR: UserMacroLookup
+ALLOCATOR: xxOptionmarkup
+ALLOCATOR: delim_match
+ALLOCATOR: getfmts
+ALLOCATOR: NewList.172
+ALLOCATOR: deparseRd
+ALLOCATOR: ps_sigs
+ALLOCATOR: xxnewcommand
+ALLOCATOR: Rmd5
+ALLOCATOR: xxnewdef
+ALLOCATOR: xxpushMode
+ALLOCATOR: remove_dot_segments_wrapper
+ALLOCATOR: Rsha256
+ALLOCATOR: xxenv
+ALLOCATOR: startHTTPD
+ALLOCATOR: xxmarkup3
+ALLOCATOR: NewList
+ALLOCATOR: xxenterMathMode
+ALLOCATOR: ps_kill
+ALLOCATOR: splitString
+ALLOCATOR: makeSrcref
+ALLOCATOR: xxmath
+ALLOCATOR: mkString2
+ALLOCATOR: doTabExpand
+ALLOCATOR: xxnewlist
+ALLOCATOR: xxusermacro
+ALLOCATOR: check_nonASCII2
+ALLOCATOR: package_dependencies_scan
+ALLOCATOR: xxpushMode.147
+ALLOCATOR: xxblock
+ALLOCATOR: ps_priority
+ALLOCATOR: package_dependencies_scan_one
+ALLOCATING: codeFilesAppend
+ALLOCATING: ParseRd
+ALLOCATING: con_getc
+ALLOCATING: R_ParseRd
+ALLOCATING: KeywordLookup.182
+ALLOCATING: mkString2.181
+ALLOCATING: mkIfdef
+ALLOCATING: xxgetc.176
+ALLOCATING: makeSrcref.159
+ALLOCATING: parseRd
+ALLOCATING: package_dependencies_scan
+ALLOCATING: NewList.172
+ALLOCATING: GrowList.171
+ALLOCATING: setDynamicFlag
+ALLOCATING: getDynamicFlag
+ALLOCATING: xxsavevalue.140
+ALLOCATING: Rf_yyparse.131
+ALLOCATING: InstallKeywords
+ALLOCATING: xxnewlist4
+ALLOCATING: xxnewlist3
+ALLOCATING: xxnewlist2
+ALLOCATING: xxusermacro
+ALLOCATING: xxnewcommand
+ALLOCATING: xxmarkup3
+ALLOCATING: yyerror.146
+ALLOCATING: xxmarkup2
+ALLOCATING: xxmarkup
+ALLOCATING: xxnewlist.141
+ALLOCATING: xxpushMode.147
+ALLOCATING: xxnewlist6
+ALLOCATING: ParseLatex
+ALLOCATING: isComment
+ALLOCATING: mkText.179
+ALLOCATING: dirchmod
+ALLOCATING: xxtag
+ALLOCATING: xxWarnNewline
+ALLOCATING: splitString
+ALLOCATING: mkCode
+ALLOCATING: stopHTTPD
+ALLOCATING: xxOptionmarkup
+ALLOCATING: xxtag.144
+ALLOCATING: parseLatex
+ALLOCATING: mkVerbEnv
+ALLOCATING: token.173
+ALLOCATING: xxnewdef
+ALLOCATING: Renctest
+ALLOCATING: chmod_one
+ALLOCATING: xxnewlist7
+ALLOCATING: xxenterMathMode
+ALLOCATING: yylex.134
+ALLOCATING: xxSetInVerbEnv
+ALLOCATING: xxnewlist9
+ALLOCATING: getfmts
+ALLOCATING: mkVerb2
+ALLOCATING: mkVerb
+ALLOCATING: startHTTPD
+ALLOCATING: Rmd5
+ALLOCATING: ps_priority
+ALLOCATING: delim_match
+ALLOCATING: xxsavevalue
+ALLOCATING: mkString2
+ALLOCATING: doTabExpand
+ALLOCATING: yylex
+ALLOCATING: check_nonASCII2
+ALLOCATING: xxpushMode
+ALLOCATING: Rsha256
+ALLOCATING: package_dependencies_scan_one
+ALLOCATING: InitSymbols
+ALLOCATING: mkText
+ALLOCATING: xxgetc
+ALLOCATING: mkComment
+ALLOCATING: mkMarkup
+ALLOCATING: ps_sigs
+ALLOCATING: mkVerb.180
+ALLOCATING: xxmath
+ALLOCATING: xxnewlist8
+ALLOCATING: nonASCII
+ALLOCATING: mkDollar
+ALLOCATING: xxenv
+ALLOCATING: xxblock
+ALLOCATING: xxlist.142
+ALLOCATING: xxnewlist5
+ALLOCATING: ps_kill
+ALLOCATING: makeSrcref
+ALLOCATING: deparseRd
+ALLOCATING: mkMarkup.178
+ALLOCATING: token
+ALLOCATING: con_cleanup
+ALLOCATING: Rf_yyparse
+ALLOCATING: remove_dot_segments_wrapper
+ALLOCATING: UserMacroLookup
+ALLOCATING: mkComment.177
+ALLOCATING: GrowList
+ALLOCATING: xxlist
+ALLOCATING: xxnewlist
+ALLOCATING: NewList
+ERROR: C-ALLOCATING but not ALLOCATING: KeywordLookup
+ERROR: C-ALLOCATING but not ALLOCATING: yyerror

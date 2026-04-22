@@ -1,0 +1,30 @@
+
+Function R_find_method
+  [UP] calling allocating function R_element_named with a fresh pointer (methods <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:283
+
+Function R_getClassFromCache
+  [UP] unprotected variable package while calling allocating function Rf_findVarInFrame /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:973
+  [UP] unprotected variable package while calling allocating function Rf_installTrChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:973
+  [UP] allocating function Rf_getAttrib(?,S:package) may destroy its unprotected argument (value <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:977
+  [UP] calling allocating function Rf_getAttrib(?,S:package) with a fresh pointer (value <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:977
+  [UP] unprotected variable package while calling allocating function Rf_getAttrib(?,S:package) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:977
+
+Function R_quick_method_check
+  [UP] unprotected variable methods while calling allocating function Rf_eval /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:303
+  [UP] unprotected variable methods while calling allocating function R_data_class /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:305
+  [UP] calling allocating function R_element_named with a fresh pointer (methods <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:307
+
+Function R_selectByPackage
+  [UP] calling allocating function Rf_asChar with a fresh pointer (thisPkg <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:867
+  [UP] calling allocating function Rf_asChar with a fresh pointer (thisPkg <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:879
+
+Function R_standardGeneric
+  [UP] allocating function Rf_inherits may destroy its unprotected argument (f <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:569
+  [UP] calling allocating function Rf_inherits with a fresh pointer (f <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:569
+
+Function get_generic
+  [UP] allocating function Rf_getAttrib(?,S:generic) may destroy its unprotected argument (vl <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:463
+  [UP] calling allocating function Rf_getAttrib(?,S:generic) with a fresh pointer (vl <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:463
+  [UP] allocating function Rf_getAttrib(?,S:package) may destroy its unprotected argument (vl <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:465
+  [UP] calling allocating function Rf_getAttrib(?,S:package) with a fresh pointer (vl <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:465
+Analyzed 53 functions, traversed 2229 states.

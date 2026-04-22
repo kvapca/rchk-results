@@ -1,0 +1,402 @@
+[CACHE] Basic block index 15 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:15:0
+[CACHE] Basic block index 16 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:16:4
+[CACHE] Basic block index 18 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:18:0
+[CACHE] Basic block index 18 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:18:1
+[CACHE] Basic block index 20 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:20:1
+[CACHE] Basic block index 20 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:20:2
+[CACHE] Basic block index 21 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:21:0
+[CACHE] Basic block index 21 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:21:13
+[CACHE] Basic block index 26 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:26:0
+[CACHE] Basic block index 29 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:29:0
+[CACHE] Basic block index 30 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:30:0
+[CACHE] Basic block index 31 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:31:0
+[CACHE] Basic block index 34 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:34:0
+[CACHE] Basic block index 37 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:37:0
+[CACHE] Basic block index 40 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:40:0
+[CACHE] Basic block index 43 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:43:0
+[CACHE] Basic block index 47 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:47:0
+[CACHE] Basic block index 51 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:51:0
+[CACHE] Basic block index 55 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:55:0
+[CACHE] Basic block index 57 out of range in yylex
+[CACHE] Failed to decode call instruction: yylex:57:0
+[CACHE] Instruction index 5 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:2:5
+[CACHE] Instruction index 8 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:2:8
+[CACHE] Instruction index 3 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:3:3
+[CACHE] Instruction index 7 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:7:7
+[CACHE] Instruction index 3 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:17:3
+[CACHE] Instruction index 6 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:19:6
+[CACHE] Instruction index 1 out of range in yyerror
+[CACHE] Failed to decode call instruction: yyerror:24:1
+[CACHE] Instruction index 61 out of range in makeSrcref
+[CACHE] Failed to decode call instruction: makeSrcref:0:61
+[CACHE] Instruction index 67 out of range in makeSrcref
+[CACHE] Failed to decode call instruction: makeSrcref:0:67
+[CACHE] Instruction index 70 out of range in makeSrcref
+[CACHE] Failed to decode call instruction: makeSrcref:0:70
+[CACHE] Instruction index 71 out of range in makeSrcref
+[CACHE] Failed to decode call instruction: makeSrcref:0:71
+[CACHE] Instruction index 72 out of range in makeSrcref
+[CACHE] Failed to decode call instruction: makeSrcref:0:72
+[CACHE] Basic block index 17 out of range in token
+[CACHE] Failed to decode call instruction: token:17:0
+[CACHE] Basic block index 18 out of range in token
+[CACHE] Failed to decode call instruction: token:18:1
+[CACHE] Basic block index 23 out of range in token
+[CACHE] Failed to decode call instruction: token:23:1
+[CACHE] Basic block index 25 out of range in token
+[CACHE] Failed to decode call instruction: token:25:1
+[CACHE] Basic block index 27 out of range in token
+[CACHE] Failed to decode call instruction: token:27:1
+[CACHE] Basic block index 30 out of range in token
+[CACHE] Failed to decode call instruction: token:30:1
+[CACHE] Basic block index 32 out of range in token
+[CACHE] Failed to decode call instruction: token:32:1
+[CACHE] Basic block index 34 out of range in token
+[CACHE] Failed to decode call instruction: token:34:1
+[CACHE] Basic block index 36 out of range in token
+[CACHE] Failed to decode call instruction: token:36:1
+[CACHE] Basic block index 37 out of range in token
+[CACHE] Failed to decode call instruction: token:37:1
+[CACHE] Basic block index 39 out of range in token
+[CACHE] Failed to decode call instruction: token:39:0
+[CACHE] Basic block index 40 out of range in token
+[CACHE] Failed to decode call instruction: token:40:1
+[CACHE] Basic block index 43 out of range in token
+[CACHE] Failed to decode call instruction: token:43:0
+[CACHE] Basic block index 44 out of range in token
+[CACHE] Failed to decode call instruction: token:44:0
+[CACHE] Basic block index 45 out of range in token
+[CACHE] Failed to decode call instruction: token:45:0
+[CACHE] Basic block index 46 out of range in token
+[CACHE] Failed to decode call instruction: token:46:0
+[CACHE] Basic block index 47 out of range in token
+[CACHE] Failed to decode call instruction: token:47:0
+[CACHE] Basic block index 48 out of range in token
+[CACHE] Failed to decode call instruction: token:48:0
+[CACHE] Basic block index 49 out of range in token
+[CACHE] Failed to decode call instruction: token:49:0
+[CACHE] Basic block index 51 out of range in token
+[CACHE] Failed to decode call instruction: token:51:0
+[CACHE] Basic block index 52 out of range in token
+[CACHE] Failed to decode call instruction: token:52:0
+[CACHE] Basic block index 53 out of range in token
+[CACHE] Failed to decode call instruction: token:53:0
+[CACHE] Basic block index 54 out of range in token
+[CACHE] Failed to decode call instruction: token:54:0
+[CACHE] Basic block index 55 out of range in token
+[CACHE] Failed to decode call instruction: token:55:0
+[CACHE] Basic block index 56 out of range in token
+[CACHE] Failed to decode call instruction: token:56:0
+[CACHE] Basic block index 57 out of range in token
+[CACHE] Failed to decode call instruction: token:57:0
+[CACHE] Basic block index 58 out of range in token
+[CACHE] Failed to decode call instruction: token:58:0
+[CACHE] Basic block index 59 out of range in token
+[CACHE] Failed to decode call instruction: token:59:0
+[CACHE] Basic block index 60 out of range in token
+[CACHE] Failed to decode call instruction: token:60:0
+[CACHE] Basic block index 61 out of range in token
+[CACHE] Failed to decode call instruction: token:61:0
+[CACHE] Basic block index 62 out of range in token
+[CACHE] Failed to decode call instruction: token:62:0
+[CACHE] Basic block index 63 out of range in token
+[CACHE] Failed to decode call instruction: token:63:0
+[CACHE] Basic block index 64 out of range in token
+[CACHE] Failed to decode call instruction: token:64:0
+[CACHE] Basic block index 65 out of range in token
+[CACHE] Failed to decode call instruction: token:65:0
+[CACHE] Basic block index 66 out of range in token
+[CACHE] Failed to decode call instruction: token:66:0
+[CACHE] Basic block index 68 out of range in token
+[CACHE] Failed to decode call instruction: token:68:0
+[CACHE] Basic block index 69 out of range in token
+[CACHE] Failed to decode call instruction: token:69:0
+[CACHE] Basic block index 70 out of range in token
+[CACHE] Failed to decode call instruction: token:70:0
+[CACHE] Basic block index 71 out of range in token
+[CACHE] Failed to decode call instruction: token:71:0
+[CACHE] Basic block index 72 out of range in token
+[CACHE] Failed to decode call instruction: token:72:0
+[CACHE] Basic block index 73 out of range in token
+[CACHE] Failed to decode call instruction: token:73:0
+[CACHE] Basic block index 74 out of range in token
+[CACHE] Failed to decode call instruction: token:74:0
+[CACHE] Basic block index 75 out of range in token
+[CACHE] Failed to decode call instruction: token:75:0
+[CACHE] Basic block index 76 out of range in token
+[CACHE] Failed to decode call instruction: token:76:0
+[CACHE] Basic block index 77 out of range in token
+[CACHE] Failed to decode call instruction: token:77:0
+[CACHE] Basic block index 78 out of range in token
+[CACHE] Failed to decode call instruction: token:78:0
+[CACHE] Basic block index 79 out of range in token
+[CACHE] Failed to decode call instruction: token:79:0
+[CACHE] Basic block index 80 out of range in token
+[CACHE] Failed to decode call instruction: token:80:0
+[CACHE] Basic block index 81 out of range in token
+[CACHE] Failed to decode call instruction: token:81:0
+[CACHE] Basic block index 82 out of range in token
+[CACHE] Failed to decode call instruction: token:82:0
+[CACHE] Basic block index 84 out of range in token
+[CACHE] Failed to decode call instruction: token:84:0
+[CACHE] Basic block index 85 out of range in token
+[CACHE] Failed to decode call instruction: token:85:0
+[CACHE] Basic block index 86 out of range in token
+[CACHE] Failed to decode call instruction: token:86:0
+[CACHE] Basic block index 87 out of range in token
+[CACHE] Failed to decode call instruction: token:87:0
+[CACHE] Basic block index 88 out of range in token
+[CACHE] Failed to decode call instruction: token:88:0
+[CACHE] Basic block index 89 out of range in token
+[CACHE] Failed to decode call instruction: token:89:0
+[CACHE] Basic block index 90 out of range in token
+[CACHE] Failed to decode call instruction: token:90:0
+[CACHE] Basic block index 91 out of range in token
+[CACHE] Failed to decode call instruction: token:91:0
+[CACHE] Basic block index 92 out of range in token
+[CACHE] Failed to decode call instruction: token:92:0
+[CACHE] Basic block index 93 out of range in token
+[CACHE] Failed to decode call instruction: token:93:0
+[CACHE] Basic block index 94 out of range in token
+[CACHE] Failed to decode call instruction: token:94:0
+[CACHE] Basic block index 95 out of range in token
+[CACHE] Failed to decode call instruction: token:95:0
+[CACHE] Basic block index 96 out of range in token
+[CACHE] Failed to decode call instruction: token:96:0
+[CACHE] Basic block index 98 out of range in token
+[CACHE] Failed to decode call instruction: token:98:4
+[CACHE] Basic block index 101 out of range in token
+[CACHE] Failed to decode call instruction: token:101:1
+[CACHE] Basic block index 106 out of range in token
+[CACHE] Failed to decode call instruction: token:106:0
+[CACHE] Basic block index 112 out of range in token
+[CACHE] Failed to decode call instruction: token:112:0
+[CACHE] Basic block index 113 out of range in token
+[CACHE] Failed to decode call instruction: token:113:0
+[CACHE] Basic block index 118 out of range in token
+[CACHE] Failed to decode call instruction: token:118:0
+[CACHE] Basic block index 6 out of range in mkString2
+[CACHE] Failed to decode call instruction: mkString2:6:8
+[CACHE] Instruction index 6 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:2:6
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:7:4
+[CACHE] Instruction index 3 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:8:3
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:8:4
+[CACHE] Instruction index 7 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:11:7
+[CACHE] Instruction index 3 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:12:3
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:12:4
+[CACHE] Instruction index 7 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:12:7
+[CACHE] Instruction index 3 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:13:3
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:13:4
+[CACHE] Instruction index 7 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:13:7
+[CACHE] Instruction index 3 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:14:3
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:14:4
+[CACHE] Instruction index 7 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:14:7
+[CACHE] Instruction index 3 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:15:3
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:15:4
+[CACHE] Instruction index 7 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:15:7
+[CACHE] Instruction index 12 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:15:12
+[CACHE] Instruction index 4 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:17:4
+[CACHE] Basic block index 21 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:21:1
+[CACHE] Basic block index 21 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:21:4
+[CACHE] Basic block index 21 out of range in KeywordLookup
+[CACHE] Failed to decode call instruction: KeywordLookup:21:5
+[CACHE] Basic block index 6 out of range in mkString2
+[CACHE] Failed to decode call instruction: mkString2:6:0
+[CACHE] Basic block index 6 out of range in mkString2
+[CACHE] Failed to decode call instruction: mkString2:6:2
+[CACHE] Basic block index 6 out of range in mkString2
+[CACHE] Failed to decode call instruction: mkString2:6:9
+[CACHE] Basic block index 6 out of range in mkString2
+[CACHE] Failed to decode call instruction: mkString2:6:10
+
+Function Rf_yyparse
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2302
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2306
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2314
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2342
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2346
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2350
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2354
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2358
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2362
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2366
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2370
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2374
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2378
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2382
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2386
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2390
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2394
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2398
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2402
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2406
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2410
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2414
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2418
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2422
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2426
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2430
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2434
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2438
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2442
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2446
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2450
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2454
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2458
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2462
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2466
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2470
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2474
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2478
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2482
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2486
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2490
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2494
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2498
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2502
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2506
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2510
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2514
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2518
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2522
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2526
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2530
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2534
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2538
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2542
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2546
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2558
+  [UP] unprotected variable yyval while calling allocating function setId /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:2562
+
+Function Rf_yyparse.131
+  [UP] calling allocating function xxusermacro with argument allocated using xxnewlist.141 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2526
+  [UP] calling allocating function xxusermacro with argument allocated using xxnewlist.141 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2530
+  [UP] unprotected variable yyval while calling allocating function Rf_warning /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2576
+  [UP] unprotected variable yyval while calling allocating function Rf_warningcall /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2579
+
+Function xxOptionmarkup
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3258
+  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3261
+  [UP] allocating function setDynamicFlag(V,?) may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3262
+  [UP] calling allocating function setDynamicFlag(V,?) with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3262
+
+Function xxblock
+  [UP] unprotected variable ans while calling allocating function makeSrcref /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2439
+  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2440
+
+Function xxenv
+  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2293
+  [UP] unprotected variable ans while calling allocating function makeSrcref /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2296
+  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2297
+
+Function xxmarkup
+  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3064
+  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3069
+  [UP] allocating function setDynamicFlag(V,?) may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3070
+  [UP] calling allocating function setDynamicFlag(V,?) with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3070
+
+Function xxmarkup2
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3278
+  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3279
+  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3281
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3287
+  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3288
+  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3290
+  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3295
+  [UP] allocating function setDynamicFlag(V,?) may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3296
+  [UP] calling allocating function setDynamicFlag(V,?) with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3296
+
+Function xxmarkup3
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3312
+  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3313
+  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3315
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3320
+  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3321
+  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3323
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3328
+  [UP] unprotected variable ans while calling allocating function Rf_PairToVectorList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3329
+  [UP] unprotected variable ans while calling allocating function setDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3331
+  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3336
+  [UP] allocating function setDynamicFlag(V,?) may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3337
+  [UP] calling allocating function setDynamicFlag(V,?) with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3337
+
+Function xxmath
+  [UP] unprotected variable ans while calling allocating function makeSrcref /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2418
+  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2420
+
+Function xxnewdef
+  [UP] unprotected variable temp while calling allocating function R_PreserveInMSet(V,?) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2316
+  [UP] unprotected variable temp while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2316
+  [UP] unprotected variable ans while calling allocating function makeSrcref /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2323
+  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2324
+
+Function xxnewlist
+  [UP] allocating function GrowList may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2247
+  [UP] calling allocating function GrowList with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2247
+
+Function xxnewlist.141
+  [UP] unprotected variable ans while calling allocating function getDynamicFlag /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2979
+  [UP] allocating function GrowList.171 may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2980
+  [UP] calling allocating function GrowList.171 with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2980
+  [UP] allocating function setDynamicFlag may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2981
+  [UP] calling allocating function setDynamicFlag with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2981
+
+Function xxnewlist2
+  [UP] calling allocating function xxlist.142 with argument allocated using xxnewlist.141 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:2992
+
+Function xxusermacro
+  [UP] unprotected variable ans while calling allocating function UserMacroLookup /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3160
+  [UP] unprotected variable ans while calling allocating function Rf_mkChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3171
+  [UP] unprotected variable ans while calling allocating function isComment(V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3194
+  [UP] unprotected variable ans while calling allocating function R_alloc /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3200
+  [UP] unprotected variable ans while calling allocating function isComment /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3204
+  [UP] unprotected variable ans while calling allocating function Rf_mkCharCE /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3212
+  [UP] unprotected variable ans while calling allocating function Rf_mkString /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3237
+  [UP] unprotected variable ans while calling allocating function makeSrcref.159 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3238
+Analyzed 144 functions, traversed 5355 states.

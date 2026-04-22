@@ -1,0 +1,20 @@
+Callee protect functions: 
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+
+
+CS-ALLOCATING: Lmatrix
+CS-ALLOCATING: VR_dovm
+CS-ALLOCATING: matrix
+CS-ALLOCATING: vect
+
+C-ALLOCATING: matrix
+C-ALLOCATING: vect
+C-ALLOCATING: VR_dovm
+C-ALLOCATING: Lmatrix
+ALLOCATING: VR_dovm
+ERROR: C-ALLOCATING but not ALLOCATING: Lmatrix
+ERROR: C-ALLOCATING but not ALLOCATING: vect
+ERROR: C-ALLOCATING but not ALLOCATING: matrix

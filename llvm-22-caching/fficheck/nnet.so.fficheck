@@ -1,0 +1,3 @@
+Library name (usually package name): nnet
+Initialization function: R_init_nnet
+Checked call to R_registerRoutines: 1
