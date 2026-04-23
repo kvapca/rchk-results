@@ -493,8 +493,6 @@ ALLOCATING: cd_cholmod_change_factor_2_worker
 ALLOCATING: cd_cholmod_rowfac_mask_worker
 ALLOCATING: cd_cholmod_rowfac_worker
 ALLOCATING: cd_cholmod_spsolve_X_worker
-ALLOCATING: cd_cholmod_super_lsolve_worker
-ALLOCATING: cd_cholmod_super_ltsolve_worker
 ALLOCATING: cd_cholmod_super_numeric_worker
 ALLOCATING: change_simplicial_num
 ALLOCATING: change_xdtype
@@ -3558,8 +3556,6 @@ ERROR: too many states (abstraction error?) in function RunGenCollect
 ERROR: too many states (abstraction error?) in function bcEval_loop
 ERROR: too many states (abstraction error?) in function scanArgs
 ERROR: too many states (abstraction error?) in function strptime_internal
-GOOD: NOT-CALLOCATING but ALLOCATING: cd_cholmod_super_lsolve_worker
-GOOD: NOT-CALLOCATING but ALLOCATING: cd_cholmod_super_ltsolve_worker
 GOOD: NOT-CALLOCATOR but ALLOCATOR: MatrixFactorization_validate
 GOOD: NOT-CALLOCATOR but ALLOCATOR: Matrix_validate
 GOOD: NOT-CALLOCATOR but ALLOCATOR: R_DimNames_validate

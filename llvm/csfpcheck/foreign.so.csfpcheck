@@ -214,6 +214,7 @@ ERROR: too many states (abstraction error?) in function RunGenCollect
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/pfm-read.c 1037
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/pfm-read.c 1044
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/pfm-read.c 1072
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/sfm-read.c 178
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/sfm-read.c 251
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/sfm-read.c 259
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/sfm-read.c 310
@@ -332,6 +333,7 @@ ERROR: too many states (abstraction error?) in function RunGenCollect
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 466
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 467
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 475
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 491
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 492
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 493
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 505
@@ -339,7 +341,9 @@ ERROR: too many states (abstraction error?) in function RunGenCollect
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 515
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 517
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 519
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 525
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 536
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 540
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 543
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 544
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 545

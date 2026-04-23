@@ -1,5 +1,5 @@
-structure with SEXP fields parseState @parseState = weak dso_local global %struct.ParseState zeroinitializer, align 8, !dbg !14919
-non-symbol SEXP global variable yylvalL  @yylvalL = weak hidden global %struct.SEXPREC* null, align 8, !dbg !14946
-structure with SEXP fields parseState.120 @parseState.120 = weak dso_local global %struct.ParseState.31 zeroinitializer, align 8, !dbg !15043
-non-symbol SEXP global variable yylvalR  @yylvalR = weak hidden global %struct.SEXPREC* null, align 8, !dbg !15239
-non-symbol SEXP global variable SrcFile  @SrcFile = weak dso_local global %struct.SEXPREC* null, align 8, !dbg !15351
+structure with SEXP fields parseState @parseState = weak dso_local global %struct.ParseState zeroinitializer, align 8, !dbg !35154
+non-symbol SEXP global variable yylvalL  @yylvalL = weak hidden global ptr null, align 8, !dbg !35181
+structure with SEXP fields parseState.120 @parseState.120 = weak dso_local global %struct.ParseState.15 zeroinitializer, align 8, !dbg !35443
+non-symbol SEXP global variable yylvalR  @yylvalR = weak hidden global ptr null, align 8, !dbg !35652
+non-symbol SEXP global variable SrcFile  @SrcFile = weak dso_local global ptr null, align 8, !dbg !35777

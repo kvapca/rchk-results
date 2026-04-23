@@ -45,4 +45,14 @@ WARNING Suspicious call (two or more unprotected arguments) to SETCDR at bcEval_
 WARNING Suspicious call (two or more unprotected arguments) to SETCAR at bcEval_loop /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/eval.c:8555
 WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at do_pcre_config /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/grep.c:3477
 WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at do_pcre_config /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/grep.c:3480
-WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at do_pcre_config /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/maiRCHK assertion failed: fisearch != functionsMap.end(), in function main at ueacheck.cpp:225
+WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at do_pcre_config /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/grep.c:3482
+WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at do_pcre_config /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/grep.c:3487
+WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at do_pretty /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/util.c:2925
+WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at do_pretty /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/util.c:2927
+WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at do_pretty /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/util.c:2928
+WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at do_pretty /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/util.c:2930
+WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at do_pretty /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/util.c:2931
+WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at do_pretty /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/util.c:2932
+WARNING Suspicious call (two or more unprotected arguments) to R_findVar at lineprof /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/eval.c:346
+WARNING Suspicious call (two or more unprotected arguments) to SET_SYMVALUE at mkSymMarker /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/names.c:1210
+WARNING Suspicious call (two or more unprotected arguments) to SET_TAG at set_jit_cache_entry /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/eval.c:1715

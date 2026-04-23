@@ -47,11 +47,13 @@ ERROR: too many states (abstraction error?) in function RunGenCollect
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/./par-common.c 310
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/./par-common.c 340
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/./par-common.c 347
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 242
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 270
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 272
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 273
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 288
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 295
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 365
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 370
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 376
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/graphics.c 1788
@@ -120,6 +122,7 @@ ERROR: too many states (abstraction error?) in function RunGenCollect
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/graphics.c 3417
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/graphics.c 3429
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/graphics.c 3511
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/init.c 90
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/par.c 258
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/par.c 267
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/par.c 278

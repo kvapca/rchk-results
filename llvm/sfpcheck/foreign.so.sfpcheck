@@ -305,6 +305,7 @@ List of functions and callsites calling (recursively) into R_gc_internal:
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 461
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 462
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 467
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 491
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 492
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 493
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 505
@@ -312,6 +313,7 @@ List of functions and callsites calling (recursively) into R_gc_internal:
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 515
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 517
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 519
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 525
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 536
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 543
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c 544

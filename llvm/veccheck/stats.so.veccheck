@@ -114,12 +114,12 @@
   get_resid
   get_s2
   lowess
-  math2_1.420
-  math2_2.418
-  math3_1.416
-  math3_2.414
-  math4_1.412
-  math4_2.408
+  math2_1.2938
+  math2_2.2936
+  math3_1.2934
+  math3_2.2932
+  math4_1.2930
+  math4_2.2926
   modelmatrix
   nlm
   optim

@@ -98,8 +98,9 @@ Function R_subset3_dflt
   [UP] unprotected variable nlist while calling allocating function pstrmatch /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/subset.c:1350
 
 Function ReadItem_Iterative
-  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
   [PB] has too high protection stack depth results will be incomplete
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
   [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/serialize.c:1866
   [UP] attempt to unprotect more items (2) than protected (1), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/serialize.c:1866
   [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/serialize.c:1867
@@ -401,13 +402,11 @@ Function do_cum
 
 Function do_dotcall
   [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
-  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
   [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/dotcode.c:1476
 
 Function do_enc2
-  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
-  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
   [PB] has too high protection stack depth results will be incomplete
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
   [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/util.c:2349
   [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/util.c:2349
   [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/util.c:2350
@@ -453,12 +452,12 @@ Function do_matprod
   [UP] unprotected variable dnx while calling allocating function Rf_getAttrib(V,S:names) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/array.c:1556
 
 Function do_nextmethod
-  [UP] ignoring variable klass as it has address taken, results will be incomplete 
   [UP] ignoring variable callenv as it has address taken, results will be incomplete 
-  [UP] ignoring variable defenv as it has address taken, results will be incomplete 
   [UP] ignoring variable generic as it has address taken, results will be incomplete 
   [UP] ignoring variable group as it has address taken, results will be incomplete 
+  [UP] ignoring variable klass as it has address taken, results will be incomplete 
   [UP] ignoring variable method as it has address taken, results will be incomplete 
+  [UP] ignoring variable defenv as it has address taken, results will be incomplete 
   [UP] calling allocating function Rf_getAttrib(?,S:class) with a fresh pointer (s <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/objects.c:796
 
 Function do_printdefault
@@ -502,8 +501,8 @@ Function do_strptime
   [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1622
 
 Function do_subassign2_dflt
-  [UP] ignoring variable subs as it has address taken, results will be incomplete 
   [UP] ignoring variable x as it has address taken, results will be incomplete 
+  [UP] ignoring variable subs as it has address taken, results will be incomplete 
   [UP] ignoring variable y as it has address taken, results will be incomplete 
   [UP] unprotected variable names while calling allocating function Rf_get1index /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/subassign.c:1898
   [UP] unprotected variable names while calling allocating function Rf_get1index /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/subassign.c:2086
@@ -534,8 +533,8 @@ Function do_subset_dflt
   [UP] calling allocating function Rf_getAttrib(?,S:names) with a fresh pointer (dim <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/subset.c:874
 
 Function do_summary
-  [UP] ignoring variable ans as it has address taken, results will be incomplete 
   [UP] ignoring variable stmp as it has address taken, results will be incomplete 
+  [UP] ignoring variable ans as it has address taken, results will be incomplete 
 
 Function do_transpose
   [UP] allocating function Rf_getAttrib(V,S:names) may destroy its unprotected argument (dimnames <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/array.c:1597
@@ -667,4 +666,4 @@ Function xxexprlist1
   [UP] unprotected variable ans while calling allocating function SetSingleSrcRef(V) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:3214
   [UP] allocating function GrowList may destroy its unprotected argument (ans <arg 1>), which is later used. /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:3217
   [UP] calling allocating function GrowList with a fresh pointer (ans <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/gram.c:3217
-Analyzed 4325 functions, traversed 2717390 states.
+Analyzed 4325 functions, traversed 2717388 states.

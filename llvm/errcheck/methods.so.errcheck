@@ -1,4 +1,4 @@
 Marked (noreturn) error function R_dummy_extern_place /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/class_support.c:29
-UNMARKED error function R_S_MethodsListSelectCleanup /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:404
-UNMARKED error function R_nextMethodCallCleanup /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:738
-UNMARKED error function argEvalCleanup /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:642
+UNMARKED error function R_S_MethodsListSelectCleanup /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:406
+UNMARKED error function R_nextMethodCallCleanup /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:740
+UNMARKED error function argEvalCleanup /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:644

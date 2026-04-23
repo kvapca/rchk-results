@@ -149,6 +149,7 @@ C-ALLOCATING: read_value_labels
 C-ALLOCATING: read_variables
 C-ALLOCATING: read_variables.211
 C-ALLOCATING: read_version_data
+C-ALLOCATING: sfm_maybe_close
 C-ALLOCATING: sfm_read_case
 C-ALLOCATING: sfm_read_dictionary
 C-ALLOCATING: skip_char
@@ -230,6 +231,7 @@ CS-ALLOCATING: read_value_labels
 CS-ALLOCATING: read_variables
 CS-ALLOCATING: read_variables.211
 CS-ALLOCATING: read_version_data
+CS-ALLOCATING: sfm_maybe_close
 CS-ALLOCATING: sfm_read_case
 CS-ALLOCATING: sfm_read_dictionary
 CS-ALLOCATING: skip_char
@@ -254,5 +256,4 @@ Callee safe functions (non-trivially, excluding callee-protect):
 ERROR: too many states (abstraction error?) in function RunGenCollect
 ERROR: too many states (abstraction error?) in function bcEval_loop
 ERROR: too many states (abstraction error?) in function strptime_internal
-GOOD: NOT-CALLOCATING but ALLOCATING: sfm_maybe_close
 Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 

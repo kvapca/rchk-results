@@ -95,8 +95,8 @@ Function D
   [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/deriv.c:683
 
 Function EncodeVars
-  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
   [PB] has too high protection stack depth results will be incomplete
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
   [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:1647
   [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:1647
   [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/stats/src/model.c:1707

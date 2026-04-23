@@ -5221,6 +5221,7 @@ C-ALLOCATING: R_tmpnam2
 C-ALLOCATING: R_tryCatch
 C-ALLOCATING: R_tryCatch(?,?,V,?,?,?,?)
 C-ALLOCATING: R_tryCatchError
+C-ALLOCATING: R_tryCatchError(?,V,?,?)
 C-ALLOCATING: R_tryEval
 C-ALLOCATING: R_tryEvalSilent
 C-ALLOCATING: R_tryWrap
@@ -6512,6 +6513,10 @@ C-ALLOCATING: Rprintf
 C-ALLOCATING: Rprintf
 C-ALLOCATING: Rprintf
 C-ALLOCATING: Rprintf
+C-ALLOCATING: Rprintf(?,S:.ArgsEnv)
+C-ALLOCATING: Rprintf(?,S:.Random.seed)
+C-ALLOCATING: Rprintf(?,S:length)
+C-ALLOCATING: Rprintf(?,V)
 C-ALLOCATING: Rsin
 C-ALLOCATING: Rsleep
 C-ALLOCATING: Rsockclose
@@ -8780,6 +8785,7 @@ C-ALLOCATOR: R_sysfunction
 C-ALLOCATOR: R_tryCatch
 C-ALLOCATOR: R_tryCatch(?,?,V,?,?,?,?)
 C-ALLOCATOR: R_tryCatchError
+C-ALLOCATOR: R_tryCatchError(?,V,?,?)
 C-ALLOCATOR: R_tryWrap
 C-ALLOCATOR: R_tryWrap(V)
 C-ALLOCATOR: R_unary

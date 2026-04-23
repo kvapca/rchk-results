@@ -60,6 +60,7 @@ List of functions and callsites calling (recursively) into R_gc_internal:
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/./par-common.c 340
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/./par-common.c 347
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/./par-common.c 348
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 242
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 270
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 272
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/base.c 273
