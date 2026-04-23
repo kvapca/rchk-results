@@ -1,6 +1,3 @@
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grDevices/src/cairo/./cairoFns.c 148
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grDevices/src/cairo/./cairoFns.c 189
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/grDevices/src/cairo/./cairoFns.c 195

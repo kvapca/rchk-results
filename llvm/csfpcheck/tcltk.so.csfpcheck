@@ -1,6 +1,3 @@
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tcltk/src/tcltk.c 53
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tcltk/src/tcltk.c 55
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tcltk/src/tcltk.c 68

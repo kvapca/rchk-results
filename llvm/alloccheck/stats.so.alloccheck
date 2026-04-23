@@ -1818,9 +1818,6 @@ CS-ALLOCATOR: updateform
 CS-ALLOCATOR: zeroin2
 Callee protect functions: 
 Callee safe functions (non-trivially, excluding callee-protect): 
-ERROR: too many states (abstraction error?) in function RunGenCollect
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function strptime_internal
 GOOD: NOT-CALLOCATING but ALLOCATING: isOne(S:pi)
 GOOD: NOT-CALLOCATING but ALLOCATING: isZero(S:pi)
 GOOD: NOT-CALLOCATOR but ALLOCATOR: doD

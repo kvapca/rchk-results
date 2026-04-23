@@ -173,9 +173,6 @@ CS-ALLOCATOR: qr_qy_cmplx
 CS-ALLOCATOR: unscramble
 Callee protect functions: 
 Callee safe functions (non-trivially, excluding callee-protect): 
-ERROR: too many states (abstraction error?) in function RunGenCollect
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function strptime_internal
 GOOD: NOT-CALLOCATOR but ALLOCATOR: La_chol
 GOOD: NOT-CALLOCATOR but ALLOCATOR: qr_coef_real
 GOOD: NOT-CALLOCATOR but ALLOCATOR: qr_qy_real

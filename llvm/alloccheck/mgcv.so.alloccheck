@@ -263,9 +263,6 @@ CS-ALLOCATOR: spdev
 CS-ALLOCATOR: stmm
 Callee protect functions: 
 Callee safe functions (non-trivially, excluding callee-protect): 
-ERROR: too many states (abstraction error?) in function RunGenCollect
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function strptime_internal
 GOOD: NOT-CALLOCATING but ALLOCATING: get_stableS
 GOOD: NOT-CALLOCATING but ALLOCATING: magic
 GOOD: NOT-CALLOCATING but ALLOCATING: mgcv_symeig

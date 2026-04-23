@@ -1,6 +1,3 @@
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 ERROR: too many states (abstraction error?) in function scanArgs
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/Matrix/src/./t_rle.c 39
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/Matrix/src/./t_rle.c 80

@@ -1,6 +1,3 @@
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 
 Function coxexact
   [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/survival/src/coxexact.c:268

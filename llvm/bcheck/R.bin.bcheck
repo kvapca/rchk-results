@@ -1,6 +1,3 @@
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 
 Function ArraySubset
   [UP] unprotected variable xdims while calling allocating function R_alloc /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/subset.c:464
@@ -319,7 +316,6 @@ Function balancePOSIXlt
   [PB] has negative depth /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1969
   [UP] attempt to unprotect more items (3) than protected (2), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1969
   [PB] has possible protection stack imbalance /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/main/datetime.c:1971
-ERROR: too many states (abstraction error?) in function bcEval_loop
 
 Function bcEval_loop
   [UP] ignoring variable value as it has address taken, results will be incomplete 

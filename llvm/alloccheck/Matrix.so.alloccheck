@@ -3552,10 +3552,7 @@ CS-ALLOCATOR: zMatrix_validate
 CS-ALLOCATOR: zsparseVector_validate
 Callee protect functions: 
 Callee safe functions (non-trivially, excluding callee-protect): 
-ERROR: too many states (abstraction error?) in function RunGenCollect
-ERROR: too many states (abstraction error?) in function bcEval_loop
 ERROR: too many states (abstraction error?) in function scanArgs
-ERROR: too many states (abstraction error?) in function strptime_internal
 GOOD: NOT-CALLOCATOR but ALLOCATOR: MatrixFactorization_validate
 GOOD: NOT-CALLOCATOR but ALLOCATOR: Matrix_validate
 GOOD: NOT-CALLOCATOR but ALLOCATOR: R_DimNames_validate

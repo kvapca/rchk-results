@@ -1,6 +1,3 @@
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 
 Function R_find_method
   [UP] calling allocating function R_element_named with a fresh pointer (methods <arg 1>) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/methods/src/methods_list_dispatch.c:283

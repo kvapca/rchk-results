@@ -13774,9 +13774,6 @@ CS-ALLOCATOR: xxwhile
 CS-ALLOCATOR: ziplist
 Callee protect functions: 
 Callee safe functions (non-trivially, excluding callee-protect): 
-ERROR: too many states (abstraction error?) in function RunGenCollect
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function strptime_internal
 GOOD: NOT-CALLOCATING but ALLOCATING: R_IsNamespaceEnv(S:.ArgsEnv)
 GOOD: NOT-CALLOCATING but ALLOCATING: R_IsNamespaceEnv(S:.Random.seed)
 GOOD: NOT-CALLOCATING but ALLOCATING: R_IsNamespaceEnv(S:length)
