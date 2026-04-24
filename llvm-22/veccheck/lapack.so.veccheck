@@ -1,6 +1,4 @@
 Functions returning only vectors:
-  La_solve
-  La_solve_cmplx
   do_internalsID
   do_version
   do_crc64
@@ -69,6 +67,7 @@ Functions returning only vectors:
   Runzip
   do_getlocale
   do_tracemem
+  unscramble
   do_unz
   allocMatrixNA(V,?,V)
   allocMatrixNA(V,?,?)
@@ -114,10 +113,10 @@ Functions returning only vectors:
   do_expression
   do_strtrim
   do_tolower
-  unscramble
   math2
   do_machine
   do_pmatch
+  La_solve_cmplx
   compact_realseq_Sum
   do_mget
   do_bcprofcounts
@@ -146,6 +145,7 @@ Functions returning only vectors:
   do_getconnection
   do_gzfile
   do_adist
+  La_solve
   do_rank
   do_sequence
   coerceToVectorList

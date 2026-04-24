@@ -1,22 +1,22 @@
 Functions returning only vectors:
   indMatrix_subscript_1ary
   indMatrix_subscript_1ary_mat
+  dense_sum
   sparse_sum
   R_Matrix_version
   dtpMatrix_rcond
   dtrMatrix_rcond
-  dspMatrix_rcond
-  dsyMatrix_rcond
-  dgeMatrix_rcond
-  dsyMatrix_norm
+  dspMatrix_norm
   dgeMatrix_norm
   R_sparse_sum
   R_sparse_is_triangular
-  R_signPerm
-  R_index_diagonal
-  R_index_triangle
-  R_Matrix_shape
+  dppMatrix_rcond
   dpoMatrix_rcond
+  dspMatrix_rcond
+  dgeMatrix_rcond
+  R_dense_sum
+  R_dense_is_triangular
+  R_Matrix_shape
   do_internalsID
   do_version
   do_crc64
@@ -24,7 +24,6 @@ Functions returning only vectors:
   do_validUTF8
   do_normalizepath
   do_dirname
-  R_Matrix_nonvirtual
   do_vhash
   duplicated2
   do_makeunique
@@ -82,6 +81,8 @@ Functions returning only vectors:
   altlist_Elt_default
   complex_relop
   do_makenames
+  checkpi
+  dtpMatrix_norm
   do_setnumthreads
   Runzip
   do_getlocale
@@ -100,7 +101,6 @@ Functions returning only vectors:
   R_compress1
   do_sinknumber
   do_pushbacklength
-  dspMatrix_norm
   do_math4
   do_textconnection
   ziplist
@@ -128,7 +128,6 @@ Functions returning only vectors:
   Rf_PairToVectorList
   GE_LJOINget
   do_seek
-  R_Matrix_kind
   do_strtoi
   do_expression
   do_strtrim
@@ -142,6 +141,7 @@ Functions returning only vectors:
   do_getallconnections
   do_dotCode
   do_getconst
+  R_Matrix_kind
   compact_realseq_Duplicate
   R_MakeWeakRef
   do_gctorture2
@@ -179,7 +179,6 @@ Functions returning only vectors:
   do_maxNSize
   R_lazyLoadDBinsertValue
   do_bincode
-  R_dense_is_triangular
   do_bcprofstop
   do_putconst
   R_compact_intrange
@@ -191,7 +190,6 @@ Functions returning only vectors:
   do_serversocket
   createRSymbolObject
   Rf_mkTrue
-  dppMatrix_rcond
   R_getVarsFromFrame
   do_socktimeout
   Rf_mkFalse
@@ -208,10 +206,10 @@ Functions returning only vectors:
   do_getSnapshot
   do_nargs
   compact_realseq_Unserialize
-  R_dense_sum
   do_agrep
   NewWeakRef
   Rsockwrite
+  dtrMatrix_norm
   do_asplit
   do_sysumask
   do_dynload
@@ -236,6 +234,7 @@ Functions returning only vectors:
   do_chartr
   Rf_asCharacterFactor
   do_diag
+  R_index_triangle
   do_dfltStop
   do_getDllTable
   do_compareNumericVersion
@@ -246,6 +245,7 @@ Functions returning only vectors:
   do_pipe
   do_systime
   do_utf8ToInt
+  R_signPerm
   do_search
   do_eapply
   do_builtins
@@ -259,11 +259,12 @@ Functions returning only vectors:
   do_gc
   do_date
   Rsockopen
+  dsyMatrix_norm
   do_match
   do_strrep
   do_basename
   compact_intseq_Duplicate
-  dtrMatrix_norm
+  R_Matrix_nonvirtual
   raw_relop
   R_getRoutineSymbols
   altstring_Elt_default
@@ -278,6 +279,7 @@ Functions returning only vectors:
   Rf_GetArrayDimnames
   do_usemethod
   do_format
+  dsyMatrix_rcond
   mkStringUTF8
   do_sysgetpid
   makeSrcref
@@ -286,7 +288,6 @@ Functions returning only vectors:
   mkString2
   mkComplex
   mkInt
-  R_Matrix_repr
   mkFloat
   do_strsplit
   gregexpr_NAInputAns
@@ -302,18 +303,17 @@ Functions returning only vectors:
   do_named
   do_refcnt
   binaryLogic2
+  R_Matrix_repr
   R_getTaskCallbackNames
   R_addTaskCallback
   Rf_dimgets(V,?)
   MakeCFinalizer
-  dense_sum
   R_new_custom_connection
   Rf_mkString
   do_Rprofmem
-  dtpMatrix_norm
-  checkpi
   do_CDotsLength
   duplicated3
+  R_index_diagonal
   do_formatinfo
   do_filechoose
   Rf_ScalarString

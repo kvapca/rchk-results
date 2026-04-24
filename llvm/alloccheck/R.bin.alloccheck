@@ -2854,7 +2854,6 @@ ALLOCATING: norm_rand
 ALLOCATING: nullSubscript
 ALLOCATING: numeric_relop
 ALLOCATING: onintrEx
-ALLOCATING: operator++
 ALLOCATING: optdrv
 ALLOCATING: optdrv_end
 ALLOCATING: optif9
@@ -2874,6 +2873,7 @@ ALLOCATING: pipe_open
 ALLOCATING: pkgtrim
 ALLOCATING: point_adding
 ALLOCATING: positiveSubscript
+ALLOCATING: pp
 ALLOCATING: printAttributes
 ALLOCATING: printBrowserHelp
 ALLOCATING: printComplexMatrix
@@ -7945,7 +7945,6 @@ C-ALLOCATING: numeric_relop
 C-ALLOCATING: numeric_relop(?,V,?)
 C-ALLOCATING: numeric_relop(?,V,V)
 C-ALLOCATING: onintrEx
-C-ALLOCATING: operator++
 C-ALLOCATING: optdrv
 C-ALLOCATING: optdrv_end
 C-ALLOCATING: optif9
@@ -7969,6 +7968,7 @@ C-ALLOCATING: pkgtrim
 C-ALLOCATING: point_adding
 C-ALLOCATING: positiveSubscript
 C-ALLOCATING: positiveSubscript(V,?,?)
+C-ALLOCATING: pp
 C-ALLOCATING: printAttributes
 C-ALLOCATING: printAttributes(S:.ArgsEnv,?,?)
 C-ALLOCATING: printAttributes(S:.Random.seed,?,?)
@@ -12550,7 +12550,6 @@ CS-ALLOCATING: norm_rand
 CS-ALLOCATING: nullSubscript
 CS-ALLOCATING: numeric_relop
 CS-ALLOCATING: onintrEx
-CS-ALLOCATING: operator++
 CS-ALLOCATING: optdrv
 CS-ALLOCATING: optdrv_end
 CS-ALLOCATING: optif9
@@ -12570,6 +12569,7 @@ CS-ALLOCATING: pipe_open
 CS-ALLOCATING: pkgtrim
 CS-ALLOCATING: point_adding
 CS-ALLOCATING: positiveSubscript
+CS-ALLOCATING: pp
 CS-ALLOCATING: printAttributes
 CS-ALLOCATING: printBrowserHelp
 CS-ALLOCATING: printComplexMatrix

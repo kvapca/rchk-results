@@ -1,75 +1,80 @@
 Functions returning only vectors:
   Constant
   AllocTerm
-  call_dqagi
-  optimhess
+  call_dqags
+  optim
   zeroin2
-  modelmatrix
-  corcov
-  do_rmultinom
-  do_qtukey
+  math2_2
+  math3_1
+  math4_2
+  do_ptukey
+  do_qnf
+  do_pnf
   do_qnbeta
-  do_pnbeta
-  do_phyper
-  do_dnf
-  do_dnbeta
-  do_qwilcox
+  do_pwilcox
   do_qnchisq
+  do_pnchisq
   do_qnt
-  do_pnt
-  do_qunif
-  do_punif
+  do_qweibull
   do_pweibull
-  do_qnorm
   do_pnorm
+  do_qnbinom_mu
+  do_pnbinom_mu
   do_qnbinom
   do_pnbinom
   do_qlogis
   do_plogis
   do_qlnorm
   do_plnorm
-  do_pgamma
-  do_qf
+  do_qcauchy
+  do_qbinom
+  do_pbinom
   do_qbeta
   do_pbeta
+  do_dwilcox
+  do_dnchisq
+  do_dunif
   do_dnbinom_mu
+  do_dnbinom
   do_dlnorm
-  do_dcauchy
-  do_dbinom
+  do_dgamma
+  do_df
+  do_dbeta
+  do_psignrank
+  do_qt
+  modelmatrix
+  do_pt
   do_qpois
   do_ppois
-  do_pgeom
+  do_qgeom
   do_qexp
   do_qchisq
-  do_dsignrank
+  do_pchisq
   do_dpois
+  AllocTermSetBit1
   do_dgeom
   do_dexp
-  dpermdist2
-  bw_phi6
+  dpermdist1
+  Fexact
   bw_phi4
-  bw_bcv
-  do_qnf
-  do_pnf
-  pRho
-  psmirnov_exact
+  bw_ucv
   pkolmogorov_two_limit
-  pkolmogorov_two_exact
+  corcov
   cfilter
-  cov
-  Cdist
   rWishart
+  getQ0bis
   TSconv
-  ARIMA_CSS
-  ARIMA_Like
-  ARIMA_undoPars
-  KalmanSmooth
-  KalmanFore
+  ARIMA_Gradtrans
+  ARIMA_Invtrans
+  ARIMA_transPars
+  ARMAtoMA
+  Gradtrans
   Invtrans
-  arma0_kfore
   Dotrans
+  get_resid
   get_s2
   arma0fa
+  cutree
   do_internalsID
   do_version
   do_crc64
@@ -81,59 +86,59 @@ Functions returning only vectors:
   duplicated2
   do_makeunique
   rowsum_df
-  do_pcauchy
   do_charmatch
   Rf_match
   HashLookup
   Rf_matchE
-  getQ0bis
   Rf_duplicated
   do_glob
+  ARIMA_undoPars
   do_getenv
   complex_mean
   real_mean
   integer_mean
   logical_mean
-  do_dnchisq
   realSubscript
-  do_psignrank
   negativeSubscript
   nullSubscript
   stringSubscript
   logicalSubscript
   Rf_mat2indsub
-  getQ0
-  OrBits
+  do_pnbeta
+  do_rmultinom
   do_split
   tabExpand
   CloseMemOutPStream
+  dpermdist2
   R_SerializeInfo
-  math4_2
   ReadBCConsts
-  do_dweibull
+  math3_2
+  math4_1
+  do_dbinom
   seq_colon
   cross_colon
   do_colon
+  OrBits
   do_readln
   scanFrame
+  bw_phi6
   do_which
   bitwiseShiftL
-  do_qt
   bitwiseXor
   bitwiseOr
   bitwiseNot
   bitwiseAnd
   numeric_relop
-  ARIMA_Invtrans
   do_seq_along
+  do_qunif
   do_rawToBits
   embedInVector
   do_rawToChar
   do_charToRaw
   do_sample
-  nlm
   do_random2
   do_random1
+  do_qf
   Rf_CreateAtVector
   do_setFileTime
   do_unlink
@@ -145,9 +150,10 @@ Functions returning only vectors:
   altlist_Elt_default
   complex_relop
   do_makenames
-  do_dhyper
   do_setnumthreads
   Runzip
+  do_qsignrank
+  pkolmogorov_two_exact
   do_getlocale
   do_tracemem
   do_unz
@@ -155,69 +161,74 @@ Functions returning only vectors:
   allocMatrixNA(V,?,?)
   do_readDCF
   cummin(?,V)
-  do_dgamma
   math4_1.2930
-  do_qhyper
-  Fexact
+  pRho
+  lowess
   do_validEnc
   GEcreateSnapshot
   do_regexpr
+  do_qwilcox
   do_sockconn
   binaryLogic
   R_compress1
+  do_dnbeta
   do_sinknumber
   do_pushbacklength
   do_math4
+  ARIMA_Like
   do_textconnection
   ziplist
   do_rawconvalue
   GE_LENDget
   do_proctime
-  do_qcauchy
   do_tempdir
   do_fifo
   string_relop
   do_polyroot
+  nlm
   do_complex
   GE_LTYget
   R_compress2
   getParseContext
   handleNaN(?,V)
   math4_2.2926
-  cutree
   appendRawToFile
+  do_punif
   coerceToLogical
   do_stderr
   do_tabulate
   Rf_alloc3DArray(V,?,?,?)
   Rf_allocMatrix(V,?,?)
   Rf_allocMatrix(V,?,V)
-  do_dnbinom
   R_compress3
   Rf_PairToVectorList
+  call_dqagi
   GE_LJOINget
   do_seek
-  AllocTermSetBit1
+  bw_bcv
   do_strtoi
   do_expression
   do_strtrim
   do_tolower
   math2
+  do_dhyper
   do_machine
   do_pmatch
   compact_realseq_Sum
   do_mget
   do_bcprofcounts
   do_getallconnections
+  BinDist
   do_dotCode
   do_getconst
+  do_dnt
   compact_realseq_Duplicate
-  bw_ucv
   R_MakeWeakRef
   do_gctorture2
   coerceToReal
   do_bindingType
-  do_pf
+  do_qtukey
+  arma0_kfore
   altrep_Unserialize_default
   do_intToUtf8
   do_gsub
@@ -226,13 +237,13 @@ Functions returning only vectors:
   do_sumconnection
   do_disassemble
   R_getDllTable
+  compcases
   compact_intseq_Unserialize
+  do_dcauchy
   do_sockselect
   R_getRegisteredRoutines
-  do_qgeom
   do_dotType
   math2_2.2936
-  do_pchisq
   do_bcprofstart
   do_getconnection
   do_gzfile
@@ -241,35 +252,39 @@ Functions returning only vectors:
   do_sequence
   coerceToVectorList
   do_filesymlink
-  do_dnt
+  do_dnf
+  KalmanFore
   do_aregexec
-  call_dqags
+  Cdist
+  cov
   coerceToString
   readRawFromFile
   Rf_MakeDLLInfo
   do_url
   disassemble
+  pp_sum
   coerceToExpression
   do_bcversion
   do_maxNSize
   R_lazyLoadDBinsertValue
   do_bincode
-  do_dt
+  do_dweibull
   do_bcprofstop
   do_putconst
   R_compact_intrange
-  do_dlogis
+  do_pnt
   Rf_dimnamesgets(V,?)
+  do_qhyper
   do_lazyLoadDBinsertValue
   R_MakeWeakRefC
   do_getVarsFromFrame
   math2B
-  pp_sum
   do_serversocket
   createRSymbolObject
   Rf_mkTrue
   R_getVarsFromFrame
   do_socktimeout
+  getQ0
   Rf_mkFalse
   gregexpr_fixed
   do_dotsLength
@@ -280,23 +295,21 @@ Functions returning only vectors:
   do_return
   do_pathexpand
   do_findinterval
-  do_ptukey
-  ARIMA_Gradtrans
   do_growconst
+  do_phyper
   do_getSnapshot
-  do_pbinom
+  do_pexp
   do_nargs
   compact_realseq_Unserialize
-  ARIMA_transPars
-  ARMAtoMA
   do_agrep
   NewWeakRef
+  optimhess
   Rsockwrite
+  math2_1
   do_asplit
   do_sysumask
   do_dynload
   match5
-  do_pt
   coerceToInteger
   do_math3
   R_pcre2_gregexpr
@@ -305,9 +318,10 @@ Functions returning only vectors:
   math3_2.2932
   mkHandlerEntry
   math3B
+  do_qgamma
   math4
-  do_dwilcox
   do_Rhome
+  do_dsignrank
   compact_intseq_Sum
   do_lengths_long
   do_break
@@ -317,8 +331,8 @@ Functions returning only vectors:
   do_RNGkind
   do_chartr
   Rf_asCharacterFactor
-  BinDist
   do_diag
+  ARIMA_CSS
   do_dfltStop
   do_getDllTable
   do_compareNumericVersion
@@ -327,35 +341,28 @@ Functions returning only vectors:
   do_untracemem
   Rsockconnect
   do_pipe
-  do_pexp
+  do_dt
   do_systime
   do_utf8ToInt
-  lowess
-  do_dunif
+  do_dnorm
+  do_dlogis
   do_search
-  math3_1
-  math2_1
   do_eapply
-  math4_1
-  math3_2
-  math2_2
-  cor
   do_builtins
   do_filerename
+  do_pf
   R_HashProfile
-  compcases
   getInterruptCondition
   complex_math1
   do_Cstack_info
   do_stop
-  do_qsignrank
   do_invokeRestart
+  do_qnorm
   do_gc
   do_date
-  do_dnorm
   Rsockopen
   do_match
-  do_pwilcox
+  do_pgamma
   do_strrep
   do_basename
   compact_intseq_Duplicate
@@ -363,21 +370,17 @@ Functions returning only vectors:
   R_getRoutineSymbols
   altstring_Elt_default
   do_getRegisteredRoutines
-  do_qgamma
   mkVector1
-  do_qnbinom_mu
   do_enablejit
-  get_resid
   do_withVisible
-  math2_1.2938
   do_dchisq
+  math2_1.2938
   R_bcDecode
   do_setmaxnumthreads
   do_fileinfo
   Rf_GetArrayDimnames
   do_usemethod
   do_format
-  do_qweibull
   mkStringUTF8
   do_sysgetpid
   makeSrcref
@@ -387,34 +390,31 @@ Functions returning only vectors:
   mkComplex
   mkInt
   mkFloat
-  Gradtrans
-  dpermdist1
+  cor
   do_strsplit
   gregexpr_NAInputAns
   do_grep
   gregexpr_BadStringAns
   do_regexec
+  psmirnov_exact
   do_fileappend
   Rf_ScalarInteger
   Rf_ScalarReal
   Rf_ScalarComplex
   Rf_allocCharsxp
-  do_dbeta
   do_readLines
   do_named
   do_refcnt
-  do_df
   binaryLogic2
   R_getTaskCallbackNames
   R_addTaskCallback
-  do_pnchisq
   Rf_dimgets(V,?)
   MakeCFinalizer
-  do_qbinom
   R_new_custom_connection
   Rf_mkString
   do_Rprofmem
-  optim
+  KalmanSmooth
+  do_pgeom
   do_CDotsLength
   duplicated3
   do_formatinfo
@@ -424,6 +424,7 @@ Functions returning only vectors:
   Rf_ScalarRaw
   do_fileremove
   do_filelink
+  do_pcauchy
   do_direxists
   do_fileaccess
   do_stdin
@@ -431,7 +432,6 @@ Functions returning only vectors:
   do_stdout
   do_localeconv
   do_rawconnection
-  do_pnbinom_mu
   do_capabilities
   do_l10n_info
   do_syschmod

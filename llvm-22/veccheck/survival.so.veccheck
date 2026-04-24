@@ -1,10 +1,13 @@
 Functions returning only vectors:
+  tmerge3
+  tmerge2
   survreg7
+  pyears3b
   coxscore2
-  concordance2
   concordance1
   collapse
-  agscore2
+  agscore3
+  agmart3
   do_internalsID
   do_version
   do_crc64
@@ -50,7 +53,6 @@ Functions returning only vectors:
   bitwiseNot
   bitwiseAnd
   numeric_relop
-  tmerge2
   do_seq_along
   do_rawToBits
   embedInVector
@@ -84,6 +86,7 @@ Functions returning only vectors:
   GEcreateSnapshot
   do_regexpr
   do_sockconn
+  survreg6
   binaryLogic
   R_compress1
   do_sinknumber
@@ -105,18 +108,15 @@ Functions returning only vectors:
   handleNaN(?,V)
   math4_2
   appendRawToFile
-  tmerge3
   coerceToLogical
   do_stderr
   do_tabulate
   Rf_alloc3DArray(V,?,?,?)
   Rf_allocMatrix(V,?,?)
   Rf_allocMatrix(V,?,V)
-  survreg6
   R_compress3
   Rf_PairToVectorList
   GE_LJOINget
-  coxfit6
   do_seek
   do_strtoi
   do_expression
@@ -126,7 +126,6 @@ Functions returning only vectors:
   do_machine
   do_pmatch
   compact_realseq_Sum
-  agscore3
   do_mget
   do_bcprofcounts
   do_getallconnections
@@ -181,7 +180,6 @@ Functions returning only vectors:
   createRSymbolObject
   Rf_mkTrue
   R_getVarsFromFrame
-  agmart3
   do_socktimeout
   Rf_mkFalse
   gregexpr_fixed
@@ -236,6 +234,7 @@ Functions returning only vectors:
   do_utf8ToInt
   do_search
   do_eapply
+  agscore2
   do_builtins
   do_filerename
   R_HashProfile
@@ -244,7 +243,6 @@ Functions returning only vectors:
   do_Cstack_info
   do_stop
   do_invokeRestart
-  pyears3b
   do_gc
   do_date
   Rsockopen
@@ -256,6 +254,7 @@ Functions returning only vectors:
   R_getRoutineSymbols
   altstring_Elt_default
   do_getRegisteredRoutines
+  coxexact
   mkVector1
   do_enablejit
   do_withVisible
@@ -271,7 +270,6 @@ Functions returning only vectors:
   makeSrcref
   SrcRefsToVectorList
   mkNA
-  coxexact
   mkString2
   mkComplex
   mkInt
@@ -299,7 +297,9 @@ Functions returning only vectors:
   do_Rprofmem
   do_CDotsLength
   duplicated3
+  coxfit6
   do_formatinfo
+  concordance2
   do_filechoose
   Rf_ScalarString
   do_filecreate

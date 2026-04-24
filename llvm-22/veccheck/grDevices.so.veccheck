@@ -1,6 +1,10 @@
 Functions returning only vectors:
-  devprev
+  devsize
+  devnext
+  devholdflush
+  devcur
   col2rgb
+  R_CreateAtVector
   do_internalsID
   do_version
   do_crc64
@@ -29,6 +33,7 @@ Functions returning only vectors:
   stringSubscript
   logicalSubscript
   Rf_mat2indsub
+  getSnapshot
   do_split
   tabExpand
   CloseMemOutPStream
@@ -40,7 +45,6 @@ Functions returning only vectors:
   do_readln
   scanFrame
   do_which
-  devholdflush
   bitwiseShiftL
   bitwiseXor
   bitwiseOr
@@ -58,11 +62,9 @@ Functions returning only vectors:
   Rf_CreateAtVector
   do_setFileTime
   do_unlink
-  getSnapshot
   coerceToRaw
   coerceToComplex
   do_tempfile
-  chull
   R_HashResize
   R_NewHashTable
   altlist_Elt_default
@@ -70,7 +72,7 @@ Functions returning only vectors:
   do_makenames
   do_setnumthreads
   Runzip
-  devnext
+  chull
   do_getlocale
   do_tracemem
   do_unz
@@ -83,7 +85,6 @@ Functions returning only vectors:
   GEcreateSnapshot
   do_regexpr
   do_sockconn
-  R_CreateAtVector
   binaryLogic
   R_compress1
   do_sinknumber
@@ -105,6 +106,7 @@ Functions returning only vectors:
   handleNaN(?,V)
   math4_2
   appendRawToFile
+  devprev
   coerceToLogical
   do_stderr
   do_tabulate
@@ -118,6 +120,7 @@ Functions returning only vectors:
   do_strtoi
   do_expression
   do_strtrim
+  palette
   do_tolower
   math2
   do_machine
@@ -141,7 +144,6 @@ Functions returning only vectors:
   do_sumconnection
   do_disassemble
   R_getDllTable
-  gray
   compact_intseq_Unserialize
   do_sockselect
   R_getRegisteredRoutines
@@ -179,7 +181,6 @@ Functions returning only vectors:
   Rf_mkTrue
   R_getVarsFromFrame
   do_socktimeout
-  palette
   Rf_mkFalse
   gregexpr_fixed
   do_dotsLength
@@ -190,6 +191,7 @@ Functions returning only vectors:
   do_return
   do_pathexpand
   do_findinterval
+  gray
   do_growconst
   do_getSnapshot
   do_nargs
@@ -210,7 +212,6 @@ Functions returning only vectors:
   mkHandlerEntry
   math3B
   math4
-  devset
   do_Rhome
   compact_intseq_Sum
   do_lengths_long
@@ -234,9 +235,9 @@ Functions returning only vectors:
   do_utf8ToInt
   do_search
   do_eapply
+  devUp
   do_builtins
   do_filerename
-  devcur
   R_HashProfile
   getInterruptCondition
   complex_math1
@@ -247,6 +248,7 @@ Functions returning only vectors:
   do_date
   Rsockopen
   do_match
+  devset
   do_strrep
   do_basename
   compact_intseq_Duplicate
@@ -256,7 +258,6 @@ Functions returning only vectors:
   do_getRegisteredRoutines
   mkVector1
   do_enablejit
-  devUp
   do_withVisible
   math2_1
   R_bcDecode
@@ -265,7 +266,6 @@ Functions returning only vectors:
   Rf_GetArrayDimnames
   do_usemethod
   do_format
-  devsize
   mkStringUTF8
   do_sysgetpid
   makeSrcref

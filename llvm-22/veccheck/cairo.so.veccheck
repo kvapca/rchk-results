@@ -1,4 +1,6 @@
 Functions returning only vectors:
+  Cairo_SetPattern
+  in_CairoFT
   do_internalsID
   do_version
   do_crc64
@@ -41,7 +43,6 @@ Functions returning only vectors:
   bitwiseShiftL
   bitwiseXor
   bitwiseOr
-  in_CairoFT
   bitwiseNot
   bitwiseAnd
   numeric_relop
@@ -277,7 +278,6 @@ Functions returning only vectors:
   do_named
   do_refcnt
   binaryLogic2
-  Cairo_SetPattern
   R_getTaskCallbackNames
   R_addTaskCallback
   Rf_dimgets(V,?)

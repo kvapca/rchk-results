@@ -72,7 +72,6 @@ Functions returning only vectors:
   allocMatrixNA(V,?,?)
   do_readDCF
   cummin(?,V)
-  Cairo_SetPattern
   math4_1
   do_validEnc
   GEcreateSnapshot
@@ -219,11 +218,13 @@ Functions returning only vectors:
   do_encoding
   seq_int
   do_untracemem
+  Cairo_SetPattern
   Rsockconnect
   do_pipe
   do_systime
   do_utf8ToInt
   do_search
+  in_CairoFT
   do_eapply
   do_builtins
   do_filerename
@@ -245,7 +246,6 @@ Functions returning only vectors:
   altstring_Elt_default
   do_getRegisteredRoutines
   mkVector1
-  in_CairoFT
   do_enablejit
   do_withVisible
   math2_1

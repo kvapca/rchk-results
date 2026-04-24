@@ -1,7 +1,8 @@
 Functions returning only vectors:
-  spdev
-  dpdev
-  ncvls
+  Rncvls
+  sdiagXVXt
+  sXyd
+  sXbd
   do_internalsID
   do_version
   do_crc64
@@ -9,6 +10,7 @@ Functions returning only vectors:
   do_validUTF8
   do_normalizepath
   do_dirname
+  dpdev
   do_vhash
   duplicated2
   do_makeunique
@@ -41,7 +43,6 @@ Functions returning only vectors:
   do_readln
   scanFrame
   do_which
-  Rncvls
   bitwiseShiftL
   bitwiseXor
   bitwiseOr
@@ -65,7 +66,6 @@ Functions returning only vectors:
   R_HashResize
   R_NewHashTable
   altlist_Elt_default
-  sXbd
   complex_relop
   do_makenames
   do_setnumthreads
@@ -78,7 +78,6 @@ Functions returning only vectors:
   do_readDCF
   cummin(?,V)
   math4_1
-  mgcv_madi
   do_validEnc
   GEcreateSnapshot
   do_regexpr
@@ -123,7 +122,6 @@ Functions returning only vectors:
   do_pmatch
   compact_realseq_Sum
   do_mget
-  isa1p
   do_bcprofcounts
   do_getallconnections
   do_dotCode
@@ -195,6 +193,7 @@ Functions returning only vectors:
   do_agrep
   NewWeakRef
   Rsockwrite
+  ncv
   do_asplit
   do_sysumask
   do_dynload
@@ -218,8 +217,9 @@ Functions returning only vectors:
   do_RNGkind
   do_chartr
   Rf_asCharacterFactor
-  sdiagXVXt
   do_diag
+  mgcv_madi
+  spdev
   do_dfltStop
   do_getDllTable
   do_compareNumericVersion
@@ -235,17 +235,16 @@ Functions returning only vectors:
   do_builtins
   do_filerename
   R_HashProfile
+  isa1p
   getInterruptCondition
   complex_math1
   do_Cstack_info
-  ncv
   do_stop
   do_invokeRestart
   do_gc
   do_date
   Rsockopen
   do_match
-  Rncv
   do_strrep
   do_basename
   compact_intseq_Duplicate
@@ -263,7 +262,7 @@ Functions returning only vectors:
   Rf_GetArrayDimnames
   do_usemethod
   do_format
-  sXyd
+  ncvls
   mkStringUTF8
   do_sysgetpid
   makeSrcref
@@ -278,6 +277,7 @@ Functions returning only vectors:
   do_grep
   gregexpr_BadStringAns
   do_regexec
+  Rncv
   do_fileappend
   Rf_ScalarInteger
   Rf_ScalarReal

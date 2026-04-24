@@ -1,6 +1,9 @@
 Functions returning only vectors:
+  mc_master_fd
+  mc_fork
   mc_fds
   mc_exit
+  mc_children
   nextSubStream
   nextStream
   do_internalsID
@@ -139,7 +142,6 @@ Functions returning only vectors:
   do_disassemble
   R_getDllTable
   compact_intseq_Unserialize
-  mc_fork
   do_sockselect
   R_getRegisteredRoutines
   do_dotType
@@ -276,7 +278,6 @@ Functions returning only vectors:
   Rf_ScalarInteger
   Rf_ScalarReal
   Rf_ScalarComplex
-  mc_children
   Rf_allocCharsxp
   do_readLines
   do_named
@@ -289,7 +290,6 @@ Functions returning only vectors:
   R_new_custom_connection
   Rf_mkString
   do_Rprofmem
-  mc_master_fd
   do_CDotsLength
   duplicated3
   do_formatinfo

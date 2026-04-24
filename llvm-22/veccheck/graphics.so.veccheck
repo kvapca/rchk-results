@@ -1,8 +1,12 @@
 Functions returning only vectors:
+  Rf_labelformat
   FixupPch
+  Rf_FixupLwd
+  Rf_FixupLty
   FixupCex
   FixupFont
   C_strWidth
+  C_strHeight
   C_par
   C_persp
   do_internalsID
@@ -23,7 +27,6 @@ Functions returning only vectors:
   Rf_duplicated
   do_glob
   do_getenv
-  Rf_labelformat
   complex_mean
   real_mean
   integer_mean
@@ -87,9 +90,7 @@ Functions returning only vectors:
   binaryLogic
   R_compress1
   do_sinknumber
-  Rf_FixupLwd
   do_pushbacklength
-  Rf_FixupLty
   do_math4
   do_textconnection
   ziplist
@@ -123,7 +124,6 @@ Functions returning only vectors:
   do_tolower
   math2
   do_machine
-  C_strHeight
   do_pmatch
   compact_realseq_Sum
   do_mget

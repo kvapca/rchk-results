@@ -1,5 +1,5 @@
 Functions returning only vectors:
-  in_do_download
+  collect_buffers
   do_internalsID
   do_version
   do_crc64
@@ -66,7 +66,6 @@ Functions returning only vectors:
   do_makenames
   do_setnumthreads
   Runzip
-  collect_buffers
   do_getlocale
   do_tracemem
   do_unz
@@ -74,6 +73,7 @@ Functions returning only vectors:
   allocMatrixNA(V,?,?)
   do_readDCF
   cummin(?,V)
+  in_do_download
   math4_1
   do_validEnc
   GEcreateSnapshot
@@ -84,7 +84,6 @@ Functions returning only vectors:
   do_sinknumber
   do_pushbacklength
   do_math4
-  R_init_httpd
   do_textconnection
   ziplist
   do_rawconvalue
@@ -96,7 +95,6 @@ Functions returning only vectors:
   do_polyroot
   do_complex
   GE_LTYget
-  in_do_curlDownload
   R_compress2
   getParseContext
   handleNaN(?,V)
@@ -169,6 +167,7 @@ Functions returning only vectors:
   do_lazyLoadDBinsertValue
   R_MakeWeakRefC
   do_getVarsFromFrame
+  R_init_httpd
   math2B
   do_serversocket
   createRSymbolObject
@@ -284,6 +283,7 @@ Functions returning only vectors:
   R_addTaskCallback
   Rf_dimgets(V,?)
   MakeCFinalizer
+  in_do_curlDownload
   R_new_custom_connection
   Rf_mkString
   do_Rprofmem

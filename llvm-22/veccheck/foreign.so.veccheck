@@ -1,8 +1,7 @@
 Functions returning only vectors:
+  R_LoadStataData
   do_readStata
   xport_read
-  readSystat
-  Rdbfread
   do_internalsID
   do_version
   do_crc64
@@ -169,6 +168,7 @@ Functions returning only vectors:
   do_lazyLoadDBinsertValue
   R_MakeWeakRefC
   do_getVarsFromFrame
+  Rdbfread
   math2B
   do_serversocket
   createRSymbolObject
@@ -227,7 +227,6 @@ Functions returning only vectors:
   do_systime
   do_utf8ToInt
   do_search
-  R_LoadStataData
   do_eapply
   do_builtins
   do_filerename
@@ -260,6 +259,7 @@ Functions returning only vectors:
   do_format
   mkStringUTF8
   do_sysgetpid
+  readSystat
   makeSrcref
   SrcRefsToVectorList
   mkNA

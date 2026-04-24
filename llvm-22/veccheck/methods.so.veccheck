@@ -1,7 +1,5 @@
 Functions returning only vectors:
-  R_nextMethodCallCleanup
-  argEvalCleanup
-  R_methodsPackageMetaName
+  R_get_primname
   do_internalsID
   do_version
   do_crc64
@@ -40,7 +38,6 @@ Functions returning only vectors:
   do_colon
   do_readln
   scanFrame
-  R_dummy_extern_place
   do_which
   bitwiseShiftL
   bitwiseXor
@@ -57,6 +54,7 @@ Functions returning only vectors:
   do_random2
   do_random1
   Rf_CreateAtVector
+  R_methodsPackageMetaName
   do_setFileTime
   do_unlink
   coerceToRaw
@@ -117,6 +115,7 @@ Functions returning only vectors:
   do_strtrim
   do_tolower
   math2
+  R_nextMethodCallCleanup
   do_machine
   do_pmatch
   compact_realseq_Sum
@@ -125,6 +124,7 @@ Functions returning only vectors:
   do_getallconnections
   do_dotCode
   do_getconst
+  R_S_MethodsListSelectCleanup
   compact_realseq_Duplicate
   R_MakeWeakRef
   do_gctorture2
@@ -192,7 +192,6 @@ Functions returning only vectors:
   do_agrep
   NewWeakRef
   Rsockwrite
-  R_get_primname
   do_asplit
   do_sysumask
   do_dynload
@@ -207,7 +206,6 @@ Functions returning only vectors:
   math3B
   math4
   do_Rhome
-  R_S_MethodsListSelectCleanup
   compact_intseq_Sum
   do_lengths_long
   do_break
@@ -249,6 +247,7 @@ Functions returning only vectors:
   R_getRoutineSymbols
   altstring_Elt_default
   do_getRegisteredRoutines
+  argEvalCleanup
   mkVector1
   do_enablejit
   do_withVisible
@@ -273,6 +272,7 @@ Functions returning only vectors:
   do_grep
   gregexpr_BadStringAns
   do_regexec
+  R_dummy_extern_place
   do_fileappend
   Rf_ScalarInteger
   Rf_ScalarReal

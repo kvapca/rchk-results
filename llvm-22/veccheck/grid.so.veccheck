@@ -1,9 +1,9 @@
 Functions returning only vectors:
-  validUnits
+  createGridSystemState
   L_stringMetric
   L_layoutRegion
   L_devDim
-  L_pretty2
+  L_locator
   L_pretty
   do_internalsID
   do_version
@@ -35,7 +35,6 @@ Functions returning only vectors:
   Rf_mat2indsub
   do_split
   tabExpand
-  createGridSystemState
   CloseMemOutPStream
   R_SerializeInfo
   ReadBCConsts
@@ -65,7 +64,6 @@ Functions returning only vectors:
   coerceToRaw
   coerceToComplex
   do_tempfile
-  L_devLoc
   R_HashResize
   R_NewHashTable
   altlist_Elt_default
@@ -190,7 +188,6 @@ Functions returning only vectors:
   do_pathexpand
   do_findinterval
   do_growconst
-  L_locator
   do_getSnapshot
   do_nargs
   compact_realseq_Unserialize
@@ -245,6 +242,7 @@ Functions returning only vectors:
   do_date
   Rsockopen
   do_match
+  L_pretty2
   do_strrep
   do_basename
   compact_intseq_Duplicate
@@ -252,8 +250,10 @@ Functions returning only vectors:
   R_getRoutineSymbols
   altstring_Elt_default
   do_getRegisteredRoutines
+  L_convert
   mkVector1
   do_enablejit
+  validUnits
   do_withVisible
   math2_1
   R_bcDecode
@@ -294,6 +294,7 @@ Functions returning only vectors:
   do_Rprofmem
   do_CDotsLength
   duplicated3
+  L_devLoc
   do_formatinfo
   do_filechoose
   Rf_ScalarString
@@ -302,7 +303,6 @@ Functions returning only vectors:
   do_fileremove
   do_filelink
   do_direxists
-  L_convert
   do_fileaccess
   do_stdin
   do_setlocale

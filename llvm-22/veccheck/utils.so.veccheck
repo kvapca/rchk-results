@@ -1,11 +1,10 @@
 Functions returning only vectors:
-  Rprofmem
+  unzip
+  sockwrite
   sockopen
   tzcode_type
-  charClass
   octsize
-  menu
-  crc64
+  objectSize
   do_internalsID
   do_version
   do_crc64
@@ -34,7 +33,6 @@ Functions returning only vectors:
   stringSubscript
   logicalSubscript
   Rf_mat2indsub
-  sockwrite
   do_split
   tabExpand
   CloseMemOutPStream
@@ -85,6 +83,7 @@ Functions returning only vectors:
   GEcreateSnapshot
   do_regexpr
   do_sockconn
+  sockconnect
   binaryLogic
   R_compress1
   do_sinknumber
@@ -134,7 +133,6 @@ Functions returning only vectors:
   do_gctorture2
   coerceToReal
   do_bindingType
-  typhash_Ext
   altrep_Unserialize_default
   do_intToUtf8
   do_gsub
@@ -210,7 +208,6 @@ Functions returning only vectors:
   mkHandlerEntry
   math3B
   math4
-  sockconnect
   do_Rhome
   compact_intseq_Sum
   do_lengths_long
@@ -231,14 +228,12 @@ Functions returning only vectors:
   Rsockconnect
   do_pipe
   do_systime
-  unzip
   do_utf8ToInt
   do_search
   do_eapply
   do_builtins
   do_filerename
   R_HashProfile
-  objectSize
   getInterruptCondition
   complex_math1
   do_Cstack_info
@@ -248,6 +243,7 @@ Functions returning only vectors:
   do_date
   Rsockopen
   do_match
+  typhash_Ext
   do_strrep
   do_basename
   compact_intseq_Duplicate
@@ -255,10 +251,12 @@ Functions returning only vectors:
   R_getRoutineSymbols
   altstring_Elt_default
   do_getRegisteredRoutines
+  Rprofmem
   mkVector1
+  menu
   do_enablejit
-  do_withVisible
   numhash_Ext
+  do_withVisible
   math2_1
   R_bcDecode
   do_setmaxnumthreads
@@ -266,6 +264,7 @@ Functions returning only vectors:
   Rf_GetArrayDimnames
   do_usemethod
   do_format
+  crc64
   mkStringUTF8
   do_sysgetpid
   makeSrcref
@@ -275,6 +274,7 @@ Functions returning only vectors:
   mkComplex
   mkInt
   mkFloat
+  charClass
   do_strsplit
   gregexpr_NAInputAns
   do_grep
