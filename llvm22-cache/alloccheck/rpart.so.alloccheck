@@ -1,0 +1,96 @@
+Callee protect functions: 
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  init_rpcallback SS!!!
+
+CS-ALLOCATOR: pred_rpart
+CS-ALLOCATOR: rpart
+CS-ALLOCATOR: rpartexp2
+CS-ALLOCATOR: xpred
+
+CS-ALLOCATING: anovainit
+CS-ALLOCATING: bsplit
+CS-ALLOCATING: gini
+CS-ALLOCATING: giniinit
+CS-ALLOCATING: graycode_init0
+CS-ALLOCATING: init_rpcallback
+CS-ALLOCATING: make_cp_list
+CS-ALLOCATING: partition
+CS-ALLOCATING: poissoninit
+CS-ALLOCATING: pred_rpart
+CS-ALLOCATING: pred_rpart0
+CS-ALLOCATING: print_tree
+CS-ALLOCATING: print_tree2
+CS-ALLOCATING: printme
+CS-ALLOCATING: rpart
+CS-ALLOCATING: rpart_callback1
+CS-ALLOCATING: rpart_callback2
+CS-ALLOCATING: rpartexp2
+CS-ALLOCATING: rundown
+CS-ALLOCATING: rundown2
+CS-ALLOCATING: usersplit
+CS-ALLOCATING: usersplit_eval
+CS-ALLOCATING: usersplit_init
+CS-ALLOCATING: xpred
+CS-ALLOCATING: xval
+
+C-ALLOCATOR: xpred
+C-ALLOCATOR: rpart
+C-ALLOCATOR: rpartexp2
+C-ALLOCATOR: pred_rpart
+C-ALLOCATING: graycode_init0
+C-ALLOCATING: rpart_callback2
+C-ALLOCATING: rpart_callback1
+C-ALLOCATING: usersplit_eval
+C-ALLOCATING: usersplit
+C-ALLOCATING: usersplit_init
+C-ALLOCATING: gini
+C-ALLOCATING: giniinit
+C-ALLOCATING: poissoninit
+C-ALLOCATING: bsplit
+C-ALLOCATING: pred_rpart0
+C-ALLOCATING: pred_rpart
+C-ALLOCATING: rpartexp2
+C-ALLOCATING: rpart
+C-ALLOCATING: init_rpcallback
+C-ALLOCATING: partition
+C-ALLOCATING: print_tree2
+C-ALLOCATING: rundown
+C-ALLOCATING: make_cp_list
+C-ALLOCATING: rundown2
+C-ALLOCATING: anovainit
+C-ALLOCATING: print_tree
+C-ALLOCATING: xpred
+C-ALLOCATING: xval
+C-ALLOCATING: printme
+ALLOCATOR: pred_rpart
+ALLOCATOR: rpart
+ALLOCATOR: xpred
+ALLOCATOR: rpartexp2
+ALLOCATING: poissoninit
+ALLOCATING: gini
+ALLOCATING: giniinit
+ALLOCATING: init_rpcallback
+ALLOCATING: rpart_callback1
+ALLOCATING: usersplit_eval
+ALLOCATING: print_tree2
+ALLOCATING: printme
+ALLOCATING: print_tree
+ALLOCATING: pred_rpart
+ALLOCATING: rpart_callback2
+ALLOCATING: rpart
+ALLOCATING: pred_rpart0
+ALLOCATING: bsplit
+ALLOCATING: rundown
+ALLOCATING: make_cp_list
+ALLOCATING: xval
+ALLOCATING: usersplit_init
+ALLOCATING: xpred
+ALLOCATING: graycode_init0
+ALLOCATING: usersplit
+ALLOCATING: anovainit
+ALLOCATING: partition
+ALLOCATING: rundown2
+ALLOCATING: rpartexp2

@@ -1,0 +1,111 @@
+Callee protect functions: 
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+  mc_fds
+  mc_fork
+  mc_interactive
+  mc_read_child
+  mc_read_children
+  mc_rm_child
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  mc_cleanup S!!
+  mc_kill S!
+  mc_select_children S!
+  mc_send_child_stdin S!
+
+CS-ALLOCATOR: mc_affinity
+CS-ALLOCATOR: mc_children
+CS-ALLOCATOR: mc_fds
+CS-ALLOCATOR: mc_fork
+CS-ALLOCATOR: mc_master_fd
+CS-ALLOCATOR: mc_read_child
+CS-ALLOCATOR: mc_read_children
+CS-ALLOCATOR: mc_select_children
+CS-ALLOCATOR: nextStream
+CS-ALLOCATOR: nextSubStream
+CS-ALLOCATOR: read_child_ci
+
+CS-ALLOCATING: kill_and_detach_child_ci
+CS-ALLOCATING: kill_detached_child_ci
+CS-ALLOCATING: mc_affinity
+CS-ALLOCATING: mc_children
+CS-ALLOCATING: mc_cleanup
+CS-ALLOCATING: mc_fds
+CS-ALLOCATING: mc_fork
+CS-ALLOCATING: mc_interactive
+CS-ALLOCATING: mc_kill
+CS-ALLOCATING: mc_master_fd
+CS-ALLOCATING: mc_read_child
+CS-ALLOCATING: mc_read_children
+CS-ALLOCATING: mc_rm_child
+CS-ALLOCATING: mc_select_children
+CS-ALLOCATING: mc_send_child_stdin
+CS-ALLOCATING: nextStream
+CS-ALLOCATING: nextSubStream
+CS-ALLOCATING: read_child_ci
+CS-ALLOCATING: rm_child
+CS-ALLOCATING: terminate_and_detach_child_ci
+
+C-ALLOCATOR: read_child_ci
+C-ALLOCATOR: mc_affinity
+C-ALLOCATOR: mc_read_children
+C-ALLOCATOR: mc_read_child
+C-ALLOCATOR: mc_master_fd
+C-ALLOCATOR: mc_fds
+C-ALLOCATOR: mc_children
+C-ALLOCATOR: nextSubStream
+C-ALLOCATOR: mc_select_children
+C-ALLOCATOR: nextStream
+C-ALLOCATOR: mc_fork
+C-ALLOCATING: terminate_and_detach_child_ci
+C-ALLOCATING: mc_cleanup
+C-ALLOCATING: mc_interactive
+C-ALLOCATING: mc_affinity
+C-ALLOCATING: mc_send_child_stdin
+C-ALLOCATING: mc_select_children
+C-ALLOCATING: mc_rm_child
+C-ALLOCATING: mc_read_children
+C-ALLOCATING: mc_read_child
+C-ALLOCATING: mc_children
+C-ALLOCATING: nextSubStream
+C-ALLOCATING: nextStream
+C-ALLOCATING: kill_detached_child_ci
+C-ALLOCATING: mc_master_fd
+C-ALLOCATING: mc_kill
+C-ALLOCATING: kill_and_detach_child_ci
+C-ALLOCATING: rm_child
+C-ALLOCATING: read_child_ci
+C-ALLOCATING: mc_fds
+C-ALLOCATING: mc_fork
+ALLOCATOR: mc_master_fd
+ALLOCATOR: nextSubStream
+ALLOCATOR: mc_children
+ALLOCATOR: mc_fork
+ALLOCATOR: mc_read_children
+ALLOCATOR: read_child_ci
+ALLOCATOR: mc_select_children
+ALLOCATOR: mc_affinity
+ALLOCATOR: nextStream
+ALLOCATOR: mc_fds
+ALLOCATOR: mc_read_child
+ALLOCATING: mc_master_fd
+ALLOCATING: mc_kill
+ALLOCATING: mc_children
+ALLOCATING: nextSubStream
+ALLOCATING: mc_cleanup
+ALLOCATING: mc_send_child_stdin
+ALLOCATING: mc_read_children
+ALLOCATING: mc_fork
+ALLOCATING: mc_rm_child
+ALLOCATING: mc_select_children
+ALLOCATING: nextStream
+ALLOCATING: mc_affinity
+ALLOCATING: mc_interactive
+ALLOCATING: mc_fds
+ALLOCATING: read_child_ci
+ALLOCATING: kill_detached_child_ci
+ALLOCATING: kill_and_detach_child_ci
+ALLOCATING: rm_child
+ALLOCATING: terminate_and_detach_child_ci
+ALLOCATING: mc_read_child

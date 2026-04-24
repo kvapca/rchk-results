@@ -1,0 +1,11 @@
+Callee protect functions: 
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+
+
+CS-ALLOCATING: VR_dovm
+
+C-ALLOCATING: VR_dovm
+ALLOCATING: VR_dovm
