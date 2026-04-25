@@ -1,8 +1,9 @@
 Functions returning only vectors:
   createGridSystemState
+  L_stringMetric
+  L_locator
+  L_pretty2
   L_layoutRegion
-  L_devDim
-  L_pretty
   L_devLoc
   do_internalsID
   do_version
@@ -149,6 +150,7 @@ Functions returning only vectors:
   do_gzfile
   do_adist
   do_rank
+  L_pretty
   do_sequence
   coerceToVectorList
   do_filesymlink
@@ -170,10 +172,8 @@ Functions returning only vectors:
   do_lazyLoadDBinsertValue
   R_MakeWeakRefC
   do_getVarsFromFrame
-  validUnits
   math2B
   do_serversocket
-  L_stringMetric
   createRSymbolObject
   Rf_mkTrue
   R_getVarsFromFrame
@@ -181,7 +181,6 @@ Functions returning only vectors:
   Rf_mkFalse
   gregexpr_fixed
   do_dotsLength
-  L_locator
   adist_full
   do_gctime
   do_memoryprofile
@@ -223,7 +222,6 @@ Functions returning only vectors:
   do_dfltStop
   do_getDllTable
   do_compareNumericVersion
-  L_pretty2
   do_encoding
   seq_int
   do_untracemem
@@ -231,7 +229,6 @@ Functions returning only vectors:
   do_pipe
   do_systime
   do_utf8ToInt
-  L_convert
   do_search
   do_eapply
   do_builtins
@@ -249,6 +246,7 @@ Functions returning only vectors:
   do_strrep
   do_basename
   compact_intseq_Duplicate
+  L_devDim
   raw_relop
   R_getRoutineSymbols
   altstring_Elt_default
@@ -260,6 +258,7 @@ Functions returning only vectors:
   R_bcDecode
   do_setmaxnumthreads
   do_fileinfo
+  L_convert
   Rf_GetArrayDimnames
   do_usemethod
   do_format
@@ -295,6 +294,7 @@ Functions returning only vectors:
   do_Rprofmem
   do_CDotsLength
   duplicated3
+  validUnits
   do_formatinfo
   do_filechoose
   Rf_ScalarString

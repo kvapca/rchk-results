@@ -78,7 +78,6 @@ Functions returning only vectors:
   do_regexpr
   do_sockconn
   binaryLogic
-  Cairo_SetPattern
   R_compress1
   do_sinknumber
   do_pushbacklength
@@ -107,6 +106,7 @@ Functions returning only vectors:
   Rf_allocMatrix(V,?,V)
   R_compress3
   Rf_PairToVectorList
+  Cairo_SetPattern
   GE_LJOINget
   do_seek
   do_strtoi
@@ -264,6 +264,7 @@ Functions returning only vectors:
   mkInt
   mkFloat
   do_strsplit
+  in_CairoFT
   gregexpr_NAInputAns
   do_grep
   gregexpr_BadStringAns
@@ -275,7 +276,6 @@ Functions returning only vectors:
   Rf_allocCharsxp
   do_readLines
   do_named
-  in_CairoFT
   do_refcnt
   binaryLogic2
   R_getTaskCallbackNames

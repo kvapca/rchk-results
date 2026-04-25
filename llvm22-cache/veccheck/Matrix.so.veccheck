@@ -1,21 +1,23 @@
 Functions returning only vectors:
-  checkpi
-  indMatrix_subscript_1ary
-  sparse_sum
+  indMatrix_subscript_1ary_mat
+  dense_sum
   R_Matrix_version
-  dtrMatrix_rcond
+  dpoMatrix_rcond
+  dspMatrix_rcond
   dgeMatrix_rcond
+  dtpMatrix_norm
+  dtrMatrix_norm
   dspMatrix_norm
   dsyMatrix_norm
-  R_sparse_sum
   R_sparse_is_triangular
+  R_dense_sum
+  sparse_sum
   R_dense_is_triangular
-  R_index_triangle
+  R_signPerm
   R_Matrix_repr
   R_Matrix_shape
   R_Matrix_kind
-  R_Matrix_nonvirtual
-  R_index_diagonal
+  dsyMatrix_rcond
   do_internalsID
   do_version
   do_crc64
@@ -29,17 +31,16 @@ Functions returning only vectors:
   rowsum_df
   do_charmatch
   Rf_match
+  R_Matrix_nonvirtual
   HashLookup
   Rf_matchE
   Rf_duplicated
   do_glob
-  indMatrix_subscript_1ary_mat
   do_getenv
   complex_mean
   real_mean
   integer_mean
   logical_mean
-  R_signPerm
   realSubscript
   negativeSubscript
   nullSubscript
@@ -56,7 +57,6 @@ Functions returning only vectors:
   do_colon
   do_readln
   scanFrame
-  R_dense_sum
   do_which
   bitwiseShiftL
   bitwiseXor
@@ -72,7 +72,6 @@ Functions returning only vectors:
   do_sample
   do_random2
   do_random1
-  dtrMatrix_norm
   Rf_CreateAtVector
   do_setFileTime
   do_unlink
@@ -86,6 +85,7 @@ Functions returning only vectors:
   do_makenames
   do_setnumthreads
   Runzip
+  indMatrix_subscript_1ary
   do_getlocale
   do_tracemem
   do_unz
@@ -98,6 +98,7 @@ Functions returning only vectors:
   GEcreateSnapshot
   do_regexpr
   do_sockconn
+  dgeMatrix_norm
   binaryLogic
   R_compress1
   do_sinknumber
@@ -152,6 +153,7 @@ Functions returning only vectors:
   do_gsub
   do_seq_len
   do_maxVSize
+  R_index_triangle
   do_sumconnection
   do_disassemble
   R_getDllTable
@@ -167,7 +169,6 @@ Functions returning only vectors:
   do_rank
   do_sequence
   coerceToVectorList
-  dgeMatrix_norm
   do_filesymlink
   do_aregexec
   coerceToString
@@ -202,19 +203,18 @@ Functions returning only vectors:
   cummax(?,V)
   do_return
   do_pathexpand
+  checkpi
   do_findinterval
   do_growconst
   do_getSnapshot
   do_nargs
   compact_realseq_Unserialize
+  R_index_diagonal
   do_agrep
   NewWeakRef
-  dtpMatrix_norm
   Rsockwrite
-  dtpMatrix_rcond
   do_asplit
   do_sysumask
-  dpoMatrix_rcond
   do_dynload
   match5
   coerceToInteger
@@ -239,6 +239,7 @@ Functions returning only vectors:
   do_diag
   do_dfltStop
   do_getDllTable
+  dtpMatrix_rcond
   do_compareNumericVersion
   do_encoding
   seq_int
@@ -247,12 +248,12 @@ Functions returning only vectors:
   do_pipe
   do_systime
   do_utf8ToInt
+  dppMatrix_rcond
   do_search
   do_eapply
   do_builtins
   do_filerename
   R_HashProfile
-  dspMatrix_rcond
   getInterruptCondition
   complex_math1
   do_Cstack_info
@@ -261,6 +262,7 @@ Functions returning only vectors:
   do_gc
   do_date
   Rsockopen
+  dtrMatrix_rcond
   do_match
   do_strrep
   do_basename
@@ -288,8 +290,8 @@ Functions returning only vectors:
   mkComplex
   mkInt
   mkFloat
-  dense_sum
   do_strsplit
+  R_sparse_sum
   gregexpr_NAInputAns
   do_grep
   gregexpr_BadStringAns
@@ -314,12 +316,10 @@ Functions returning only vectors:
   duplicated3
   do_formatinfo
   do_filechoose
-  dsyMatrix_rcond
   Rf_ScalarString
   do_filecreate
   Rf_ScalarRaw
   do_fileremove
-  dppMatrix_rcond
   do_filelink
   do_direxists
   do_fileaccess

@@ -1,11 +1,10 @@
 Functions returning only vectors:
-  tmerge3
+  tmerge2
   survreg7
-  survreg6
   pyears3b
   coxscore2
   coxfit6
-  concordance1
+  collapse
   agscore3
   agmart3
   do_internalsID
@@ -19,15 +18,16 @@ Functions returning only vectors:
   duplicated2
   do_makeunique
   rowsum_df
+  tmerge3
   do_charmatch
   Rf_match
   HashLookup
+  concordance2
   Rf_matchE
   Rf_duplicated
   do_glob
   do_getenv
   complex_mean
-  coxexact
   real_mean
   integer_mean
   logical_mean
@@ -37,7 +37,6 @@ Functions returning only vectors:
   stringSubscript
   logicalSubscript
   Rf_mat2indsub
-  collapse
   do_split
   tabExpand
   CloseMemOutPStream
@@ -74,7 +73,6 @@ Functions returning only vectors:
   altlist_Elt_default
   complex_relop
   do_makenames
-  tmerge2
   do_setnumthreads
   Runzip
   do_getlocale
@@ -96,6 +94,7 @@ Functions returning only vectors:
   do_math4
   do_textconnection
   ziplist
+  survreg6
   do_rawconvalue
   GE_LENDget
   do_proctime
@@ -193,12 +192,14 @@ Functions returning only vectors:
   do_return
   do_pathexpand
   do_findinterval
+  agscore2
   do_growconst
   do_getSnapshot
   do_nargs
   compact_realseq_Unserialize
   do_agrep
   NewWeakRef
+  coxexact
   Rsockwrite
   do_asplit
   do_sysumask
@@ -247,9 +248,9 @@ Functions returning only vectors:
   do_gc
   do_date
   Rsockopen
-  concordance2
   do_match
   do_strrep
+  concordance1
   do_basename
   compact_intseq_Duplicate
   raw_relop
@@ -296,7 +297,6 @@ Functions returning only vectors:
   R_new_custom_connection
   Rf_mkString
   do_Rprofmem
-  agscore2
   do_CDotsLength
   duplicated3
   do_formatinfo

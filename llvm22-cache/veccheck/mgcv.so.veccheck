@@ -1,8 +1,10 @@
 Functions returning only vectors:
-  spdev
-  dpdev
+  Rncvls
+  ncvls
+  Rncv
+  ncv
+  isa1p
   sdiagXVXt
-  mgcv_madi
   do_internalsID
   do_version
   do_crc64
@@ -11,8 +13,6 @@ Functions returning only vectors:
   do_normalizepath
   do_dirname
   do_vhash
-  ncvls
-  isa1p
   duplicated2
   do_makeunique
   rowsum_df
@@ -71,6 +71,7 @@ Functions returning only vectors:
   do_makenames
   do_setnumthreads
   Runzip
+  mgcv_madi
   do_getlocale
   do_tracemem
   do_unz
@@ -103,9 +104,9 @@ Functions returning only vectors:
   getParseContext
   handleNaN(?,V)
   math4_2
-  sXyd
   appendRawToFile
   coerceToLogical
+  spdev
   do_stderr
   do_tabulate
   Rf_alloc3DArray(V,?,?,?)
@@ -150,9 +151,9 @@ Functions returning only vectors:
   do_getconnection
   do_gzfile
   do_adist
+  sXbd
   do_rank
   do_sequence
-  sXbd
   coerceToVectorList
   do_filesymlink
   do_aregexec
@@ -172,6 +173,7 @@ Functions returning only vectors:
   Rf_dimnamesgets(V,?)
   do_lazyLoadDBinsertValue
   R_MakeWeakRefC
+  dpdev
   do_getVarsFromFrame
   math2B
   do_serversocket
@@ -227,7 +229,6 @@ Functions returning only vectors:
   seq_int
   do_untracemem
   Rsockconnect
-  ncv
   do_pipe
   do_systime
   do_utf8ToInt
@@ -235,8 +236,8 @@ Functions returning only vectors:
   do_eapply
   do_builtins
   do_filerename
+  sXyd
   R_HashProfile
-  Rncvls
   getInterruptCondition
   complex_math1
   do_Cstack_info
@@ -262,7 +263,6 @@ Functions returning only vectors:
   do_fileinfo
   Rf_GetArrayDimnames
   do_usemethod
-  Rncv
   do_format
   mkStringUTF8
   do_sysgetpid

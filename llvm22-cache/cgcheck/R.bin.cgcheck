@@ -2258,7 +2258,6 @@ nullSubscript
 numeric_relop
 onintrEx
 only_ascii
-operator++
 optdrv
 optif9
 orderVector
@@ -2279,6 +2278,7 @@ pkgtrim
 point_adding
 pos2env
 positiveSubscript
+pp
 prepare_reset_tz
 printAttributes
 printBrowserHelp

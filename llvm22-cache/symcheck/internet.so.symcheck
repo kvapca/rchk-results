@@ -1,3 +1,4 @@
+  R_HandlersName  ".httpd.handlers.env"    
   R_ContentTypeName  "content-type"    
   R_SrcfileSymbol  "srcfile"    
   R_SrcrefSymbol  "srcref"    
@@ -48,7 +49,6 @@
   R_signalWarningCondition.condSym  "cond"    
   R_DotCallSym  ".Call"    
   R_getNSValue.R_lazydataSymbol  "lazydata"    
-  R_HandlersName  ".httpd.handlers.env"    
   lang2str.if_sym  "if"    
   R_PipeBindSymbol  "=>"    
   R_getNSValue.R_loadNamespaceSymbol  "loadNamespace"    

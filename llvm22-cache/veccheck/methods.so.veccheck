@@ -1,9 +1,11 @@
 Functions returning only vectors:
   R_nextMethodCallCleanup
+  R_S_MethodsListSelectCleanup
   argEvalCleanup
-  R_dummy_extern_place
+  R_methodsPackageMetaName
   do_internalsID
   do_version
+  R_get_primname
   do_crc64
   do_ICUget
   do_validUTF8
@@ -60,6 +62,7 @@ Functions returning only vectors:
   do_unlink
   coerceToRaw
   coerceToComplex
+  R_dummy_extern_place
   do_tempfile
   R_HashResize
   R_NewHashTable
@@ -69,7 +72,6 @@ Functions returning only vectors:
   do_setnumthreads
   Runzip
   do_getlocale
-  R_get_primname
   do_tracemem
   do_unz
   allocMatrixNA(V,?,V)
@@ -137,7 +139,6 @@ Functions returning only vectors:
   do_maxVSize
   do_sumconnection
   do_disassemble
-  R_methodsPackageMetaName
   R_getDllTable
   compact_intseq_Unserialize
   do_sockselect
@@ -289,7 +290,6 @@ Functions returning only vectors:
   Rf_mkString
   do_Rprofmem
   do_CDotsLength
-  R_S_MethodsListSelectCleanup
   duplicated3
   do_formatinfo
   do_filechoose

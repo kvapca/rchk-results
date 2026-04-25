@@ -1,4 +1,5 @@
 Functions returning only vectors:
+  Cairo_SetPattern
   do_internalsID
   do_version
   do_crc64
@@ -37,7 +38,6 @@ Functions returning only vectors:
   do_colon
   do_readln
   scanFrame
-  Cairo_SetPattern
   do_which
   bitwiseShiftL
   bitwiseXor
@@ -64,7 +64,6 @@ Functions returning only vectors:
   altlist_Elt_default
   complex_relop
   do_makenames
-  in_CairoFT
   do_setnumthreads
   Runzip
   do_getlocale
@@ -254,6 +253,7 @@ Functions returning only vectors:
   do_fileinfo
   Rf_GetArrayDimnames
   do_usemethod
+  in_CairoFT
   do_format
   mkStringUTF8
   do_sysgetpid

@@ -1,5 +1,4 @@
 Functions returning only vectors:
-  unscramble
   La_solve
   La_solve_cmplx
   do_internalsID
@@ -24,6 +23,7 @@ Functions returning only vectors:
   real_mean
   integer_mean
   logical_mean
+  unscramble
   realSubscript
   negativeSubscript
   nullSubscript

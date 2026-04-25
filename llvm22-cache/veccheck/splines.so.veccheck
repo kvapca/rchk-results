@@ -219,6 +219,7 @@ Functions returning only vectors:
   seq_int
   do_untracemem
   Rsockconnect
+  spline_value
   do_pipe
   do_systime
   do_utf8ToInt
@@ -272,7 +273,6 @@ Functions returning only vectors:
   Rf_ScalarReal
   Rf_ScalarComplex
   Rf_allocCharsxp
-  spline_value
   do_readLines
   do_named
   do_refcnt

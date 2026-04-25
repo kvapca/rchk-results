@@ -1,18 +1,18 @@
 Functions returning only vectors:
+  xxnewdef
+  xxpushMode
+  xxblock
   xxmath
+  xxenterMathMode
+  makeSrcref
   mkString2
+  mkString2.181
   xxpushMode.147
-  xxusermacro
-  xxnewcommand
-  xxmarkup3
-  xxmarkup2
-  xxmarkup
+  xxOptionmarkup
   package_dependencies_scan_one
-  remove_dot_segments_wrapper
-  ps_kill
-  Rsha256
-  Rmd5
-  delim_match
+  nonASCII
+  package_dependencies_scan
+  startHTTPD
   do_internalsID
   do_version
   do_crc64
@@ -52,8 +52,6 @@ Functions returning only vectors:
   do_readln
   scanFrame
   do_which
-  xxenterMathMode
-  package_dependencies_scan
   bitwiseShiftL
   bitwiseXor
   bitwiseOr
@@ -77,12 +75,13 @@ Functions returning only vectors:
   R_HashResize
   R_NewHashTable
   altlist_Elt_default
+  xxnewcommand
   complex_relop
-  startHTTPD
   do_makenames
   do_setnumthreads
   Runzip
-  mkString2.181
+  xxmarkup
+  Rmd5
   do_getlocale
   do_tracemem
   do_unz
@@ -105,7 +104,7 @@ Functions returning only vectors:
   do_rawconvalue
   GE_LENDget
   do_proctime
-  nonASCII
+  remove_dot_segments_wrapper
   do_tempdir
   do_fifo
   string_relop
@@ -118,7 +117,6 @@ Functions returning only vectors:
   math4_2
   appendRawToFile
   coerceToLogical
-  xxnewdef
   do_stderr
   do_tabulate
   Rf_alloc3DArray(V,?,?,?)
@@ -141,6 +139,7 @@ Functions returning only vectors:
   do_getallconnections
   do_dotCode
   do_getconst
+  xxmarkup3
   compact_realseq_Duplicate
   R_MakeWeakRef
   do_gctorture2
@@ -154,20 +153,17 @@ Functions returning only vectors:
   do_sumconnection
   do_disassemble
   R_getDllTable
-  makeSrcref
   compact_intseq_Unserialize
   do_sockselect
   R_getRegisteredRoutines
   do_dotType
   math2_2
   do_bcprofstart
-  xxOptionmarkup
   do_getconnection
   do_gzfile
   do_adist
   do_rank
   do_sequence
-  xxblock
   coerceToVectorList
   do_filesymlink
   do_aregexec
@@ -181,7 +177,6 @@ Functions returning only vectors:
   do_maxNSize
   R_lazyLoadDBinsertValue
   do_bincode
-  makeSrcref.159
   do_bcprofstop
   do_putconst
   R_compact_intrange
@@ -198,6 +193,7 @@ Functions returning only vectors:
   Rf_mkFalse
   gregexpr_fixed
   do_dotsLength
+  delim_match
   adist_full
   do_gctime
   do_memoryprofile
@@ -211,7 +207,9 @@ Functions returning only vectors:
   compact_realseq_Unserialize
   do_agrep
   NewWeakRef
+  ps_priority
   Rsockwrite
+  xxusermacro
   do_asplit
   do_sysumask
   do_dynload
@@ -224,7 +222,7 @@ Functions returning only vectors:
   math3_2
   mkHandlerEntry
   math3B
-  ps_sigs
+  deparseRd
   math4
   do_Rhome
   compact_intseq_Sum
@@ -244,12 +242,13 @@ Functions returning only vectors:
   seq_int
   do_untracemem
   Rsockconnect
+  Rsha256
+  xxmarkup2
   do_pipe
   do_systime
   do_utf8ToInt
   do_search
   do_eapply
-  deparseRd
   do_builtins
   do_filerename
   R_HashProfile
@@ -276,6 +275,7 @@ Functions returning only vectors:
   R_bcDecode
   do_setmaxnumthreads
   do_fileinfo
+  ps_kill
   Rf_GetArrayDimnames
   do_usemethod
   do_format
@@ -291,8 +291,10 @@ Functions returning only vectors:
   do_strsplit
   gregexpr_NAInputAns
   do_grep
+  makeSrcref.159
   gregexpr_BadStringAns
   do_regexec
+  ps_sigs
   do_fileappend
   Rf_ScalarInteger
   Rf_ScalarReal
@@ -304,7 +306,6 @@ Functions returning only vectors:
   binaryLogic2
   R_getTaskCallbackNames
   R_addTaskCallback
-  ps_priority
   Rf_dimgets(V,?)
   MakeCFinalizer
   R_new_custom_connection
@@ -323,7 +324,6 @@ Functions returning only vectors:
   do_fileaccess
   do_stdin
   do_setlocale
-  xxpushMode
   do_stdout
   do_localeconv
   do_rawconnection

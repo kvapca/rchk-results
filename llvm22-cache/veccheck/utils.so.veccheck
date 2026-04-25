@@ -2,8 +2,10 @@ Functions returning only vectors:
   typhash_Ext
   numhash_Ext
   Rprofmem
+  unzip
+  sockwrite
   sockopen
-  objectSize
+  crc64
   do_internalsID
   do_version
   do_crc64
@@ -35,7 +37,7 @@ Functions returning only vectors:
   do_split
   tabExpand
   CloseMemOutPStream
-  sockconnect
+  tzcode_type
   R_SerializeInfo
   ReadBCConsts
   seq_colon
@@ -43,6 +45,7 @@ Functions returning only vectors:
   do_colon
   do_readln
   scanFrame
+  octsize
   do_which
   bitwiseShiftL
   bitwiseXor
@@ -71,6 +74,7 @@ Functions returning only vectors:
   do_makenames
   do_setnumthreads
   Runzip
+  sockconnect
   do_getlocale
   do_tracemem
   do_unz
@@ -82,7 +86,6 @@ Functions returning only vectors:
   do_validEnc
   GEcreateSnapshot
   do_regexpr
-  sockwrite
   do_sockconn
   binaryLogic
   R_compress1
@@ -112,7 +115,6 @@ Functions returning only vectors:
   Rf_allocMatrix(V,?,?)
   Rf_allocMatrix(V,?,V)
   R_compress3
-  charClass
   Rf_PairToVectorList
   GE_LJOINget
   do_seek
@@ -129,7 +131,6 @@ Functions returning only vectors:
   do_getallconnections
   do_dotCode
   do_getconst
-  octsize
   compact_realseq_Duplicate
   R_MakeWeakRef
   do_gctorture2
@@ -227,7 +228,7 @@ Functions returning only vectors:
   do_encoding
   seq_int
   do_untracemem
-  tzcode_type
+  charClass
   Rsockconnect
   do_pipe
   do_systime
@@ -253,7 +254,6 @@ Functions returning only vectors:
   R_getRoutineSymbols
   altstring_Elt_default
   do_getRegisteredRoutines
-  menu
   mkVector1
   do_enablejit
   do_withVisible
@@ -268,6 +268,7 @@ Functions returning only vectors:
   do_sysgetpid
   makeSrcref
   SrcRefsToVectorList
+  menu
   mkNA
   mkString2
   mkComplex
@@ -290,13 +291,12 @@ Functions returning only vectors:
   R_getTaskCallbackNames
   R_addTaskCallback
   Rf_dimgets(V,?)
-  unzip
   MakeCFinalizer
-  crc64
   R_new_custom_connection
   Rf_mkString
   do_Rprofmem
   do_CDotsLength
+  objectSize
   duplicated3
   do_formatinfo
   do_filechoose

@@ -1,5 +1,5 @@
 Functions returning only vectors:
-  dotTclcallback
+  RTcl_StringFromObj
   do_internalsID
   do_version
   do_crc64
@@ -68,7 +68,6 @@ Functions returning only vectors:
   Runzip
   do_getlocale
   do_tracemem
-  RTcl_StringFromObj
   do_unz
   allocMatrixNA(V,?,V)
   allocMatrixNA(V,?,?)
@@ -128,7 +127,6 @@ Functions returning only vectors:
   do_gctorture2
   coerceToReal
   do_bindingType
-  RTcl_ObjAsCharVector
   altrep_Unserialize_default
   do_intToUtf8
   do_gsub
@@ -184,6 +182,7 @@ Functions returning only vectors:
   do_return
   do_pathexpand
   do_findinterval
+  RTcl_ObjAsCharVector
   do_growconst
   do_getSnapshot
   do_nargs
@@ -225,6 +224,7 @@ Functions returning only vectors:
   do_pipe
   do_systime
   do_utf8ToInt
+  dotTclcallback
   do_search
   do_eapply
   do_builtins

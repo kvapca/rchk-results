@@ -1,9 +1,10 @@
 Functions returning only vectors:
+  devUp
   getSnapshot
-  devholdflush
-  devcur
-  palette
-  col2rgb
+  devsize
+  devnext
+  gray
+  chull
   do_internalsID
   do_version
   do_crc64
@@ -12,7 +13,6 @@ Functions returning only vectors:
   do_normalizepath
   do_dirname
   do_vhash
-  devsize
   duplicated2
   do_makeunique
   rowsum_df
@@ -33,6 +33,7 @@ Functions returning only vectors:
   stringSubscript
   logicalSubscript
   Rf_mat2indsub
+  devset
   do_split
   tabExpand
   CloseMemOutPStream
@@ -44,7 +45,6 @@ Functions returning only vectors:
   do_readln
   scanFrame
   do_which
-  devnext
   bitwiseShiftL
   bitwiseXor
   bitwiseOr
@@ -72,19 +72,18 @@ Functions returning only vectors:
   do_makenames
   do_setnumthreads
   Runzip
-  chull
   do_getlocale
   do_tracemem
   do_unz
   allocMatrixNA(V,?,V)
   allocMatrixNA(V,?,?)
+  R_CreateAtVector
   do_readDCF
   cummin(?,V)
   math4_1
   do_validEnc
   GEcreateSnapshot
   do_regexpr
-  devUp
   do_sockconn
   binaryLogic
   R_compress1
@@ -93,6 +92,7 @@ Functions returning only vectors:
   do_math4
   do_textconnection
   ziplist
+  col2rgb
   do_rawconvalue
   GE_LENDget
   do_proctime
@@ -113,7 +113,6 @@ Functions returning only vectors:
   Rf_alloc3DArray(V,?,?,?)
   Rf_allocMatrix(V,?,?)
   Rf_allocMatrix(V,?,V)
-  gray
   R_compress3
   Rf_PairToVectorList
   GE_LJOINget
@@ -124,7 +123,6 @@ Functions returning only vectors:
   do_tolower
   math2
   do_machine
-  devprev
   do_pmatch
   compact_realseq_Sum
   do_mget
@@ -140,11 +138,14 @@ Functions returning only vectors:
   altrep_Unserialize_default
   do_intToUtf8
   do_gsub
+  devholdflush
   do_seq_len
   do_maxVSize
+  palette
   do_sumconnection
   do_disassemble
   R_getDllTable
+  devcur
   compact_intseq_Unserialize
   do_sockselect
   R_getRegisteredRoutines
@@ -164,6 +165,7 @@ Functions returning only vectors:
   Rf_MakeDLLInfo
   do_url
   disassemble
+  devprev
   coerceToExpression
   do_bcversion
   do_maxNSize
@@ -273,7 +275,6 @@ Functions returning only vectors:
   mkComplex
   mkInt
   mkFloat
-  R_CreateAtVector
   do_strsplit
   gregexpr_NAInputAns
   do_grep
@@ -310,7 +311,6 @@ Functions returning only vectors:
   do_setlocale
   do_stdout
   do_localeconv
-  devset
   do_rawconnection
   do_capabilities
   do_l10n_info

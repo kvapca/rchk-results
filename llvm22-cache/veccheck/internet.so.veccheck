@@ -1,5 +1,6 @@
 Functions returning only vectors:
-  R_init_httpd
+  in_do_curlDownload
+  in_do_download
   do_internalsID
   do_version
   do_crc64
@@ -23,12 +24,10 @@ Functions returning only vectors:
   integer_mean
   logical_mean
   realSubscript
-  in_do_curlDownload
   negativeSubscript
   nullSubscript
   stringSubscript
   logicalSubscript
-  in_do_download
   Rf_mat2indsub
   do_split
   tabExpand
@@ -117,7 +116,6 @@ Functions returning only vectors:
   do_tolower
   math2
   do_machine
-  collect_buffers
   do_pmatch
   compact_realseq_Sum
   do_mget
@@ -216,6 +214,7 @@ Functions returning only vectors:
   do_chartr
   Rf_asCharacterFactor
   do_diag
+  R_init_httpd
   do_dfltStop
   do_getDllTable
   do_compareNumericVersion
@@ -284,6 +283,7 @@ Functions returning only vectors:
   R_addTaskCallback
   Rf_dimgets(V,?)
   MakeCFinalizer
+  collect_buffers
   R_new_custom_connection
   Rf_mkString
   do_Rprofmem

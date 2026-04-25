@@ -1,9 +1,8 @@
 Functions returning only vectors:
   mc_master_fd
+  mc_fork
   mc_fds
   mc_exit
-  mc_children
-  nextSubStream
   nextStream
   do_internalsID
   do_version
@@ -225,12 +224,12 @@ Functions returning only vectors:
   seq_int
   do_untracemem
   Rsockconnect
+  mc_children
   do_pipe
   do_systime
   do_utf8ToInt
   do_search
   do_eapply
-  mc_fork
   do_builtins
   do_filerename
   R_HashProfile
@@ -283,6 +282,7 @@ Functions returning only vectors:
   do_named
   do_refcnt
   binaryLogic2
+  nextSubStream
   R_getTaskCallbackNames
   R_addTaskCallback
   Rf_dimgets(V,?)

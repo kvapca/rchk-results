@@ -1,10 +1,9 @@
 Functions returning only vectors:
   FixupPch
-  Rf_FixupLwd
-  Rf_FixupLty
   FixupFont
   C_strWidth
   C_strHeight
+  C_par
   C_persp
   do_internalsID
   do_version
@@ -84,6 +83,7 @@ Functions returning only vectors:
   GEcreateSnapshot
   do_regexpr
   do_sockconn
+  FixupCex
   binaryLogic
   R_compress1
   do_sinknumber
@@ -229,7 +229,6 @@ Functions returning only vectors:
   do_pipe
   do_systime
   do_utf8ToInt
-  Rf_labelformat
   do_search
   do_eapply
   do_builtins
@@ -278,6 +277,7 @@ Functions returning only vectors:
   do_fileappend
   Rf_ScalarInteger
   Rf_ScalarReal
+  Rf_FixupLty
   Rf_ScalarComplex
   Rf_allocCharsxp
   do_readLines
@@ -292,17 +292,17 @@ Functions returning only vectors:
   Rf_mkString
   do_Rprofmem
   do_CDotsLength
+  Rf_labelformat
   duplicated3
   do_formatinfo
   do_filechoose
+  Rf_FixupLwd
   Rf_ScalarString
   do_filecreate
   Rf_ScalarRaw
   do_fileremove
   do_filelink
-  C_par
   do_direxists
-  FixupCex
   do_fileaccess
   do_stdin
   do_setlocale

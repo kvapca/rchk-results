@@ -1,7 +1,6 @@
 Functions returning only vectors:
-  R_LoadStataData
+  do_readStata
   xport_read
-  Rdbfread
   do_internalsID
   do_version
   do_crc64
@@ -138,7 +137,6 @@ Functions returning only vectors:
   do_disassemble
   R_getDllTable
   compact_intseq_Unserialize
-  do_readStata
   do_sockselect
   R_getRegisteredRoutines
   do_dotType
@@ -185,7 +183,6 @@ Functions returning only vectors:
   do_return
   do_pathexpand
   do_findinterval
-  readSystat
   do_growconst
   do_getSnapshot
   do_nargs
@@ -224,6 +221,7 @@ Functions returning only vectors:
   seq_int
   do_untracemem
   Rsockconnect
+  Rdbfread
   do_pipe
   do_systime
   do_utf8ToInt
@@ -272,6 +270,7 @@ Functions returning only vectors:
   do_grep
   gregexpr_BadStringAns
   do_regexec
+  readSystat
   do_fileappend
   Rf_ScalarInteger
   Rf_ScalarReal
@@ -280,6 +279,7 @@ Functions returning only vectors:
   do_readLines
   do_named
   do_refcnt
+  R_LoadStataData
   binaryLogic2
   R_getTaskCallbackNames
   R_addTaskCallback
