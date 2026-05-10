@@ -1,0 +1,35 @@
+Callee protect functions: 
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  zoo_lagts !S!
+
+CS-ALLOCATOR: zoo_coredata
+CS-ALLOCATOR: zoo_lag
+CS-ALLOCATOR: zoo_lagts
+
+CS-ALLOCATING: R_init_zoo
+CS-ALLOCATING: zoo_coredata
+CS-ALLOCATING: zoo_lag
+CS-ALLOCATING: zoo_lagts
+
+C-ALLOCATOR: zoo_lag(?,V,?)
+C-ALLOCATOR: zoo_lagts
+C-ALLOCATOR: zoo_coredata
+C-ALLOCATOR: zoo_lag
+C-ALLOCATING: zoo_lag
+C-ALLOCATING: zoo_coredata
+C-ALLOCATING: R_init_zoo
+C-ALLOCATING: zoo_lagts
+C-ALLOCATING: zoo_lag(?,V,?)
+ALLOCATOR: zoo_coredata
+ALLOCATOR: zoo_lag
+ALLOCATOR: zoo_lagts
+ALLOCATING: zoo_lag
+ALLOCATING: R_init_zoo
+ALLOCATING: zoo_lagts
+ALLOCATING: zoo_coredata

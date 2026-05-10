@@ -1,0 +1,133 @@
+Callee protect functions: 
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+  as_pipe_call
+  r_new_environment
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+  add_dot
+  as_pipe_dollar_call
+  as_pipe_tee_call
+  magrittr_init
+  magrittr_init_utils
+  new_lambda
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  eval_pipe_lazy !P
+  magrittr_pipe SSS!
+  pipe_unroll !P!-!-
+  r_env_bind_lazy !!SS
+
+CS-ALLOCATOR: add_dot
+CS-ALLOCATOR: as_pipe_call
+CS-ALLOCATOR: as_pipe_dollar_call
+CS-ALLOCATOR: as_pipe_tee_call
+CS-ALLOCATOR: eval_pipe
+CS-ALLOCATOR: eval_pipe_lazy
+CS-ALLOCATOR: magrittr_pipe
+CS-ALLOCATOR: new_lambda
+CS-ALLOCATOR: pipe_nest
+CS-ALLOCATOR: pipe_unroll
+CS-ALLOCATOR: r_env_get
+CS-ALLOCATOR: r_new_environment
+CS-ALLOCATOR: r_parse_eval
+
+CS-ALLOCATING: add_dot
+CS-ALLOCATING: as_pipe_call
+CS-ALLOCATING: as_pipe_dollar_call
+CS-ALLOCATING: as_pipe_tee_call
+CS-ALLOCATING: clean_pipe
+CS-ALLOCATING: eval_pipe
+CS-ALLOCATING: eval_pipe_lazy
+CS-ALLOCATING: magrittr_init
+CS-ALLOCATING: magrittr_init_utils
+CS-ALLOCATING: magrittr_pipe
+CS-ALLOCATING: new_lambda
+CS-ALLOCATING: pipe_nest
+CS-ALLOCATING: pipe_unroll
+CS-ALLOCATING: r_env_bind_lazy
+CS-ALLOCATING: r_env_get
+CS-ALLOCATING: r_env_unbind
+CS-ALLOCATING: r_new_environment
+CS-ALLOCATING: r_parse
+CS-ALLOCATING: r_parse_eval
+
+C-ALLOCATOR: add_dot
+C-ALLOCATOR: as_pipe_dollar_call
+C-ALLOCATOR: as_pipe_tee_call
+C-ALLOCATOR: r_new_environment
+C-ALLOCATOR: eval_pipe
+C-ALLOCATOR: new_lambda
+C-ALLOCATOR: r_env_get(?,S:sym)
+C-ALLOCATOR: r_env_get(?,S:lazy)
+C-ALLOCATOR: r_env_get
+C-ALLOCATOR: magrittr_pipe
+C-ALLOCATOR: r_parse_eval
+C-ALLOCATOR: r_env_get(?,S:nested)
+C-ALLOCATOR: as_pipe_call
+C-ALLOCATOR: eval_pipe_lazy
+C-ALLOCATOR: pipe_unroll(?,?,?,?,S:%>%,?)
+C-ALLOCATOR: r_env_get(?,S:.)
+C-ALLOCATOR: pipe_nest
+C-ALLOCATOR: pipe_unroll
+C-ALLOCATING: add_dot
+C-ALLOCATING: as_pipe_dollar_call
+C-ALLOCATING: as_pipe_tee_call
+C-ALLOCATING: r_env_bind_lazy(?,S:.,?,?)
+C-ALLOCATING: r_env_bind_lazy
+C-ALLOCATING: r_env_unbind(?,S:.)
+C-ALLOCATING: r_env_unbind
+C-ALLOCATING: clean_pipe
+C-ALLOCATING: new_lambda
+C-ALLOCATING: r_env_get(?,S:sym)
+C-ALLOCATING: r_parse_eval
+C-ALLOCATING: magrittr_init_utils
+C-ALLOCATING: magrittr_init
+C-ALLOCATING: pipe_unroll
+C-ALLOCATING: magrittr_pipe
+C-ALLOCATING: r_env_get(?,S:nested)
+C-ALLOCATING: r_env_get(?,S:.)
+C-ALLOCATING: pipe_unroll(?,?,?,?,S:%>%,?)
+C-ALLOCATING: pipe_nest
+C-ALLOCATING: r_new_environment
+C-ALLOCATING: eval_pipe
+C-ALLOCATING: as_pipe_call
+C-ALLOCATING: r_env_get(?,S:lazy)
+C-ALLOCATING: eval_pipe_lazy
+C-ALLOCATING: r_parse
+C-ALLOCATING: r_env_get
+ALLOCATOR: r_parse
+ALLOCATOR: eval_pipe_lazy
+ALLOCATOR: magrittr_pipe
+ALLOCATOR: eval_pipe
+ALLOCATOR: add_dot
+ALLOCATOR: new_lambda
+ALLOCATOR: pipe_unroll
+ALLOCATOR: as_pipe_dollar_call
+ALLOCATOR: r_parse_eval
+ALLOCATOR: as_pipe_call
+ALLOCATOR: as_pipe_tee_call
+ALLOCATOR: r_env_get
+ALLOCATOR: r_new_environment
+ALLOCATOR: pipe_nest
+ALLOCATING: as_pipe_call
+ALLOCATING: magrittr_pipe
+ALLOCATING: r_parse
+ALLOCATING: add_dot
+ALLOCATING: r_env_bind_lazy
+ALLOCATING: r_new_environment
+ALLOCATING: r_env_unbind
+ALLOCATING: clean_pipe
+ALLOCATING: eval_pipe
+ALLOCATING: eval_pipe_lazy
+ALLOCATING: magrittr_init_utils
+ALLOCATING: as_pipe_tee_call
+ALLOCATING: r_parse_eval
+ALLOCATING: r_env_get
+ALLOCATING: pipe_unroll
+ALLOCATING: pipe_nest
+ALLOCATING: new_lambda
+ALLOCATING: magrittr_init
+ALLOCATING: as_pipe_dollar_call
+GOOD: NOT-CALLOCATOR but ALLOCATOR: r_parse

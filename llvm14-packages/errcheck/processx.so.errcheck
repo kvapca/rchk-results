@@ -1,0 +1,7 @@
+UNMARKED error function processx_close_named_pipe /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/unix/named_pipe.c:19
+UNMARKED error function processx_connection_poll /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/processx-connection.c:297
+UNMARKED error function processx_create_named_pipe /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/unix/named_pipe.c:24
+UNMARKED error function processx_is_named_pipe_open /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/unix/named_pipe.c:14
+UNMARKED error function processx_write_named_pipe /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/unix/named_pipe.c:29
+UNMARKED error function r_throw_error /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/errors.c:11
+UNMARKED error function r_throw_system_error /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/errors.c:71

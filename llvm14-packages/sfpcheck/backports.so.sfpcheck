@@ -1,0 +1,7 @@
+List of functions and callsites calling (recursively) into R_gc_internal:
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/wO9EzH6O/backports/src/dotsElt.c 18
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/wO9EzH6O/backports/src/dotsElt.c 19
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/wO9EzH6O/backports/src/dotsLength.c 7
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/wO9EzH6O/backports/src/dotsLength.c 10
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/wO9EzH6O/backports/src/dotsNames.c 9
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/wO9EzH6O/backports/src/dotsNames.c 11

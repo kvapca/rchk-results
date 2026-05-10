@@ -1,0 +1,46 @@
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 37
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 52
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 64
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 65
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 66
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 67
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 70
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 73
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 74
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 75
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 77
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 78
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/coredata.c 79
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/init.c 45
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/init.c 46
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 40
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 41
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 43
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 51
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 262
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 268
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 274
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 276
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 278
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 297
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 299
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 300
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 301
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 302
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 303
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 304
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 305
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 306
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 307
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 308
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 310
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 311
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 316
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 318
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 321
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 322
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 331
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/9VE4L1uy/zoo/src/lag.c 332

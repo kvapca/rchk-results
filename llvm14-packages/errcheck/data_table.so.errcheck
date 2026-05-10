@@ -1,0 +1,3 @@
+Marked (noreturn) error function internal_error /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JdJ1q2vl/data.table/src/utils.c:649
+Marked (noreturn) error function internal_error_with_cleanup /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JdJ1q2vl/data.table/src/forder.c:99
+UNMARKED error function halt__ /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JdJ1q2vl/data.table/src/freadR.c:726

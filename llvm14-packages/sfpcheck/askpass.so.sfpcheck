@@ -1,0 +1,2 @@
+List of functions and callsites calling (recursively) into R_gc_internal:
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/uvbZ48ti/askpass/src/askpass.c 13

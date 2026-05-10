@@ -1,0 +1,11 @@
+Functions calling (recursively) function Rf_errorcall
+C_execute
+R_callback
+R_exec_status
+bail_if
+check_child_success
+check_interrupt_fn
+pending_interrupt
+pipe_set_read
+print_output
+warn_if

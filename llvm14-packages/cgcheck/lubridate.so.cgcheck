@@ -1,0 +1,12 @@
+Functions calling (recursively) function Rf_errorcall
+C_is_leap_year
+C_make_d
+C_make_dt
+C_parse_dt
+C_parse_hms
+C_parse_period
+parse_alpha_month
+parse_alphanum
+parse_period_1
+parse_period_unit
+period_names

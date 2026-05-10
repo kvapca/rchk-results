@@ -1,0 +1,4 @@
+Library name (usually package name): bit64
+Initialization function: R_init_bit64
+Functions: 109
+Checked call to R_registerRoutines: 1

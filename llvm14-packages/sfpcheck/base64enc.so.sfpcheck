@@ -1,0 +1,26 @@
+List of functions and callsites calling (recursively) into R_gc_internal:
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 104
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 139
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 143
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 145
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 156
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 161
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 176
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 180
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 183
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 190
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 195
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 220
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 231
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 234
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 240
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/base64.c 249
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/uriencode.c 39
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/uriencode.c 50
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/uriencode.c 54
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/uriencode.c 65
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/uriencode.c 78
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/utf8.c 82
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/utf8.c 84
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/utf8.c 86
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/kOgaDR98/base64enc/src/utf8.c 87

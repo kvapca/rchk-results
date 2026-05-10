@@ -1,0 +1,7 @@
+UNMARKED error function cant_coerce /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/AUzsHLLI/purrr/src/coerce.c:8
+UNMARKED error function r_abort /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/AUzsHLLI/purrr/src/conditions.c:51
+UNMARKED error function r_abort0 /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/AUzsHLLI/purrr/src/conditions.c:35
+UNMARKED error function r_abort_call /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/AUzsHLLI/purrr/src/conditions.c:63
+UNMARKED error function stop_bad_element_length /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/AUzsHLLI/purrr/src/conditions.c:132
+UNMARKED error function stop_bad_element_type /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/AUzsHLLI/purrr/src/conditions.c:107
+UNMARKED error function stop_bad_type /home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/AUzsHLLI/purrr/src/conditions.c:83

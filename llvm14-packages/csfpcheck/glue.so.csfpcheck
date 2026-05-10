@@ -1,0 +1,19 @@
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 11
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 21
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 41
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 61
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 163
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 165
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 166
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 171
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 172
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 176
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 191
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 192
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/glue.c 215
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/trim.c 11
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/trim.c 14
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/JQcKOIWc/glue/src/trim.c 122

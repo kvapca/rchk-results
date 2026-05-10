@@ -1,0 +1,3 @@
+Functions calling (recursively) function Rf_errorcall
+R_list_extensions
+R_render_markdown

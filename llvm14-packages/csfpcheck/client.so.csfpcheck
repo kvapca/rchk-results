@@ -1,0 +1,12 @@
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/base64.c 82
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/base64.c 135
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/base64.c 182
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/client.c 171
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/client.c 204
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/client.c 211
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/client.c 215
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/client.c 228
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/ELdJMn3F/processx/src/client.c 242

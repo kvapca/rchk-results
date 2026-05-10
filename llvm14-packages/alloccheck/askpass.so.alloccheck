@@ -1,0 +1,18 @@
+Callee protect functions: 
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+  pw_entry_dialog
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+
+CS-ALLOCATOR: pw_entry_dialog
+
+CS-ALLOCATING: pw_entry_dialog
+
+C-ALLOCATOR: pw_entry_dialog
+C-ALLOCATING: pw_entry_dialog
+ALLOCATOR: pw_entry_dialog
+ALLOCATING: pw_entry_dialog

@@ -1,0 +1,15 @@
+List of functions and callsites calling (recursively) into R_gc_internal:
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 43
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 50
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 54
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 62
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 80
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 81
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 111
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 112
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 179
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 180
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 197
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 198
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 201
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/irwWrTIm/htmltools/src/template.c 203

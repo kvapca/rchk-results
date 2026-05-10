@@ -1,0 +1,42 @@
+Callee protect functions: 
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  glue_ S!!!!!
+
+CS-ALLOCATOR: glue_
+CS-ALLOCATOR: resize
+CS-ALLOCATOR: set
+CS-ALLOCATOR: trim_
+
+CS-ALLOCATING: glue_
+CS-ALLOCATING: resize
+CS-ALLOCATING: set
+CS-ALLOCATING: trim_
+
+C-ALLOCATOR: set(V,?,?)
+C-ALLOCATOR: set(?,?,V)
+C-ALLOCATOR: resize
+C-ALLOCATOR: trim_
+C-ALLOCATOR: glue_
+C-ALLOCATOR: set
+C-ALLOCATOR: set(V,?,V)
+C-ALLOCATING: set(V,?,?)
+C-ALLOCATING: set(V,?,V)
+C-ALLOCATING: resize
+C-ALLOCATING: glue_
+C-ALLOCATING: set(?,?,V)
+C-ALLOCATING: trim_
+C-ALLOCATING: set
+ALLOCATOR: resize
+ALLOCATOR: glue_
+ALLOCATOR: set
+ALLOCATOR: trim_
+ALLOCATING: trim_
+ALLOCATING: glue_
+ALLOCATING: set
+ALLOCATING: resize

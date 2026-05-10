@@ -1,0 +1,4 @@
+Library name (usually package name): fansi
+Initialization function: R_init_fansi
+Functions: 36
+Checked call to R_registerRoutines: 1

@@ -1,0 +1,471 @@
+Callee protect functions: 
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+  r_ram_integer64_all_na
+  r_ram_integer64_any_na
+  r_ram_integer64_issorted_asc
+  r_ram_integer64_nacount
+  r_ram_integer64_ordernut
+  r_ram_integer64_sortnut
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  as_bitstring_integer64 S!
+  as_character_integer64 S!
+  as_double_integer64 S!
+  as_integer64_character S!
+  as_integer64_double S!
+  as_integer_integer64 S!
+  cumprod_integer64 S!
+  cumsum_integer64 S!
+  diff_integer64 SSS!
+  divide_double_integer64 SS!
+  divide_integer64_double SS!
+  divide_integer64_integer64 SS!
+  hashdup_integer64 SSSS!
+  hashfin_integer64 SSSS!
+  hashfun_integer64 SS!
+  hashmap_integer64 SS!!
+  hashmaptab_integer64 S!S!
+  hashpos_integer64 SSSS!!
+  hashrev_integer64 SSSS!!!
+  hashrin_integer64 SSSS!!
+  hashtab_integer64 S!S!
+  hashtab_integer641 S!SS
+  hashuni_integer64 SSSS!
+  hashupo_integer64 SSSS!
+  intdiv_integer64 SS!
+  log10_integer64 S!
+  log2_integer64 S!
+  log_integer64 S!
+  logbase_integer64 S!!
+  logvect_integer64 SS!
+  minus_integer64 SS!
+  mod_integer64 SS!
+  plus_integer64 SS!
+  power_integer64_double SS!
+  power_integer64_integer64 SS!
+  prod_integer64 SS!
+  r_ram_integer64_orderdup_asc SSS!
+  r_ram_integer64_orderfin_asc !!!S!
+  r_ram_integer64_orderkey_asc SSS!
+  r_ram_integer64_orderpos_asc !!!!S!
+  r_ram_integer64_orderrnk_asc SSS!
+  r_ram_integer64_ordertab_asc SS!!!
+  r_ram_integer64_ordertie_asc SS!
+  r_ram_integer64_orderuni_asc SS!!
+  r_ram_integer64_orderupo_asc SS!!
+  r_ram_integer64_sortfin_asc !!S!
+  r_ram_integer64_sortorderdup_asc SSS!
+  r_ram_integer64_sortorderkey_asc SSS!
+  r_ram_integer64_sortorderpos_asc !!!!S!
+  r_ram_integer64_sortorderrnk_asc SSS!
+  r_ram_integer64_sortordertab_asc SS!!
+  r_ram_integer64_sortordertie_asc SS!
+  r_ram_integer64_sortorderuni_asc SSS!
+  r_ram_integer64_sortorderupo_asc SS!!
+  r_ram_integer64_sorttab_asc S!
+  r_ram_integer64_sortuni_asc S!
+  runif_integer64 S!!
+  sqrt_integer64 S!
+  sum_integer64 SS!
+  times_integer64_double SS!
+  times_integer64_integer64 SS!
+
+CS-ALLOCATOR: hashmaptab_integer64
+CS-ALLOCATOR: hashmapuni_integer64
+CS-ALLOCATOR: hashmapupo_integer64
+CS-ALLOCATOR: hashtab_integer64
+CS-ALLOCATOR: hashtab_integer641
+CS-ALLOCATOR: r_ram_integer64_all_na
+CS-ALLOCATOR: r_ram_integer64_any_na
+CS-ALLOCATOR: r_ram_integer64_issorted_asc
+CS-ALLOCATOR: r_ram_integer64_mergeorder
+CS-ALLOCATOR: r_ram_integer64_mergesort
+CS-ALLOCATOR: r_ram_integer64_mergesortorder
+CS-ALLOCATOR: r_ram_integer64_nacount
+CS-ALLOCATOR: r_ram_integer64_ordernut
+CS-ALLOCATOR: r_ram_integer64_ordertab_asc
+CS-ALLOCATOR: r_ram_integer64_quickorder
+CS-ALLOCATOR: r_ram_integer64_quicksort
+CS-ALLOCATOR: r_ram_integer64_quicksortorder
+CS-ALLOCATOR: r_ram_integer64_radixorder
+CS-ALLOCATOR: r_ram_integer64_radixsort
+CS-ALLOCATOR: r_ram_integer64_radixsortorder
+CS-ALLOCATOR: r_ram_integer64_shellorder
+CS-ALLOCATOR: r_ram_integer64_shellsort
+CS-ALLOCATOR: r_ram_integer64_shellsortorder
+CS-ALLOCATOR: r_ram_integer64_sortnut
+CS-ALLOCATOR: r_ram_integer64_sortordertab_asc
+CS-ALLOCATOR: runif_integer64
+
+CS-ALLOCATING: as_bitstring_integer64
+CS-ALLOCATING: as_character_integer64
+CS-ALLOCATING: as_double_integer64
+CS-ALLOCATING: as_integer64_bitstring
+CS-ALLOCATING: as_integer64_character
+CS-ALLOCATING: as_integer64_double
+CS-ALLOCATING: as_integer_integer64
+CS-ALLOCATING: as_list_integer64
+CS-ALLOCATING: cumprod_integer64
+CS-ALLOCATING: cumsum_integer64
+CS-ALLOCATING: diff_integer64
+CS-ALLOCATING: divide_double_integer64
+CS-ALLOCATING: divide_integer64_double
+CS-ALLOCATING: divide_integer64_integer64
+CS-ALLOCATING: draw_u32_twice
+CS-ALLOCATING: hashdup_integer64
+CS-ALLOCATING: hashfin_integer64
+CS-ALLOCATING: hashfun_integer64
+CS-ALLOCATING: hashmap_integer64
+CS-ALLOCATING: hashmaptab_integer64
+CS-ALLOCATING: hashmapuni_integer64
+CS-ALLOCATING: hashmapupo_integer64
+CS-ALLOCATING: hashpos_integer64
+CS-ALLOCATING: hashrev_integer64
+CS-ALLOCATING: hashrin_integer64
+CS-ALLOCATING: hashtab_integer64
+CS-ALLOCATING: hashtab_integer641
+CS-ALLOCATING: hashuni_integer64
+CS-ALLOCATING: hashupo_integer64
+CS-ALLOCATING: intdiv_integer64
+CS-ALLOCATING: log10_integer64
+CS-ALLOCATING: log2_integer64
+CS-ALLOCATING: log_integer64
+CS-ALLOCATING: logbase_integer64
+CS-ALLOCATING: logvect_integer64
+CS-ALLOCATING: matmult_double_integer64
+CS-ALLOCATING: matmult_integer64_double
+CS-ALLOCATING: matmult_integer64_integer64
+CS-ALLOCATING: minus_integer64
+CS-ALLOCATING: mod_integer64
+CS-ALLOCATING: plus_integer64
+CS-ALLOCATING: power_integer64_double
+CS-ALLOCATING: power_integer64_integer64
+CS-ALLOCATING: prod_integer64
+CS-ALLOCATING: r_ram_integer64_all_na
+CS-ALLOCATING: r_ram_integer64_any_na
+CS-ALLOCATING: r_ram_integer64_issorted_asc
+CS-ALLOCATING: r_ram_integer64_mergeorder
+CS-ALLOCATING: r_ram_integer64_mergesort
+CS-ALLOCATING: r_ram_integer64_mergesortorder
+CS-ALLOCATING: r_ram_integer64_nacount
+CS-ALLOCATING: r_ram_integer64_orderdup_asc
+CS-ALLOCATING: r_ram_integer64_orderfin_asc
+CS-ALLOCATING: r_ram_integer64_orderkey_asc
+CS-ALLOCATING: r_ram_integer64_ordernut
+CS-ALLOCATING: r_ram_integer64_orderord
+CS-ALLOCATING: r_ram_integer64_orderpos_asc
+CS-ALLOCATING: r_ram_integer64_orderrnk_asc
+CS-ALLOCATING: r_ram_integer64_ordertab_asc
+CS-ALLOCATING: r_ram_integer64_ordertie_asc
+CS-ALLOCATING: r_ram_integer64_orderuni_asc
+CS-ALLOCATING: r_ram_integer64_orderupo_asc
+CS-ALLOCATING: r_ram_integer64_quickorder
+CS-ALLOCATING: r_ram_integer64_quicksort
+CS-ALLOCATING: r_ram_integer64_quicksortorder
+CS-ALLOCATING: r_ram_integer64_radixorder
+CS-ALLOCATING: r_ram_integer64_radixsort
+CS-ALLOCATING: r_ram_integer64_radixsortorder
+CS-ALLOCATING: r_ram_integer64_shellorder
+CS-ALLOCATING: r_ram_integer64_shellsort
+CS-ALLOCATING: r_ram_integer64_shellsortorder
+CS-ALLOCATING: r_ram_integer64_sortfin_asc
+CS-ALLOCATING: r_ram_integer64_sortnut
+CS-ALLOCATING: r_ram_integer64_sortorderdup_asc
+CS-ALLOCATING: r_ram_integer64_sortorderkey_asc
+CS-ALLOCATING: r_ram_integer64_sortorderord
+CS-ALLOCATING: r_ram_integer64_sortorderpos_asc
+CS-ALLOCATING: r_ram_integer64_sortorderrnk_asc
+CS-ALLOCATING: r_ram_integer64_sortordertab_asc
+CS-ALLOCATING: r_ram_integer64_sortordertie_asc
+CS-ALLOCATING: r_ram_integer64_sortorderuni_asc
+CS-ALLOCATING: r_ram_integer64_sortorderupo_asc
+CS-ALLOCATING: r_ram_integer64_sortsrt
+CS-ALLOCATING: r_ram_integer64_sorttab_asc
+CS-ALLOCATING: r_ram_integer64_sortuni_asc
+CS-ALLOCATING: ram_integer64_fixorderNA
+CS-ALLOCATING: ram_integer64_fixsortorderNA
+CS-ALLOCATING: ram_integer64_quickorder_asc_intro
+CS-ALLOCATING: ram_integer64_quickorder_asc_mdr3_no_sentinels
+CS-ALLOCATING: ram_integer64_quickorder_desc_intro
+CS-ALLOCATING: ram_integer64_quickorder_desc_mdr3_no_sentinels
+CS-ALLOCATING: ram_integer64_quicksort_asc_intro
+CS-ALLOCATING: ram_integer64_quicksort_asc_mdr3_no_sentinels
+CS-ALLOCATING: ram_integer64_quicksort_desc_intro
+CS-ALLOCATING: ram_integer64_quicksort_desc_mdr3_no_sentinels
+CS-ALLOCATING: ram_integer64_quicksortorder_asc_intro
+CS-ALLOCATING: ram_integer64_quicksortorder_asc_mdr3_no_sentinels
+CS-ALLOCATING: ram_integer64_quicksortorder_desc_intro
+CS-ALLOCATING: ram_integer64_quicksortorder_desc_mdr3_no_sentinels
+CS-ALLOCATING: randIndex
+CS-ALLOCATING: runif_integer64
+CS-ALLOCATING: sqrt_integer64
+CS-ALLOCATING: sum_integer64
+CS-ALLOCATING: times_integer64_double
+CS-ALLOCATING: times_integer64_integer64
+
+C-ALLOCATOR: hashtab_integer641
+C-ALLOCATOR: r_ram_integer64_sortordertab_asc
+C-ALLOCATOR: r_ram_integer64_sortnut
+C-ALLOCATOR: r_ram_integer64_shellsort
+C-ALLOCATOR: r_ram_integer64_shellorder
+C-ALLOCATOR: r_ram_integer64_radixsortorder
+C-ALLOCATOR: r_ram_integer64_radixsort
+C-ALLOCATOR: r_ram_integer64_radixorder
+C-ALLOCATOR: r_ram_integer64_quicksortorder
+C-ALLOCATOR: r_ram_integer64_nacount
+C-ALLOCATOR: r_ram_integer64_any_na
+C-ALLOCATOR: r_ram_integer64_all_na
+C-ALLOCATOR: r_ram_integer64_mergesortorder
+C-ALLOCATOR: r_ram_integer64_mergesort
+C-ALLOCATOR: r_ram_integer64_issorted_asc
+C-ALLOCATOR: runif_integer64
+C-ALLOCATOR: hashtab_integer64
+C-ALLOCATOR: hashmaptab_integer64
+C-ALLOCATOR: r_ram_integer64_ordertab_asc
+C-ALLOCATOR: hashmapupo_integer64
+C-ALLOCATOR: r_ram_integer64_mergeorder
+C-ALLOCATOR: r_ram_integer64_quickorder
+C-ALLOCATOR: r_ram_integer64_ordernut
+C-ALLOCATOR: hashmapuni_integer64
+C-ALLOCATOR: r_ram_integer64_shellsortorder
+C-ALLOCATOR: r_ram_integer64_quicksort
+C-ALLOCATING: ram_integer64_quickorder_desc_mdr3_no_sentinels
+C-ALLOCATING: ram_integer64_quicksortorder_desc_mdr3_no_sentinels
+C-ALLOCATING: ram_integer64_quicksort_desc_mdr3_no_sentinels
+C-ALLOCATING: ram_integer64_quicksortorder_asc_mdr3_no_sentinels
+C-ALLOCATING: ram_integer64_quicksort_asc_mdr3_no_sentinels
+C-ALLOCATING: hashtab_integer641
+C-ALLOCATING: draw_u32_twice
+C-ALLOCATING: times_integer64_integer64
+C-ALLOCATING: times_integer64_double
+C-ALLOCATING: sum_integer64
+C-ALLOCATING: sqrt_integer64
+C-ALLOCATING: r_ram_integer64_sortordertie_asc
+C-ALLOCATING: r_ram_integer64_sortordertab_asc
+C-ALLOCATING: r_ram_integer64_sortorderrnk_asc
+C-ALLOCATING: r_ram_integer64_sortorderpos_asc
+C-ALLOCATING: r_ram_integer64_sortorderord
+C-ALLOCATING: r_ram_integer64_sortorderkey_asc
+C-ALLOCATING: r_ram_integer64_sortorderdup_asc
+C-ALLOCATING: r_ram_integer64_sortnut
+C-ALLOCATING: r_ram_integer64_shellsortorder
+C-ALLOCATING: r_ram_integer64_shellsort
+C-ALLOCATING: r_ram_integer64_shellorder
+C-ALLOCATING: r_ram_integer64_radixsortorder
+C-ALLOCATING: r_ram_integer64_radixsort
+C-ALLOCATING: r_ram_integer64_radixorder
+C-ALLOCATING: r_ram_integer64_quicksortorder
+C-ALLOCATING: r_ram_integer64_quickorder
+C-ALLOCATING: r_ram_integer64_orderuni_asc
+C-ALLOCATING: r_ram_integer64_ordertab_asc
+C-ALLOCATING: r_ram_integer64_orderrnk_asc
+C-ALLOCATING: r_ram_integer64_orderpos_asc
+C-ALLOCATING: r_ram_integer64_orderord
+C-ALLOCATING: r_ram_integer64_ordernut
+C-ALLOCATING: r_ram_integer64_orderkey_asc
+C-ALLOCATING: r_ram_integer64_orderfin_asc
+C-ALLOCATING: r_ram_integer64_orderdup_asc
+C-ALLOCATING: r_ram_integer64_nacount
+C-ALLOCATING: r_ram_integer64_any_na
+C-ALLOCATING: r_ram_integer64_all_na
+C-ALLOCATING: r_ram_integer64_mergesortorder
+C-ALLOCATING: r_ram_integer64_mergesort
+C-ALLOCATING: r_ram_integer64_mergeorder
+C-ALLOCATING: r_ram_integer64_issorted_asc
+C-ALLOCATING: runif_integer64
+C-ALLOCATING: prod_integer64
+C-ALLOCATING: power_integer64_integer64
+C-ALLOCATING: power_integer64_double
+C-ALLOCATING: mod_integer64
+C-ALLOCATING: minus_integer64
+C-ALLOCATING: matmult_integer64_double
+C-ALLOCATING: matmult_double_integer64
+C-ALLOCATING: logvect_integer64
+C-ALLOCATING: log_integer64
+C-ALLOCATING: logbase_integer64
+C-ALLOCATING: log2_integer64
+C-ALLOCATING: log10_integer64
+C-ALLOCATING: hashmapupo_integer64
+C-ALLOCATING: hashmapuni_integer64
+C-ALLOCATING: hashmaptab_integer64
+C-ALLOCATING: hashmap_integer64
+C-ALLOCATING: hashfun_integer64
+C-ALLOCATING: hashfin_integer64
+C-ALLOCATING: hashdup_integer64
+C-ALLOCATING: as_double_integer64
+C-ALLOCATING: as_list_integer64
+C-ALLOCATING: as_character_integer64
+C-ALLOCATING: as_bitstring_integer64
+C-ALLOCATING: intdiv_integer64
+C-ALLOCATING: hashuni_integer64
+C-ALLOCATING: hashrin_integer64
+C-ALLOCATING: as_integer64_bitstring
+C-ALLOCATING: divide_integer64_double
+C-ALLOCATING: hashupo_integer64
+C-ALLOCATING: r_ram_integer64_sortorderupo_asc
+C-ALLOCATING: r_ram_integer64_sortsrt
+C-ALLOCATING: ram_integer64_fixsortorderNA
+C-ALLOCATING: r_ram_integer64_sorttab_asc
+C-ALLOCATING: r_ram_integer64_sortfin_asc
+C-ALLOCATING: plus_integer64
+C-ALLOCATING: r_ram_integer64_sortorderuni_asc
+C-ALLOCATING: r_ram_integer64_quicksort
+C-ALLOCATING: r_ram_integer64_orderupo_asc
+C-ALLOCATING: ram_integer64_quickorder_asc_intro
+C-ALLOCATING: matmult_integer64_integer64
+C-ALLOCATING: ram_integer64_quicksortorder_desc_intro
+C-ALLOCATING: as_integer64_double
+C-ALLOCATING: r_ram_integer64_ordertie_asc
+C-ALLOCATING: ram_integer64_quicksort_desc_intro
+C-ALLOCATING: ram_integer64_quicksort_asc_intro
+C-ALLOCATING: hashtab_integer64
+C-ALLOCATING: hashrev_integer64
+C-ALLOCATING: hashpos_integer64
+C-ALLOCATING: ram_integer64_fixorderNA
+C-ALLOCATING: ram_integer64_quicksortorder_asc_intro
+C-ALLOCATING: ram_integer64_quickorder_desc_intro
+C-ALLOCATING: randIndex
+C-ALLOCATING: r_ram_integer64_sortuni_asc
+C-ALLOCATING: as_integer_integer64
+C-ALLOCATING: as_integer64_character
+C-ALLOCATING: diff_integer64
+C-ALLOCATING: ram_integer64_quickorder_asc_mdr3_no_sentinels
+C-ALLOCATING: cumprod_integer64
+C-ALLOCATING: cumsum_integer64
+C-ALLOCATING: divide_double_integer64
+C-ALLOCATING: divide_integer64_integer64
+ALLOCATOR: r_ram_integer64_shellorder
+ALLOCATOR: r_ram_integer64_radixsortorder
+ALLOCATOR: r_ram_integer64_radixorder
+ALLOCATOR: r_ram_integer64_quickorder
+ALLOCATOR: hashmapuni_integer64
+ALLOCATOR: hashtab_integer64
+ALLOCATOR: r_ram_integer64_quicksort
+ALLOCATOR: r_ram_integer64_mergesort
+ALLOCATOR: r_ram_integer64_quicksortorder
+ALLOCATOR: r_ram_integer64_sortnut
+ALLOCATOR: r_ram_integer64_ordertab_asc
+ALLOCATOR: r_ram_integer64_shellsortorder
+ALLOCATOR: r_ram_integer64_ordernut
+ALLOCATOR: r_ram_integer64_radixsort
+ALLOCATOR: r_ram_integer64_all_na
+ALLOCATOR: r_ram_integer64_any_na
+ALLOCATOR: r_ram_integer64_nacount
+ALLOCATOR: r_ram_integer64_mergesortorder
+ALLOCATOR: runif_integer64
+ALLOCATOR: r_ram_integer64_issorted_asc
+ALLOCATOR: hashmaptab_integer64
+ALLOCATOR: hashtab_integer641
+ALLOCATOR: r_ram_integer64_shellsort
+ALLOCATOR: r_ram_integer64_mergeorder
+ALLOCATOR: r_ram_integer64_sortordertab_asc
+ALLOCATOR: hashmapupo_integer64
+ALLOCATING: ram_integer64_quickorder_desc_mdr3_no_sentinels
+ALLOCATING: ram_integer64_quicksortorder_desc_mdr3_no_sentinels
+ALLOCATING: ram_integer64_quickorder_asc_mdr3_no_sentinels
+ALLOCATING: draw_u32_twice
+ALLOCATING: ram_integer64_quickorder_desc_intro
+ALLOCATING: ram_integer64_quicksort_asc_intro
+ALLOCATING: ram_integer64_quicksortorder_desc_intro
+ALLOCATING: r_ram_integer64_orderpos_asc
+ALLOCATING: r_ram_integer64_orderord
+ALLOCATING: r_ram_integer64_orderfin_asc
+ALLOCATING: r_ram_integer64_orderdup_asc
+ALLOCATING: r_ram_integer64_nacount
+ALLOCATING: r_ram_integer64_mergesortorder
+ALLOCATING: times_integer64_integer64
+ALLOCATING: times_integer64_double
+ALLOCATING: sum_integer64
+ALLOCATING: sqrt_integer64
+ALLOCATING: r_ram_integer64_sortuni_asc
+ALLOCATING: r_ram_integer64_sorttab_asc
+ALLOCATING: r_ram_integer64_sortsrt
+ALLOCATING: r_ram_integer64_sortordertie_asc
+ALLOCATING: r_ram_integer64_sortordertab_asc
+ALLOCATING: r_ram_integer64_sortorderrnk_asc
+ALLOCATING: r_ram_integer64_sortorderpos_asc
+ALLOCATING: r_ram_integer64_sortorderord
+ALLOCATING: r_ram_integer64_sortnut
+ALLOCATING: r_ram_integer64_sortfin_asc
+ALLOCATING: r_ram_integer64_orderuni_asc
+ALLOCATING: r_ram_integer64_ordertie_asc
+ALLOCATING: r_ram_integer64_ordertab_asc
+ALLOCATING: as_integer_integer64
+ALLOCATING: r_ram_integer64_radixsort
+ALLOCATING: r_ram_integer64_radixorder
+ALLOCATING: r_ram_integer64_quicksortorder
+ALLOCATING: r_ram_integer64_quicksort
+ALLOCATING: intdiv_integer64
+ALLOCATING: hashuni_integer64
+ALLOCATING: hashtab_integer64
+ALLOCATING: hashrev_integer64
+ALLOCATING: hashmapuni_integer64
+ALLOCATING: r_ram_integer64_mergeorder
+ALLOCATING: runif_integer64
+ALLOCATING: prod_integer64
+ALLOCATING: power_integer64_integer64
+ALLOCATING: power_integer64_double
+ALLOCATING: mod_integer64
+ALLOCATING: minus_integer64
+ALLOCATING: matmult_integer64_double
+ALLOCATING: matmult_double_integer64
+ALLOCATING: logvect_integer64
+ALLOCATING: log_integer64
+ALLOCATING: log2_integer64
+ALLOCATING: hashmaptab_integer64
+ALLOCATING: hashmap_integer64
+ALLOCATING: divide_integer64_integer64
+ALLOCATING: log10_integer64
+ALLOCATING: divide_integer64_double
+ALLOCATING: cumsum_integer64
+ALLOCATING: cumprod_integer64
+ALLOCATING: ram_integer64_fixorderNA
+ALLOCATING: r_ram_integer64_sortorderupo_asc
+ALLOCATING: ram_integer64_quicksort_asc_mdr3_no_sentinels
+ALLOCATING: r_ram_integer64_sortorderdup_asc
+ALLOCATING: r_ram_integer64_issorted_asc
+ALLOCATING: r_ram_integer64_any_na
+ALLOCATING: r_ram_integer64_sortorderuni_asc
+ALLOCATING: ram_integer64_fixsortorderNA
+ALLOCATING: r_ram_integer64_quickorder
+ALLOCATING: hashpos_integer64
+ALLOCATING: r_ram_integer64_all_na
+ALLOCATING: r_ram_integer64_shellsortorder
+ALLOCATING: hashupo_integer64
+ALLOCATING: r_ram_integer64_orderkey_asc
+ALLOCATING: as_integer64_character
+ALLOCATING: diff_integer64
+ALLOCATING: hashfun_integer64
+ALLOCATING: as_integer64_double
+ALLOCATING: as_character_integer64
+ALLOCATING: logbase_integer64
+ALLOCATING: as_integer64_bitstring
+ALLOCATING: hashfin_integer64
+ALLOCATING: divide_double_integer64
+ALLOCATING: plus_integer64
+ALLOCATING: as_double_integer64
+ALLOCATING: hashdup_integer64
+ALLOCATING: hashrin_integer64
+ALLOCATING: ram_integer64_quicksort_desc_intro
+ALLOCATING: r_ram_integer64_orderrnk_asc
+ALLOCATING: as_list_integer64
+ALLOCATING: ram_integer64_quicksort_desc_mdr3_no_sentinels
+ALLOCATING: ram_integer64_quickorder_asc_intro
+ALLOCATING: r_ram_integer64_orderupo_asc
+ALLOCATING: matmult_integer64_integer64
+ALLOCATING: ram_integer64_quicksortorder_asc_mdr3_no_sentinels
+ALLOCATING: ram_integer64_quicksortorder_asc_intro
+ALLOCATING: r_ram_integer64_shellorder
+ALLOCATING: randIndex
+ALLOCATING: r_ram_integer64_shellsort
+ALLOCATING: r_ram_integer64_ordernut
+ALLOCATING: hashmapupo_integer64
+ALLOCATING: r_ram_integer64_sortorderkey_asc
+ALLOCATING: as_bitstring_integer64
+ALLOCATING: r_ram_integer64_mergesort
+ALLOCATING: hashtab_integer641
+ALLOCATING: r_ram_integer64_radixsortorder

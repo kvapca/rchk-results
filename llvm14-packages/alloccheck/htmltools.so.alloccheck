@@ -1,0 +1,18 @@
+Callee protect functions: 
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+  template_dfa
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+
+CS-ALLOCATOR: template_dfa
+
+CS-ALLOCATING: template_dfa
+
+C-ALLOCATOR: template_dfa
+C-ALLOCATING: template_dfa
+ALLOCATOR: template_dfa
+ALLOCATING: template_dfa

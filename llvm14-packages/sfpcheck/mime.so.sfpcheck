@@ -1,0 +1,4 @@
+List of functions and callsites calling (recursively) into R_gc_internal:
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/Phn4A0PM/mime/src/rawmatch.c 13
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/Phn4A0PM/mime/src/rawmatch.c 15
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/Phn4A0PM/mime/src/rawmatch.c 28

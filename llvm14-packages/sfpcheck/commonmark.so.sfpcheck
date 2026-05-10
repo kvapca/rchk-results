@@ -1,0 +1,9 @@
+List of functions and callsites calling (recursively) into R_gc_internal:
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/8z6Y2mpo/commonmark/src/extensions.c 13
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/8z6Y2mpo/commonmark/src/extensions.c 17
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/8z6Y2mpo/commonmark/src/wrapper.c 47
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/8z6Y2mpo/commonmark/src/wrapper.c 59
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/8z6Y2mpo/commonmark/src/wrapper.c 77
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/8z6Y2mpo/commonmark/src/wrapper.c 88
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/8z6Y2mpo/commonmark/src/wrapper.c 93
+/home/kvasa/Documents/programming/FIT/BAP/rchk14/trunk/packages/build/8z6Y2mpo/commonmark/src/wrapper.c 94
