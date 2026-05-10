@@ -1,0 +1,15 @@
+
+
+
+
+
+  template_dfa
+ALLOCATING: template_dfa
+ALLOCATOR: template_dfa
+C-ALLOCATING: template_dfa
+C-ALLOCATOR: template_dfa
+CS-ALLOCATING: template_dfa
+CS-ALLOCATOR: template_dfa
+Callee protect functions: 
+Callee safe functions (non-trivially, excluding callee-protect): 
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 

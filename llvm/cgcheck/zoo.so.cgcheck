@@ -1,0 +1,5 @@
+Functions calling (recursively) function Rf_errorcall
+R_init_zoo
+zoo_coredata
+zoo_lag
+zoo_lagts

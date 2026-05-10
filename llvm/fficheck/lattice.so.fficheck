@@ -1,4 +1,0 @@
-Library name (usually package name): lattice
-Initialization function: R_init_lattice
-Functions: 1
-Checked call to R_registerRoutines: 1

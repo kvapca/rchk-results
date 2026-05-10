@@ -1,0 +1,40 @@
+
+
+
+
+
+  C_execute !S!!SSS
+  R_exec_status S!
+ALLOCATING: C_execute
+ALLOCATING: R_callback
+ALLOCATING: R_exec_status
+ALLOCATING: check_interrupt_fn
+ALLOCATING: pending_interrupt
+ALLOCATING: print_output
+ALLOCATING: warn_if
+ALLOCATOR: C_execute
+ALLOCATOR: R_exec_status
+C-ALLOCATING: C_execute
+C-ALLOCATING: R_callback
+C-ALLOCATING: R_exec_status
+C-ALLOCATING: check_interrupt_fn
+C-ALLOCATING: pending_interrupt
+C-ALLOCATING: print_output
+C-ALLOCATING: warn_if
+C-ALLOCATOR: C_execute
+C-ALLOCATOR: R_exec_status
+CS-ALLOCATING: C_execute
+CS-ALLOCATING: R_callback
+CS-ALLOCATING: R_exec_status
+CS-ALLOCATING: check_interrupt_fn
+CS-ALLOCATING: pending_interrupt
+CS-ALLOCATING: print_output
+CS-ALLOCATING: warn_if
+CS-ALLOCATOR: C_execute
+CS-ALLOCATOR: R_exec_status
+Callee protect functions: 
+Callee safe functions (non-trivially, excluding callee-protect): 
+ERROR: too many states (abstraction error?) in function RunGenCollect
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function strptime_internal
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 

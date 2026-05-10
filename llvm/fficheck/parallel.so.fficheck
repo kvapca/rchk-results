@@ -1,4 +1,0 @@
-Library name (usually package name): parallel
-Initialization function: R_init_parallel
-Functions: 22
-Checked call to R_registerRoutines: 1

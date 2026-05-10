@@ -1,0 +1,5 @@
+Functions calling (recursively) function Rf_errorcall
+glue_
+resize
+set
+trim_

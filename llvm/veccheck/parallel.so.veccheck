@@ -1,7 +1,0 @@
-  mc_children
-  mc_exit
-  mc_fds
-  mc_fork
-  mc_master_fd
-  nextStream
-  nextSubStream

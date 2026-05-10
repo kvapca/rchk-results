@@ -1,0 +1,9 @@
+Functions calling (recursively) function Rf_errorcall
+processx_base64_decode
+processx_base64_encode
+processx_set_std
+processx_set_stderr
+processx_set_stderr_to_file
+processx_set_stdout
+processx_set_stdout_to_file
+processx_write

@@ -1,0 +1,12 @@
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/xfun/src/base64.c 150
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/xfun/src/base64.c 156
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/xfun/src/base64.c 208
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/xfun/src/rand_lcg.c 6
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/xfun/src/rand_lcg.c 7
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/xfun/src/rand_lcg.c 8
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/xfun/src/rand_lcg.c 9
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/xfun/src/rand_lcg.c 10
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/xfun/src/rand_lcg.c 12

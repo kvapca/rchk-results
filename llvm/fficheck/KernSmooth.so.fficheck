@@ -1,3 +1,0 @@
-Library name (usually package name): KernSmooth
-Initialization function: R_init_KernSmooth
-Checked call to R_registerRoutines: 1

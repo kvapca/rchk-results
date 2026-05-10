@@ -1,0 +1,4 @@
+Library name (usually package name): ps
+Initialization function: R_init_ps
+Functions: 65
+Checked call to R_registerRoutines: 1

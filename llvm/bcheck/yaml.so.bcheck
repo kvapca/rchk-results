@@ -1,0 +1,8 @@
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+
+Function emit_factor
+  [UP] unprotected variable s_levels while calling allocating function Rf_mkCharCE /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/yaml/src/r_emit.c:407
+  [UP] unprotected variable s_levels while calling allocating function emit_char /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/yaml/src/r_emit.c:418
+Analyzed 238 functions, traversed 16887 states.

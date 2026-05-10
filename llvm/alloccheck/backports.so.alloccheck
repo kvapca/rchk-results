@@ -1,0 +1,26 @@
+
+
+
+
+
+ALLOCATING: dotsElt
+ALLOCATING: dotsLength
+ALLOCATING: dotsNames
+ALLOCATOR: dotsElt
+ALLOCATOR: dotsLength
+ALLOCATOR: dotsNames
+C-ALLOCATING: dotsElt
+C-ALLOCATING: dotsLength
+C-ALLOCATING: dotsNames
+C-ALLOCATOR: dotsElt
+C-ALLOCATOR: dotsLength
+C-ALLOCATOR: dotsNames
+CS-ALLOCATING: dotsElt
+CS-ALLOCATING: dotsLength
+CS-ALLOCATING: dotsNames
+CS-ALLOCATOR: dotsElt
+CS-ALLOCATOR: dotsLength
+CS-ALLOCATOR: dotsNames
+Callee protect functions: 
+Callee safe functions (non-trivially, excluding callee-protect): 
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 

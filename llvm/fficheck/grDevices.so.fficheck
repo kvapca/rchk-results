@@ -1,5 +1,0 @@
-Library name (usually package name): grDevices
-Initialization function: R_init_grDevices
-Functions: 20
-Functions: 32
-Checked call to R_registerRoutines: 1

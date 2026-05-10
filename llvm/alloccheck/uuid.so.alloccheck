@@ -1,0 +1,109 @@
+
+
+
+
+
+  UUID_cmp !!S
+  UUID_gen !S!!
+  UUID_parse !S
+  UUID_unparse !S
+ALLOCATING: API_uuid_generate
+ALLOCATING: R_init_uuid
+ALLOCATING: UUID_cmp
+ALLOCATING: UUID_gen
+ALLOCATING: UUID_is_NA
+ALLOCATING: UUID_parse
+ALLOCATING: UUID_unparse
+ALLOCATING: __uuid_generate_random
+ALLOCATING: __uuid_generate_time
+ALLOCATING: __uuid_generate_time_cont
+ALLOCATING: __uuid_generate_time_internal
+ALLOCATING: crank_random
+ALLOCATING: get_clock
+ALLOCATING: rand_get_number
+ALLOCATING: random_get_fd
+ALLOCATING: set_raw_dim
+ALLOCATING: ul_random_get_bytes
+ALLOCATING: uuid_generate
+ALLOCATING: uuid_generate_random
+ALLOCATING: uuid_generate_time
+ALLOCATING: uuid_generate_time_generic
+ALLOCATING: uuid_generate_time_safe
+ALLOCATING: uuid_rand
+ALLOCATING: uuid_random
+ALLOCATING: uuid_srand
+ALLOCATING: uuid_srandom
+ALLOCATOR: UUID_cmp
+ALLOCATOR: UUID_gen
+ALLOCATOR: UUID_is_NA
+ALLOCATOR: UUID_parse
+ALLOCATOR: UUID_unparse
+C-ALLOCATING: API_uuid_generate
+C-ALLOCATING: R_init_uuid
+C-ALLOCATING: UUID_cmp
+C-ALLOCATING: UUID_gen
+C-ALLOCATING: UUID_is_NA
+C-ALLOCATING: UUID_parse
+C-ALLOCATING: UUID_unparse
+C-ALLOCATING: __uuid_generate_random
+C-ALLOCATING: __uuid_generate_time
+C-ALLOCATING: __uuid_generate_time_cont
+C-ALLOCATING: __uuid_generate_time_internal
+C-ALLOCATING: crank_random
+C-ALLOCATING: get_clock
+C-ALLOCATING: rand_get_number
+C-ALLOCATING: random_get_fd
+C-ALLOCATING: set_raw_dim
+C-ALLOCATING: set_raw_dim(V,?)
+C-ALLOCATING: ul_random_get_bytes
+C-ALLOCATING: uuid_generate
+C-ALLOCATING: uuid_generate_random
+C-ALLOCATING: uuid_generate_time
+C-ALLOCATING: uuid_generate_time_generic
+C-ALLOCATING: uuid_generate_time_safe
+C-ALLOCATING: uuid_rand
+C-ALLOCATING: uuid_random
+C-ALLOCATING: uuid_srand
+C-ALLOCATING: uuid_srandom
+C-ALLOCATOR: UUID_cmp
+C-ALLOCATOR: UUID_gen
+C-ALLOCATOR: UUID_is_NA
+C-ALLOCATOR: UUID_parse
+C-ALLOCATOR: UUID_unparse
+CS-ALLOCATING: API_uuid_generate
+CS-ALLOCATING: R_init_uuid
+CS-ALLOCATING: UUID_cmp
+CS-ALLOCATING: UUID_gen
+CS-ALLOCATING: UUID_is_NA
+CS-ALLOCATING: UUID_parse
+CS-ALLOCATING: UUID_unparse
+CS-ALLOCATING: __uuid_generate_random
+CS-ALLOCATING: __uuid_generate_time
+CS-ALLOCATING: __uuid_generate_time_cont
+CS-ALLOCATING: __uuid_generate_time_internal
+CS-ALLOCATING: crank_random
+CS-ALLOCATING: get_clock
+CS-ALLOCATING: rand_get_number
+CS-ALLOCATING: random_get_fd
+CS-ALLOCATING: set_raw_dim
+CS-ALLOCATING: ul_random_get_bytes
+CS-ALLOCATING: uuid_generate
+CS-ALLOCATING: uuid_generate_random
+CS-ALLOCATING: uuid_generate_time
+CS-ALLOCATING: uuid_generate_time_generic
+CS-ALLOCATING: uuid_generate_time_safe
+CS-ALLOCATING: uuid_rand
+CS-ALLOCATING: uuid_random
+CS-ALLOCATING: uuid_srand
+CS-ALLOCATING: uuid_srandom
+CS-ALLOCATOR: UUID_cmp
+CS-ALLOCATOR: UUID_gen
+CS-ALLOCATOR: UUID_is_NA
+CS-ALLOCATOR: UUID_parse
+CS-ALLOCATOR: UUID_unparse
+Callee protect functions: 
+Callee safe functions (non-trivially, excluding callee-protect): 
+ERROR: too many states (abstraction error?) in function RunGenCollect
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function strptime_internal
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 

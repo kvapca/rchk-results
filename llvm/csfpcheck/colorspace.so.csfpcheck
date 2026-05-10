@@ -1,0 +1,38 @@
+ERROR: too many states (abstraction error?) in function strptime_internal
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function RunGenCollect
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 556
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 558
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 560
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 593
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 622
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 624
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 626
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 693
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 695
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 697
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 781
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 783
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 785
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 869
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 871
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 873
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 918
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 920
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 922
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 973
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 975
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 977
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1050
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1052
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1054
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1137
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1139
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1141
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1214
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1216
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1218
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1315
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1318
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1342
+/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/colorspace/src/colorspace.c 1396

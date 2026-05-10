@@ -1,0 +1,4 @@
+Library name (usually package name): commonmark
+Initialization function: R_init_commonmark
+Functions: 2
+Checked call to R_registerRoutines: 1

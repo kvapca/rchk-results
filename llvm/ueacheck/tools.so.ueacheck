@@ -1,2 +1,0 @@
-WARNING Suspicious call (two or more unprotected arguments) to SETCAR at NewList /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramLatex.c:2595
-WARNING Suspicious call (two or more unprotected arguments) to SETCAR at NewList.172 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tools/src/gramRd.c:3523

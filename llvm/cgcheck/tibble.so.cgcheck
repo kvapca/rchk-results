@@ -1,0 +1,17 @@
+Functions calling (recursively) function Rf_errorcall
+copy_attributes
+copy_column_attributes
+copy_columns_atomic
+copy_columns_str
+copy_columns_vec
+copy_most_attributes
+get_class
+get_data
+get_dim
+get_rownames
+string_to_numeric_indexes
+tibble_make_rownames
+tibble_matrixToDataFrame
+tibble_need_coerce
+tibble_restore_impl
+tibble_string_to_indices

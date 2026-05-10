@@ -1,3 +1,0 @@
-WARNING Suspicious call (two or more unprotected arguments) to SET_VECTOR_ELT at getSPSSmissing /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c:329
-WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at getSPSSmissing /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c:346
-WARNING Suspicious call (two or more unprotected arguments) to SET_VECTOR_ELT at getSPSSmissing /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/foreign/src/spss.c:347

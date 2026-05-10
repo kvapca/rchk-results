@@ -1,4 +1,0 @@
-Library name (usually package name): cluster
-Initialization function: R_init_cluster
-Functions: 1
-Checked call to R_registerRoutines: 1

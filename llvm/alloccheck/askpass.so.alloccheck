@@ -1,0 +1,15 @@
+
+
+
+
+
+  pw_entry_dialog
+ALLOCATING: pw_entry_dialog
+ALLOCATOR: pw_entry_dialog
+C-ALLOCATING: pw_entry_dialog
+C-ALLOCATOR: pw_entry_dialog
+CS-ALLOCATING: pw_entry_dialog
+CS-ALLOCATOR: pw_entry_dialog
+Callee protect functions: 
+Callee safe functions (non-trivially, excluding callee-protect): 
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 

@@ -1,0 +1,4 @@
+Functions calling (recursively) function Rf_errorcall
+base64_dec
+base64_enc
+rand_lcg

@@ -1,0 +1,66 @@
+
+
+
+
+
+  C_parse_hms !S
+ALLOCATING: C_is_leap_year
+ALLOCATING: C_make_d
+ALLOCATING: C_make_dt
+ALLOCATING: C_parse_dt
+ALLOCATING: C_parse_hms
+ALLOCATING: C_parse_period
+ALLOCATING: parse_alpha_month
+ALLOCATING: parse_alphanum
+ALLOCATING: parse_period_1
+ALLOCATING: parse_period_unit
+ALLOCATING: period_names
+ALLOCATOR: C_is_leap_year
+ALLOCATOR: C_make_d
+ALLOCATOR: C_make_dt
+ALLOCATOR: C_parse_dt
+ALLOCATOR: C_parse_hms
+ALLOCATOR: C_parse_period
+ALLOCATOR: period_names
+C-ALLOCATING: C_is_leap_year
+C-ALLOCATING: C_make_d
+C-ALLOCATING: C_make_dt
+C-ALLOCATING: C_parse_dt
+C-ALLOCATING: C_parse_hms
+C-ALLOCATING: C_parse_period
+C-ALLOCATING: parse_alpha_month
+C-ALLOCATING: parse_alphanum
+C-ALLOCATING: parse_period_1
+C-ALLOCATING: parse_period_unit
+C-ALLOCATING: period_names
+C-ALLOCATOR: C_is_leap_year
+C-ALLOCATOR: C_make_d
+C-ALLOCATOR: C_make_dt
+C-ALLOCATOR: C_parse_dt
+C-ALLOCATOR: C_parse_hms
+C-ALLOCATOR: C_parse_period
+C-ALLOCATOR: period_names
+CS-ALLOCATING: C_is_leap_year
+CS-ALLOCATING: C_make_d
+CS-ALLOCATING: C_make_dt
+CS-ALLOCATING: C_parse_dt
+CS-ALLOCATING: C_parse_hms
+CS-ALLOCATING: C_parse_period
+CS-ALLOCATING: parse_alpha_month
+CS-ALLOCATING: parse_alphanum
+CS-ALLOCATING: parse_period_1
+CS-ALLOCATING: parse_period_unit
+CS-ALLOCATING: period_names
+CS-ALLOCATOR: C_is_leap_year
+CS-ALLOCATOR: C_make_d
+CS-ALLOCATOR: C_make_dt
+CS-ALLOCATOR: C_parse_dt
+CS-ALLOCATOR: C_parse_hms
+CS-ALLOCATOR: C_parse_period
+CS-ALLOCATOR: period_names
+Callee protect functions: 
+Callee safe functions (non-trivially, excluding callee-protect): 
+ERROR: too many states (abstraction error?) in function RunGenCollect
+ERROR: too many states (abstraction error?) in function bcEval_loop
+ERROR: too many states (abstraction error?) in function strptime_internal
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 

@@ -1,0 +1,4 @@
+Library name (usually package name): rappdirs
+Initialization function: R_init_rappdirs
+Functions: 1
+Checked call to R_registerRoutines: 1
