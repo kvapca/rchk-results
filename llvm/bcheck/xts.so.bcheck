@@ -1,5 +1,2 @@
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 ERROR: too many states (abstraction error?) in function do_merge_xts
 Analyzed 62 functions, traversed 812569 states.

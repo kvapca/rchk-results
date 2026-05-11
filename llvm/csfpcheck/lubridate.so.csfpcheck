@@ -1,44 +1,3 @@
-<<<<<<< HEAD:llvm/csfpcheck/MASS.so.csfpcheck
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/MASS.c 71
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/MASS.c 126
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/MASS.c 146
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/MASS.c 268
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/MASS.c 270
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 44
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 45
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 46
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 47
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 48
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 49
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 50
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 51
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 52
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 66
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 173
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 180
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 184
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 187
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 266
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 273
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 274
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 275
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 276
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 277
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 278
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 279
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 280
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 281
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 282
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 350
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 352
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 357
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 363
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 366
-/home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/MASS/src/lqs.c 417
-=======
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/lubridate/src/datetime.c 30
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/lubridate/src/datetime.c 31
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/lubridate/src/datetime.c 32
@@ -74,4 +33,3 @@ ERROR: too many states (abstraction error?) in function RunGenCollect
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/lubridate/src/utils.c 31
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/lubridate/src/utils.c 36
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/lubridate/src/utils.c 127
->>>>>>> 22e0483 (add FRESH llvm 14 packages):llvm/csfpcheck/lubridate.so.csfpcheck

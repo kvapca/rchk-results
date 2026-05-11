@@ -1,6 +1,0 @@
-
-Function dotTclObjv
-  [UP] unprotected variable nm while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tcltk/src/tcltk.c:233
-  [UP] unprotected variable nm while calling allocating function R_alloc /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tcltk/src/tcltk.c:237
-  [UP] unprotected variable nm while calling allocating function Rf_translateChar /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/tcltk/src/tcltk.c:242
-Analyzed 42 functions, traversed 442 states.

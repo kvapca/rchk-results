@@ -1,4 +1,0 @@
-Marked (noreturn) error function BadUnitsError /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/graphics.c:297
-Marked (noreturn) error function invalidError /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/graphics.c:1769
-Marked (noreturn) error function locator_close /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/graphics.c:2611
-Marked (noreturn) error function par_error /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/src/library/graphics/src/par.c:159

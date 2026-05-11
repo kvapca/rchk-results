@@ -657,8 +657,5 @@ CS-ALLOCATOR: bignum_to_r
 CS-ALLOCATOR: bignum_to_r_size
 Callee protect functions: 
 Callee safe functions (non-trivially, excluding callee-protect): 
-ERROR: too many states (abstraction error?) in function RunGenCollect
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function strptime_internal
 GOOD: NOT-CALLOCATING but ALLOCATING: password_cb
 Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 

@@ -1,6 +1,3 @@
-ERROR: too many states (abstraction error?) in function strptime_internal
-ERROR: too many states (abstraction error?) in function bcEval_loop
-ERROR: too many states (abstraction error?) in function RunGenCollect
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/base64enc/src/base64.c 104
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/base64enc/src/base64.c 139
 /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/BUILD_HASH/base64enc/src/base64.c 143
