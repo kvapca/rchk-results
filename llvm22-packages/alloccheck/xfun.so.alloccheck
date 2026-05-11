@@ -1,0 +1,29 @@
+Callee protect functions: 
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+  base64_dec
+  base64_enc
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  rand_lcg S!!!!
+
+CS-ALLOCATOR: base64_dec
+CS-ALLOCATOR: base64_enc
+CS-ALLOCATOR: rand_lcg
+
+CS-ALLOCATING: base64_dec
+CS-ALLOCATING: base64_enc
+CS-ALLOCATING: rand_lcg
+
+C-ALLOCATOR: rand_lcg
+C-ALLOCATOR: base64_dec
+C-ALLOCATOR: base64_enc
+C-ALLOCATING: base64_enc
+C-ALLOCATING: base64_dec
+C-ALLOCATING: rand_lcg
+ALLOCATOR: rand_lcg
+ALLOCATOR: base64_enc
+ALLOCATOR: base64_dec
+ALLOCATING: base64_enc
+ALLOCATING: rand_lcg
+ALLOCATING: base64_dec

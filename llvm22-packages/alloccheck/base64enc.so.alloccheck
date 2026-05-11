@@ -1,0 +1,41 @@
+Callee protect functions: 
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  B64_decode !S
+  B64_encode S!S
+  C_URIencode !S
+  utf8_check S!!S
+
+CS-ALLOCATOR: B64_decode
+CS-ALLOCATOR: B64_encode
+CS-ALLOCATOR: C_URIencode
+CS-ALLOCATOR: utf8_check
+
+CS-ALLOCATING: B64_decode
+CS-ALLOCATING: B64_encode
+CS-ALLOCATING: C_URIencode
+CS-ALLOCATING: base64decode
+CS-ALLOCATING: utf8_check
+
+C-ALLOCATOR: B64_decode
+C-ALLOCATOR: B64_encode
+C-ALLOCATOR: C_URIencode
+C-ALLOCATOR: utf8_check
+C-ALLOCATING: utf8_check
+C-ALLOCATING: C_URIencode
+C-ALLOCATING: base64decode
+C-ALLOCATING: B64_decode
+C-ALLOCATING: B64_encode
+ALLOCATOR: B64_encode
+ALLOCATOR: C_URIencode
+ALLOCATOR: B64_decode
+ALLOCATOR: utf8_check
+ALLOCATING: B64_encode
+ALLOCATING: B64_decode
+ALLOCATING: dummy
+ALLOCATING: C_URIencode
+ALLOCATING: utf8_check
+ALLOCATING: base64decode
+GOOD: NOT-CALLOCATING but ALLOCATING: dummy

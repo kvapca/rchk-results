@@ -1,0 +1,8 @@
+Functions calling (recursively) function Rf_errorcall
+R_init_uuid
+UUID_cmp
+UUID_gen
+UUID_is_NA
+UUID_parse
+UUID_unparse
+set_raw_dim

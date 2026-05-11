@@ -1,0 +1,19 @@
+
+Function processx__connection_set_std
+  [UP] ignoring variable result as it has address taken, results will be incomplete 
+
+Function processx_connection_create
+  [UP] ignoring variable result as it has address taken, results will be incomplete 
+
+Function processx_connection_create_fd
+  [UP] ignoring variable result as it has address taken, results will be incomplete 
+
+Function processx_connection_create_file
+  [UP] ignoring variable result as it has address taken, results will be incomplete 
+
+Function processx_connection_create_pipepair
+  [UP] ignoring variable con2 as it has address taken, results will be incomplete 
+
+Function processx_connection_create_proc_pipepair
+  [UP] ignoring variable con2 as it has address taken, results will be incomplete 
+Analyzed 136 functions, traversed 3004 states.

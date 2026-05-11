@@ -1,0 +1,79 @@
+Callee protect functions: 
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  copy_columns_atomic !S--
+  string_to_numeric_indexes !-S
+
+CS-ALLOCATOR: get_class
+CS-ALLOCATOR: get_rownames
+CS-ALLOCATOR: string_to_numeric_indexes
+CS-ALLOCATOR: tibble_make_rownames
+CS-ALLOCATOR: tibble_matrixToDataFrame
+CS-ALLOCATOR: tibble_restore_impl
+CS-ALLOCATOR: tibble_string_to_indices
+
+CS-ALLOCATING: copy_attributes
+CS-ALLOCATING: copy_column_attributes
+CS-ALLOCATING: copy_columns_atomic
+CS-ALLOCATING: copy_columns_str
+CS-ALLOCATING: copy_columns_vec
+CS-ALLOCATING: copy_most_attributes
+CS-ALLOCATING: get_class
+CS-ALLOCATING: get_dim
+CS-ALLOCATING: get_rownames
+CS-ALLOCATING: string_to_numeric_indexes
+CS-ALLOCATING: tibble_make_rownames
+CS-ALLOCATING: tibble_matrixToDataFrame
+CS-ALLOCATING: tibble_restore_impl
+CS-ALLOCATING: tibble_string_to_indices
+
+C-ALLOCATOR: string_to_numeric_indexes
+C-ALLOCATOR: tibble_restore_impl
+C-ALLOCATOR: tibble_string_to_indices
+C-ALLOCATOR: tibble_matrixToDataFrame
+C-ALLOCATOR: get_class
+C-ALLOCATOR: string_to_numeric_indexes(?,?,V)
+C-ALLOCATOR: tibble_make_rownames
+C-ALLOCATOR: get_rownames
+C-ALLOCATING: string_to_numeric_indexes(?,?,V)
+C-ALLOCATING: copy_columns_vec(V,?,?,?)
+C-ALLOCATING: copy_columns_atomic(V,?,?,?)
+C-ALLOCATING: copy_attributes
+C-ALLOCATING: copy_most_attributes
+C-ALLOCATING: copy_column_attributes
+C-ALLOCATING: copy_columns_vec
+C-ALLOCATING: copy_columns_str
+C-ALLOCATING: copy_columns_atomic
+C-ALLOCATING: get_dim
+C-ALLOCATING: tibble_string_to_indices
+C-ALLOCATING: tibble_matrixToDataFrame
+C-ALLOCATING: copy_column_attributes(V,?,?)
+C-ALLOCATING: string_to_numeric_indexes
+C-ALLOCATING: tibble_make_rownames
+C-ALLOCATING: tibble_restore_impl
+C-ALLOCATING: get_rownames
+C-ALLOCATING: get_class
+C-ALLOCATING: copy_columns_str(V,?,?,?)
+ALLOCATOR: tibble_restore_impl
+ALLOCATOR: get_class
+ALLOCATOR: string_to_numeric_indexes
+ALLOCATOR: get_rownames
+ALLOCATOR: tibble_matrixToDataFrame
+ALLOCATOR: tibble_make_rownames
+ALLOCATOR: tibble_string_to_indices
+ALLOCATING: tibble_matrixToDataFrame
+ALLOCATING: copy_attributes
+ALLOCATING: tibble_string_to_indices
+ALLOCATING: tibble_make_rownames
+ALLOCATING: string_to_numeric_indexes
+ALLOCATING: get_rownames
+ALLOCATING: get_dim
+ALLOCATING: copy_column_attributes
+ALLOCATING: copy_columns_vec
+ALLOCATING: copy_columns_str
+ALLOCATING: tibble_restore_impl
+ALLOCATING: get_class
+ALLOCATING: copy_columns_atomic
+ALLOCATING: copy_most_attributes

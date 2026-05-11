@@ -1,0 +1,4 @@
+Library name (usually package name): tibble
+Initialization function: R_init_tibble
+Functions: 4
+Checked call to R_registerRoutines: 1

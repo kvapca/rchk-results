@@ -1,0 +1,10 @@
+
+Function zoo_lag
+  [UP] unprotected variable index while calling allocating function Rf_allocVector /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/bzY442hw/zoo/src/lag.c:278
+  [UP] unprotected variable index while calling allocating function Rf_getAttrib(?,S:index) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/bzY442hw/zoo/src/lag.c:297
+  [UP] unprotected variable index while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/bzY442hw/zoo/src/lag.c:297
+  [UP] unprotected variable index while calling allocating function Rf_getAttrib(?,S:index) /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/bzY442hw/zoo/src/lag.c:299
+  [UP] unprotected variable index while calling allocating function Rf_install /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/bzY442hw/zoo/src/lag.c:299
+  [UP] unprotected variable index while calling allocating function R_do_MAKE_CLASS /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/bzY442hw/zoo/src/lag.c:300
+  [UP] unprotected variable index while calling allocating function R_do_new_object /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/bzY442hw/zoo/src/lag.c:301
+Analyzed 4 functions, traversed 399 states.

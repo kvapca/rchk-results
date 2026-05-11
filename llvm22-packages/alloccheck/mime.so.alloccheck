@@ -1,0 +1,15 @@
+Callee protect functions: 
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+  rawmatch
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+
+CS-ALLOCATOR: rawmatch
+
+CS-ALLOCATING: rawmatch
+
+C-ALLOCATOR: rawmatch
+C-ALLOCATING: rawmatch
+ALLOCATOR: rawmatch
+ALLOCATING: rawmatch

@@ -1,0 +1,4 @@
+Functions calling (recursively) function Rf_errorcall
+dotsElt
+dotsLength
+dotsNames

@@ -1,0 +1,2 @@
+Library name (usually package name): base64enc
+ERROR: did not find initialization function R_init_base64enc

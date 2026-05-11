@@ -1,0 +1,24 @@
+ERROR: too many states (abstraction error?) in function rbindlist
+ERROR: too many states (abstraction error?) in function freadMain
+
+Function cbindlist
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/791sikFh/data.table/src/mergelist.c:89
+ERROR: too many states (abstraction error?) in function fcaseR
+
+Function fcaseR
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/791sikFh/data.table/src/fifelse.c:414
+
+Function forder
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/791sikFh/data.table/src/forder.c:867
+ERROR: too many states (abstraction error?) in function rbindlist
+
+Function rbindlist
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/791sikFh/data.table/src/rbindlist.c:567
+Analyzed 384 functions, traversed 2065046 states.

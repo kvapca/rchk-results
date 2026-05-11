@@ -1,0 +1,21 @@
+Functions calling (recursively) function Rf_errorcall
+abort_parse
+add_dot
+as_pipe_call
+as_pipe_dollar_call
+as_pipe_tee_call
+clean_pipe
+eval_pipe
+eval_pipe_lazy
+magrittr_init
+magrittr_init_utils
+magrittr_pipe
+new_lambda
+pipe_nest
+pipe_unroll
+r_env_bind_lazy
+r_env_get
+r_env_unbind
+r_new_environment
+r_parse
+r_parse_eval

@@ -1,0 +1,7 @@
+
+Function as_list_integer64
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
+  [PB] has too high protection stack depth results will be incomplete
+  [PB] has an unsupported form of unprotect (not constant, not variable), results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/jIFNb8mb/bit64/src/integer64.c:1055
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kvasa/Documents/programming/FIT/BAP/rchk/trunk/packages/build/jIFNb8mb/bit64/src/integer64.c:1055
+Analyzed 223 functions, traversed 4637 states.

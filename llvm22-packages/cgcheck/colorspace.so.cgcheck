@@ -1,0 +1,17 @@
+Functions calling (recursively) function Rf_errorcall
+CheckColor
+CheckFixup
+CheckHex
+CheckSpace
+CheckWhite
+as_HLS
+as_HSV
+as_LAB
+as_LUV
+as_RGB
+as_XYZ
+as_polarLAB
+as_polarLUV
+as_sRGB
+hex_to_RGB
+sRGB_to_RColor

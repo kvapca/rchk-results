@@ -1,0 +1,37 @@
+Callee protect functions: 
+
+Callee safe functions (non-trivially, excluding callee-protect): 
+
+Mixed callee-protect/callee-safe functions [ callee-[S]afe callee-[P]rotect caller-protect[!] non-SEXP[-] ]: 
+  C_execute !S!!SSS
+  R_exec_status S!
+
+CS-ALLOCATOR: C_execute
+CS-ALLOCATOR: R_exec_status
+
+CS-ALLOCATING: C_execute
+CS-ALLOCATING: R_callback
+CS-ALLOCATING: R_exec_status
+CS-ALLOCATING: check_interrupt_fn
+CS-ALLOCATING: pending_interrupt
+CS-ALLOCATING: print_output
+CS-ALLOCATING: warn_if
+
+C-ALLOCATOR: C_execute
+C-ALLOCATOR: R_exec_status
+C-ALLOCATING: R_callback
+C-ALLOCATING: warn_if
+C-ALLOCATING: check_interrupt_fn
+C-ALLOCATING: C_execute
+C-ALLOCATING: print_output
+C-ALLOCATING: pending_interrupt
+C-ALLOCATING: R_exec_status
+ALLOCATOR: C_execute
+ALLOCATOR: R_exec_status
+ALLOCATING: warn_if
+ALLOCATING: print_output
+ALLOCATING: R_callback
+ALLOCATING: check_interrupt_fn
+ALLOCATING: R_exec_status
+ALLOCATING: C_execute
+ALLOCATING: pending_interrupt
