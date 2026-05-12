@@ -1,0 +1,351 @@
+[Timer] [alloccheck] parseArgsReadIR took 619.286 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 94.368 ms
+[Timer] [buildCGClosure] call graph took 123.481 ms
+[Timer] [buildCGClosure] transitive closure took 0.603 ms
+[Timer] [buildCGClosure] TOTAL took 126.760 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 126.781 ms
+[Timer] [findPossibleAllocators] main check took 0.302 ms
+[Timer] [findPossibleAllocators] TOTAL took 140.036 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 140.043 ms
+[Timer] [buildCGClosure] call graph took 154.625 ms
+[Timer] [buildCGClosure] transitive closure took 5833.288 ms
+[Timer] [buildCGClosure] TOTAL took 5991.310 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 5991.353 ms
+[Timer] [findAllocatingFunctions] TOTAL took 5995.243 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 5995.277 ms
+[Timer] [CalledModuleTy::create] TOTAL took 5641.556 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:getCalledAndWrappedFunctions] TOTAL took 13884.966 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:resize] TOTAL took 441.259 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:fillMatrices] TOTAL took 3.112 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] getCalledAndWrappedFunctions loop took 14333.898 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] buildClosure took 13863.645 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] fillResults took 1.780 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] TOTAL took 28200.454 ms
+[Timer] [alloccheck] computeCalledAllocators took 28200.474 ms
+[Timer] [alloccheck] findCalleeProtectFunctions took 283.739 ms
+[Timer] [alloccheck] main check took 5.553 ms
+[Timer] [alloccheck] TOTAL took 35558.550 ms
+
+
+[Timer] [bcheck] parseArgsReadIR took 652.563 ms
+[Timer] [bcheck] findErrorFunctions took 90.507 ms
+[Timer] [buildCGClosure] call graph took 118.897 ms
+[Timer] [buildCGClosure] transitive closure took 0.691 ms
+[Timer] [buildCGClosure] TOTAL took 122.205 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 122.226 ms
+[Timer] [findPossibleAllocators] main check took 0.318 ms
+[Timer] [findPossibleAllocators] TOTAL took 135.033 ms
+[Timer] [bcheck] findPossibleAllocators took 135.071 ms
+[Timer] [buildCGClosure] call graph took 145.667 ms
+[Timer] [buildCGClosure] transitive closure took 5375.761 ms
+[Timer] [buildCGClosure] TOTAL took 5526.169 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 5526.228 ms
+[Timer] [findAllocatingFunctions] TOTAL took 5530.216 ms
+[Timer] [bcheck] findAllocatingFunctions took 5530.251 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:getCalledAndWrappedFunctions] TOTAL took 13255.618 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:resize] TOTAL took 404.882 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:fillMatrices] TOTAL took 2.968 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] getCalledAndWrappedFunctions loop took 13668.123 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] buildClosure took 14419.610 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] fillResults took 1.754 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] TOTAL took 28090.632 ms
+[Timer] [bcheck] computeCalledAllocators took 28118.908 ms
+[Timer] [bcheck] findCalleeProtectFunctions took 294.390 ms
+[Timer] [bcheck] main check took 17954.695 ms
+[Timer] [bcheck] TOTAL took 52968.189 ms
+
+
+[Timer] [cgcheck] parseArgsReadIR took 621.594 ms
+[Timer] [buildCGClosure] call graph took 25.867 ms
+[Timer] [buildCGClosure] transitive closure took 7435.882 ms
+[Timer] [buildCGClosure] TOTAL took 7464.842 ms
+[Timer] [cgcheck] buildCGClosure took 7464.884 ms
+[Timer] [cgcheck] main check took 6.035 ms
+[Timer] [cgcheck] TOTAL took 8283.216 ms
+
+
+[Timer] [csfpcheck] parseArgsReadIR took 588.668 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 87.295 ms
+[Timer] [buildCGClosure] call graph took 118.419 ms
+[Timer] [buildCGClosure] transitive closure took 0.618 ms
+[Timer] [buildCGClosure] TOTAL took 121.639 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 121.656 ms
+[Timer] [findPossibleAllocators] main check took 0.299 ms
+[Timer] [findPossibleAllocators] TOTAL took 134.693 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 134.699 ms
+[Timer] [buildCGClosure] call graph took 144.257 ms
+[Timer] [buildCGClosure] transitive closure took 5496.036 ms
+[Timer] [buildCGClosure] TOTAL took 5643.334 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 5643.365 ms
+[Timer] [findAllocatingFunctions] TOTAL took 5646.872 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 5646.895 ms
+[Timer] [CalledModuleTy::create] TOTAL took 5304.812 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:getCalledAndWrappedFunctions] TOTAL took 13006.363 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:resize] TOTAL took -nan ms
+[Timer] [CalledModuleTy::computeCalledAllocators:fillMatrices] TOTAL took 3.118 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] getCalledAndWrappedFunctions loop took 13460.658 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] buildClosure took 14231.051 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] fillResults took 1.762 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] TOTAL took 27694.593 ms
+[Timer] [csfpcheck] computeCalledAllocators took 33588.178 ms
+[Timer] [csfpcheck] main check took 10.871 ms
+[Timer] [csfpcheck] TOTAL took 34374.067 ms
+
+
+[Timer] [errcheck] parseArgsReadIR took 655.123 ms
+[Timer] [errcheck] findErrorFunctions took 103.120 ms
+[Timer] [errcheck] main check took 0.527 ms
+[Timer] [errcheck] TOTAL took 980.617 ms
+
+
+[Timer] [fficheck] parseArgsReadIR took 616.699 ms
+[Timer] [fficheck] TOTAL took 825.521 ms
+
+
+[Timer] [glcheck] parseArgsReadIR took 608.091 ms
+[Timer] [glcheck] main check took 510.179 ms
+[Timer] [glcheck] TOTAL took 1297.418 ms
+
+
+[Timer] [maacheck] parseArgsReadIR took 623.523 ms
+[Timer] [buildCGClosure] call graph took 146.024 ms
+[Timer] [buildCGClosure] transitive closure took 4749.960 ms
+[Timer] [buildCGClosure] TOTAL took 4275.523 ms
+[Timer] [maacheck] buildCGClosure took 4899.145 ms
+[Timer] [buildCGClosure] call graph took 121.460 ms
+[Timer] [buildCGClosure] transitive closure took 0.730 ms
+[Timer] [buildCGClosure] TOTAL took 125.094 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 125.126 ms
+[Timer] [findPossibleAllocators] main check took 0.570 ms
+[Timer] [findPossibleAllocators] TOTAL took 139.102 ms
+[Timer] [maacheck] findPossibleAllocators took 139.116 ms
+[Timer] [maacheck] main check took 6.263 ms
+[Timer] [maacheck] TOTAL took 5859.914 ms
+
+
+[Timer] [spfcheck] parseArgsReadIR took 595.733 ms
+[Timer] [buildCGClosure] call graph took 142.730 ms
+[Timer] [buildCGClosure] transitive closure took 4571.926 ms
+[Timer] [buildCGClosure] TOTAL took 4121.987 ms
+[Timer] [spfcheck] buildCGClosure took 4717.811 ms
+[Timer] [spfcheck] main check took 2710.889 ms
+[Timer] [spfcheck] TOTAL took 8203.555 ms
+
+
+[Timer] [symcheck] parseArgsReadIR took 667.474 ms
+[Timer] [symcheck] main check took 0.743 ms
+[Timer] [symcheck] TOTAL took 843.539 ms
+
+
+[Timer] [ueacheck] parseArgsReadIR took 597.731 ms
+[Timer] [buildCGClosure] call graph took 143.681 ms
+[Timer] [buildCGClosure] transitive closure took 4880.394 ms
+[Timer] [buildCGClosure] TOTAL took 4429.362 ms
+[Timer] [ueacheck] buildCGClosure took 5027.183 ms
+[Timer] [buildCGClosure] call graph took 160.704 ms
+[Timer] [buildCGClosure] transitive closure took 0.717 ms
+[Timer] [buildCGClosure] TOTAL took 164.904 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 164.932 ms
+[Timer] [findPossibleAllocators] main check took 0.554 ms
+[Timer] [findPossibleAllocators] TOTAL took 180.349 ms
+[Timer] [ueacheck] findPossibleAllocators took 180.372 ms
+[Timer] [ueacheck] main check took 84.413 ms
+[Timer] [ueacheck] TOTAL took 6092.394 ms
+
+
+[Timer] [veccheck] parseArgsReadIR took 635.856 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 92.135 ms
+[Timer] [buildCGClosure] call graph took 123.422 ms
+[Timer] [buildCGClosure] transitive closure took 0.625 ms
+[Timer] [buildCGClosure] TOTAL took 126.916 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 126.943 ms
+[Timer] [findPossibleAllocators] main check took 0.307 ms
+[Timer] [findPossibleAllocators] TOTAL took 140.328 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 140.337 ms
+[Timer] [buildCGClosure] call graph took 150.935 ms
+[Timer] [buildCGClosure] transitive closure took 5540.838 ms
+[Timer] [buildCGClosure] TOTAL took 5694.742 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 5694.769 ms
+[Timer] [findAllocatingFunctions] TOTAL took 5698.702 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 5698.726 ms
+[Timer] [CalledModuleTy::create] TOTAL took 5320.339 ms
+[Timer] [veccheck] main check took 5985.356 ms
+[Timer] [veccheck] TOTAL took 6797.393 ms
+
+
+[Timer] [alloccheck] parseArgsReadIR took 675.776 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 97.540 ms
+[Timer] [buildCGClosure] call graph took 129.374 ms
+[Timer] [buildCGClosure] transitive closure took 0.622 ms
+[Timer] [buildCGClosure] TOTAL took 132.629 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 132.652 ms
+[Timer] [findPossibleAllocators] main check took 0.312 ms
+[Timer] [findPossibleAllocators] TOTAL took 146.781 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 146.790 ms
+[Timer] [buildCGClosure] call graph took 158.852 ms
+[Timer] [buildCGClosure] transitive closure took 5537.198 ms
+[Timer] [buildCGClosure] TOTAL took 5699.081 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 5699.104 ms
+[Timer] [findAllocatingFunctions] TOTAL took 5702.884 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 5702.913 ms
+[Timer] [CalledModuleTy::create] TOTAL took 5297.321 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:getCalledAndWrappedFunctions] TOTAL took 12725.278 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:resize] TOTAL took 417.180 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:fillMatrices] TOTAL took 2.870 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] getCalledAndWrappedFunctions loop took 13149.575 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] buildClosure took 15695.596 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] fillResults took 1.706 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] TOTAL took 28847.984 ms
+[Timer] [alloccheck] computeCalledAllocators took 28847.999 ms
+[Timer] [alloccheck] findCalleeProtectFunctions took 331.332 ms
+[Timer] [alloccheck] main check took 0.672 ms
+[Timer] [alloccheck] TOTAL took 36040.254 ms
+
+
+[Timer] [bcheck] parseArgsReadIR took 676.615 ms
+[Timer] [bcheck] findErrorFunctions took 98.108 ms
+[Timer] [buildCGClosure] call graph took 131.205 ms
+[Timer] [buildCGClosure] transitive closure took 0.639 ms
+[Timer] [buildCGClosure] TOTAL took 134.492 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 134.510 ms
+[Timer] [findPossibleAllocators] main check took 0.314 ms
+[Timer] [findPossibleAllocators] TOTAL took 148.185 ms
+[Timer] [bcheck] findPossibleAllocators took 148.219 ms
+[Timer] [buildCGClosure] call graph took 158.649 ms
+[Timer] [buildCGClosure] transitive closure took 5786.841 ms
+[Timer] [buildCGClosure] TOTAL took 5948.992 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 5949.025 ms
+[Timer] [findAllocatingFunctions] TOTAL took 5953.318 ms
+[Timer] [bcheck] findAllocatingFunctions took 5953.353 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:getCalledAndWrappedFunctions] TOTAL took 12844.771 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:resize] TOTAL took 360.913 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:fillMatrices] TOTAL took 2.679 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] getCalledAndWrappedFunctions loop took 13212.506 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] buildClosure took 14690.257 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] fillResults took 1.697 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] TOTAL took 27905.559 ms
+[Timer] [bcheck] computeCalledAllocators took 27934.478 ms
+[Timer] [bcheck] findCalleeProtectFunctions took 327.048 ms
+[Timer] [bcheck] main check took 292.198 ms
+[Timer] [bcheck] TOTAL took 35646.128 ms
+
+
+[Timer] [cgcheck] parseArgsReadIR took 689.102 ms
+[Timer] [buildCGClosure] call graph took 26.267 ms
+[Timer] [buildCGClosure] transitive closure took 8284.724 ms
+[Timer] [buildCGClosure] TOTAL took 8314.067 ms
+[Timer] [cgcheck] buildCGClosure took 8314.095 ms
+[Timer] [cgcheck] main check took 0.817 ms
+[Timer] [cgcheck] TOTAL took 9217.838 ms
+
+
+[Timer] [csfpcheck] parseArgsReadIR took 683.192 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 96.751 ms
+[Timer] [buildCGClosure] call graph took 129.628 ms
+[Timer] [buildCGClosure] transitive closure took 0.694 ms
+[Timer] [buildCGClosure] TOTAL took 133.057 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 133.083 ms
+[Timer] [findPossibleAllocators] main check took 0.306 ms
+[Timer] [findPossibleAllocators] TOTAL took 146.612 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 146.622 ms
+[Timer] [buildCGClosure] call graph took 156.508 ms
+[Timer] [buildCGClosure] transitive closure took 6127.042 ms
+[Timer] [buildCGClosure] TOTAL took 6286.844 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 6286.876 ms
+[Timer] [findAllocatingFunctions] TOTAL took 6290.680 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 6290.708 ms
+[Timer] [CalledModuleTy::create] TOTAL took 5877.760 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:getCalledAndWrappedFunctions] TOTAL took 13114.117 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:resize] TOTAL took -nan ms
+[Timer] [CalledModuleTy::computeCalledAllocators:fillMatrices] TOTAL took 2.950 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] getCalledAndWrappedFunctions loop took 13577.761 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] buildClosure took 14142.365 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] fillResults took 1.691 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] TOTAL took 27722.952 ms
+[Timer] [csfpcheck] computeCalledAllocators took 34284.023 ms
+[Timer] [csfpcheck] main check took 4.651 ms
+[Timer] [csfpcheck] TOTAL took 35183.109 ms
+
+
+[Timer] [errcheck] parseArgsReadIR took 718.451 ms
+[Timer] [errcheck] findErrorFunctions took 98.618 ms
+[Timer] [errcheck] main check took 0.047 ms
+[Timer] [errcheck] TOTAL took 1034.344 ms
+
+
+[Timer] [fficheck] parseArgsReadIR took 699.361 ms
+[Timer] [fficheck] main check took 2.572 ms
+[Timer] [fficheck] TOTAL took 904.656 ms
+
+
+[Timer] [glcheck] parseArgsReadIR took 687.180 ms
+[Timer] [glcheck] main check took 388.169 ms
+[Timer] [glcheck] TOTAL took 1270.944 ms
+
+
+[Timer] [maacheck] parseArgsReadIR took 710.159 ms
+[Timer] [buildCGClosure] call graph took 162.471 ms
+[Timer] [buildCGClosure] transitive closure took 5107.435 ms
+[Timer] [buildCGClosure] TOTAL took 4562.995 ms
+[Timer] [maacheck] buildCGClosure took 5273.248 ms
+[Timer] [buildCGClosure] call graph took 138.971 ms
+[Timer] [buildCGClosure] transitive closure took 0.710 ms
+[Timer] [buildCGClosure] TOTAL took 142.520 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 142.546 ms
+[Timer] [findPossibleAllocators] main check took 0.574 ms
+[Timer] [findPossibleAllocators] TOTAL took 158.742 ms
+[Timer] [maacheck] findPossibleAllocators took 158.759 ms
+[Timer] [maacheck] main check took 0.396 ms
+[Timer] [maacheck] TOTAL took 6350.826 ms
+
+
+[Timer] [spfcheck] parseArgsReadIR took 778.249 ms
+[Timer] [buildCGClosure] call graph took 156.317 ms
+[Timer] [buildCGClosure] transitive closure took 4797.864 ms
+[Timer] [buildCGClosure] TOTAL took 4179.046 ms
+[Timer] [spfcheck] buildCGClosure took 4957.394 ms
+[Timer] [spfcheck] main check took 111.193 ms
+[Timer] [spfcheck] TOTAL took 6063.471 ms
+
+
+[Timer] [symcheck] parseArgsReadIR took 652.966 ms
+[Timer] [symcheck] main check took 0.770 ms
+[Timer] [symcheck] TOTAL took 846.643 ms
+
+
+[Timer] [ueacheck] parseArgsReadIR took 677.334 ms
+[Timer] [buildCGClosure] call graph took 165.563 ms
+[Timer] [buildCGClosure] transitive closure took 5034.159 ms
+[Timer] [buildCGClosure] TOTAL took 4525.738 ms
+[Timer] [ueacheck] buildCGClosure took 5203.176 ms
+[Timer] [buildCGClosure] call graph took 135.532 ms
+[Timer] [buildCGClosure] transitive closure took 0.713 ms
+[Timer] [buildCGClosure] TOTAL took 139.113 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 139.138 ms
+[Timer] [findPossibleAllocators] main check took 0.534 ms
+[Timer] [findPossibleAllocators] TOTAL took 154.495 ms
+[Timer] [ueacheck] findPossibleAllocators took 154.519 ms
+[Timer] [ueacheck] main check took 3.386 ms
+[Timer] [ueacheck] TOTAL took 6241.273 ms
+
+
+[Timer] [veccheck] parseArgsReadIR took 715.353 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 97.078 ms
+[Timer] [buildCGClosure] call graph took 130.873 ms
+[Timer] [buildCGClosure] transitive closure took 0.689 ms
+[Timer] [buildCGClosure] TOTAL took 134.492 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 134.516 ms
+[Timer] [findPossibleAllocators] main check took 0.313 ms
+[Timer] [findPossibleAllocators] TOTAL took 148.495 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 148.502 ms
+[Timer] [buildCGClosure] call graph took 160.276 ms
+[Timer] [buildCGClosure] transitive closure took 5665.425 ms
+[Timer] [buildCGClosure] TOTAL took 5828.893 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 5828.924 ms
+[Timer] [findAllocatingFunctions] TOTAL took 5832.776 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 5832.816 ms
+[Timer] [CalledModuleTy::create] TOTAL took 5390.002 ms
+[Timer] [veccheck] main check took 6140.026 ms
+[Timer] [veccheck] TOTAL took 7059.576 ms
+
+

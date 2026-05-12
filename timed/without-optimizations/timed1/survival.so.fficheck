@@ -1,0 +1,3 @@
+[Timer] [fficheck] parseArgsReadIR took 685.337 ms
+[Timer] [fficheck] main check took 2.540 ms
+[Timer] [fficheck] TOTAL took 880.229 ms

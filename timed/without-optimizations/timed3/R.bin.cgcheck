@@ -1,0 +1,7 @@
+[Timer] [cgcheck] parseArgsReadIR took 621.594 ms
+[Timer] [buildCGClosure] call graph took 25.867 ms
+[Timer] [buildCGClosure] transitive closure took 7435.882 ms
+[Timer] [buildCGClosure] TOTAL took 7464.842 ms
+[Timer] [cgcheck] buildCGClosure took 7464.884 ms
+[Timer] [cgcheck] main check took 6.035 ms
+[Timer] [cgcheck] TOTAL took 8283.216 ms

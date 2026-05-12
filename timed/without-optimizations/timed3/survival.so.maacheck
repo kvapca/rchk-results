@@ -1,0 +1,14 @@
+[Timer] [maacheck] parseArgsReadIR took 710.159 ms
+[Timer] [buildCGClosure] call graph took 162.471 ms
+[Timer] [buildCGClosure] transitive closure took 5107.435 ms
+[Timer] [buildCGClosure] TOTAL took 4562.995 ms
+[Timer] [maacheck] buildCGClosure took 5273.248 ms
+[Timer] [buildCGClosure] call graph took 138.971 ms
+[Timer] [buildCGClosure] transitive closure took 0.710 ms
+[Timer] [buildCGClosure] TOTAL took 142.520 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 142.546 ms
+[Timer] [findPossibleAllocators] main check took 0.574 ms
+[Timer] [findPossibleAllocators] TOTAL took 158.742 ms
+[Timer] [maacheck] findPossibleAllocators took 158.759 ms
+[Timer] [maacheck] main check took 0.396 ms
+[Timer] [maacheck] TOTAL took 6350.826 ms

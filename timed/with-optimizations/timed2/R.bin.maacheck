@@ -1,0 +1,6 @@
+[Timer] maacheck
+[Timer] [buildCGInfo] TOTAL took 144.717 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.089 ms
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 119.539 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.231 ms

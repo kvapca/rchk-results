@@ -1,0 +1,8 @@
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 184.220 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.297 ms
+[Timer] findAllocatingFunctions
+[Timer] [buildCGInfo] TOTAL took 201.423 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.139 ms
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 81.193 ms
+[Timer] [computeCalledAllocators] TOTAL took 82.904 ms

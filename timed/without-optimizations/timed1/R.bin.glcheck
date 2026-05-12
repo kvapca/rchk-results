@@ -1,0 +1,3 @@
+[Timer] [glcheck] parseArgsReadIR took 618.002 ms
+[Timer] [glcheck] main check took 492.863 ms
+[Timer] [glcheck] TOTAL took 1330.093 ms

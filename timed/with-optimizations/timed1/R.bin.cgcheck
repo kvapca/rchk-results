@@ -1,0 +1,3 @@
+[Timer] cgcheck
+[Timer] [buildCGInfo] TOTAL took 26.339 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.547 ms

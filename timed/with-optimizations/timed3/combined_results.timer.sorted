@@ -1,0 +1,98 @@
+[Timer] cgcheck
+[Timer] cgcheck
+[Timer] findAllocatingFunctions
+[Timer] findAllocatingFunctions
+[Timer] findAllocatingFunctions
+[Timer] findAllocatingFunctions
+[Timer] findAllocatingFunctions
+[Timer] findAllocatingFunctions
+[Timer] findAllocatingFunctions
+[Timer] findAllocatingFunctions
+[Timer] findPossibleAllocators
+[Timer] findPossibleAllocators
+[Timer] findPossibleAllocators
+[Timer] findPossibleAllocators
+[Timer] findPossibleAllocators
+[Timer] findPossibleAllocators
+[Timer] findPossibleAllocators
+[Timer] findPossibleAllocators
+[Timer] findPossibleAllocators
+[Timer] findPossibleAllocators
+[Timer] findPossibleAllocators
+[Timer] findPossibleAllocators
+[Timer] maacheck
+[Timer] maacheck
+[Timer] sfpcheck
+[Timer] sfpcheck
+[Timer] ueacheck
+[Timer] ueacheck
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 0.952 ms
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 1.029 ms
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 1.471 ms
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 71.201 ms
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 74.518 ms
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 81.193 ms
+[Timer] [buildCGInfo] TOTAL took 119.141 ms
+[Timer] [buildCGInfo] TOTAL took 119.952 ms
+[Timer] [buildCGInfo] TOTAL took 122.890 ms
+[Timer] [buildCGInfo] TOTAL took 125.300 ms
+[Timer] [buildCGInfo] TOTAL took 128.335 ms
+[Timer] [buildCGInfo] TOTAL took 130.334 ms
+[Timer] [buildCGInfo] TOTAL took 131.435 ms
+[Timer] [buildCGInfo] TOTAL took 131.538 ms
+[Timer] [buildCGInfo] TOTAL took 133.075 ms
+[Timer] [buildCGInfo] TOTAL took 145.108 ms
+[Timer] [buildCGInfo] TOTAL took 146.696 ms
+[Timer] [buildCGInfo] TOTAL took 147.006 ms
+[Timer] [buildCGInfo] TOTAL took 147.825 ms
+[Timer] [buildCGInfo] TOTAL took 154.568 ms
+[Timer] [buildCGInfo] TOTAL took 157.147 ms
+[Timer] [buildCGInfo] TOTAL took 157.395 ms
+[Timer] [buildCGInfo] TOTAL took 158.349 ms
+[Timer] [buildCGInfo] TOTAL took 159.665 ms
+[Timer] [buildCGInfo] TOTAL took 161.730 ms
+[Timer] [buildCGInfo] TOTAL took 166.651 ms
+[Timer] [buildCGInfo] TOTAL took 169.850 ms
+[Timer] [buildCGInfo] TOTAL took 184.220 ms
+[Timer] [buildCGInfo] TOTAL took 185.977 ms
+[Timer] [buildCGInfo] TOTAL took 199.965 ms
+[Timer] [buildCGInfo] TOTAL took 201.423 ms
+[Timer] [buildCGInfo] TOTAL took 209.109 ms
+[Timer] [buildCGInfo] TOTAL took 27.470 ms
+[Timer] [buildCGInfo] TOTAL took 32.885 ms
+[Timer] [computeCalledAllocators] TOTAL took 2.615 ms
+[Timer] [computeCalledAllocators] TOTAL took 2.819 ms
+[Timer] [computeCalledAllocators] TOTAL took 3.709 ms
+[Timer] [computeCalledAllocators] TOTAL took 72.888 ms
+[Timer] [computeCalledAllocators] TOTAL took 76.169 ms
+[Timer] [computeCalledAllocators] TOTAL took 82.904 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.198 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.198 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.201 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.205 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.210 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.224 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.224 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.228 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.243 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.246 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.296 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.297 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.848 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.874 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.997 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.053 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.059 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.066 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.075 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.092 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.092 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.095 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.103 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.139 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.147 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.177 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.341 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.481 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.494 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 2.395 ms

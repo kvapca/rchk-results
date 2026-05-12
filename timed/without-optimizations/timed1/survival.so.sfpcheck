@@ -1,0 +1,7 @@
+[Timer] [spfcheck] parseArgsReadIR took 676.015 ms
+[Timer] [buildCGClosure] call graph took 165.970 ms
+[Timer] [buildCGClosure] transitive closure took 4744.488 ms
+[Timer] [buildCGClosure] TOTAL took 4237.478 ms
+[Timer] [spfcheck] buildCGClosure took 4913.583 ms
+[Timer] [spfcheck] main check took 107.503 ms
+[Timer] [spfcheck] TOTAL took 5908.907 ms

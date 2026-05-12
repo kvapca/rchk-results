@@ -1,0 +1,303 @@
+[Timer] [cgcheck] buildCGClosure took 7586.358 ms
+[Timer] [cgcheck] buildCGClosure took 8140.622 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 5707.996 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 5798.498 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 5846.230 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 5959.190 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 6153.996 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 6284.905 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 6334.799 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 6398.420 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 121.877 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 123.505 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 127.941 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 132.224 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 132.525 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 134.226 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 137.071 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 140.232 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 142.577 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 144.358 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 152.626 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 167.456 ms
+[Timer] [maacheck] buildCGClosure took 4918.252 ms
+[Timer] [maacheck] buildCGClosure took 5115.050 ms
+[Timer] [spfcheck] buildCGClosure took 4854.824 ms
+[Timer] [spfcheck] buildCGClosure took 5133.629 ms
+[Timer] [ueacheck] buildCGClosure took 4810.383 ms
+[Timer] [ueacheck] buildCGClosure took 5577.916 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] buildClosure took 14312.749 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] buildClosure took 14334.853 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] buildClosure took 14539.754 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] buildClosure took 14761.281 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] buildClosure took 14792.097 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] buildClosure took 15148.960 ms
+[Timer] [buildCGClosure] call graph took 118.413 ms
+[Timer] [buildCGClosure] call graph took 120.129 ms
+[Timer] [buildCGClosure] call graph took 124.423 ms
+[Timer] [buildCGClosure] call graph took 128.148 ms
+[Timer] [buildCGClosure] call graph took 129.000 ms
+[Timer] [buildCGClosure] call graph took 130.851 ms
+[Timer] [buildCGClosure] call graph took 133.631 ms
+[Timer] [buildCGClosure] call graph took 136.592 ms
+[Timer] [buildCGClosure] call graph took 138.626 ms
+[Timer] [buildCGClosure] call graph took 140.515 ms
+[Timer] [buildCGClosure] call graph took 147.579 ms
+[Timer] [buildCGClosure] call graph took 147.761 ms
+[Timer] [buildCGClosure] call graph took 148.579 ms
+[Timer] [buildCGClosure] call graph took 149.494 ms
+[Timer] [buildCGClosure] call graph took 151.413 ms
+[Timer] [buildCGClosure] call graph took 155.683 ms
+[Timer] [buildCGClosure] call graph took 158.853 ms
+[Timer] [buildCGClosure] call graph took 160.666 ms
+[Timer] [buildCGClosure] call graph took 161.050 ms
+[Timer] [buildCGClosure] call graph took 162.744 ms
+[Timer] [buildCGClosure] call graph took 163.125 ms
+[Timer] [buildCGClosure] call graph took 163.283 ms
+[Timer] [buildCGClosure] call graph took 167.790 ms
+[Timer] [buildCGClosure] call graph took 169.416 ms
+[Timer] [buildCGClosure] call graph took 170.383 ms
+[Timer] [buildCGClosure] call graph took 176.773 ms
+[Timer] [buildCGClosure] call graph took 25.900 ms
+[Timer] [buildCGClosure] call graph took 27.853 ms
+[Timer] [alloccheck] computeCalledAllocators took 27368.588 ms
+[Timer] [alloccheck] computeCalledAllocators took 29685.608 ms
+[Timer] [bcheck] computeCalledAllocators took 27824.580 ms
+[Timer] [bcheck] computeCalledAllocators took 28080.239 ms
+[Timer] [csfpcheck] computeCalledAllocators took 35295.247 ms
+[Timer] [csfpcheck] computeCalledAllocators took 35663.030 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] fillResults took 1.606 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] fillResults took 1.693 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] fillResults took 1.727 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] fillResults took 1.813 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] fillResults took 1.851 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] fillResults took 3.092 ms
+[Timer] [bcheck] findAllocatingFunctions took 5802.167 ms
+[Timer] [bcheck] findAllocatingFunctions took 5963.090 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 5711.564 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 5850.027 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 6157.798 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 6289.834 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 6338.587 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 6402.785 ms
+[Timer] [alloccheck] findCalleeProtectFunctions took 331.325 ms
+[Timer] [alloccheck] findCalleeProtectFunctions took 369.050 ms
+[Timer] [bcheck] findCalleeProtectFunctions took 285.365 ms
+[Timer] [bcheck] findCalleeProtectFunctions took 331.177 ms
+[Timer] [bcheck] findErrorFunctions took 101.708 ms
+[Timer] [bcheck] findErrorFunctions took 88.976 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 105.228 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 113.283 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 124.081 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 90.694 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 91.006 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 96.553 ms
+[Timer] [errcheck] findErrorFunctions took 100.181 ms
+[Timer] [errcheck] findErrorFunctions took 96.483 ms
+[Timer] [bcheck] findPossibleAllocators took 134.677 ms
+[Timer] [bcheck] findPossibleAllocators took 148.977 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 140.578 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 144.921 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 146.378 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 154.208 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 159.176 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 167.227 ms
+[Timer] [maacheck] findPossibleAllocators took 137.287 ms
+[Timer] [maacheck] findPossibleAllocators took 183.568 ms
+[Timer] [ueacheck] findPossibleAllocators took 153.459 ms
+[Timer] [ueacheck] findPossibleAllocators took 158.366 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] getCalledAndWrappedFunctions loop took 13030.486 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] getCalledAndWrappedFunctions loop took 13256.558 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] getCalledAndWrappedFunctions loop took 13741.319 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] getCalledAndWrappedFunctions loop took 14390.006 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] getCalledAndWrappedFunctions loop took 14469.094 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] getCalledAndWrappedFunctions loop took 14533.814 ms
+[Timer] [alloccheck] main check took 0.704 ms
+[Timer] [alloccheck] main check took 8.338 ms
+[Timer] [bcheck] main check took 18034.693 ms
+[Timer] [bcheck] main check took 293.185 ms
+[Timer] [cgcheck] main check took 0.753 ms
+[Timer] [cgcheck] main check took 5.433 ms
+[Timer] [csfpcheck] main check took 21.929 ms
+[Timer] [csfpcheck] main check took 5.730 ms
+[Timer] [errcheck] main check took 0.030 ms
+[Timer] [errcheck] main check took 0.534 ms
+[Timer] [fficheck] main check took 2.625 ms
+[Timer] [findPossibleAllocators] main check took 0.295 ms
+[Timer] [findPossibleAllocators] main check took 0.299 ms
+[Timer] [findPossibleAllocators] main check took 0.306 ms
+[Timer] [findPossibleAllocators] main check took 0.308 ms
+[Timer] [findPossibleAllocators] main check took 0.309 ms
+[Timer] [findPossibleAllocators] main check took 0.320 ms
+[Timer] [findPossibleAllocators] main check took 0.330 ms
+[Timer] [findPossibleAllocators] main check took 0.333 ms
+[Timer] [findPossibleAllocators] main check took 0.516 ms
+[Timer] [findPossibleAllocators] main check took 0.555 ms
+[Timer] [findPossibleAllocators] main check took 0.607 ms
+[Timer] [findPossibleAllocators] main check took 0.930 ms
+[Timer] [glcheck] main check took 399.992 ms
+[Timer] [glcheck] main check took 646.999 ms
+[Timer] [maacheck] main check took 0.415 ms
+[Timer] [maacheck] main check took 5.996 ms
+[Timer] [spfcheck] main check took 107.318 ms
+[Timer] [spfcheck] main check took 2459.733 ms
+[Timer] [symcheck] main check took 0.640 ms
+[Timer] [symcheck] main check took 0.772 ms
+[Timer] [ueacheck] main check took 3.617 ms
+[Timer] [ueacheck] main check took 67.686 ms
+[Timer] [veccheck] main check took 6584.929 ms
+[Timer] [veccheck] main check took 6668.573 ms
+[Timer] [alloccheck] parseArgsReadIR took 619.214 ms
+[Timer] [alloccheck] parseArgsReadIR took 724.983 ms
+[Timer] [bcheck] parseArgsReadIR took 660.559 ms
+[Timer] [bcheck] parseArgsReadIR took 706.960 ms
+[Timer] [cgcheck] parseArgsReadIR took 660.437 ms
+[Timer] [cgcheck] parseArgsReadIR took 697.320 ms
+[Timer] [csfpcheck] parseArgsReadIR took 638.648 ms
+[Timer] [csfpcheck] parseArgsReadIR took 711.147 ms
+[Timer] [errcheck] parseArgsReadIR took 607.615 ms
+[Timer] [errcheck] parseArgsReadIR took 765.343 ms
+[Timer] [fficheck] parseArgsReadIR took 660.930 ms
+[Timer] [fficheck] parseArgsReadIR took 693.262 ms
+[Timer] [glcheck] parseArgsReadIR took 712.089 ms
+[Timer] [glcheck] parseArgsReadIR took 728.557 ms
+[Timer] [maacheck] parseArgsReadIR took 613.133 ms
+[Timer] [maacheck] parseArgsReadIR took 700.958 ms
+[Timer] [spfcheck] parseArgsReadIR took 615.602 ms
+[Timer] [spfcheck] parseArgsReadIR took 770.202 ms
+[Timer] [symcheck] parseArgsReadIR took 648.878 ms
+[Timer] [symcheck] parseArgsReadIR took 708.342 ms
+[Timer] [ueacheck] parseArgsReadIR took 607.260 ms
+[Timer] [ueacheck] parseArgsReadIR took 686.167 ms
+[Timer] [veccheck] parseArgsReadIR took 612.277 ms
+[Timer] [veccheck] parseArgsReadIR took 746.414 ms
+[Timer] [alloccheck] TOTAL took 35487.169 ms
+[Timer] [alloccheck] TOTAL took 36862.637 ms
+[Timer] [bcheck] TOTAL took 35595.002 ms
+[Timer] [bcheck] TOTAL took 53300.481 ms
+[Timer] [buildCGClosure] TOTAL took 121.848 ms
+[Timer] [buildCGClosure] TOTAL took 123.487 ms
+[Timer] [buildCGClosure] TOTAL took 127.918 ms
+[Timer] [buildCGClosure] TOTAL took 132.199 ms
+[Timer] [buildCGClosure] TOTAL took 132.500 ms
+[Timer] [buildCGClosure] TOTAL took 134.201 ms
+[Timer] [buildCGClosure] TOTAL took 137.048 ms
+[Timer] [buildCGClosure] TOTAL took 140.198 ms
+[Timer] [buildCGClosure] TOTAL took 142.550 ms
+[Timer] [buildCGClosure] TOTAL took 144.332 ms
+[Timer] [buildCGClosure] TOTAL took 152.601 ms
+[Timer] [buildCGClosure] TOTAL took 167.411 ms
+[Timer] [buildCGClosure] TOTAL took 4203.032 ms
+[Timer] [buildCGClosure] TOTAL took 4239.142 ms
+[Timer] [buildCGClosure] TOTAL took 4305.027 ms
+[Timer] [buildCGClosure] TOTAL took 4363.296 ms
+[Timer] [buildCGClosure] TOTAL took 4413.960 ms
+[Timer] [buildCGClosure] TOTAL took 4891.630 ms
+[Timer] [buildCGClosure] TOTAL took 5707.964 ms
+[Timer] [buildCGClosure] TOTAL took 5798.474 ms
+[Timer] [buildCGClosure] TOTAL took 5846.206 ms
+[Timer] [buildCGClosure] TOTAL took 5959.167 ms
+[Timer] [buildCGClosure] TOTAL took 6153.961 ms
+[Timer] [buildCGClosure] TOTAL took 6284.869 ms
+[Timer] [buildCGClosure] TOTAL took 6334.770 ms
+[Timer] [buildCGClosure] TOTAL took 6398.387 ms
+[Timer] [buildCGClosure] TOTAL took 7586.336 ms
+[Timer] [buildCGClosure] TOTAL took 8140.595 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] TOTAL took 27368.572 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] TOTAL took 27799.350 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] TOTAL took 28056.773 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] TOTAL took 29187.997 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] TOTAL took 29233.584 ms
+[Timer] [CalledModuleTy::computeCalledAllocators] TOTAL took 29685.590 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:fillMatrices] TOTAL took 2.622 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:fillMatrices] TOTAL took 2.670 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:fillMatrices] TOTAL took 2.988 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:fillMatrices] TOTAL took 3.356 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:fillMatrices] TOTAL took 3.437 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:fillMatrices] TOTAL took 3.827 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:getCalledAndWrappedFunctions] TOTAL took 12685.810 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:getCalledAndWrappedFunctions] TOTAL took 12912.799 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:getCalledAndWrappedFunctions] TOTAL took 13305.796 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:getCalledAndWrappedFunctions] TOTAL took 13850.092 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:getCalledAndWrappedFunctions] TOTAL took 13921.436 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:getCalledAndWrappedFunctions] TOTAL took 13941.150 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:resize] TOTAL took 337.119 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:resize] TOTAL took 337.655 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:resize] TOTAL took 428.060 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:resize] TOTAL took 603.408 ms
+[Timer] [CalledModuleTy::computeCalledAllocators:resize] TOTAL took -nan ms
+[Timer] [CalledModuleTy::computeCalledAllocators:resize] TOTAL took -nan ms
+[Timer] [CalledModuleTy::create] TOTAL took 5397.766 ms
+[Timer] [CalledModuleTy::create] TOTAL took 5468.448 ms
+[Timer] [CalledModuleTy::create] TOTAL took 5718.160 ms
+[Timer] [CalledModuleTy::create] TOTAL took 5885.841 ms
+[Timer] [CalledModuleTy::create] TOTAL took 5940.320 ms
+[Timer] [CalledModuleTy::create] TOTAL took 5990.028 ms
+[Timer] [cgcheck] TOTAL took 8482.118 ms
+[Timer] [cgcheck] TOTAL took 9020.055 ms
+[Timer] [csfpcheck] TOTAL took 36202.191 ms
+[Timer] [csfpcheck] TOTAL took 36610.541 ms
+[Timer] [errcheck] TOTAL took 1055.792 ms
+[Timer] [errcheck] TOTAL took 886.859 ms
+[Timer] [fficheck] TOTAL took 857.408 ms
+[Timer] [fficheck] TOTAL took 891.720 ms
+[Timer] [findAllocatingFunctions] TOTAL took 5711.541 ms
+[Timer] [findAllocatingFunctions] TOTAL took 5802.139 ms
+[Timer] [findAllocatingFunctions] TOTAL took 5850.002 ms
+[Timer] [findAllocatingFunctions] TOTAL took 5963.065 ms
+[Timer] [findAllocatingFunctions] TOTAL took 6157.769 ms
+[Timer] [findAllocatingFunctions] TOTAL took 6289.797 ms
+[Timer] [findAllocatingFunctions] TOTAL took 6338.560 ms
+[Timer] [findAllocatingFunctions] TOTAL took 6402.749 ms
+[Timer] [findPossibleAllocators] TOTAL took 134.633 ms
+[Timer] [findPossibleAllocators] TOTAL took 137.279 ms
+[Timer] [findPossibleAllocators] TOTAL took 140.572 ms
+[Timer] [findPossibleAllocators] TOTAL took 144.915 ms
+[Timer] [findPossibleAllocators] TOTAL took 146.372 ms
+[Timer] [findPossibleAllocators] TOTAL took 148.939 ms
+[Timer] [findPossibleAllocators] TOTAL took 153.435 ms
+[Timer] [findPossibleAllocators] TOTAL took 154.198 ms
+[Timer] [findPossibleAllocators] TOTAL took 158.349 ms
+[Timer] [findPossibleAllocators] TOTAL took 159.168 ms
+[Timer] [findPossibleAllocators] TOTAL took 167.219 ms
+[Timer] [findPossibleAllocators] TOTAL took 183.552 ms
+[Timer] [glcheck] TOTAL took 1327.823 ms
+[Timer] [glcheck] TOTAL took 1576.740 ms
+[Timer] [maacheck] TOTAL took 5923.057 ms
+[Timer] [maacheck] TOTAL took 6229.700 ms
+[Timer] [spfcheck] TOTAL took 6230.879 ms
+[Timer] [spfcheck] TOTAL took 8121.587 ms
+[Timer] [symcheck] TOTAL took 837.865 ms
+[Timer] [symcheck] TOTAL took 908.392 ms
+[Timer] [ueacheck] TOTAL took 5852.502 ms
+[Timer] [ueacheck] TOTAL took 6617.709 ms
+[Timer] [veccheck] TOTAL took 7393.957 ms
+[Timer] [veccheck] TOTAL took 7643.395 ms
+[Timer] [buildCGClosure] transitive closure took 0.618 ms
+[Timer] [buildCGClosure] transitive closure took 0.660 ms
+[Timer] [buildCGClosure] transitive closure took 0.666 ms
+[Timer] [buildCGClosure] transitive closure took 0.667 ms
+[Timer] [buildCGClosure] transitive closure took 0.668 ms
+[Timer] [buildCGClosure] transitive closure took 0.669 ms
+[Timer] [buildCGClosure] transitive closure took 0.676 ms
+[Timer] [buildCGClosure] transitive closure took 0.677 ms
+[Timer] [buildCGClosure] transitive closure took 0.683 ms
+[Timer] [buildCGClosure] transitive closure took 0.705 ms
+[Timer] [buildCGClosure] transitive closure took 0.733 ms
+[Timer] [buildCGClosure] transitive closure took 1.134 ms
+[Timer] [buildCGClosure] transitive closure took 4655.951 ms
+[Timer] [buildCGClosure] transitive closure took 4703.131 ms
+[Timer] [buildCGClosure] transitive closure took 4767.507 ms
+[Timer] [buildCGClosure] transitive closure took 4948.246 ms
+[Timer] [buildCGClosure] transitive closure took 4966.822 ms
+[Timer] [buildCGClosure] transitive closure took 5413.813 ms
+[Timer] [buildCGClosure] transitive closure took 5528.202 ms
+[Timer] [buildCGClosure] transitive closure took 5647.686 ms
+[Timer] [buildCGClosure] transitive closure took 5672.843 ms
+[Timer] [buildCGClosure] transitive closure took 5800.313 ms
+[Timer] [buildCGClosure] transitive closure took 5987.919 ms
+[Timer] [buildCGClosure] transitive closure took 6114.094 ms
+[Timer] [buildCGClosure] transitive closure took 6161.936 ms
+[Timer] [buildCGClosure] transitive closure took 6234.343 ms
+[Timer] [buildCGClosure] transitive closure took 7555.530 ms
+[Timer] [buildCGClosure] transitive closure took 8111.664 ms

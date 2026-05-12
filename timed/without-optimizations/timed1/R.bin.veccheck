@@ -1,0 +1,18 @@
+[Timer] [veccheck] parseArgsReadIR took 626.678 ms
+[Timer] [CalledModuleTy::create] findErrorFunctions took 95.015 ms
+[Timer] [buildCGClosure] call graph took 127.268 ms
+[Timer] [buildCGClosure] transitive closure took 0.743 ms
+[Timer] [buildCGClosure] TOTAL took 131.206 ms
+[Timer] [findPossibleAllocators] buildCGClosure took 131.233 ms
+[Timer] [findPossibleAllocators] main check took 0.335 ms
+[Timer] [findPossibleAllocators] TOTAL took 146.454 ms
+[Timer] [CalledModuleTy::create] findPossibleAllocators took 146.461 ms
+[Timer] [buildCGClosure] call graph took 150.983 ms
+[Timer] [buildCGClosure] transitive closure took 5633.339 ms
+[Timer] [buildCGClosure] TOTAL took 5787.410 ms
+[Timer] [findAllocatingFunctions] buildCGClosure took 5787.445 ms
+[Timer] [findAllocatingFunctions] TOTAL took 5791.353 ms
+[Timer] [CalledModuleTy::create] findAllocatingFunctions took 5791.377 ms
+[Timer] [CalledModuleTy::create] TOTAL took 5431.554 ms
+[Timer] [veccheck] main check took 6087.968 ms
+[Timer] [veccheck] TOTAL took 6894.544 ms

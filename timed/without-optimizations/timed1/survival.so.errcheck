@@ -1,0 +1,4 @@
+[Timer] [errcheck] parseArgsReadIR took 671.219 ms
+[Timer] [errcheck] findErrorFunctions took 99.481 ms
+[Timer] [errcheck] main check took 0.035 ms
+[Timer] [errcheck] TOTAL took 964.208 ms

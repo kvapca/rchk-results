@@ -1,0 +1,4 @@
+[Timer] sfpcheck
+[Timer] [buildCGInfo] TOTAL took 154.568 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.066 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.848 ms

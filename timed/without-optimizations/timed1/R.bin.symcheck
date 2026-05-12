@@ -1,0 +1,3 @@
+[Timer] [symcheck] parseArgsReadIR took 576.386 ms
+[Timer] [symcheck] main check took 0.731 ms
+[Timer] [symcheck] TOTAL took 751.144 ms
