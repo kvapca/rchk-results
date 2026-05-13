@@ -1,0 +1,146 @@
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 124.791 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.246 ms
+[Timer] findAllocatingFunctions
+[Timer] [buildCGInfo] TOTAL took 158.696 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.127 ms
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 0.928 ms
+[Timer] [computeCalledAllocators] TOTAL took 2.853 ms
+
+
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 119.952 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.225 ms
+[Timer] findAllocatingFunctions
+[Timer] [buildCGInfo] TOTAL took 146.696 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.147 ms
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 1.010 ms
+[Timer] [computeCalledAllocators] TOTAL took 2.516 ms
+
+
+[Timer] cgcheck
+[Timer] [buildCGInfo] TOTAL took 32.885 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.943 ms
+
+
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 120.951 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.216 ms
+[Timer] findAllocatingFunctions
+[Timer] [buildCGInfo] TOTAL took 149.320 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.075 ms
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 0.921 ms
+[Timer] [computeCalledAllocators] TOTAL took 2.551 ms
+
+
+
+
+
+
+
+
+[Timer] maacheck
+[Timer] [buildCGInfo] TOTAL took 145.004 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.017 ms
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 119.539 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.231 ms
+
+
+[Timer] sfpcheck
+[Timer] [buildCGInfo] TOTAL took 153.668 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.066 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.848 ms
+
+
+
+
+[Timer] ueacheck
+[Timer] [buildCGInfo] TOTAL took 147.006 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.121 ms
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 120.364 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.210 ms
+
+
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 121.206 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.217 ms
+[Timer] findAllocatingFunctions
+[Timer] [buildCGInfo] TOTAL took 147.436 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.095 ms
+
+
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 135.646 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.213 ms
+[Timer] findAllocatingFunctions
+[Timer] [buildCGInfo] TOTAL took 166.768 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.114 ms
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 73.121 ms
+[Timer] [computeCalledAllocators] TOTAL took 74.738 ms
+
+
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 133.075 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.210 ms
+[Timer] findAllocatingFunctions
+[Timer] [buildCGInfo] TOTAL took 159.695 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.066 ms
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 71.201 ms
+[Timer] [computeCalledAllocators] TOTAL took 72.888 ms
+
+
+[Timer] cgcheck
+[Timer] [buildCGInfo] TOTAL took 27.836 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.555 ms
+
+
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 130.334 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.210 ms
+[Timer] findAllocatingFunctions
+[Timer] [buildCGInfo] TOTAL took 159.609 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.127 ms
+[Timer] [computeCalledAllocators] getCalledAndWrappedFunctions took 72.121 ms
+[Timer] [computeCalledAllocators] TOTAL took 73.791 ms
+
+
+
+
+
+
+
+
+[Timer] maacheck
+[Timer] [buildCGInfo] TOTAL took 159.990 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.103 ms
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 131.538 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.224 ms
+
+
+[Timer] sfpcheck
+[Timer] [buildCGInfo] TOTAL took 156.794 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.066 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.874 ms
+
+
+
+
+[Timer] ueacheck
+[Timer] [buildCGInfo] TOTAL took 160.398 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.092 ms
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 131.520 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.217 ms
+
+
+[Timer] findPossibleAllocators
+[Timer] [buildCGInfo] TOTAL took 166.651 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 0.224 ms
+[Timer] findAllocatingFunctions
+[Timer] [buildCGInfo] TOTAL took 185.977 ms
+[Timer] [computeCanReachToAnyIndex] TOTAL took 1.169 ms
+
+
