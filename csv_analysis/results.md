@@ -52,5 +52,5 @@ This is done to get a confidence interval for the median speedup (`ci_low` and `
 
 `summary_by_tool.csv` header:
 ```csv
-tool;n_packages;median_speedup;ci_low;ci_high;llvm14_median_rss_kb;llvm22_median_rss_kb
+tool;llvm14_median_time_s;llvm22_median_time_s;n_packages;median_speedup;ci_low;ci_high;llvm14_median_rss_kb;llvm22_median_rss_kb
 ```

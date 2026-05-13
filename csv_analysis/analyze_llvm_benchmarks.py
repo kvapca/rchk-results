@@ -117,9 +117,13 @@ def main() -> None:
     for tool, grp in merged.groupby("tool", sort=True):
         # Calculate median speedup and median RSS for each tool
         speedups = grp["speedup_median"].to_numpy(dtype=float)
+        time14 = grp["llvm14_median_time_s"].to_numpy(dtype=float)
+        time22 = grp["llvm22_median_time_s"].to_numpy(dtype=float)
         rss14 = grp["llvm14_median_rss_kb"].to_numpy(dtype=float)
         rss22 = grp["llvm22_median_rss_kb"].to_numpy(dtype=float)
         n = len(speedups)
+        med_time14 = float(np.median(time14))
+        med_time22 = float(np.median(time22))
         med_speed = float(np.median(speedups))
         med_r14 = float(np.median(rss14))
         med_r22 = float(np.median(rss22))
@@ -132,6 +136,8 @@ def main() -> None:
         rows.append(
             {
                 "tool": tool,
+                "llvm14_median_time_s": med_time14,
+                "llvm22_median_time_s": med_time22,
                 "n_packages": n,
                 "median_speedup": med_speed,
                 "ci_low": float(ci_low),
