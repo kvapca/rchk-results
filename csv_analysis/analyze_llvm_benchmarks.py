@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """
-Pair LLVM 14 vs LLVM 22 package benchmark CSVs, aggregate with medians,
-write median_by_package.csv and summary_by_tool.csv.
+Pair LLVM 14 vs LLVM 22 package benchmark CSVs; write median_by_package.csv and
+summary_by_tool.csv.
 
 Input columns (semicolon-separated): run;pkg_name;tool;time;max_rss_kb
-Speedup: llvm14_median_time_s / llvm22_median_time_s (>1 means LLVM 22 faster).
+
+summary_by_tool.csv: per iteration, sum time across packages (29 for fficheck;
+exclude base64enc); take the median of ten iteration totals per build. Speedup is
+llvm14 / llvm22 (>1 means LLVM 22 faster). Bootstrap CI resamples those ten totals.
+
+median_by_package.csv: per (pkg_name, tool), median time and median RSS over runs.
 """
 
 from __future__ import annotations

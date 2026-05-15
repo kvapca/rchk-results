@@ -25,30 +25,28 @@ run;pkg_name;tool;time;max_rss_kb
 Rows with non-float `time` and `max_rss_kb` are dropped.
 `base64enc;fficheck` has exited with error code 1 and doesn't have any values.
 
-The tool also warns about rows with too many runs per (`pkg_name`, `tool`) group.
-`processx` package has 20 runs per (`pkg_name`, `tool`) group because it has 2 different bitcode files.
+`processx` has two bitcode rows per `(run, pkg_name, tool)`; they are summed before aggregation.
 
-
-## Medians
-Rows are grouped by `(pkg_name, tool)`.
-Median time and median RSS are calculated over all runs in that group.
-Results are then joined on group.
-Only pairs present in **both** runs get a row in `median_by_package.csv`.
-Speedup median is calculated as:
+## Per package (`median_by_package.csv`)
+Rows are grouped by `(pkg_name, tool)`; median time and median RSS over runs.
+Joined on groups present in both LLVM builds. Per-package speedup:
 ```
 speedup_median = llvm14_median_time_s / llvm22_median_time_s
 ```
 
-Header of `median_by_package.csv`:
+Header:
 ```csv
 pkg_name;tool;llvm14_median_time_s;llvm22_median_time_s;llvm14_median_rss_kb;llvm22_median_rss_kb;speedup_median
 ```
 
-## Median bootstrapping
-Bootstrapping is done by resampling `speedup_median` with replacement `BOOTSTRAP_B` times.
-This is done to get a confidence interval for the median speedup (`ci_low` and `ci_high`).
-`n_packages` is the number of packages available for bootstrapping (fficheck has 29, the rest 30).
-`llvm14_median_rss_kb` and `llvm22_median_rss_kb` are the median across packages of the per-package median RSS columns (median of package-level medians).
+## Per tool (`summary_by_tool.csv`)
+Within each iteration, sum wall-clock time across packages for each tool and build.
+`fficheck` excludes `base64enc` (29 packages; others use 30).
+Reported runtime is the median of those ten iteration totals.
+Tool speedup: `llvm14_median_time_s / llvm22_median_time_s` (>1 means LLVM 22 faster).
+
+Bootstrap resamples the ten iteration totals (`BOOTSTRAP_B` times) for `ci_low` / `ci_high`.
+`llvm14_median_rss_kb` and `llvm22_median_rss_kb` are the median across packages of per-package median RSS.
 
 `summary_by_tool.csv` header:
 ```csv
