@@ -32,7 +32,7 @@ MIN_RUNS_PER_GROUP = 10
 CSV_SEP = ";"
 
 # loads the CSV file and checks if the expected columns are present
-def _load(path: Path) -> pd.DataFrame:
+def load(path: Path) -> pd.DataFrame:
     df = pd.read_csv(path, sep=CSV_SEP)
     expected = {"run", "pkg_name", "tool", "time", "max_rss_kb"}
     missing = expected - set(df.columns)
@@ -50,7 +50,7 @@ def _load(path: Path) -> pd.DataFrame:
     return df
 
 # calucates median time and median RSS for each package and tool
-def _summarize_one_side(df: pd.DataFrame, side_label: str) -> pd.DataFrame:
+def summarize_one_side(df: pd.DataFrame, side_label: str) -> pd.DataFrame:
     g = df.groupby(["pkg_name", "tool"], sort=True)
     counts = g.size()
     bad = counts[counts != MIN_RUNS_PER_GROUP]
@@ -81,11 +81,18 @@ def _summarize_one_side(df: pd.DataFrame, side_label: str) -> pd.DataFrame:
 def main() -> None:
     rng = np.random.default_rng(RNG_SEED)
 
-    d14 = _load(LLVM14_CSV)
-    d22 = _load(LLVM22_CSV)
+    d14 = load(LLVM14_CSV)
+    d22 = load(LLVM22_CSV)
+    # One row per (run, pkg, tool); sum when a package has multiple bitcodes in one run.
+    collapse = lambda df: (
+        df.groupby(["run", "pkg_name", "tool"], sort=True)
+        .agg(time=("time", "sum"), max_rss_kb=("max_rss_kb", "max"))
+        .reset_index()
+    )
+    d14c, d22c = collapse(d14), collapse(d22)
 
-    s14 = _summarize_one_side(d14, "llvm14")
-    s22 = _summarize_one_side(d22, "llvm22")
+    s14 = summarize_one_side(d14c, "llvm14")
+    s22 = summarize_one_side(d22c, "llvm22")
 
     merged = pd.merge(
         s14,
@@ -115,23 +122,24 @@ def main() -> None:
 
     rows = []
     for tool, grp in merged.groupby("tool", sort=True):
-        # Calculate median speedup and median RSS for each tool
-        speedups = grp["speedup_median"].to_numpy(dtype=float)
-        time14 = grp["llvm14_median_time_s"].to_numpy(dtype=float)
-        time22 = grp["llvm22_median_time_s"].to_numpy(dtype=float)
         rss14 = grp["llvm14_median_rss_kb"].to_numpy(dtype=float)
         rss22 = grp["llvm22_median_rss_kb"].to_numpy(dtype=float)
-        n = len(speedups)
-        med_time14 = float(np.median(time14))
-        med_time22 = float(np.median(time22))
-        med_speed = float(np.median(speedups))
+        n = len(grp)
+
+        sub14 = d14c[d14c["tool"] == tool]
+        sub22 = d22c[d22c["tool"] == tool]
+        totals14 = sub14.groupby("run", sort=True)["time"].sum().to_numpy(dtype=float)
+        totals22 = sub22.groupby("run", sort=True)["time"].sum().to_numpy(dtype=float)
+        med_time14 = float(np.median(totals14))
+        med_time22 = float(np.median(totals22))
+        med_speed = med_time14 / med_time22
         med_r14 = float(np.median(rss14))
         med_r22 = float(np.median(rss22))
 
-        # Bootstrap the median speedup
-        idx = rng.integers(0, n, size=(BOOTSTRAP_B, n))
-        boot_medians = np.median(speedups[idx], axis=1)
-        ci_low, ci_high = np.percentile(boot_medians, [2.5, 97.5])
+        # Bootstrap speedup from iteration totals (not per-package speedups)
+        idx = rng.integers(0, len(totals14), size=(BOOTSTRAP_B, len(totals14)))
+        boot_speed = np.median(totals14[idx], axis=1) / np.median(totals22[idx], axis=1)
+        ci_low, ci_high = np.percentile(boot_speed, [2.5, 97.5])
 
         rows.append(
             {
