@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SCRIPT_DIR="/home/kvasa/Documents/programming/FIT/BAP_testing"
+SCRIPT_DIR="/home/kvasa/Documents/programming/FIT/BAP/testing"
 LLVM_DIR="$SCRIPT_DIR/llvm"
 
 DEDUP="$SCRIPT_DIR/remove_duplicates.py"

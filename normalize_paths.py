@@ -20,7 +20,7 @@ import os
 import re
 import argparse
 
-BASE_PATH = '/home/kvasa/Documents/programming/FIT/BAP_testing/llvm'
+BASE_PATH = '/home/kvasa/Documents/programming/FIT/BAP/testing/llvm'
 PLACEHOLDER = 'BUILD_HASH'
 
 # (group1)trunk22(group2)
